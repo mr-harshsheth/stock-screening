@@ -1,7 +1,26 @@
 [
-  { "name": "Apple", "ticker": "AAPL" },
-  { "name": "Microsoft", "ticker": "MSFT" },
-  { "name": "Alphabet", "ticker": "GOOGL" },
-  { "name": "Amazon", "ticker": "AMZN" },
-  { "name": "Tesla", "ticker": "TSLA" }
+  {
+    "name": "Apple",
+    "ticker": "AAPL"
+  },
+  {
+    "name": "Microsoft",
+    "ticker": "MSFT"
+  },
+  {
+    "name": "Alphabet",
+    "ticker": "GOOGL"
+  },
+  {
+    "name": "Amazon",
+    "ticker": "AMZN"
+  },
+  {
+    "name": "Tesla",
+    "ticker": "TSLA"
+  },
+  {
+    "name": "Take-Two Interactive Software, Inc.",
+    "ticker": "TTWO"
+  }
 ]

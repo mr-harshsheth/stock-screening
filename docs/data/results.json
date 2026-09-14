@@ -1,7 +1,68 @@
 {
-  "run_type": null,
-  "generated_at": null,
-  "results": [],
-  "unresolved": [],
-  "failed": []
+  "run_type": "manual",
+  "generated_at": "2026-09-14T21:38:50.384359+00:00",
+  "results": [
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "week_of": "2026-09-07",
+      "close": 332.27,
+      "sma20": 308.53,
+      "pct_above_ma": 7.7,
+      "rsi14": 64.12,
+      "signal": true
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "week_of": "2026-09-07",
+      "close": 495.63,
+      "sma20": 433.41,
+      "pct_above_ma": 14.36,
+      "rsi14": 61.42,
+      "signal": true
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "week_of": "2026-09-07",
+      "close": 338.5,
+      "sma20": 359.15,
+      "pct_above_ma": -5.75,
+      "rsi14": 49.38,
+      "signal": false
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "week_of": "2026-09-07",
+      "close": 256.78,
+      "sma20": 256.01,
+      "pct_above_ma": 0.3,
+      "rsi14": 53.21,
+      "signal": false
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "week_of": "2026-09-07",
+      "close": 365.44,
+      "sma20": 379.46,
+      "pct_above_ma": -3.69,
+      "rsi14": 47.79,
+      "signal": false
+    },
+    {
+      "name": "Take-Two Interactive Software, Inc.",
+      "ticker": "TTWO",
+      "week_of": "2026-09-07",
+      "close": 215.47,
+      "sma20": 232.13,
+      "pct_above_ma": -7.18,
+      "rsi14": 43.43,
+      "signal": false
+    }
+  ],
+  "failed": [],
+  "unresolved": []
 }
