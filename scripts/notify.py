@@ -15,6 +15,7 @@ Usage:
   python scripts/notify.py
 """
 
+import argparse
 import json
 import os
 import smtplib
@@ -22,14 +23,21 @@ from email.mime.text import MIMEText
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-RESULTS_PATH = REPO_ROOT / "docs" / "data" / "results.json"
+DEFAULT_RESULTS_PATH = REPO_ROOT / "docs" / "data" / "results.json"
 
 SMTP_HOST = os.environ.get("SMTP_HOST", "smtp.gmail.com")
 SMTP_PORT = int(os.environ.get("SMTP_PORT", "587"))
 
+RUN_TYPE_LABELS = {
+    "scheduled": "Scheduled Friday",
+    "manual": "Manual",
+    "canada_index": "Canada Index (S&P/TSX Composite)",
+    "us_index": "US Index (S&P 500 + Nasdaq-100)",
+}
 
-def load_results() -> dict:
-    with open(RESULTS_PATH, "r", encoding="utf-8") as f:
+
+def load_results(path: Path) -> dict:
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -89,9 +97,17 @@ def send_email(subject: str, body: str) -> None:
 
 
 def main():
-    payload = load_results()
+    parser = argparse.ArgumentParser(description="Email a summary of the latest analysis run.")
+    parser.add_argument(
+        "--results-path",
+        default=str(DEFAULT_RESULTS_PATH),
+        help="Which results JSON file to summarize (defaults to the personal watchlist's results.json).",
+    )
+    args = parser.parse_args()
+
+    payload = load_results(Path(args.results_path))
     run_type = payload.get("run_type", "unknown")
-    run_label = "Scheduled Friday" if run_type == "scheduled" else "Manual"
+    run_label = RUN_TYPE_LABELS.get(run_type, run_type)
 
     signaled_count = len([r for r in payload.get("results", []) if r["signal"]])
     subject = f"[Stock Screener] {run_label} run - {signaled_count} signal(s)"

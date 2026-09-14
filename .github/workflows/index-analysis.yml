@@ -1,0 +1,58 @@
+name: Market Index Analysis
+
+# Triggered by the "Analyse Canada" / "Analyse US" buttons on the GitHub
+# Pages site, or manually from the Actions tab. Scans an entire market
+# index instead of the personal watchlist - can take 15-30+ minutes for the
+# "us" option given the number of tickers involved.
+on:
+  workflow_dispatch:
+    inputs:
+      index:
+        description: "Which index to analyze"
+        required: true
+        type: choice
+        options:
+          - us
+          - canada
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run index analysis
+        run: python scripts/analyze_index.py --index ${{ inputs.index }}
+
+      - name: Send email notification
+        continue-on-error: true # a broken SMTP secret shouldn't stop results from being committed
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+        run: python scripts/notify.py --results-path docs/data/results_${{ inputs.index }}.json
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/results_${{ inputs.index }}.json docs/data/history_${{ inputs.index }}.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Automated: ${{ inputs.index }} index analysis results"
+            git push
+          fi

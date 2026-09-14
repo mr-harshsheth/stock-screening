@@ -14,22 +14,29 @@ Python analysis script run by **GitHub Actions**. No server to manage.
 ```
 stock-screener/
 ├── docs/                     # GitHub Pages serves from here
-│   ├── index.html             # main page: watchlist, Analyze Now, results table
+│   ├── index.html             # main page: watchlist, Analyze Now, results tables
 │   ├── style.css
 │   ├── app.js                  # fetches docs/data/*.json, renders tables, calls GitHub API
 │   ├── CNAME                    # only if you attach a custom domain (see below)
 │   └── data/
 │       ├── watchlist.json         # list of {name, ticker} entries
-│       ├── results.json            # latest analysis results
-│       ├── history.json             # log of past runs
-│       └── unresolved.json           # scratch file used between resolve/analyze steps
+│       ├── results.json            # latest personal-watchlist analysis results
+│       ├── history.json             # log of past personal-watchlist runs
+│       ├── unresolved.json           # scratch file used between resolve/analyze steps
+│       ├── results_canada.json       # latest S&P/TSX Composite scan results
+│       ├── history_canada.json       # log of past Canada index scans
+│       ├── results_us.json           # latest S&P 500 + Nasdaq-100 scan results
+│       └── history_us.json           # log of past US index scans
 ├── scripts/
 │   ├── analyze.py               # main analysis logic (fetch, indicators, signals)
+│   ├── analyze_index.py          # same logic, run across a full market index
+│   ├── index_constituents.py      # scrapes S&P 500 / Nasdaq-100 / TSX Composite tickers from Wikipedia
 │   ├── resolve_tickers.py        # turns typed company names into tickers
 │   └── notify.py                  # email sending
 ├── .github/workflows/
 │   ├── weekly-analysis.yml         # cron: Fridays after close
-│   └── manual-analysis.yml          # workflow_dispatch: on-demand run + watchlist updates
+│   ├── manual-analysis.yml          # workflow_dispatch: on-demand run + watchlist updates
+│   └── index-analysis.yml            # workflow_dispatch: full Canada/US index scans
 ├── requirements.txt
 └── README.md
 ```
@@ -58,6 +65,14 @@ GitHub Actions workflow (scheduled OR dispatched)
    ▼
 GitHub Pages site reflects the new docs/data/results.json on next page load/refresh
 ```
+
+The **"Analyse Canada"** / **"Analyse US"** buttons work the same way, but
+dispatch `index-analysis.yml` instead: it scrapes the current constituent
+list for the S&P/TSX Composite (Canada) or S&P 500 + Nasdaq-100 (US) from
+Wikipedia, runs the same SMA20/RSI14 screener across every ticker in it, and
+writes to `results_canada.json`/`results_us.json` (kept separate from your
+personal watchlist). These scans cover hundreds of tickers, so expect
+15-30 minutes rather than the ~1 minute a personal-watchlist run takes.
 
 ---
 
@@ -186,6 +201,10 @@ without waiting for Friday.
 6. Try adding a deliberately misspelled name (e.g. `Aplpe`) - it should show
    up under "Could not resolve" on the page and in the email instead of
    silently vanishing.
+7. Click **Analyse Canada** or **Analyse US** to try a full index scan - go
+   grab a coffee, then come back and check the Actions tab and the
+   corresponding results table on the page (they're collapsed by default,
+   click "show/hide" to expand).
 
 ---
 

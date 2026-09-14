@@ -7,6 +7,8 @@
 // ---------------------------------------------------------------------------
 
 const MANUAL_WORKFLOW_FILE = "manual-analysis.yml";
+const INDEX_WORKFLOW_FILE = "index-analysis.yml";
+
 const LS_KEYS = {
   owner: "ss_gh_owner",
   repo: "ss_gh_repo",
@@ -15,10 +17,47 @@ const LS_KEYS = {
 };
 
 const POLL_INTERVAL_MS = 15000;
-const POLL_MAX_ATTEMPTS = 20; // ~5 minutes
+const POLL_MAX_ATTEMPTS = 20; // ~5 minutes - personal watchlist runs are quick
 
-let resultsSortKey = null;
-let resultsSortAsc = true;
+const INDEX_POLL_INTERVAL_MS = 20000;
+const INDEX_POLL_MAX_ATTEMPTS = 90; // ~30 minutes - full index scans are slow
+
+// Per-region table config. "main" is the personal watchlist; "canada" and
+// "us" are the full-index scans. Keeping this in one place lets the render/
+// sort/poll logic below stay generic instead of duplicated three times.
+const REGIONS = {
+  main: {
+    resultsPath: "data/results.json",
+    tableId: "results-table",
+    lastAnalyzedId: "last-analyzed",
+    failedBoxId: "failed-box",
+    failedListId: "failed-list",
+    unresolvedBoxId: "unresolved-box",
+    unresolvedListId: "unresolved-list",
+  },
+  canada: {
+    resultsPath: "data/results_canada.json",
+    tableId: "results-canada-table",
+    lastAnalyzedId: "last-analyzed-canada",
+    failedBoxId: "canada-failed-box",
+    failedListId: "canada-failed-list",
+  },
+  us: {
+    resultsPath: "data/results_us.json",
+    tableId: "results-us-table",
+    lastAnalyzedId: "last-analyzed-us",
+    failedBoxId: "us-failed-box",
+    failedListId: "us-failed-list",
+  },
+};
+
+const sortStates = {
+  main: { key: null, asc: true },
+  canada: { key: null, asc: true },
+  us: { key: null, asc: true },
+};
+
+const lastPayload = { main: null, canada: null, us: null };
 
 // ---------------------------------------------------------------------------
 // Setup / localStorage
@@ -67,13 +106,13 @@ function populateSetupForm() {
 // GitHub API
 // ---------------------------------------------------------------------------
 
-async function dispatchWorkflow(inputs) {
+async function dispatchWorkflow(workflowFile, inputs) {
   const setup = getSetup();
   if (!setup.owner || !setup.repo || !setup.token) {
     throw new Error("Fill in the Setup box first (owner, repo, token).");
   }
 
-  const url = `https://api.github.com/repos/${setup.owner}/${setup.repo}/actions/workflows/${MANUAL_WORKFLOW_FILE}/dispatches`;
+  const url = `https://api.github.com/repos/${setup.owner}/${setup.repo}/actions/workflows/${workflowFile}/dispatches`;
   const resp = await fetch(url, {
     method: "POST",
     headers: {
@@ -121,23 +160,24 @@ async function loadWatchlist() {
   }
 }
 
-async function loadResults() {
-  try {
-    const results = await fetchJson("data/results.json");
-    renderResults(results);
-    return results;
-  } catch (err) {
-    console.error(err);
-    return null;
-  }
-}
-
 async function loadHistory() {
   try {
     const history = await fetchJson("data/history.json");
     renderHistory(history);
   } catch (err) {
     console.error(err);
+  }
+}
+
+async function loadRegionResults(region) {
+  const config = REGIONS[region];
+  try {
+    const payload = await fetchJson(config.resultsPath);
+    renderResultsInto(region, payload);
+    return payload;
+  } catch (err) {
+    console.error(err);
+    return null;
   }
 }
 
@@ -171,14 +211,31 @@ function renderWatchlist(watchlist) {
   });
 }
 
-function renderResults(payload) {
+function sortResults(results, sortState) {
+  if (!sortState.key) return results;
+  const copy = results.slice();
+  copy.sort((a, b) => {
+    const av = a[sortState.key];
+    const bv = b[sortState.key];
+    if (typeof av === "string") {
+      return sortState.asc ? av.localeCompare(bv) : bv.localeCompare(av);
+    }
+    return sortState.asc ? av - bv : bv - av;
+  });
+  return copy;
+}
+
+function renderResultsInto(region, payload) {
+  lastPayload[region] = payload;
+  const config = REGIONS[region];
+
   const results = (payload && payload.results) || [];
   const failed = (payload && payload.failed) || [];
   const unresolved = (payload && payload.unresolved) || [];
 
-  const sorted = sortResults(results);
+  const sorted = sortResults(results, sortStates[region]);
 
-  const tbody = document.querySelector("#results-table tbody");
+  const tbody = document.querySelector(`#${config.tableId} tbody`);
   tbody.innerHTML = "";
   sorted.forEach((r) => {
     const tr = document.createElement("tr");
@@ -194,15 +251,15 @@ function renderResults(payload) {
     tbody.appendChild(tr);
   });
 
-  const lastAnalyzed = document.getElementById("last-analyzed");
+  const lastAnalyzed = document.getElementById(config.lastAnalyzedId);
   if (payload && payload.generated_at) {
-    lastAnalyzed.textContent = `Last analyzed: ${payload.generated_at} (${payload.run_type || "unknown"} run)`;
+    lastAnalyzed.textContent = `Last analyzed: ${payload.generated_at} (${payload.run_type || "unknown"} run, ${results.length} tickers)`;
   } else {
     lastAnalyzed.textContent = "No analysis has been run yet.";
   }
 
-  const failedBox = document.getElementById("failed-box");
-  const failedList = document.getElementById("failed-list");
+  const failedBox = document.getElementById(config.failedBoxId);
+  const failedList = document.getElementById(config.failedListId);
   if (failed.length) {
     failedList.textContent = failed.map((f) => f.ticker).join(", ");
     failedBox.hidden = false;
@@ -210,13 +267,15 @@ function renderResults(payload) {
     failedBox.hidden = true;
   }
 
-  const unresolvedBox = document.getElementById("unresolved-box");
-  const unresolvedList = document.getElementById("unresolved-list");
-  if (unresolved.length) {
-    unresolvedList.textContent = unresolved.join(", ");
-    unresolvedBox.hidden = false;
-  } else {
-    unresolvedBox.hidden = true;
+  if (config.unresolvedBoxId) {
+    const unresolvedBox = document.getElementById(config.unresolvedBoxId);
+    const unresolvedList = document.getElementById(config.unresolvedListId);
+    if (unresolved.length) {
+      unresolvedList.textContent = unresolved.join(", ");
+      unresolvedBox.hidden = false;
+    } else {
+      unresolvedBox.hidden = true;
+    }
   }
 }
 
@@ -241,20 +300,6 @@ function renderHistory(history) {
     });
 }
 
-function sortResults(results) {
-  if (!resultsSortKey) return results;
-  const copy = results.slice();
-  copy.sort((a, b) => {
-    const av = a[resultsSortKey];
-    const bv = b[resultsSortKey];
-    if (typeof av === "string") {
-      return resultsSortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
-    }
-    return resultsSortAsc ? av - bv : bv - av;
-  });
-  return copy;
-}
-
 // ---------------------------------------------------------------------------
 // Actions
 // ---------------------------------------------------------------------------
@@ -274,10 +319,10 @@ async function addToWatchlist() {
   statusEl.textContent = "Triggering workflow...";
 
   try {
-    await dispatchWorkflow({ add_entries: value });
+    await dispatchWorkflow(MANUAL_WORKFLOW_FILE, { add_entries: value });
     statusEl.textContent = "Triggered - check back in ~1 minute. Refreshing...";
     textarea.value = "";
-    pollForUpdate();
+    pollForRegionUpdate("main", statusEl, POLL_INTERVAL_MS, POLL_MAX_ATTEMPTS, { alsoLoadWatchlist: true, alsoLoadHistory: true });
   } catch (err) {
     statusEl.textContent = `Error: ${err.message}`;
   } finally {
@@ -289,9 +334,9 @@ async function removeTicker(ticker) {
   if (!confirm(`Remove ${ticker} from the watchlist?`)) return;
 
   try {
-    await dispatchWorkflow({ remove_tickers: ticker });
+    await dispatchWorkflow(MANUAL_WORKFLOW_FILE, { remove_tickers: ticker });
     alert(`Triggered removal of ${ticker} - check back in ~1 minute.`);
-    pollForUpdate();
+    pollForRegionUpdate("main", null, POLL_INTERVAL_MS, POLL_MAX_ATTEMPTS, { alsoLoadWatchlist: true, alsoLoadHistory: true });
   } catch (err) {
     alert(`Error: ${err.message}`);
   }
@@ -304,9 +349,9 @@ async function analyzeNow() {
   statusEl.textContent = "Triggering workflow...";
 
   try {
-    await dispatchWorkflow({});
+    await dispatchWorkflow(MANUAL_WORKFLOW_FILE, {});
     statusEl.textContent = "Triggered - check back in ~1 minute. Auto-refreshing...";
-    pollForUpdate(statusEl);
+    pollForRegionUpdate("main", statusEl, POLL_INTERVAL_MS, POLL_MAX_ATTEMPTS, { alsoLoadWatchlist: true, alsoLoadHistory: true });
   } catch (err) {
     statusEl.textContent = `Error: ${err.message}`;
   } finally {
@@ -314,31 +359,66 @@ async function analyzeNow() {
   }
 }
 
-async function pollForUpdate(statusEl) {
-  const before = await loadResults();
+async function analyzeIndex(region, indexInput) {
+  const statusEl = document.getElementById(`analyze-${region}-status`);
+  const btn = document.getElementById(`analyze-${region}-btn`);
+  btn.disabled = true;
+  statusEl.textContent = "Triggering workflow...";
+
+  try {
+    await dispatchWorkflow(INDEX_WORKFLOW_FILE, { index: indexInput });
+    statusEl.textContent = "Triggered - this can take 15-30 minutes. Auto-refreshing...";
+    document.getElementById(`${region}-body`).hidden = false;
+    pollForRegionUpdate(region, statusEl, INDEX_POLL_INTERVAL_MS, INDEX_POLL_MAX_ATTEMPTS, {});
+  } catch (err) {
+    statusEl.textContent = `Error: ${err.message}`;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+async function pollForRegionUpdate(region, statusEl, intervalMs, maxAttempts, extra) {
+  const before = await loadRegionResults(region);
   const beforeTimestamp = before && before.generated_at;
 
   let attempts = 0;
   const interval = setInterval(async () => {
     attempts += 1;
-    const latest = await loadResults();
-    await loadWatchlist();
-    await loadHistory();
+    const latest = await loadRegionResults(region);
+    if (extra && extra.alsoLoadWatchlist) await loadWatchlist();
+    if (extra && extra.alsoLoadHistory) await loadHistory();
 
     const changed = latest && latest.generated_at !== beforeTimestamp;
     if (changed) {
       clearInterval(interval);
       if (statusEl) statusEl.textContent = "Updated!";
-    } else if (attempts >= POLL_MAX_ATTEMPTS) {
+    } else if (attempts >= maxAttempts) {
       clearInterval(interval);
       if (statusEl) statusEl.textContent = "Still not updated - check the Actions tab on GitHub.";
     }
-  }, POLL_INTERVAL_MS);
+  }, intervalMs);
 }
 
 // ---------------------------------------------------------------------------
 // Wiring
 // ---------------------------------------------------------------------------
+
+function wireSortHandlers(region) {
+  const config = REGIONS[region];
+  document.querySelectorAll(`#${config.tableId} thead th[data-key]`).forEach((th) => {
+    th.addEventListener("click", () => {
+      const key = th.dataset.key;
+      const state = sortStates[region];
+      if (state.key === key) {
+        state.asc = !state.asc;
+      } else {
+        state.key = key;
+        state.asc = true;
+      }
+      if (lastPayload[region]) renderResultsInto(region, lastPayload[region]);
+    });
+  });
+}
 
 function init() {
   populateSetupForm();
@@ -353,26 +433,31 @@ function init() {
     body.hidden = !body.hidden;
   });
 
+  document.getElementById("toggle-canada").addEventListener("click", () => {
+    const body = document.getElementById("canada-body");
+    body.hidden = !body.hidden;
+  });
+
+  document.getElementById("toggle-us").addEventListener("click", () => {
+    const body = document.getElementById("us-body");
+    body.hidden = !body.hidden;
+  });
+
   document.getElementById("save-setup").addEventListener("click", saveSetup);
   document.getElementById("add-btn").addEventListener("click", addToWatchlist);
   document.getElementById("analyze-btn").addEventListener("click", analyzeNow);
+  document.getElementById("analyze-canada-btn").addEventListener("click", () => analyzeIndex("canada", "canada"));
+  document.getElementById("analyze-us-btn").addEventListener("click", () => analyzeIndex("us", "us"));
 
-  document.querySelectorAll("#results-table thead th[data-key]").forEach((th) => {
-    th.addEventListener("click", () => {
-      const key = th.dataset.key;
-      if (resultsSortKey === key) {
-        resultsSortAsc = !resultsSortAsc;
-      } else {
-        resultsSortKey = key;
-        resultsSortAsc = true;
-      }
-      loadResults();
-    });
-  });
+  wireSortHandlers("main");
+  wireSortHandlers("canada");
+  wireSortHandlers("us");
 
   loadWatchlist();
-  loadResults();
   loadHistory();
+  loadRegionResults("main");
+  loadRegionResults("canada");
+  loadRegionResults("us");
 }
 
 document.addEventListener("DOMContentLoaded", init);
