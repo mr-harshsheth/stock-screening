@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stock Screener</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Stock Screener</h1>
+    <p class="subtitle">Weekly SMA20 / RSI14 breakout screener</p>
+  </header>
+
+  <main>
+    <!-- Setup box: GitHub connection details, saved to localStorage -->
+    <section class="card" id="setup-card">
+      <h2>
+        Setup
+        <button class="link-btn" id="toggle-setup">show/hide</button>
+      </h2>
+      <div id="setup-body" hidden>
+        <p class="hint">
+          Enter your GitHub username, this repo's name, and a Personal Access
+          Token (scopes: <code>repo</code> + <code>workflow</code>). Saved
+          only in this browser's local storage. See the README for how to
+          generate a token.
+        </p>
+        <div class="form-row">
+          <label for="gh-owner">GitHub username</label>
+          <input type="text" id="gh-owner" placeholder="e.g. harshsheth5603" />
+        </div>
+        <div class="form-row">
+          <label for="gh-repo">Repository name</label>
+          <input type="text" id="gh-repo" placeholder="e.g. stock-screener" />
+        </div>
+        <div class="form-row">
+          <label for="gh-branch">Branch</label>
+          <input type="text" id="gh-branch" placeholder="main" value="main" />
+        </div>
+        <div class="form-row">
+          <label for="gh-token">Personal Access Token</label>
+          <input type="password" id="gh-token" placeholder="ghp_..." />
+        </div>
+        <button id="save-setup">Save</button>
+        <span id="setup-status" class="status"></span>
+      </div>
+    </section>
+
+    <!-- Watchlist management -->
+    <section class="card">
+      <h2>Watchlist</h2>
+      <div class="form-row">
+        <label for="add-entries">Add stocks (names or tickers, comma or newline separated)</label>
+        <textarea id="add-entries" rows="3" placeholder="Apple, MSFT, Tesla, Nvidia"></textarea>
+      </div>
+      <button id="add-btn">Add to Watchlist</button>
+      <span id="add-status" class="status"></span>
+
+      <table id="watchlist-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Ticker</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <!-- Analyze now -->
+    <section class="card">
+      <h2>Analysis</h2>
+      <button id="analyze-btn">Analyze Now</button>
+      <span id="analyze-status" class="status"></span>
+      <p class="hint" id="last-analyzed"></p>
+    </section>
+
+    <!-- Results -->
+    <section class="card">
+      <h2>Results</h2>
+      <div id="unresolved-box" hidden>
+        <p class="hint warn">Could not resolve (check spelling): <span id="unresolved-list"></span></p>
+      </div>
+      <div id="failed-box" hidden>
+        <p class="hint warn">Failed to fetch: <span id="failed-list"></span></p>
+      </div>
+      <table id="results-table">
+        <thead>
+          <tr>
+            <th data-key="ticker">Ticker</th>
+            <th data-key="name">Name</th>
+            <th data-key="close">Close</th>
+            <th data-key="sma20">SMA20</th>
+            <th data-key="pct_above_ma">% above MA</th>
+            <th data-key="rsi14">RSI14</th>
+            <th data-key="signal">Signal</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <!-- History -->
+    <section class="card">
+      <h2>
+        History
+        <button class="link-btn" id="toggle-history">show/hide</button>
+      </h2>
+      <div id="history-body" hidden>
+        <table id="history-table">
+          <thead>
+            <tr>
+              <th>When (UTC)</th>
+              <th>Type</th>
+              <th>Total</th>
+              <th>Signaled</th>
+              <th>No signal</th>
+              <th>Failed</th>
+              <th>Unresolved</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data via Yahoo Finance. Not investment advice.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+name: Manual Analysis / Watchlist Update
+
+# Triggered by the "Add to Watchlist" and "Analyze Now" buttons on the
+# GitHub Pages site (via a POST to the workflow_dispatch API), or manually
+# from the Actions tab.
+on:
+  workflow_dispatch:
+    inputs:
+      add_entries:
+        description: "Company names or tickers to add (comma and/or newline separated)"
+        required: false
+        default: ""
+      remove_tickers:
+        description: "Tickers to remove from the watchlist (comma separated)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Resolve and add new watchlist entries
+        if: ${{ inputs.add_entries != '' }}
+        run: python scripts/resolve_tickers.py --input "${{ inputs.add_entries }}"
+
+      - name: Remove tickers from watchlist
+        if: ${{ inputs.remove_tickers != '' }}
+        env:
+          REMOVE_TICKERS: ${{ inputs.remove_tickers }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          path = Path("docs/data/watchlist.json")
+          watchlist = json.loads(path.read_text(encoding="utf-8"))
+
+          to_remove = {
+              t.strip().upper()
+              for t in os.environ["REMOVE_TICKERS"].split(",")
+              if t.strip()
+          }
+          before = len(watchlist)
+          watchlist = [e for e in watchlist if e["ticker"].upper() not in to_remove]
+          after = len(watchlist)
+
+          path.write_text(json.dumps(watchlist, indent=2) + "\n", encoding="utf-8")
+          print(f"[remove] removed {before - after} entrie(s): {sorted(to_remove)}")
+          PY
+
+      - name: Run analysis
+        run: python scripts/analyze.py --run-type manual
+
+      - name: Send email notification
+        continue-on-error: true # a broken SMTP secret shouldn't stop results from being committed
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+        run: python scripts/notify.py
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/watchlist.json docs/data/results.json docs/data/history.json docs/data/unresolved.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Automated: manual analysis / watchlist update"
+            git push
+          fi
