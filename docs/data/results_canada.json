@@ -1,6 +1,2178 @@
 {
-  "run_type": null,
-  "generated_at": null,
-  "results": [],
-  "failed": []
+  "run_type": "canada_index",
+  "generated_at": "2026-09-14T22:03:26.753191+00:00",
+  "results": [
+    {
+      "name": "5N Plus Inc.",
+      "ticker": "VNP.TO",
+      "week_of": "2026-09-07",
+      "close": 26.8,
+      "sma20": 35.54,
+      "pct_above_ma": -24.6,
+      "rsi14": 41.25,
+      "signal": false
+    },
+    {
+      "name": "AbraSilver Resource Corp.",
+      "ticker": "ABRA.TO",
+      "week_of": "2026-09-07",
+      "close": 14.19,
+      "sma20": 15.56,
+      "pct_above_ma": -8.8,
+      "rsi14": 48.67,
+      "signal": false
+    },
+    {
+      "name": "Advantage Energy Ltd.",
+      "ticker": "AAV.TO",
+      "week_of": "2026-09-07",
+      "close": 10.57,
+      "sma20": 10.48,
+      "pct_above_ma": 0.84,
+      "rsi14": 48.28,
+      "signal": false
+    },
+    {
+      "name": "Aecon Group Inc.",
+      "ticker": "ARE.TO",
+      "week_of": "2026-09-07",
+      "close": 44.61,
+      "sma20": 47.01,
+      "pct_above_ma": -5.1,
+      "rsi14": 50.84,
+      "signal": false
+    },
+    {
+      "name": "Agnico Eagle Mines Limited",
+      "ticker": "AEM.TO",
+      "week_of": "2026-09-07",
+      "close": 278.09,
+      "sma20": 242.09,
+      "pct_above_ma": 14.87,
+      "rsi14": 57.22,
+      "signal": false
+    },
+    {
+      "name": "Air Canada",
+      "ticker": "AC.TO",
+      "week_of": "2026-09-07",
+      "close": 27.53,
+      "sma20": 24.01,
+      "pct_above_ma": 14.68,
+      "rsi14": 63.09,
+      "signal": true
+    },
+    {
+      "name": "Alamos Gold Inc.",
+      "ticker": "AGI.TO",
+      "week_of": "2026-09-07",
+      "close": 49.8,
+      "sma20": 48.32,
+      "pct_above_ma": 3.05,
+      "rsi14": 50.0,
+      "signal": false
+    },
+    {
+      "name": "Algonquin Power & Utilities Corp.",
+      "ticker": "AQN.TO",
+      "week_of": "2026-09-07",
+      "close": 7.35,
+      "sma20": 8.1,
+      "pct_above_ma": -9.28,
+      "rsi14": 37.55,
+      "signal": false
+    },
+    {
+      "name": "Alimentation Couche-Tard Inc.",
+      "ticker": "ATD.TO",
+      "week_of": "2026-09-07",
+      "close": 80.5,
+      "sma20": 85.09,
+      "pct_above_ma": -5.4,
+      "rsi14": 44.84,
+      "signal": false
+    },
+    {
+      "name": "Allied Gold Corporation",
+      "ticker": "AAUC.TO",
+      "week_of": "2026-09-07",
+      "close": 31.7,
+      "sma20": 33.74,
+      "pct_above_ma": -6.05,
+      "rsi14": 45.02,
+      "signal": false
+    },
+    {
+      "name": "Allied Properties Real Estate Investment Trust",
+      "ticker": "AP-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 8.08,
+      "sma20": 9.59,
+      "pct_above_ma": -15.71,
+      "rsi14": 28.0,
+      "signal": false
+    },
+    {
+      "name": "AltaGas Ltd.",
+      "ticker": "ALA.TO",
+      "week_of": "2026-09-07",
+      "close": 51.91,
+      "sma20": 53.59,
+      "pct_above_ma": -3.14,
+      "rsi14": 51.57,
+      "signal": false
+    },
+    {
+      "name": "Altus Group Limited",
+      "ticker": "AIF.TO",
+      "week_of": "2026-09-07",
+      "close": 45.67,
+      "sma20": 45.92,
+      "pct_above_ma": -0.54,
+      "rsi14": 47.08,
+      "signal": false
+    },
+    {
+      "name": "Americas Gold And Silver Corporation",
+      "ticker": "USA.TO",
+      "week_of": "2026-09-07",
+      "close": 6.98,
+      "sma20": 7.22,
+      "pct_above_ma": -3.3,
+      "rsi14": 48.17,
+      "signal": false
+    },
+    {
+      "name": "ARC Resources Ltd.",
+      "ticker": "ARX.TO",
+      "week_of": "2026-09-07",
+      "close": 33.91,
+      "sma20": 29.64,
+      "pct_above_ma": 14.42,
+      "rsi14": 67.52,
+      "signal": true
+    },
+    {
+      "name": "Aris Mining Corporation",
+      "ticker": "ARIS.TO",
+      "week_of": "2026-09-07",
+      "close": 27.08,
+      "sma20": 23.83,
+      "pct_above_ma": 13.64,
+      "rsi14": 56.82,
+      "signal": false
+    },
+    {
+      "name": "Aritzia Inc.",
+      "ticker": "ATZ.TO",
+      "week_of": "2026-09-07",
+      "close": 122.82,
+      "sma20": 145.36,
+      "pct_above_ma": -15.51,
+      "rsi14": 41.7,
+      "signal": false
+    },
+    {
+      "name": "ATCO Ltd.",
+      "ticker": "ACO-X.TO",
+      "week_of": "2026-09-07",
+      "close": 71.63,
+      "sma20": 72.74,
+      "pct_above_ma": -1.52,
+      "rsi14": 52.51,
+      "signal": false
+    },
+    {
+      "name": "Athabasca Oil Corporation",
+      "ticker": "ATH.TO",
+      "week_of": "2026-09-07",
+      "close": 10.87,
+      "sma20": 10.95,
+      "pct_above_ma": -0.74,
+      "rsi14": 55.44,
+      "signal": false
+    },
+    {
+      "name": "AtkinsR\u00e9alis Group Inc.",
+      "ticker": "ATRL.TO",
+      "week_of": "2026-09-07",
+      "close": 85.24,
+      "sma20": 86.87,
+      "pct_above_ma": -1.87,
+      "rsi14": 44.89,
+      "signal": false
+    },
+    {
+      "name": "ATS Corporation",
+      "ticker": "ATS.TO",
+      "week_of": "2026-09-07",
+      "close": 26.55,
+      "sma20": 37.01,
+      "pct_above_ma": -28.27,
+      "rsi14": 30.31,
+      "signal": false
+    },
+    {
+      "name": "Avino Silver & Gold Mines Ltd.",
+      "ticker": "ASM.TO",
+      "week_of": "2026-09-07",
+      "close": 9.0,
+      "sma20": 9.13,
+      "pct_above_ma": -1.47,
+      "rsi14": 48.95,
+      "signal": false
+    },
+    {
+      "name": "Aya Gold & Silver Inc.",
+      "ticker": "AYA.TO",
+      "week_of": "2026-09-07",
+      "close": 38.76,
+      "sma20": 30.25,
+      "pct_above_ma": 28.12,
+      "rsi14": 66.51,
+      "signal": true
+    },
+    {
+      "name": "B2Gold Corp.",
+      "ticker": "BTO.TO",
+      "week_of": "2026-09-07",
+      "close": 7.46,
+      "sma20": 6.38,
+      "pct_above_ma": 16.88,
+      "rsi14": 58.35,
+      "signal": false
+    },
+    {
+      "name": "Badger Infrastructure Solutions Ltd.",
+      "ticker": "BDGI.TO",
+      "week_of": "2026-09-07",
+      "close": 84.26,
+      "sma20": 88.13,
+      "pct_above_ma": -4.39,
+      "rsi14": 51.97,
+      "signal": false
+    },
+    {
+      "name": "Bank of Montreal",
+      "ticker": "BMO.TO",
+      "week_of": "2026-09-07",
+      "close": 242.47,
+      "sma20": 237.06,
+      "pct_above_ma": 2.28,
+      "rsi14": 62.94,
+      "signal": true
+    },
+    {
+      "name": "Bank of Nova Scotia",
+      "ticker": "BNS.TO",
+      "week_of": "2026-09-07",
+      "close": 129.63,
+      "sma20": 119.06,
+      "pct_above_ma": 8.88,
+      "rsi14": 71.9,
+      "signal": true
+    },
+    {
+      "name": "Barrick Gold Corporation",
+      "ticker": "ABX.TO",
+      "week_of": "2026-09-07",
+      "close": 60.52,
+      "sma20": 56.43,
+      "pct_above_ma": 7.24,
+      "rsi14": 54.36,
+      "signal": false
+    },
+    {
+      "name": "Bausch Health Companies Inc.",
+      "ticker": "BHC.TO",
+      "week_of": "2026-09-07",
+      "close": 8.1,
+      "sma20": 7.74,
+      "pct_above_ma": 4.66,
+      "rsi14": 50.58,
+      "signal": false
+    },
+    {
+      "name": "Baytex Energy Corp.",
+      "ticker": "BTE.TO",
+      "week_of": "2026-09-07",
+      "close": 6.96,
+      "sma20": 6.36,
+      "pct_above_ma": 9.51,
+      "rsi14": 64.93,
+      "signal": true
+    },
+    {
+      "name": "BCE Inc.",
+      "ticker": "BCE.TO",
+      "week_of": "2026-09-07",
+      "close": 32.39,
+      "sma20": 32.2,
+      "pct_above_ma": 0.57,
+      "rsi14": 51.02,
+      "signal": false
+    },
+    {
+      "name": "Birchcliff Energy Ltd.",
+      "ticker": "BIR.TO",
+      "week_of": "2026-09-07",
+      "close": 6.32,
+      "sma20": 6.41,
+      "pct_above_ma": -1.42,
+      "rsi14": 46.36,
+      "signal": false
+    },
+    {
+      "name": "Bird Construction Inc.",
+      "ticker": "BDT.TO",
+      "week_of": "2026-09-07",
+      "close": 71.96,
+      "sma20": 64.26,
+      "pct_above_ma": 11.98,
+      "rsi14": 66.88,
+      "signal": true
+    },
+    {
+      "name": "BlackBerry Limited",
+      "ticker": "BB.TO",
+      "week_of": "2026-09-07",
+      "close": 10.61,
+      "sma20": 11.95,
+      "pct_above_ma": -11.24,
+      "rsi14": 50.48,
+      "signal": false
+    },
+    {
+      "name": "Boardwalk Real Estate Investment Trust",
+      "ticker": "BEI-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 62.25,
+      "sma20": 64.64,
+      "pct_above_ma": -3.7,
+      "rsi14": 41.3,
+      "signal": false
+    },
+    {
+      "name": "Bombardier Inc.",
+      "ticker": "BBD-B.TO",
+      "week_of": "2026-09-07",
+      "close": 300.82,
+      "sma20": 318.81,
+      "pct_above_ma": -5.64,
+      "rsi14": 49.31,
+      "signal": false
+    },
+    {
+      "name": "Boyd Group Services Inc.",
+      "ticker": "BYD.TO",
+      "week_of": "2026-09-07",
+      "close": 125.0,
+      "sma20": 139.32,
+      "pct_above_ma": -10.28,
+      "rsi14": 32.77,
+      "signal": false
+    },
+    {
+      "name": "Brookfield Asset Management Ltd.",
+      "ticker": "BAM.TO",
+      "week_of": "2026-09-07",
+      "close": 65.47,
+      "sma20": 66.95,
+      "pct_above_ma": -2.2,
+      "rsi14": 46.51,
+      "signal": false
+    },
+    {
+      "name": "Brookfield Business Corporation",
+      "ticker": "BBUC.TO",
+      "week_of": "2026-09-07",
+      "close": 36.6,
+      "sma20": 42.86,
+      "pct_above_ma": -14.61,
+      "rsi14": 31.53,
+      "signal": false
+    },
+    {
+      "name": "Brookfield Corporation",
+      "ticker": "BN.TO",
+      "week_of": "2026-09-07",
+      "close": 52.93,
+      "sma20": 60.57,
+      "pct_above_ma": -12.61,
+      "rsi14": 33.27,
+      "signal": false
+    },
+    {
+      "name": "Brookfield Infrastructure Partners L.P.",
+      "ticker": "BIP-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 51.08,
+      "sma20": 52.92,
+      "pct_above_ma": -3.47,
+      "rsi14": 46.95,
+      "signal": false
+    },
+    {
+      "name": "Brookfield Renewable Partners L.P.",
+      "ticker": "BEP-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 42.13,
+      "sma20": 46.42,
+      "pct_above_ma": -9.24,
+      "rsi14": 42.51,
+      "signal": false
+    },
+    {
+      "name": "BRP Inc.",
+      "ticker": "DOO.TO",
+      "week_of": "2026-09-07",
+      "close": 84.56,
+      "sma20": 84.41,
+      "pct_above_ma": 0.17,
+      "rsi14": 47.37,
+      "signal": false
+    },
+    {
+      "name": "CAE Inc.",
+      "ticker": "CAE.TO",
+      "week_of": "2026-09-07",
+      "close": 33.21,
+      "sma20": 35.28,
+      "pct_above_ma": -5.88,
+      "rsi14": 39.87,
+      "signal": false
+    },
+    {
+      "name": "Cameco Corporation",
+      "ticker": "CCO.TO",
+      "week_of": "2026-09-07",
+      "close": 134.01,
+      "sma20": 141.04,
+      "pct_above_ma": -4.99,
+      "rsi14": 46.24,
+      "signal": false
+    },
+    {
+      "name": "Canadian Apartment Properties Real Estate Investment Trust",
+      "ticker": "CAR-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 32.14,
+      "sma20": 34.3,
+      "pct_above_ma": -6.31,
+      "rsi14": 34.5,
+      "signal": false
+    },
+    {
+      "name": "Canadian Imperial Bank of Commerce",
+      "ticker": "CM.TO",
+      "week_of": "2026-09-07",
+      "close": 158.91,
+      "sma20": 159.91,
+      "pct_above_ma": -0.63,
+      "rsi14": 55.6,
+      "signal": false
+    },
+    {
+      "name": "Canadian National Railway Company",
+      "ticker": "CNR.TO",
+      "week_of": "2026-09-07",
+      "close": 169.6,
+      "sma20": 167.98,
+      "pct_above_ma": 0.96,
+      "rsi14": 56.77,
+      "signal": false
+    },
+    {
+      "name": "Canadian Natural Resources Limited",
+      "ticker": "CNQ.TO",
+      "week_of": "2026-09-07",
+      "close": 69.32,
+      "sma20": 63.2,
+      "pct_above_ma": 9.69,
+      "rsi14": 62.15,
+      "signal": true
+    },
+    {
+      "name": "Canadian Pacific Kansas City Limited",
+      "ticker": "CP.TO",
+      "week_of": "2026-09-07",
+      "close": 123.84,
+      "sma20": 124.95,
+      "pct_above_ma": -0.89,
+      "rsi14": 52.36,
+      "signal": false
+    },
+    {
+      "name": "Canadian Tire Corporation Limited",
+      "ticker": "CTC-A.TO",
+      "week_of": "2026-09-07",
+      "close": 187.01,
+      "sma20": 189.81,
+      "pct_above_ma": -1.48,
+      "rsi14": 48.75,
+      "signal": false
+    },
+    {
+      "name": "Canadian Utilities Limited",
+      "ticker": "CU.TO",
+      "week_of": "2026-09-07",
+      "close": 50.02,
+      "sma20": 51.41,
+      "pct_above_ma": -2.7,
+      "rsi14": 49.71,
+      "signal": false
+    },
+    {
+      "name": "Capital Power Corporation",
+      "ticker": "CPX.TO",
+      "week_of": "2026-09-07",
+      "close": 60.82,
+      "sma20": 67.87,
+      "pct_above_ma": -10.39,
+      "rsi14": 39.66,
+      "signal": false
+    },
+    {
+      "name": "Capstone Copper Corp.",
+      "ticker": "CS.TO",
+      "week_of": "2026-09-07",
+      "close": 14.37,
+      "sma20": 13.84,
+      "pct_above_ma": 3.83,
+      "rsi14": 53.05,
+      "signal": false
+    },
+    {
+      "name": "Cargojet Inc.",
+      "ticker": "CJT.TO",
+      "week_of": "2026-09-07",
+      "close": 80.22,
+      "sma20": 83.76,
+      "pct_above_ma": -4.23,
+      "rsi14": 43.31,
+      "signal": false
+    },
+    {
+      "name": "CCL Industries Inc.",
+      "ticker": "CCL-B.TO",
+      "week_of": "2026-09-07",
+      "close": 93.83,
+      "sma20": 90.16,
+      "pct_above_ma": 4.07,
+      "rsi14": 56.96,
+      "signal": false
+    },
+    {
+      "name": "Celestica Inc.",
+      "ticker": "CLS.TO",
+      "week_of": "2026-09-07",
+      "close": 480.23,
+      "sma20": 482.35,
+      "pct_above_ma": -0.44,
+      "rsi14": 53.4,
+      "signal": false
+    },
+    {
+      "name": "Cenovus Energy Inc.",
+      "ticker": "CVE.TO",
+      "week_of": "2026-09-07",
+      "close": 45.89,
+      "sma20": 40.33,
+      "pct_above_ma": 13.78,
+      "rsi14": 66.92,
+      "signal": true
+    },
+    {
+      "name": "Centerra Gold Inc.",
+      "ticker": "CG.TO",
+      "week_of": "2026-09-07",
+      "close": 31.38,
+      "sma20": 25.57,
+      "pct_above_ma": 22.75,
+      "rsi14": 64.95,
+      "signal": true
+    },
+    {
+      "name": "CES Energy Solutions Corp.",
+      "ticker": "CEU.TO",
+      "week_of": "2026-09-07",
+      "close": 20.09,
+      "sma20": 17.7,
+      "pct_above_ma": 13.52,
+      "rsi14": 64.93,
+      "signal": true
+    },
+    {
+      "name": "CGI Inc.",
+      "ticker": "GIB-A.TO",
+      "week_of": "2026-09-07",
+      "close": 97.35,
+      "sma20": 95.87,
+      "pct_above_ma": 1.54,
+      "rsi14": 45.68,
+      "signal": false
+    },
+    {
+      "name": "Chartwell Retirement Residences",
+      "ticker": "CSH-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 20.13,
+      "sma20": 21.42,
+      "pct_above_ma": -6.04,
+      "rsi14": 42.84,
+      "signal": false
+    },
+    {
+      "name": "Choice Properties Real Estate Investment Trust",
+      "ticker": "CHP-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 15.08,
+      "sma20": 15.67,
+      "pct_above_ma": -3.78,
+      "rsi14": 43.03,
+      "signal": false
+    },
+    {
+      "name": "Cogeco Communications Inc.",
+      "ticker": "CCA.TO",
+      "week_of": "2026-09-07",
+      "close": 57.16,
+      "sma20": 62.01,
+      "pct_above_ma": -7.82,
+      "rsi14": 36.98,
+      "signal": false
+    },
+    {
+      "name": "Colliers International Group Inc.",
+      "ticker": "CIGI.TO",
+      "week_of": "2026-09-07",
+      "close": 129.38,
+      "sma20": 136.93,
+      "pct_above_ma": -5.51,
+      "rsi14": 37.75,
+      "signal": false
+    },
+    {
+      "name": "Constellation Software Inc.",
+      "ticker": "CSU.TO",
+      "week_of": "2026-09-07",
+      "close": 2827.94,
+      "sma20": 2854.56,
+      "pct_above_ma": -0.93,
+      "rsi14": 47.34,
+      "signal": false
+    },
+    {
+      "name": "Crombie Real Estate Investment Trust",
+      "ticker": "CRR-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 15.53,
+      "sma20": 16.86,
+      "pct_above_ma": -7.9,
+      "rsi14": 35.44,
+      "signal": false
+    },
+    {
+      "name": "CT Real Estate Investment Trust",
+      "ticker": "CRT-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 16.79,
+      "sma20": 17.77,
+      "pct_above_ma": -5.53,
+      "rsi14": 41.05,
+      "signal": false
+    },
+    {
+      "name": "Curaleaf Holdings, Inc.",
+      "ticker": "CURA.TO",
+      "week_of": "2026-09-07",
+      "close": 13.29,
+      "sma20": 13.87,
+      "pct_above_ma": -4.19,
+      "rsi14": 52.41,
+      "signal": false
+    },
+    {
+      "name": "Definity Financial Corporation",
+      "ticker": "DFY.TO",
+      "week_of": "2026-09-07",
+      "close": 70.35,
+      "sma20": 72.95,
+      "pct_above_ma": -3.56,
+      "rsi14": 44.79,
+      "signal": false
+    },
+    {
+      "name": "Denison Mines Corp.",
+      "ticker": "DML.TO",
+      "week_of": "2026-09-07",
+      "close": 4.19,
+      "sma20": 4.51,
+      "pct_above_ma": -7.07,
+      "rsi14": 45.42,
+      "signal": false
+    },
+    {
+      "name": "Descartes Systems Group Inc.",
+      "ticker": "DSG.TO",
+      "week_of": "2026-09-07",
+      "close": 105.32,
+      "sma20": 103.12,
+      "pct_above_ma": 2.14,
+      "rsi14": 49.79,
+      "signal": false
+    },
+    {
+      "name": "Discovery Silver Corp.",
+      "ticker": "DSV.TO",
+      "week_of": "2026-09-07",
+      "close": 12.41,
+      "sma20": 9.65,
+      "pct_above_ma": 28.58,
+      "rsi14": 62.45,
+      "signal": true
+    },
+    {
+      "name": "Dollarama Inc.",
+      "ticker": "DOL.TO",
+      "week_of": "2026-09-07",
+      "close": 167.11,
+      "sma20": 182.77,
+      "pct_above_ma": -8.57,
+      "rsi14": 38.09,
+      "signal": false
+    },
+    {
+      "name": "Dream Industrial Real Estate Investment Trust",
+      "ticker": "DIR-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 13.1,
+      "sma20": 13.91,
+      "pct_above_ma": -5.83,
+      "rsi14": 42.89,
+      "signal": false
+    },
+    {
+      "name": "Dundee Precious Metals Inc.",
+      "ticker": "DPM.TO",
+      "week_of": "2026-09-07",
+      "close": 60.37,
+      "sma20": 51.91,
+      "pct_above_ma": 16.29,
+      "rsi14": 58.9,
+      "signal": false
+    },
+    {
+      "name": "Eldorado Gold Corporation",
+      "ticker": "ELD.TO",
+      "week_of": "2026-09-07",
+      "close": 60.62,
+      "sma20": 48.22,
+      "pct_above_ma": 25.72,
+      "rsi14": 60.86,
+      "signal": true
+    },
+    {
+      "name": "Element Fleet Management Corp.",
+      "ticker": "EFN.TO",
+      "week_of": "2026-09-07",
+      "close": 24.83,
+      "sma20": 28.44,
+      "pct_above_ma": -12.68,
+      "rsi14": 29.98,
+      "signal": false
+    },
+    {
+      "name": "Emera Incorporated",
+      "ticker": "EMA.TO",
+      "week_of": "2026-09-07",
+      "close": 68.19,
+      "sma20": 72.29,
+      "pct_above_ma": -5.68,
+      "rsi14": 41.12,
+      "signal": false
+    },
+    {
+      "name": "Empire Company Limited",
+      "ticker": "EMP-A.TO",
+      "week_of": "2026-09-07",
+      "close": 45.61,
+      "sma20": 48.51,
+      "pct_above_ma": -5.99,
+      "rsi14": 39.04,
+      "signal": false
+    },
+    {
+      "name": "Enbridge Inc.",
+      "ticker": "ENB.TO",
+      "week_of": "2026-09-07",
+      "close": 66.23,
+      "sma20": 74.2,
+      "pct_above_ma": -10.75,
+      "rsi14": 37.86,
+      "signal": false
+    },
+    {
+      "name": "Endeavour Silver Corp.",
+      "ticker": "EDR.TO",
+      "week_of": "2026-09-07",
+      "close": 14.1,
+      "sma20": 12.81,
+      "pct_above_ma": 10.1,
+      "rsi14": 53.8,
+      "signal": false
+    },
+    {
+      "name": "Energy Fuels Inc.",
+      "ticker": "EFR.TO",
+      "week_of": "2026-09-07",
+      "close": 17.98,
+      "sma20": 21.35,
+      "pct_above_ma": -15.79,
+      "rsi14": 40.89,
+      "signal": false
+    },
+    {
+      "name": "EQB Inc.",
+      "ticker": "EQB.TO",
+      "week_of": "2026-09-07",
+      "close": 129.6,
+      "sma20": 129.41,
+      "pct_above_ma": 0.14,
+      "rsi14": 53.26,
+      "signal": false
+    },
+    {
+      "name": "Equifax Inc.",
+      "ticker": "EFX.TO",
+      "week_of": "2026-09-07",
+      "close": 31.77,
+      "sma20": 33.08,
+      "pct_above_ma": -3.95,
+      "rsi14": 53.4,
+      "signal": false
+    },
+    {
+      "name": "Equinox Gold Corp.",
+      "ticker": "EQX.TO",
+      "week_of": "2026-09-07",
+      "close": 17.16,
+      "sma20": 16.02,
+      "pct_above_ma": 7.15,
+      "rsi14": 51.6,
+      "signal": false
+    },
+    {
+      "name": "Ero Copper Corp.",
+      "ticker": "ERO.TO",
+      "week_of": "2026-09-07",
+      "close": 49.17,
+      "sma20": 41.49,
+      "pct_above_ma": 18.52,
+      "rsi14": 59.06,
+      "signal": false
+    },
+    {
+      "name": "Exchange Income Corporation",
+      "ticker": "EIF.TO",
+      "week_of": "2026-09-07",
+      "close": 116.84,
+      "sma20": 121.75,
+      "pct_above_ma": -4.03,
+      "rsi14": 50.73,
+      "signal": false
+    },
+    {
+      "name": "Fairfax Financial Holdings Limited",
+      "ticker": "FFH.TO",
+      "week_of": "2026-09-07",
+      "close": 2248.17,
+      "sma20": 2275.16,
+      "pct_above_ma": -1.19,
+      "rsi14": 46.12,
+      "signal": false
+    },
+    {
+      "name": "Finning International Inc.",
+      "ticker": "FTT.TO",
+      "week_of": "2026-09-07",
+      "close": 93.79,
+      "sma20": 97.95,
+      "pct_above_ma": -4.25,
+      "rsi14": 50.58,
+      "signal": false
+    },
+    {
+      "name": "First Capital Real Estate Investment Trust",
+      "ticker": "FCR-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 22.62,
+      "sma20": 22.95,
+      "pct_above_ma": -1.43,
+      "rsi14": 58.24,
+      "signal": false
+    },
+    {
+      "name": "First Majestic Silver Corp.",
+      "ticker": "AG.TO",
+      "week_of": "2026-09-07",
+      "close": 27.11,
+      "sma20": 26.03,
+      "pct_above_ma": 4.16,
+      "rsi14": 51.77,
+      "signal": false
+    },
+    {
+      "name": "First Quantum Minerals Ltd.",
+      "ticker": "FM.TO",
+      "week_of": "2026-09-07",
+      "close": 43.94,
+      "sma20": 40.47,
+      "pct_above_ma": 8.57,
+      "rsi14": 57.07,
+      "signal": false
+    },
+    {
+      "name": "FirstService Corporation",
+      "ticker": "FSV.TO",
+      "week_of": "2026-09-07",
+      "close": 191.0,
+      "sma20": 194.35,
+      "pct_above_ma": -1.72,
+      "rsi14": 44.39,
+      "signal": false
+    },
+    {
+      "name": "Fortis Inc.",
+      "ticker": "FTS.TO",
+      "week_of": "2026-09-07",
+      "close": 75.36,
+      "sma20": 78.01,
+      "pct_above_ma": -3.4,
+      "rsi14": 45.49,
+      "signal": false
+    },
+    {
+      "name": "Fortuna Mining Corp.",
+      "ticker": "FVI.TO",
+      "week_of": "2026-09-07",
+      "close": 16.59,
+      "sma20": 13.69,
+      "pct_above_ma": 21.19,
+      "rsi14": 61.07,
+      "signal": true
+    },
+    {
+      "name": "Franco-Nevada Corporation",
+      "ticker": "FNV.TO",
+      "week_of": "2026-09-07",
+      "close": 369.01,
+      "sma20": 318.89,
+      "pct_above_ma": 15.72,
+      "rsi14": 62.75,
+      "signal": true
+    },
+    {
+      "name": "Freehold Royalties Ltd.",
+      "ticker": "FRU.TO",
+      "week_of": "2026-09-07",
+      "close": 17.5,
+      "sma20": 16.91,
+      "pct_above_ma": 3.48,
+      "rsi14": 61.36,
+      "signal": true
+    },
+    {
+      "name": "G Mining Ventures Corp.",
+      "ticker": "GMIN.TO",
+      "week_of": "2026-09-07",
+      "close": 52.01,
+      "sma20": 45.37,
+      "pct_above_ma": 14.63,
+      "rsi14": 57.45,
+      "signal": false
+    },
+    {
+      "name": "George Weston Limited",
+      "ticker": "WN.TO",
+      "week_of": "2026-09-07",
+      "close": 98.82,
+      "sma20": 100.1,
+      "pct_above_ma": -1.28,
+      "rsi14": 49.4,
+      "signal": false
+    },
+    {
+      "name": "GFL Environmental Inc.",
+      "ticker": "GFL.TO",
+      "week_of": "2026-09-07",
+      "close": 59.32,
+      "sma20": 54.26,
+      "pct_above_ma": 9.32,
+      "rsi14": 56.02,
+      "signal": false
+    },
+    {
+      "name": "Gibson Energy Inc.",
+      "ticker": "GEI.TO",
+      "week_of": "2026-09-07",
+      "close": 30.68,
+      "sma20": 29.99,
+      "pct_above_ma": 2.31,
+      "rsi14": 56.87,
+      "signal": false
+    },
+    {
+      "name": "Gildan Activewear Inc.",
+      "ticker": "GIL.TO",
+      "week_of": "2026-09-07",
+      "close": 67.15,
+      "sma20": 76.78,
+      "pct_above_ma": -12.54,
+      "rsi14": 38.44,
+      "signal": false
+    },
+    {
+      "name": "goeasy Ltd.",
+      "ticker": "GSY.TO",
+      "week_of": "2026-09-07",
+      "close": 42.26,
+      "sma20": 42.1,
+      "pct_above_ma": 0.37,
+      "rsi14": 35.89,
+      "signal": false
+    },
+    {
+      "name": "Granite Real Estate Investment Trust",
+      "ticker": "GRT-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 85.18,
+      "sma20": 93.05,
+      "pct_above_ma": -8.46,
+      "rsi14": 40.02,
+      "signal": false
+    },
+    {
+      "name": "Great-West Lifeco Inc.",
+      "ticker": "GWO.TO",
+      "week_of": "2026-09-07",
+      "close": 92.64,
+      "sma20": 86.21,
+      "pct_above_ma": 7.46,
+      "rsi14": 75.19,
+      "signal": true
+    },
+    {
+      "name": "H&R Real Estate Investment Trust",
+      "ticker": "HR-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 9.69,
+      "sma20": 10.55,
+      "pct_above_ma": -8.19,
+      "rsi14": 35.18,
+      "signal": false
+    },
+    {
+      "name": "Headwater Exploration Inc.",
+      "ticker": "HWX.TO",
+      "week_of": "2026-09-07",
+      "close": 13.51,
+      "sma20": 12.99,
+      "pct_above_ma": 3.97,
+      "rsi14": 58.32,
+      "signal": false
+    },
+    {
+      "name": "Hudbay Minerals Inc.",
+      "ticker": "HBM.TO",
+      "week_of": "2026-09-07",
+      "close": 36.73,
+      "sma20": 35.39,
+      "pct_above_ma": 3.79,
+      "rsi14": 53.91,
+      "signal": false
+    },
+    {
+      "name": "Hydro One Limited",
+      "ticker": "H.TO",
+      "week_of": "2026-09-07",
+      "close": 50.97,
+      "sma20": 56.48,
+      "pct_above_ma": -9.75,
+      "rsi14": 33.06,
+      "signal": false
+    },
+    {
+      "name": "I-80 Gold Corp.",
+      "ticker": "IAU.TO",
+      "week_of": "2026-09-07",
+      "close": 2.42,
+      "sma20": 2.16,
+      "pct_above_ma": 12.14,
+      "rsi14": 56.63,
+      "signal": false
+    },
+    {
+      "name": "iA Financial Corporation Inc.",
+      "ticker": "IAG.TO",
+      "week_of": "2026-09-07",
+      "close": 205.67,
+      "sma20": 191.74,
+      "pct_above_ma": 7.27,
+      "rsi14": 64.89,
+      "signal": true
+    },
+    {
+      "name": "Iamgold Corporation",
+      "ticker": "IMG.TO",
+      "week_of": "2026-09-07",
+      "close": 28.11,
+      "sma20": 24.08,
+      "pct_above_ma": 16.72,
+      "rsi14": 58.05,
+      "signal": false
+    },
+    {
+      "name": "IGM Financial Inc.",
+      "ticker": "IGM.TO",
+      "week_of": "2026-09-07",
+      "close": 89.69,
+      "sma20": 82.51,
+      "pct_above_ma": 8.71,
+      "rsi14": 72.57,
+      "signal": true
+    },
+    {
+      "name": "Imperial Oil Limited",
+      "ticker": "IMO.TO",
+      "week_of": "2026-09-07",
+      "close": 180.36,
+      "sma20": 173.91,
+      "pct_above_ma": 3.71,
+      "rsi14": 57.53,
+      "signal": false
+    },
+    {
+      "name": "Intact Financial Corporation",
+      "ticker": "IFC.TO",
+      "week_of": "2026-09-07",
+      "close": 257.52,
+      "sma20": 274.93,
+      "pct_above_ma": -6.33,
+      "rsi14": 41.07,
+      "signal": false
+    },
+    {
+      "name": "International Petroleum Corporation",
+      "ticker": "IPCO.TO",
+      "week_of": "2026-09-07",
+      "close": 35.86,
+      "sma20": 33.86,
+      "pct_above_ma": 5.9,
+      "rsi14": 60.04,
+      "signal": true
+    },
+    {
+      "name": "Ivanhoe Mines Ltd.",
+      "ticker": "IVN.TO",
+      "week_of": "2026-09-07",
+      "close": 12.8,
+      "sma20": 11.38,
+      "pct_above_ma": 12.47,
+      "rsi14": 55.08,
+      "signal": false
+    },
+    {
+      "name": "Jamieson Wellness Inc.",
+      "ticker": "JWEL.TO",
+      "week_of": "2026-09-07",
+      "close": 45.5,
+      "sma20": 39.97,
+      "pct_above_ma": 13.83,
+      "rsi14": 76.65,
+      "signal": true
+    },
+    {
+      "name": "K92 Mining Inc.",
+      "ticker": "KNT.TO",
+      "week_of": "2026-09-07",
+      "close": 29.31,
+      "sma20": 25.28,
+      "pct_above_ma": 15.94,
+      "rsi14": 59.75,
+      "signal": false
+    },
+    {
+      "name": "Kelt Exploration Ltd.",
+      "ticker": "KEL.TO",
+      "week_of": "2026-09-07",
+      "close": 10.7,
+      "sma20": 9.73,
+      "pct_above_ma": 9.91,
+      "rsi14": 61.87,
+      "signal": true
+    },
+    {
+      "name": "Keyera Corp.",
+      "ticker": "KEY.TO",
+      "week_of": "2026-09-07",
+      "close": 54.54,
+      "sma20": 57.24,
+      "pct_above_ma": -4.71,
+      "rsi14": 48.14,
+      "signal": false
+    },
+    {
+      "name": "Killam Apartment Real Estate Investment Trust",
+      "ticker": "KMP-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 17.38,
+      "sma20": 18.29,
+      "pct_above_ma": -4.97,
+      "rsi14": 42.49,
+      "signal": false
+    },
+    {
+      "name": "Kinaxis Inc.",
+      "ticker": "KXS.TO",
+      "week_of": "2026-09-07",
+      "close": 171.66,
+      "sma20": 160.6,
+      "pct_above_ma": 6.88,
+      "rsi14": 56.24,
+      "signal": false
+    },
+    {
+      "name": "Kinross Gold Corporation",
+      "ticker": "K.TO",
+      "week_of": "2026-09-07",
+      "close": 40.39,
+      "sma20": 38.09,
+      "pct_above_ma": 6.04,
+      "rsi14": 52.11,
+      "signal": false
+    },
+    {
+      "name": "Labrador Iron Ore Royalty Corporation",
+      "ticker": "LIF.TO",
+      "week_of": "2026-09-07",
+      "close": 25.73,
+      "sma20": 27.23,
+      "pct_above_ma": -5.51,
+      "rsi14": 38.33,
+      "signal": false
+    },
+    {
+      "name": "Laurentian Bank of Canada",
+      "ticker": "LB.TO",
+      "week_of": "2026-09-07",
+      "close": 40.64,
+      "sma20": 40.12,
+      "pct_above_ma": 1.29,
+      "rsi14": 82.74,
+      "signal": false
+    },
+    {
+      "name": "Lightspeed Commerce Inc.",
+      "ticker": "LSPD.TO",
+      "week_of": "2026-09-07",
+      "close": 13.8,
+      "sma20": 13.84,
+      "pct_above_ma": -0.31,
+      "rsi14": 47.85,
+      "signal": false
+    },
+    {
+      "name": "Linamar Corporation",
+      "ticker": "LNR.TO",
+      "week_of": "2026-09-07",
+      "close": 99.96,
+      "sma20": 100.63,
+      "pct_above_ma": -0.67,
+      "rsi14": 53.48,
+      "signal": false
+    },
+    {
+      "name": "Lithium Americas Corp.",
+      "ticker": "LAC.TO",
+      "week_of": "2026-09-07",
+      "close": 4.04,
+      "sma20": 5.43,
+      "pct_above_ma": -25.67,
+      "rsi14": 37.06,
+      "signal": false
+    },
+    {
+      "name": "Loblaw Companies Limited",
+      "ticker": "L.TO",
+      "week_of": "2026-09-07",
+      "close": 61.28,
+      "sma20": 62.97,
+      "pct_above_ma": -2.69,
+      "rsi14": 46.82,
+      "signal": false
+    },
+    {
+      "name": "Lundin Gold Inc.",
+      "ticker": "LUG.TO",
+      "week_of": "2026-09-07",
+      "close": 93.0,
+      "sma20": 83.69,
+      "pct_above_ma": 11.12,
+      "rsi14": 53.82,
+      "signal": false
+    },
+    {
+      "name": "Lundin Mining Corporation",
+      "ticker": "LUN.TO",
+      "week_of": "2026-09-07",
+      "close": 33.45,
+      "sma20": 36.37,
+      "pct_above_ma": -8.04,
+      "rsi14": 47.01,
+      "signal": false
+    },
+    {
+      "name": "Magna International Inc.",
+      "ticker": "MG.TO",
+      "week_of": "2026-09-07",
+      "close": 91.64,
+      "sma20": 91.31,
+      "pct_above_ma": 0.36,
+      "rsi14": 54.23,
+      "signal": false
+    },
+    {
+      "name": "Manulife Financial Corporation",
+      "ticker": "MFC.TO",
+      "week_of": "2026-09-07",
+      "close": 60.28,
+      "sma20": 57.29,
+      "pct_above_ma": 5.21,
+      "rsi14": 64.48,
+      "signal": true
+    },
+    {
+      "name": "Maple Leaf Foods Inc.",
+      "ticker": "MFI.TO",
+      "week_of": "2026-09-07",
+      "close": 26.3,
+      "sma20": 28.59,
+      "pct_above_ma": -8.0,
+      "rsi14": 40.05,
+      "signal": false
+    },
+    {
+      "name": "MDA Space Ltd.",
+      "ticker": "MDA.TO",
+      "week_of": "2026-09-07",
+      "close": 40.12,
+      "sma20": 48.62,
+      "pct_above_ma": -17.49,
+      "rsi14": 45.47,
+      "signal": false
+    },
+    {
+      "name": "Methanex Corporation",
+      "ticker": "MX.TO",
+      "week_of": "2026-09-07",
+      "close": 87.25,
+      "sma20": 78.89,
+      "pct_above_ma": 10.6,
+      "rsi14": 61.01,
+      "signal": true
+    },
+    {
+      "name": "Metro Inc.",
+      "ticker": "MRU.TO",
+      "week_of": "2026-09-07",
+      "close": 88.16,
+      "sma20": 90.35,
+      "pct_above_ma": -2.42,
+      "rsi14": 42.97,
+      "signal": false
+    },
+    {
+      "name": "Montage Gold Corp.",
+      "ticker": "MAU.TO",
+      "week_of": "2026-09-07",
+      "close": 19.15,
+      "sma20": 16.73,
+      "pct_above_ma": 14.44,
+      "rsi14": 60.89,
+      "signal": true
+    },
+    {
+      "name": "Mullen Group Ltd.",
+      "ticker": "MTL.TO",
+      "week_of": "2026-09-07",
+      "close": 25.61,
+      "sma20": 23.74,
+      "pct_above_ma": 7.87,
+      "rsi14": 65.56,
+      "signal": true
+    },
+    {
+      "name": "NexGen Energy Ltd.",
+      "ticker": "NXE.TO",
+      "week_of": "2026-09-07",
+      "close": 13.63,
+      "sma20": 14.44,
+      "pct_above_ma": -5.63,
+      "rsi14": 46.15,
+      "signal": false
+    },
+    {
+      "name": "NFI Group Inc.",
+      "ticker": "NFI.TO",
+      "week_of": "2026-09-07",
+      "close": 23.51,
+      "sma20": 23.4,
+      "pct_above_ma": 0.49,
+      "rsi14": 56.5,
+      "signal": false
+    },
+    {
+      "name": "NGEx Minerals Ltd.",
+      "ticker": "NGEX.TO",
+      "week_of": "2026-09-07",
+      "close": 25.67,
+      "sma20": 26.27,
+      "pct_above_ma": -2.3,
+      "rsi14": 48.58,
+      "signal": false
+    },
+    {
+      "name": "North West Company Inc.",
+      "ticker": "NWC.TO",
+      "week_of": "2026-09-07",
+      "close": 51.67,
+      "sma20": 50.25,
+      "pct_above_ma": 2.82,
+      "rsi14": 55.28,
+      "signal": false
+    },
+    {
+      "name": "Northland Power Inc.",
+      "ticker": "NPI.TO",
+      "week_of": "2026-09-07",
+      "close": 20.8,
+      "sma20": 22.01,
+      "pct_above_ma": -5.51,
+      "rsi14": 43.22,
+      "signal": false
+    },
+    {
+      "name": "NovaGold Resources Inc.",
+      "ticker": "NG.TO",
+      "week_of": "2026-09-07",
+      "close": 10.39,
+      "sma20": 10.32,
+      "pct_above_ma": 0.63,
+      "rsi14": 48.18,
+      "signal": false
+    },
+    {
+      "name": "Nutrien Ltd.",
+      "ticker": "NTR.TO",
+      "week_of": "2026-09-07",
+      "close": 108.8,
+      "sma20": 96.11,
+      "pct_above_ma": 13.2,
+      "rsi14": 62.88,
+      "signal": true
+    },
+    {
+      "name": "OceanaGold Corporation",
+      "ticker": "OGC.TO",
+      "week_of": "2026-09-07",
+      "close": 41.87,
+      "sma20": 38.53,
+      "pct_above_ma": 8.67,
+      "rsi14": 54.47,
+      "signal": false
+    },
+    {
+      "name": "Onex Corporation",
+      "ticker": "ONEX.TO",
+      "week_of": "2026-09-07",
+      "close": 110.5,
+      "sma20": 110.27,
+      "pct_above_ma": 0.21,
+      "rsi14": 50.51,
+      "signal": false
+    },
+    {
+      "name": "Open Text Corporation",
+      "ticker": "OTEX.TO",
+      "week_of": "2026-09-07",
+      "close": 32.0,
+      "sma20": 32.25,
+      "pct_above_ma": -0.77,
+      "rsi14": 45.82,
+      "signal": false
+    },
+    {
+      "name": "Osisko Gold Royalties Ltd.",
+      "ticker": "OR.TO",
+      "week_of": "2026-09-07",
+      "close": 49.91,
+      "sma20": 47.22,
+      "pct_above_ma": 5.7,
+      "rsi14": 52.6,
+      "signal": false
+    },
+    {
+      "name": "Pan American Silver Corp.",
+      "ticker": "PAAS.TO",
+      "week_of": "2026-09-07",
+      "close": 69.74,
+      "sma20": 68.99,
+      "pct_above_ma": 1.08,
+      "rsi14": 50.7,
+      "signal": false
+    },
+    {
+      "name": "Paramount Resources Ltd.",
+      "ticker": "POU.TO",
+      "week_of": "2026-09-07",
+      "close": 31.96,
+      "sma20": 29.87,
+      "pct_above_ma": 7.0,
+      "rsi14": 61.48,
+      "signal": true
+    },
+    {
+      "name": "Parex Resources Inc.",
+      "ticker": "PXT.TO",
+      "week_of": "2026-09-07",
+      "close": 28.93,
+      "sma20": 25.2,
+      "pct_above_ma": 14.79,
+      "rsi14": 67.12,
+      "signal": true
+    },
+    {
+      "name": "Pembina Pipeline Corporation",
+      "ticker": "PPL.TO",
+      "week_of": "2026-09-07",
+      "close": 66.26,
+      "sma20": 66.88,
+      "pct_above_ma": -0.93,
+      "rsi14": 53.69,
+      "signal": false
+    },
+    {
+      "name": "Perpetua Resources Corp.",
+      "ticker": "PPTA.TO",
+      "week_of": "2026-09-07",
+      "close": 32.79,
+      "sma20": 32.96,
+      "pct_above_ma": -0.53,
+      "rsi14": 48.53,
+      "signal": false
+    },
+    {
+      "name": "Pet Valu Holdings Ltd.",
+      "ticker": "PET.TO",
+      "week_of": "2026-09-07",
+      "close": 17.9,
+      "sma20": 18.74,
+      "pct_above_ma": -4.46,
+      "rsi14": 36.54,
+      "signal": false
+    },
+    {
+      "name": "Peyto Exploration & Development Corp.",
+      "ticker": "PEY.TO",
+      "week_of": "2026-09-07",
+      "close": 24.31,
+      "sma20": 24.84,
+      "pct_above_ma": -2.11,
+      "rsi14": 49.11,
+      "signal": false
+    },
+    {
+      "name": "Power Corporation of Canada",
+      "ticker": "POW.TO",
+      "week_of": "2026-09-07",
+      "close": 94.37,
+      "sma20": 88.18,
+      "pct_above_ma": 7.02,
+      "rsi14": 69.3,
+      "signal": true
+    },
+    {
+      "name": "PrairieSky Royalty Ltd.",
+      "ticker": "PSK.TO",
+      "week_of": "2026-09-07",
+      "close": 35.76,
+      "sma20": 34.08,
+      "pct_above_ma": 4.94,
+      "rsi14": 62.4,
+      "signal": true
+    },
+    {
+      "name": "Premium Brands Holdings Corporation",
+      "ticker": "PBH.TO",
+      "week_of": "2026-09-07",
+      "close": 76.63,
+      "sma20": 85.37,
+      "pct_above_ma": -10.24,
+      "rsi14": 36.19,
+      "signal": false
+    },
+    {
+      "name": "Primaris Real Estate Investment Trust",
+      "ticker": "PMZ-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 20.9,
+      "sma20": 20.93,
+      "pct_above_ma": -0.16,
+      "rsi14": 57.09,
+      "signal": false
+    },
+    {
+      "name": "Quebecor Inc.",
+      "ticker": "QBR-B.TO",
+      "week_of": "2026-09-07",
+      "close": 62.82,
+      "sma20": 64.63,
+      "pct_above_ma": -2.8,
+      "rsi14": 52.35,
+      "signal": false
+    },
+    {
+      "name": "RB Global, Inc.",
+      "ticker": "RBA.TO",
+      "week_of": "2026-09-07",
+      "close": 115.91,
+      "sma20": 141.24,
+      "pct_above_ma": -17.94,
+      "rsi14": 32.5,
+      "signal": false
+    },
+    {
+      "name": "Restaurant Brands International Inc.",
+      "ticker": "QSR.TO",
+      "week_of": "2026-09-07",
+      "close": 106.75,
+      "sma20": 105.55,
+      "pct_above_ma": 1.14,
+      "rsi14": 54.46,
+      "signal": false
+    },
+    {
+      "name": "Richelieu Hardware Ltd.",
+      "ticker": "RCH.TO",
+      "week_of": "2026-09-07",
+      "close": 35.17,
+      "sma20": 37.46,
+      "pct_above_ma": -6.12,
+      "rsi14": 40.4,
+      "signal": false
+    },
+    {
+      "name": "RioCan Real Estate Investment Trust",
+      "ticker": "REI-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 20.63,
+      "sma20": 21.81,
+      "pct_above_ma": -5.4,
+      "rsi14": 45.55,
+      "signal": false
+    },
+    {
+      "name": "Rogers Communications Inc.",
+      "ticker": "RCI-B.TO",
+      "week_of": "2026-09-07",
+      "close": 50.18,
+      "sma20": 49.22,
+      "pct_above_ma": 1.96,
+      "rsi14": 52.62,
+      "signal": false
+    },
+    {
+      "name": "Royal Bank of Canada",
+      "ticker": "RY.TO",
+      "week_of": "2026-09-07",
+      "close": 285.2,
+      "sma20": 279.52,
+      "pct_above_ma": 2.03,
+      "rsi14": 61.02,
+      "signal": true
+    },
+    {
+      "name": "Russel Metals Inc.",
+      "ticker": "RUS.TO",
+      "week_of": "2026-09-07",
+      "close": 75.85,
+      "sma20": 66.21,
+      "pct_above_ma": 14.55,
+      "rsi14": 68.08,
+      "signal": true
+    },
+    {
+      "name": "Saputo Inc.",
+      "ticker": "SAP.TO",
+      "week_of": "2026-09-07",
+      "close": 39.39,
+      "sma20": 41.11,
+      "pct_above_ma": -4.18,
+      "rsi14": 45.48,
+      "signal": false
+    },
+    {
+      "name": "Seabridge Gold Inc.",
+      "ticker": "SEA.TO",
+      "week_of": "2026-09-07",
+      "close": 42.96,
+      "sma20": 40.15,
+      "pct_above_ma": 7.0,
+      "rsi14": 53.77,
+      "signal": false
+    },
+    {
+      "name": "Shopify Inc.",
+      "ticker": "SHOP.TO",
+      "week_of": "2026-09-07",
+      "close": 178.41,
+      "sma20": 172.81,
+      "pct_above_ma": 3.24,
+      "rsi14": 49.27,
+      "signal": false
+    },
+    {
+      "name": "Sienna Senior Living Inc.",
+      "ticker": "SIA.TO",
+      "week_of": "2026-09-07",
+      "close": 19.81,
+      "sma20": 21.84,
+      "pct_above_ma": -9.3,
+      "rsi14": 36.56,
+      "signal": false
+    },
+    {
+      "name": "Silvercorp Metals Inc.",
+      "ticker": "SVM.TO",
+      "week_of": "2026-09-07",
+      "close": 16.51,
+      "sma20": 15.91,
+      "pct_above_ma": 3.76,
+      "rsi14": 54.31,
+      "signal": false
+    },
+    {
+      "name": "Skeena Resources Limited",
+      "ticker": "SKE.TO",
+      "week_of": "2026-09-07",
+      "close": 43.9,
+      "sma20": 41.33,
+      "pct_above_ma": 6.23,
+      "rsi14": 54.21,
+      "signal": false
+    },
+    {
+      "name": "SmartCentres Real Estate Investment Trust",
+      "ticker": "SRU-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 26.77,
+      "sma20": 28.69,
+      "pct_above_ma": -6.7,
+      "rsi14": 38.21,
+      "signal": false
+    },
+    {
+      "name": "South Bow Corporation",
+      "ticker": "SOBO.TO",
+      "week_of": "2026-09-07",
+      "close": 49.94,
+      "sma20": 50.72,
+      "pct_above_ma": -1.55,
+      "rsi14": 53.68,
+      "signal": false
+    },
+    {
+      "name": "Sprott Inc.",
+      "ticker": "SII.TO",
+      "week_of": "2026-09-07",
+      "close": 184.86,
+      "sma20": 168.32,
+      "pct_above_ma": 9.83,
+      "rsi14": 58.18,
+      "signal": false
+    },
+    {
+      "name": "SSR Mining Inc.",
+      "ticker": "SSRM.TO",
+      "week_of": "2026-09-07",
+      "close": 50.27,
+      "sma20": 43.15,
+      "pct_above_ma": 16.49,
+      "rsi14": 60.05,
+      "signal": true
+    },
+    {
+      "name": "Stantec Inc.",
+      "ticker": "STN.TO",
+      "week_of": "2026-09-07",
+      "close": 96.64,
+      "sma20": 102.72,
+      "pct_above_ma": -5.92,
+      "rsi14": 34.91,
+      "signal": false
+    },
+    {
+      "name": "Stella-Jones Inc.",
+      "ticker": "SJ.TO",
+      "week_of": "2026-09-07",
+      "close": 67.0,
+      "sma20": 75.67,
+      "pct_above_ma": -11.45,
+      "rsi14": 29.44,
+      "signal": false
+    },
+    {
+      "name": "Strathcona Resources Ltd.",
+      "ticker": "SCR.TO",
+      "week_of": "2026-09-07",
+      "close": 44.22,
+      "sma20": 42.34,
+      "pct_above_ma": 4.44,
+      "rsi14": 57.95,
+      "signal": false
+    },
+    {
+      "name": "Sun Life Financial Inc.",
+      "ticker": "SLF.TO",
+      "week_of": "2026-09-07",
+      "close": 110.55,
+      "sma20": 107.24,
+      "pct_above_ma": 3.09,
+      "rsi14": 63.41,
+      "signal": true
+    },
+    {
+      "name": "Suncor Energy Inc.",
+      "ticker": "SU.TO",
+      "week_of": "2026-09-07",
+      "close": 95.3,
+      "sma20": 87.63,
+      "pct_above_ma": 8.75,
+      "rsi14": 60.84,
+      "signal": true
+    },
+    {
+      "name": "Superior Plus Corp.",
+      "ticker": "SPB.TO",
+      "week_of": "2026-09-07",
+      "close": 6.86,
+      "sma20": 7.77,
+      "pct_above_ma": -11.66,
+      "rsi14": 39.13,
+      "signal": false
+    },
+    {
+      "name": "Tamarack Valley Energy Ltd.",
+      "ticker": "TVE.TO",
+      "week_of": "2026-09-07",
+      "close": 13.29,
+      "sma20": 13.0,
+      "pct_above_ma": 2.22,
+      "rsi14": 61.13,
+      "signal": true
+    },
+    {
+      "name": "Taseko Mines Limited",
+      "ticker": "TKO.TO",
+      "week_of": "2026-09-07",
+      "close": 11.21,
+      "sma20": 10.42,
+      "pct_above_ma": 7.59,
+      "rsi14": 55.1,
+      "signal": false
+    },
+    {
+      "name": "TC Energy Corporation",
+      "ticker": "TRP.TO",
+      "week_of": "2026-09-07",
+      "close": 84.31,
+      "sma20": 92.23,
+      "pct_above_ma": -8.58,
+      "rsi14": 43.31,
+      "signal": false
+    },
+    {
+      "name": "Teck Resources Limited",
+      "ticker": "TECK-B.TO",
+      "week_of": "2026-09-07",
+      "close": 92.11,
+      "sma20": 87.75,
+      "pct_above_ma": 4.97,
+      "rsi14": 57.36,
+      "signal": false
+    },
+    {
+      "name": "Telus Corporation",
+      "ticker": "T.TO",
+      "week_of": "2026-09-07",
+      "close": 12.6,
+      "sma20": 14.84,
+      "pct_above_ma": -15.11,
+      "rsi14": 21.98,
+      "signal": false
+    },
+    {
+      "name": "TerraVest Industries Inc.",
+      "ticker": "TVK.TO",
+      "week_of": "2026-09-07",
+      "close": 118.41,
+      "sma20": 123.63,
+      "pct_above_ma": -4.22,
+      "rsi14": 45.81,
+      "signal": false
+    },
+    {
+      "name": "TFI International Inc.",
+      "ticker": "TFII.TO",
+      "week_of": "2026-09-07",
+      "close": 181.77,
+      "sma20": 201.27,
+      "pct_above_ma": -9.69,
+      "rsi14": 46.93,
+      "signal": false
+    },
+    {
+      "name": "Thomson Reuters Corporation",
+      "ticker": "TRI.TO",
+      "week_of": "2026-09-07",
+      "close": 134.93,
+      "sma20": 128.36,
+      "pct_above_ma": 5.12,
+      "rsi14": 48.77,
+      "signal": false
+    },
+    {
+      "name": "TMX Group Limited",
+      "ticker": "X.TO",
+      "week_of": "2026-09-07",
+      "close": 53.12,
+      "sma20": 51.26,
+      "pct_above_ma": 3.64,
+      "rsi14": 56.39,
+      "signal": false
+    },
+    {
+      "name": "Topaz Energy Corp.",
+      "ticker": "TPZ.TO",
+      "week_of": "2026-09-07",
+      "close": 30.79,
+      "sma20": 31.41,
+      "pct_above_ma": -1.97,
+      "rsi14": 50.55,
+      "signal": false
+    },
+    {
+      "name": "Torex Gold Resources Inc.",
+      "ticker": "TXG.TO",
+      "week_of": "2026-09-07",
+      "close": 69.79,
+      "sma20": 60.66,
+      "pct_above_ma": 15.05,
+      "rsi14": 57.77,
+      "signal": false
+    },
+    {
+      "name": "Toromont Industries Ltd.",
+      "ticker": "TIH.TO",
+      "week_of": "2026-09-07",
+      "close": 203.44,
+      "sma20": 218.38,
+      "pct_above_ma": -6.84,
+      "rsi14": 47.49,
+      "signal": false
+    },
+    {
+      "name": "Toronto-Dominion Bank",
+      "ticker": "TD.TO",
+      "week_of": "2026-09-07",
+      "close": 167.72,
+      "sma20": 163.16,
+      "pct_above_ma": 2.8,
+      "rsi14": 64.48,
+      "signal": true
+    },
+    {
+      "name": "Tourmaline Oil Corp.",
+      "ticker": "TOU.TO",
+      "week_of": "2026-09-07",
+      "close": 61.37,
+      "sma20": 62.49,
+      "pct_above_ma": -1.79,
+      "rsi14": 48.64,
+      "signal": false
+    },
+    {
+      "name": "TransAlta Corporation",
+      "ticker": "TA.TO",
+      "week_of": "2026-09-07",
+      "close": 16.73,
+      "sma20": 18.07,
+      "pct_above_ma": -7.44,
+      "rsi14": 43.46,
+      "signal": false
+    },
+    {
+      "name": "Transcontinental Inc.",
+      "ticker": "TCL-A.TO",
+      "week_of": "2026-09-07",
+      "close": 5.12,
+      "sma20": 5.33,
+      "pct_above_ma": -3.92,
+      "rsi14": 52.3,
+      "signal": false
+    },
+    {
+      "name": "Triple Flag Precious Metals Corp.",
+      "ticker": "TFPM.TO",
+      "week_of": "2026-09-07",
+      "close": 46.91,
+      "sma20": 43.15,
+      "pct_above_ma": 8.72,
+      "rsi14": 54.93,
+      "signal": false
+    },
+    {
+      "name": "Trisura Group Ltd.",
+      "ticker": "TSU.TO",
+      "week_of": "2026-09-07",
+      "close": 42.74,
+      "sma20": 42.46,
+      "pct_above_ma": 0.65,
+      "rsi14": 50.4,
+      "signal": false
+    },
+    {
+      "name": "Vermilion Energy Inc.",
+      "ticker": "VET.TO",
+      "week_of": "2026-09-07",
+      "close": 18.34,
+      "sma20": 15.8,
+      "pct_above_ma": 16.11,
+      "rsi14": 62.21,
+      "signal": true
+    },
+    {
+      "name": "Vital Infrastructure Property Trust.",
+      "ticker": "VITL-UN.TO",
+      "week_of": "2026-09-07",
+      "close": 5.2,
+      "sma20": 5.4,
+      "pct_above_ma": -3.67,
+      "rsi14": 44.85,
+      "signal": false
+    },
+    {
+      "name": "Vizsla Silver Corp.",
+      "ticker": "VZLA.TO",
+      "week_of": "2026-09-07",
+      "close": 5.46,
+      "sma20": 4.94,
+      "pct_above_ma": 10.62,
+      "rsi14": 54.07,
+      "signal": false
+    },
+    {
+      "name": "Waste Connections Inc.",
+      "ticker": "WCN.TO",
+      "week_of": "2026-09-07",
+      "close": 221.56,
+      "sma20": 225.96,
+      "pct_above_ma": -1.95,
+      "rsi14": 43.98,
+      "signal": false
+    },
+    {
+      "name": "Wesdome Gold Mines Ltd.",
+      "ticker": "WDO.TO",
+      "week_of": "2026-09-07",
+      "close": 35.06,
+      "sma20": 28.46,
+      "pct_above_ma": 23.19,
+      "rsi14": 64.5,
+      "signal": true
+    },
+    {
+      "name": "West Fraser Timber Co. Ltd.",
+      "ticker": "WFG.TO",
+      "week_of": "2026-09-07",
+      "close": 95.76,
+      "sma20": 93.47,
+      "pct_above_ma": 2.45,
+      "rsi14": 52.67,
+      "signal": false
+    },
+    {
+      "name": "Wheaton Precious Metals Corp.",
+      "ticker": "WPM.TO",
+      "week_of": "2026-09-07",
+      "close": 213.75,
+      "sma20": 177.86,
+      "pct_above_ma": 20.18,
+      "rsi14": 61.73,
+      "signal": true
+    },
+    {
+      "name": "Whitecap Resources Inc.",
+      "ticker": "WCP.TO",
+      "week_of": "2026-09-07",
+      "close": 18.54,
+      "sma20": 16.31,
+      "pct_above_ma": 13.64,
+      "rsi14": 71.45,
+      "signal": true
+    },
+    {
+      "name": "Winpak Ltd.",
+      "ticker": "WPK.TO",
+      "week_of": "2026-09-07",
+      "close": 43.16,
+      "sma20": 42.72,
+      "pct_above_ma": 1.03,
+      "rsi14": 47.9,
+      "signal": false
+    },
+    {
+      "name": "WSP Global Inc.",
+      "ticker": "WSP.TO",
+      "week_of": "2026-09-07",
+      "close": 180.17,
+      "sma20": 187.18,
+      "pct_above_ma": -3.74,
+      "rsi14": 40.36,
+      "signal": false
+    }
+  ],
+  "failed": [
+    {
+      "ticker": "BLX.TO",
+      "name": "Boralex Inc.",
+      "error": "not enough weekly history for BLX.TO (6 weeks, need at least 21)"
+    },
+    {
+      "ticker": "IIP-UN.TO",
+      "name": "InterRent Real Estate Investment Trust",
+      "error": "not enough weekly history for IIP-UN.TO (1 weeks, need at least 21)"
+    },
+    {
+      "ticker": "OLA.TO",
+      "name": "Orla Mining Ltd.",
+      "error": "not enough weekly history for OLA.TO (2 weeks, need at least 21)"
+    },
+    {
+      "ticker": "SES.TO",
+      "name": "Secure Energy Services Inc.",
+      "error": "not enough weekly history for SES.TO (3 weeks, need at least 21)"
+    }
+  ]
 }
