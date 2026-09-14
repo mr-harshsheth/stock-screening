@@ -46,5 +46,17 @@
     "no_signal_count": 4,
     "failed": [],
     "unresolved": []
+  },
+  {
+    "run_type": "manual",
+    "generated_at": "2026-09-14T21:56:29.698476+00:00",
+    "total": 6,
+    "signaled": [
+      "AAPL",
+      "MSFT"
+    ],
+    "no_signal_count": 4,
+    "failed": [],
+    "unresolved": []
   }
 ]
