@@ -1,6 +1,6 @@
 {
   "run_type": "manual",
-  "generated_at": "2026-09-14T21:25:26.370822+00:00",
+  "generated_at": "2026-09-14T21:38:50.384359+00:00",
   "results": [
     {
       "name": "Apple",
@@ -50,6 +50,16 @@
       "sma20": 379.46,
       "pct_above_ma": -3.69,
       "rsi14": 47.79,
+      "signal": false
+    },
+    {
+      "name": "Take-Two Interactive Software, Inc.",
+      "ticker": "TTWO",
+      "week_of": "2026-09-07",
+      "close": 215.47,
+      "sma20": 232.13,
+      "pct_above_ma": -7.18,
+      "rsi14": 43.43,
       "signal": false
     }
   ],
