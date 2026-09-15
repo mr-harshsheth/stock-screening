@@ -416,6 +416,10 @@ footer {
   z-index: 100;
 }
 
+.modal-overlay[hidden] {
+  display: none;
+}
+
 .modal-panel {
   background: #fff;
   border-radius: var(--radius);
