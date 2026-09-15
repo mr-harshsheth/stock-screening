@@ -1,6 +1,5173 @@
 {
-  "run_type": null,
-  "generated_at": null,
-  "results": [],
-  "failed": []
+  "run_type": "us_index",
+  "generated_at": "2026-09-15T22:12:39.573504+00:00",
+  "results": [
+    {
+      "name": "3M",
+      "ticker": "MMM",
+      "week_of": "2026-09-07",
+      "close": 164.97,
+      "sma20": 161.96,
+      "pct_above_ma": 1.86,
+      "rsi14": 51.54,
+      "signal": false
+    },
+    {
+      "name": "A. O. Smith",
+      "ticker": "AOS",
+      "week_of": "2026-09-07",
+      "close": 57.39,
+      "sma20": 59.55,
+      "pct_above_ma": -3.62,
+      "rsi14": 40.43,
+      "signal": false
+    },
+    {
+      "name": "Abbott Laboratories",
+      "ticker": "ABT",
+      "week_of": "2026-09-07",
+      "close": 101.95,
+      "sma20": 97.17,
+      "pct_above_ma": 4.92,
+      "rsi14": 48.51,
+      "signal": false
+    },
+    {
+      "name": "AbbVie",
+      "ticker": "ABBV",
+      "week_of": "2026-09-07",
+      "close": 257.12,
+      "sma20": 238.13,
+      "pct_above_ma": 7.97,
+      "rsi14": 60.55,
+      "signal": true
+    },
+    {
+      "name": "Accenture",
+      "ticker": "ACN",
+      "week_of": "2026-09-07",
+      "close": 183.9,
+      "sma20": 165.43,
+      "pct_above_ma": 11.17,
+      "rsi14": 51.52,
+      "signal": false
+    },
+    {
+      "name": "Adobe Inc.",
+      "ticker": "ADBE",
+      "week_of": "2026-09-07",
+      "close": 252.23,
+      "sma20": 243.98,
+      "pct_above_ma": 3.38,
+      "rsi14": 48.43,
+      "signal": false
+    },
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "week_of": "2026-09-07",
+      "close": 516.13,
+      "sma20": 488.01,
+      "pct_above_ma": 5.76,
+      "rsi14": 61.63,
+      "signal": true
+    },
+    {
+      "name": "AES Corporation",
+      "ticker": "AES",
+      "week_of": "2026-09-07",
+      "close": 14.79,
+      "sma20": 14.55,
+      "pct_above_ma": 1.65,
+      "rsi14": 59.71,
+      "signal": false
+    },
+    {
+      "name": "Aflac",
+      "ticker": "AFL",
+      "week_of": "2026-09-07",
+      "close": 115.28,
+      "sma20": 118.26,
+      "pct_above_ma": -2.52,
+      "rsi14": 47.67,
+      "signal": false
+    },
+    {
+      "name": "Agilent Technologies",
+      "ticker": "A",
+      "week_of": "2026-09-07",
+      "close": 146.93,
+      "sma20": 134.85,
+      "pct_above_ma": 8.96,
+      "rsi14": 58.68,
+      "signal": false
+    },
+    {
+      "name": "Air Products",
+      "ticker": "APD",
+      "week_of": "2026-09-07",
+      "close": 291.43,
+      "sma20": 294.32,
+      "pct_above_ma": -0.98,
+      "rsi14": 49.76,
+      "signal": false
+    },
+    {
+      "name": "Airbnb",
+      "ticker": "ABNB",
+      "week_of": "2026-09-07",
+      "close": 170.19,
+      "sma20": 153.13,
+      "pct_above_ma": 11.14,
+      "rsi14": 60.84,
+      "signal": true
+    },
+    {
+      "name": "Akamai Technologies",
+      "ticker": "AKAM",
+      "week_of": "2026-09-07",
+      "close": 106.79,
+      "sma20": 123.79,
+      "pct_above_ma": -13.73,
+      "rsi14": 45.97,
+      "signal": false
+    },
+    {
+      "name": "Albemarle Corporation",
+      "ticker": "ALB",
+      "week_of": "2026-09-07",
+      "close": 117.52,
+      "sma20": 147.0,
+      "pct_above_ma": -20.05,
+      "rsi14": 39.87,
+      "signal": false
+    },
+    {
+      "name": "Alexandria Real Estate Equities",
+      "ticker": "ARE",
+      "week_of": "2026-09-07",
+      "close": 51.14,
+      "sma20": 49.77,
+      "pct_above_ma": 2.75,
+      "rsi14": 50.41,
+      "signal": false
+    },
+    {
+      "name": "Align Technology",
+      "ticker": "ALGN",
+      "week_of": "2026-09-07",
+      "close": 150.82,
+      "sma20": 170.4,
+      "pct_above_ma": -11.49,
+      "rsi14": 39.91,
+      "signal": false
+    },
+    {
+      "name": "Allegion",
+      "ticker": "ALLE",
+      "week_of": "2026-09-07",
+      "close": 153.35,
+      "sma20": 143.94,
+      "pct_above_ma": 6.54,
+      "rsi14": 53.0,
+      "signal": false
+    },
+    {
+      "name": "Alliant Energy",
+      "ticker": "LNT",
+      "week_of": "2026-09-07",
+      "close": 67.26,
+      "sma20": 71.87,
+      "pct_above_ma": -6.41,
+      "rsi14": 40.97,
+      "signal": false
+    },
+    {
+      "name": "Allstate",
+      "ticker": "ALL",
+      "week_of": "2026-09-07",
+      "close": 253.71,
+      "sma20": 239.09,
+      "pct_above_ma": 6.11,
+      "rsi14": 62.34,
+      "signal": true
+    },
+    {
+      "name": "Alphabet Inc. (Class A)",
+      "ticker": "GOOGL",
+      "week_of": "2026-09-07",
+      "close": 338.5,
+      "sma20": 359.15,
+      "pct_above_ma": -5.75,
+      "rsi14": 49.38,
+      "signal": false
+    },
+    {
+      "name": "Alphabet Inc. (Class C)",
+      "ticker": "GOOG",
+      "week_of": "2026-09-07",
+      "close": 335.45,
+      "sma20": 356.77,
+      "pct_above_ma": -5.98,
+      "rsi14": 48.98,
+      "signal": false
+    },
+    {
+      "name": "Altria",
+      "ticker": "MO",
+      "week_of": "2026-09-07",
+      "close": 68.98,
+      "sma20": 70.28,
+      "pct_above_ma": -1.85,
+      "rsi14": 52.03,
+      "signal": false
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "week_of": "2026-09-07",
+      "close": 256.78,
+      "sma20": 256.01,
+      "pct_above_ma": 0.3,
+      "rsi14": 53.21,
+      "signal": false
+    },
+    {
+      "name": "Amcor",
+      "ticker": "AMCR",
+      "week_of": "2026-09-07",
+      "close": 42.32,
+      "sma20": 41.96,
+      "pct_above_ma": 0.85,
+      "rsi14": 49.2,
+      "signal": false
+    },
+    {
+      "name": "Ameren",
+      "ticker": "AEE",
+      "week_of": "2026-09-07",
+      "close": 104.9,
+      "sma20": 108.96,
+      "pct_above_ma": -3.73,
+      "rsi14": 44.92,
+      "signal": false
+    },
+    {
+      "name": "American Electric Power",
+      "ticker": "AEP",
+      "week_of": "2026-09-07",
+      "close": 123.33,
+      "sma20": 128.56,
+      "pct_above_ma": -4.07,
+      "rsi14": 46.17,
+      "signal": false
+    },
+    {
+      "name": "American Express",
+      "ticker": "AXP",
+      "week_of": "2026-09-07",
+      "close": 324.69,
+      "sma20": 330.39,
+      "pct_above_ma": -1.72,
+      "rsi14": 46.69,
+      "signal": false
+    },
+    {
+      "name": "American International Group",
+      "ticker": "AIG",
+      "week_of": "2026-09-07",
+      "close": 75.33,
+      "sma20": 76.83,
+      "pct_above_ma": -1.95,
+      "rsi14": 45.62,
+      "signal": false
+    },
+    {
+      "name": "American Tower",
+      "ticker": "AMT",
+      "week_of": "2026-09-07",
+      "close": 177.85,
+      "sma20": 176.04,
+      "pct_above_ma": 1.03,
+      "rsi14": 51.65,
+      "signal": false
+    },
+    {
+      "name": "American Water Works",
+      "ticker": "AWK",
+      "week_of": "2026-09-07",
+      "close": 137.69,
+      "sma20": 130.71,
+      "pct_above_ma": 5.34,
+      "rsi14": 57.55,
+      "signal": false
+    },
+    {
+      "name": "Ameriprise Financial",
+      "ticker": "AMP",
+      "week_of": "2026-09-07",
+      "close": 557.61,
+      "sma20": 503.28,
+      "pct_above_ma": 10.79,
+      "rsi14": 67.75,
+      "signal": true
+    },
+    {
+      "name": "Ametek",
+      "ticker": "AME",
+      "week_of": "2026-09-07",
+      "close": 241.87,
+      "sma20": 236.02,
+      "pct_above_ma": 2.48,
+      "rsi14": 57.84,
+      "signal": false
+    },
+    {
+      "name": "Amgen",
+      "ticker": "AMGN",
+      "week_of": "2026-09-07",
+      "close": 377.35,
+      "sma20": 370.19,
+      "pct_above_ma": 1.93,
+      "rsi14": 51.2,
+      "signal": false
+    },
+    {
+      "name": "Amphenol",
+      "ticker": "APH",
+      "week_of": "2026-09-07",
+      "close": 83.92,
+      "sma20": 76.68,
+      "pct_above_ma": 9.43,
+      "rsi14": 59.96,
+      "signal": false
+    },
+    {
+      "name": "Analog Devices",
+      "ticker": "ADI",
+      "week_of": "2026-09-07",
+      "close": 378.78,
+      "sma20": 389.94,
+      "pct_above_ma": -2.86,
+      "rsi14": 53.68,
+      "signal": false
+    },
+    {
+      "name": "Aon plc",
+      "ticker": "AON",
+      "week_of": "2026-09-07",
+      "close": 302.69,
+      "sma20": 336.81,
+      "pct_above_ma": -10.13,
+      "rsi14": 35.77,
+      "signal": false
+    },
+    {
+      "name": "APA Corporation",
+      "ticker": "APA",
+      "week_of": "2026-09-07",
+      "close": 44.73,
+      "sma20": 37.63,
+      "pct_above_ma": 18.88,
+      "rsi14": 69.37,
+      "signal": true
+    },
+    {
+      "name": "Apollo Global Management",
+      "ticker": "APO",
+      "week_of": "2026-09-07",
+      "close": 128.98,
+      "sma20": 128.49,
+      "pct_above_ma": 0.38,
+      "rsi14": 51.22,
+      "signal": false
+    },
+    {
+      "name": "Apple Inc.",
+      "ticker": "AAPL",
+      "week_of": "2026-09-07",
+      "close": 332.27,
+      "sma20": 308.53,
+      "pct_above_ma": 7.7,
+      "rsi14": 64.12,
+      "signal": true
+    },
+    {
+      "name": "Applied Materials",
+      "ticker": "AMAT",
+      "week_of": "2026-09-07",
+      "close": 456.49,
+      "sma20": 504.39,
+      "pct_above_ma": -9.5,
+      "rsi14": 48.95,
+      "signal": false
+    },
+    {
+      "name": "AppLovin",
+      "ticker": "APP",
+      "week_of": "2026-09-07",
+      "close": 323.96,
+      "sma20": 435.09,
+      "pct_above_ma": -25.54,
+      "rsi14": 37.85,
+      "signal": false
+    },
+    {
+      "name": "Aptiv",
+      "ticker": "APTV",
+      "week_of": "2026-09-07",
+      "close": 45.54,
+      "sma20": 56.77,
+      "pct_above_ma": -19.77,
+      "rsi14": 30.55,
+      "signal": false
+    },
+    {
+      "name": "Arch Capital Group",
+      "ticker": "ACGL",
+      "week_of": "2026-09-07",
+      "close": 96.09,
+      "sma20": 96.85,
+      "pct_above_ma": -0.78,
+      "rsi14": 47.96,
+      "signal": false
+    },
+    {
+      "name": "Archer Daniels Midland",
+      "ticker": "ADM",
+      "week_of": "2026-09-07",
+      "close": 86.72,
+      "sma20": 79.62,
+      "pct_above_ma": 8.92,
+      "rsi14": 64.91,
+      "signal": true
+    },
+    {
+      "name": "Ares Management",
+      "ticker": "ARES",
+      "week_of": "2026-09-07",
+      "close": 131.64,
+      "sma20": 128.36,
+      "pct_above_ma": 2.55,
+      "rsi14": 50.65,
+      "signal": false
+    },
+    {
+      "name": "Arista Networks",
+      "ticker": "ANET",
+      "week_of": "2026-09-07",
+      "close": 199.59,
+      "sma20": 172.48,
+      "pct_above_ma": 15.72,
+      "rsi14": 63.53,
+      "signal": true
+    },
+    {
+      "name": "Arthur J. Gallagher & Co.",
+      "ticker": "AJG",
+      "week_of": "2026-09-07",
+      "close": 240.32,
+      "sma20": 233.14,
+      "pct_above_ma": 3.08,
+      "rsi14": 49.83,
+      "signal": false
+    },
+    {
+      "name": "Assurant",
+      "ticker": "AIZ",
+      "week_of": "2026-09-07",
+      "close": 282.46,
+      "sma20": 267.67,
+      "pct_above_ma": 5.53,
+      "rsi14": 68.24,
+      "signal": true
+    },
+    {
+      "name": "AT&T",
+      "ticker": "T",
+      "week_of": "2026-09-07",
+      "close": 26.06,
+      "sma20": 23.8,
+      "pct_above_ma": 9.51,
+      "rsi14": 57.07,
+      "signal": false
+    },
+    {
+      "name": "Atmos Energy",
+      "ticker": "ATO",
+      "week_of": "2026-09-07",
+      "close": 163.19,
+      "sma20": 172.18,
+      "pct_above_ma": -5.22,
+      "rsi14": 37.82,
+      "signal": false
+    },
+    {
+      "name": "Autodesk",
+      "ticker": "ADSK",
+      "week_of": "2026-09-07",
+      "close": 212.4,
+      "sma20": 227.0,
+      "pct_above_ma": -6.43,
+      "rsi14": 42.0,
+      "signal": false
+    },
+    {
+      "name": "Automatic Data Processing",
+      "ticker": "ADP",
+      "week_of": "2026-09-07",
+      "close": 268.26,
+      "sma20": 243.2,
+      "pct_above_ma": 10.3,
+      "rsi14": 60.54,
+      "signal": true
+    },
+    {
+      "name": "AutoZone",
+      "ticker": "AZO",
+      "week_of": "2026-09-07",
+      "close": 2876.75,
+      "sma20": 3118.16,
+      "pct_above_ma": -7.74,
+      "rsi14": 35.78,
+      "signal": false
+    },
+    {
+      "name": "Avery Dennison",
+      "ticker": "AVY",
+      "week_of": "2026-09-07",
+      "close": 169.38,
+      "sma20": 164.94,
+      "pct_above_ma": 2.69,
+      "rsi14": 50.12,
+      "signal": false
+    },
+    {
+      "name": "Axon Enterprise",
+      "ticker": "AXON",
+      "week_of": "2026-09-07",
+      "close": 479.34,
+      "sma20": 497.95,
+      "pct_above_ma": -3.74,
+      "rsi14": 46.09,
+      "signal": false
+    },
+    {
+      "name": "Baker Hughes",
+      "ticker": "BKR",
+      "week_of": "2026-09-07",
+      "close": 59.06,
+      "sma20": 61.11,
+      "pct_above_ma": -3.35,
+      "rsi14": 49.22,
+      "signal": false
+    },
+    {
+      "name": "Ball Corporation",
+      "ticker": "BALL",
+      "week_of": "2026-09-07",
+      "close": 59.9,
+      "sma20": 60.14,
+      "pct_above_ma": -0.41,
+      "rsi14": 48.91,
+      "signal": false
+    },
+    {
+      "name": "Bank of America",
+      "ticker": "BAC",
+      "week_of": "2026-09-07",
+      "close": 62.69,
+      "sma20": 57.79,
+      "pct_above_ma": 8.48,
+      "rsi14": 66.65,
+      "signal": true
+    },
+    {
+      "name": "Baxter International",
+      "ticker": "BAX",
+      "week_of": "2026-09-07",
+      "close": 23.8,
+      "sma20": 22.26,
+      "pct_above_ma": 6.9,
+      "rsi14": 54.78,
+      "signal": false
+    },
+    {
+      "name": "Becton Dickinson",
+      "ticker": "BDX",
+      "week_of": "2026-09-07",
+      "close": 177.85,
+      "sma20": 160.24,
+      "pct_above_ma": 10.99,
+      "rsi14": 60.35,
+      "signal": true
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "ticker": "BRK-B",
+      "week_of": "2026-09-07",
+      "close": 510.37,
+      "sma20": 495.0,
+      "pct_above_ma": 3.11,
+      "rsi14": 56.79,
+      "signal": false
+    },
+    {
+      "name": "Best Buy",
+      "ticker": "BBY",
+      "week_of": "2026-09-07",
+      "close": 90.8,
+      "sma20": 77.37,
+      "pct_above_ma": 17.36,
+      "rsi14": 65.45,
+      "signal": true
+    },
+    {
+      "name": "Bio-Techne",
+      "ticker": "TECH",
+      "week_of": "2026-09-07",
+      "close": 72.12,
+      "sma20": 63.6,
+      "pct_above_ma": 13.4,
+      "rsi14": 65.17,
+      "signal": true
+    },
+    {
+      "name": "Biogen",
+      "ticker": "BIIB",
+      "week_of": "2026-09-07",
+      "close": 217.15,
+      "sma20": 204.43,
+      "pct_above_ma": 6.22,
+      "rsi14": 63.45,
+      "signal": true
+    },
+    {
+      "name": "BlackRock",
+      "ticker": "BLK",
+      "week_of": "2026-09-07",
+      "close": 1079.65,
+      "sma20": 1067.0,
+      "pct_above_ma": 1.19,
+      "rsi14": 51.3,
+      "signal": false
+    },
+    {
+      "name": "Blackstone Inc.",
+      "ticker": "BX",
+      "week_of": "2026-09-07",
+      "close": 128.51,
+      "sma20": 126.22,
+      "pct_above_ma": 1.81,
+      "rsi14": 49.39,
+      "signal": false
+    },
+    {
+      "name": "Block, Inc.",
+      "ticker": "XYZ",
+      "week_of": "2026-09-07",
+      "close": 79.21,
+      "sma20": 76.76,
+      "pct_above_ma": 3.2,
+      "rsi14": 55.17,
+      "signal": false
+    },
+    {
+      "name": "BNY Mellon",
+      "ticker": "BNY",
+      "week_of": "2026-09-07",
+      "close": 162.66,
+      "sma20": 149.21,
+      "pct_above_ma": 9.01,
+      "rsi14": 73.32,
+      "signal": true
+    },
+    {
+      "name": "Boeing",
+      "ticker": "BA",
+      "week_of": "2026-09-07",
+      "close": 210.45,
+      "sma20": 220.56,
+      "pct_above_ma": -4.58,
+      "rsi14": 45.71,
+      "signal": false
+    },
+    {
+      "name": "Booking Holdings",
+      "ticker": "BKNG",
+      "week_of": "2026-09-07",
+      "close": 173.92,
+      "sma20": 180.79,
+      "pct_above_ma": -3.8,
+      "rsi14": 44.19,
+      "signal": false
+    },
+    {
+      "name": "Boston Scientific",
+      "ticker": "BSX",
+      "week_of": "2026-09-07",
+      "close": 42.98,
+      "sma20": 48.41,
+      "pct_above_ma": -11.22,
+      "rsi14": 31.39,
+      "signal": false
+    },
+    {
+      "name": "Bristol Myers Squibb",
+      "ticker": "BMY",
+      "week_of": "2026-09-07",
+      "close": 63.64,
+      "sma20": 60.23,
+      "pct_above_ma": 5.66,
+      "rsi14": 58.23,
+      "signal": false
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "week_of": "2026-09-07",
+      "close": 361.99,
+      "sma20": 392.83,
+      "pct_above_ma": -7.85,
+      "rsi14": 47.25,
+      "signal": false
+    },
+    {
+      "name": "Broadridge Financial Solutions",
+      "ticker": "BR",
+      "week_of": "2026-09-07",
+      "close": 167.74,
+      "sma20": 154.57,
+      "pct_above_ma": 8.52,
+      "rsi14": 51.25,
+      "signal": false
+    },
+    {
+      "name": "Brown & Brown",
+      "ticker": "BRO",
+      "week_of": "2026-09-07",
+      "close": 66.19,
+      "sma20": 64.75,
+      "pct_above_ma": 2.23,
+      "rsi14": 45.83,
+      "signal": false
+    },
+    {
+      "name": "Brown\u2013Forman",
+      "ticker": "BF-B",
+      "week_of": "2026-09-07",
+      "close": 26.22,
+      "sma20": 26.61,
+      "pct_above_ma": -1.45,
+      "rsi14": 46.89,
+      "signal": false
+    },
+    {
+      "name": "Builders FirstSource",
+      "ticker": "BLDR",
+      "week_of": "2026-09-07",
+      "close": 60.37,
+      "sma20": 74.02,
+      "pct_above_ma": -18.44,
+      "rsi14": 33.79,
+      "signal": false
+    },
+    {
+      "name": "Bunge Global",
+      "ticker": "BG",
+      "week_of": "2026-09-07",
+      "close": 122.41,
+      "sma20": 116.91,
+      "pct_above_ma": 4.7,
+      "rsi14": 57.45,
+      "signal": false
+    },
+    {
+      "name": "BXP, Inc.",
+      "ticker": "BXP",
+      "week_of": "2026-09-07",
+      "close": 64.7,
+      "sma20": 65.26,
+      "pct_above_ma": -0.86,
+      "rsi14": 49.48,
+      "signal": false
+    },
+    {
+      "name": "C.H. Robinson",
+      "ticker": "CHRW",
+      "week_of": "2026-09-07",
+      "close": 152.78,
+      "sma20": 170.37,
+      "pct_above_ma": -10.33,
+      "rsi14": 44.41,
+      "signal": false
+    },
+    {
+      "name": "Cadence Design Systems",
+      "ticker": "CDNS",
+      "week_of": "2026-09-07",
+      "close": 289.37,
+      "sma20": 349.22,
+      "pct_above_ma": -17.14,
+      "rsi14": 38.7,
+      "signal": false
+    },
+    {
+      "name": "Camden Property Trust",
+      "ticker": "CPT",
+      "week_of": "2026-09-07",
+      "close": 103.01,
+      "sma20": 109.07,
+      "pct_above_ma": -5.56,
+      "rsi14": 42.32,
+      "signal": false
+    },
+    {
+      "name": "Capital One",
+      "ticker": "COF",
+      "week_of": "2026-09-07",
+      "close": 208.3,
+      "sma20": 201.73,
+      "pct_above_ma": 3.25,
+      "rsi14": 51.56,
+      "signal": false
+    },
+    {
+      "name": "Cardinal Health",
+      "ticker": "CAH",
+      "week_of": "2026-09-07",
+      "close": 234.57,
+      "sma20": 221.77,
+      "pct_above_ma": 5.77,
+      "rsi14": 57.36,
+      "signal": false
+    },
+    {
+      "name": "Carnival Corporation",
+      "ticker": "CCL",
+      "week_of": "2026-09-07",
+      "close": 22.75,
+      "sma20": 26.75,
+      "pct_above_ma": -14.94,
+      "rsi14": 37.82,
+      "signal": false
+    },
+    {
+      "name": "Carrier Global",
+      "ticker": "CARR",
+      "week_of": "2026-09-07",
+      "close": 57.46,
+      "sma20": 65.37,
+      "pct_above_ma": -12.1,
+      "rsi14": 40.1,
+      "signal": false
+    },
+    {
+      "name": "Carvana",
+      "ticker": "CVNA",
+      "week_of": "2026-09-07",
+      "close": 69.16,
+      "sma20": 69.06,
+      "pct_above_ma": 0.15,
+      "rsi14": 49.39,
+      "signal": false
+    },
+    {
+      "name": "Casey's",
+      "ticker": "CASY",
+      "week_of": "2026-09-07",
+      "close": 615.47,
+      "sma20": 813.12,
+      "pct_above_ma": -24.31,
+      "rsi14": 34.31,
+      "signal": false
+    },
+    {
+      "name": "Caterpillar Inc.",
+      "ticker": "CAT",
+      "week_of": "2026-09-07",
+      "close": 818.57,
+      "sma20": 883.4,
+      "pct_above_ma": -7.34,
+      "rsi14": 49.61,
+      "signal": false
+    },
+    {
+      "name": "Cboe Global Markets",
+      "ticker": "CBOE",
+      "week_of": "2026-09-07",
+      "close": 281.04,
+      "sma20": 296.94,
+      "pct_above_ma": -5.36,
+      "rsi14": 48.01,
+      "signal": false
+    },
+    {
+      "name": "CBRE Group",
+      "ticker": "CBRE",
+      "week_of": "2026-09-07",
+      "close": 140.51,
+      "sma20": 140.41,
+      "pct_above_ma": 0.07,
+      "rsi14": 46.64,
+      "signal": false
+    },
+    {
+      "name": "CDW Corporation",
+      "ticker": "CDW",
+      "week_of": "2026-09-07",
+      "close": 153.79,
+      "sma20": 132.63,
+      "pct_above_ma": 15.96,
+      "rsi14": 60.86,
+      "signal": true
+    },
+    {
+      "name": "Cencora",
+      "ticker": "COR",
+      "week_of": "2026-09-07",
+      "close": 321.57,
+      "sma20": 296.4,
+      "pct_above_ma": 8.49,
+      "rsi14": 55.26,
+      "signal": false
+    },
+    {
+      "name": "Centene Corporation",
+      "ticker": "CNC",
+      "week_of": "2026-09-07",
+      "close": 66.42,
+      "sma20": 63.22,
+      "pct_above_ma": 5.07,
+      "rsi14": 63.37,
+      "signal": true
+    },
+    {
+      "name": "CenterPoint Energy",
+      "ticker": "CNP",
+      "week_of": "2026-09-07",
+      "close": 39.11,
+      "sma20": 41.83,
+      "pct_above_ma": -6.5,
+      "rsi14": 40.91,
+      "signal": false
+    },
+    {
+      "name": "CF Industries",
+      "ticker": "CF",
+      "week_of": "2026-09-07",
+      "close": 133.07,
+      "sma20": 118.62,
+      "pct_above_ma": 12.19,
+      "rsi14": 62.0,
+      "signal": true
+    },
+    {
+      "name": "Charles River Laboratories",
+      "ticker": "CRL",
+      "week_of": "2026-09-07",
+      "close": 278.26,
+      "sma20": 222.67,
+      "pct_above_ma": 24.97,
+      "rsi14": 68.72,
+      "signal": true
+    },
+    {
+      "name": "Charles Schwab Corporation",
+      "ticker": "SCHW",
+      "week_of": "2026-09-07",
+      "close": 107.25,
+      "sma20": 98.65,
+      "pct_above_ma": 8.72,
+      "rsi14": 62.14,
+      "signal": true
+    },
+    {
+      "name": "Charter Communications",
+      "ticker": "CHTR",
+      "week_of": "2026-09-07",
+      "close": 145.77,
+      "sma20": 143.5,
+      "pct_above_ma": 1.58,
+      "rsi14": 41.93,
+      "signal": false
+    },
+    {
+      "name": "Chevron Corporation",
+      "ticker": "CVX",
+      "week_of": "2026-09-07",
+      "close": 214.06,
+      "sma20": 188.33,
+      "pct_above_ma": 13.66,
+      "rsi14": 66.34,
+      "signal": true
+    },
+    {
+      "name": "Chipotle Mexican Grill",
+      "ticker": "CMG",
+      "week_of": "2026-09-07",
+      "close": 36.2,
+      "sma20": 33.94,
+      "pct_above_ma": 6.67,
+      "rsi14": 52.37,
+      "signal": false
+    },
+    {
+      "name": "Chubb Limited",
+      "ticker": "CB",
+      "week_of": "2026-09-07",
+      "close": 338.25,
+      "sma20": 336.49,
+      "pct_above_ma": 0.52,
+      "rsi14": 53.1,
+      "signal": false
+    },
+    {
+      "name": "Church & Dwight",
+      "ticker": "CHD",
+      "week_of": "2026-09-07",
+      "close": 94.15,
+      "sma20": 97.33,
+      "pct_above_ma": -3.27,
+      "rsi14": 45.14,
+      "signal": false
+    },
+    {
+      "name": "Ciena",
+      "ticker": "CIEN",
+      "week_of": "2026-09-07",
+      "close": 349.54,
+      "sma20": 447.76,
+      "pct_above_ma": -21.94,
+      "rsi14": 44.28,
+      "signal": false
+    },
+    {
+      "name": "Cigna",
+      "ticker": "CI",
+      "week_of": "2026-09-07",
+      "close": 280.76,
+      "sma20": 282.37,
+      "pct_above_ma": -0.57,
+      "rsi14": 50.56,
+      "signal": false
+    },
+    {
+      "name": "Cincinnati Financial",
+      "ticker": "CINF",
+      "week_of": "2026-09-07",
+      "close": 169.8,
+      "sma20": 172.03,
+      "pct_above_ma": -1.3,
+      "rsi14": 49.82,
+      "signal": false
+    },
+    {
+      "name": "Cintas",
+      "ticker": "CTAS",
+      "week_of": "2026-09-07",
+      "close": 201.5,
+      "sma20": 186.42,
+      "pct_above_ma": 8.09,
+      "rsi14": 59.62,
+      "signal": false
+    },
+    {
+      "name": "Cisco",
+      "ticker": "CSCO",
+      "week_of": "2026-09-07",
+      "close": 112.13,
+      "sma20": 113.54,
+      "pct_above_ma": -1.24,
+      "rsi14": 57.57,
+      "signal": false
+    },
+    {
+      "name": "Citigroup",
+      "ticker": "C",
+      "week_of": "2026-09-07",
+      "close": 138.82,
+      "sma20": 133.23,
+      "pct_above_ma": 4.19,
+      "rsi14": 60.43,
+      "signal": true
+    },
+    {
+      "name": "Citizens Financial Group",
+      "ticker": "CFG",
+      "week_of": "2026-09-07",
+      "close": 70.48,
+      "sma20": 68.16,
+      "pct_above_ma": 3.41,
+      "rsi14": 59.63,
+      "signal": false
+    },
+    {
+      "name": "Clorox",
+      "ticker": "CLX",
+      "week_of": "2026-09-07",
+      "close": 87.76,
+      "sma20": 95.24,
+      "pct_above_ma": -7.85,
+      "rsi14": 37.96,
+      "signal": false
+    },
+    {
+      "name": "CME Group",
+      "ticker": "CME",
+      "week_of": "2026-09-07",
+      "close": 275.54,
+      "sma20": 264.63,
+      "pct_above_ma": 4.12,
+      "rsi14": 52.82,
+      "signal": false
+    },
+    {
+      "name": "CMS Energy",
+      "ticker": "CMS",
+      "week_of": "2026-09-07",
+      "close": 67.15,
+      "sma20": 72.2,
+      "pct_above_ma": -6.99,
+      "rsi14": 36.97,
+      "signal": false
+    },
+    {
+      "name": "Coca-Cola Company (The)",
+      "ticker": "KO",
+      "week_of": "2026-09-07",
+      "close": 88.29,
+      "sma20": 83.49,
+      "pct_above_ma": 5.75,
+      "rsi14": 63.79,
+      "signal": true
+    },
+    {
+      "name": "Cognizant",
+      "ticker": "CTSH",
+      "week_of": "2026-09-07",
+      "close": 60.0,
+      "sma20": 51.9,
+      "pct_above_ma": 15.61,
+      "rsi14": 54.02,
+      "signal": false
+    },
+    {
+      "name": "Coherent Corp.",
+      "ticker": "COHR",
+      "week_of": "2026-09-07",
+      "close": 305.37,
+      "sma20": 333.0,
+      "pct_above_ma": -8.3,
+      "rsi14": 50.99,
+      "signal": false
+    },
+    {
+      "name": "Coinbase",
+      "ticker": "COIN",
+      "week_of": "2026-09-07",
+      "close": 175.26,
+      "sma20": 169.98,
+      "pct_above_ma": 3.1,
+      "rsi14": 48.46,
+      "signal": false
+    },
+    {
+      "name": "Colgate-Palmolive",
+      "ticker": "CL",
+      "week_of": "2026-09-07",
+      "close": 86.8,
+      "sma20": 90.11,
+      "pct_above_ma": -3.67,
+      "rsi14": 44.41,
+      "signal": false
+    },
+    {
+      "name": "Comcast",
+      "ticker": "CMCSA",
+      "week_of": "2026-09-07",
+      "close": 25.2,
+      "sma20": 24.65,
+      "pct_above_ma": 2.25,
+      "rsi14": 47.87,
+      "signal": false
+    },
+    {
+      "name": "Comfort Systems USA",
+      "ticker": "FIX",
+      "week_of": "2026-09-07",
+      "close": 1690.82,
+      "sma20": 1778.75,
+      "pct_above_ma": -4.94,
+      "rsi14": 53.66,
+      "signal": false
+    },
+    {
+      "name": "ConocoPhillips",
+      "ticker": "COP",
+      "week_of": "2026-09-07",
+      "close": 137.35,
+      "sma20": 118.91,
+      "pct_above_ma": 15.51,
+      "rsi14": 66.41,
+      "signal": true
+    },
+    {
+      "name": "Consolidated Edison",
+      "ticker": "ED",
+      "week_of": "2026-09-07",
+      "close": 106.46,
+      "sma20": 107.82,
+      "pct_above_ma": -1.27,
+      "rsi14": 48.32,
+      "signal": false
+    },
+    {
+      "name": "Constellation Brands",
+      "ticker": "STZ",
+      "week_of": "2026-09-07",
+      "close": 122.45,
+      "sma20": 137.55,
+      "pct_above_ma": -10.97,
+      "rsi14": 36.75,
+      "signal": false
+    },
+    {
+      "name": "Constellation Energy",
+      "ticker": "CEG",
+      "week_of": "2026-09-07",
+      "close": 284.75,
+      "sma20": 273.27,
+      "pct_above_ma": 4.2,
+      "rsi14": 51.0,
+      "signal": false
+    },
+    {
+      "name": "Cooper Companies (The)",
+      "ticker": "COO",
+      "week_of": "2026-09-07",
+      "close": 53.91,
+      "sma20": 67.92,
+      "pct_above_ma": -20.63,
+      "rsi14": 30.44,
+      "signal": false
+    },
+    {
+      "name": "Copart",
+      "ticker": "CPRT",
+      "week_of": "2026-09-07",
+      "close": 29.95,
+      "sma20": 31.12,
+      "pct_above_ma": -3.77,
+      "rsi14": 41.47,
+      "signal": false
+    },
+    {
+      "name": "Corning Inc.",
+      "ticker": "GLW",
+      "week_of": "2026-09-07",
+      "close": 166.4,
+      "sma20": 172.82,
+      "pct_above_ma": -3.71,
+      "rsi14": 53.21,
+      "signal": false
+    },
+    {
+      "name": "Corpay",
+      "ticker": "CPAY",
+      "week_of": "2026-09-07",
+      "close": 408.22,
+      "sma20": 367.76,
+      "pct_above_ma": 11.0,
+      "rsi14": 63.99,
+      "signal": true
+    },
+    {
+      "name": "Corteva",
+      "ticker": "CTVA",
+      "week_of": "2026-09-07",
+      "close": 83.9,
+      "sma20": 81.5,
+      "pct_above_ma": 2.94,
+      "rsi14": 55.15,
+      "signal": false
+    },
+    {
+      "name": "CoStar Group",
+      "ticker": "CSGP",
+      "week_of": "2026-09-07",
+      "close": 30.46,
+      "sma20": 31.32,
+      "pct_above_ma": -2.76,
+      "rsi14": 36.24,
+      "signal": false
+    },
+    {
+      "name": "Costco",
+      "ticker": "COST",
+      "week_of": "2026-09-07",
+      "close": 904.77,
+      "sma20": 960.6,
+      "pct_above_ma": -5.81,
+      "rsi14": 39.07,
+      "signal": false
+    },
+    {
+      "name": "CRH plc",
+      "ticker": "CRH",
+      "week_of": "2026-09-07",
+      "close": 88.55,
+      "sma20": 102.55,
+      "pct_above_ma": -13.65,
+      "rsi14": 34.02,
+      "signal": false
+    },
+    {
+      "name": "CrowdStrike",
+      "ticker": "CRWD",
+      "week_of": "2026-09-07",
+      "close": 206.74,
+      "sma20": 182.39,
+      "pct_above_ma": 13.35,
+      "rsi14": 61.4,
+      "signal": true
+    },
+    {
+      "name": "Crown Castle",
+      "ticker": "CCI",
+      "week_of": "2026-09-07",
+      "close": 75.62,
+      "sma20": 81.74,
+      "pct_above_ma": -7.48,
+      "rsi14": 39.95,
+      "signal": false
+    },
+    {
+      "name": "CSX Corporation",
+      "ticker": "CSX",
+      "week_of": "2026-09-07",
+      "close": 48.95,
+      "sma20": 48.28,
+      "pct_above_ma": 1.39,
+      "rsi14": 57.99,
+      "signal": false
+    },
+    {
+      "name": "Cummins",
+      "ticker": "CMI",
+      "week_of": "2026-09-07",
+      "close": 556.75,
+      "sma20": 640.91,
+      "pct_above_ma": -13.13,
+      "rsi14": 40.29,
+      "signal": false
+    },
+    {
+      "name": "CVS Health",
+      "ticker": "CVS",
+      "week_of": "2026-09-07",
+      "close": 94.66,
+      "sma20": 97.25,
+      "pct_above_ma": -2.66,
+      "rsi14": 52.7,
+      "signal": false
+    },
+    {
+      "name": "Danaher Corporation",
+      "ticker": "DHR",
+      "week_of": "2026-09-07",
+      "close": 200.14,
+      "sma20": 191.75,
+      "pct_above_ma": 4.38,
+      "rsi14": 50.89,
+      "signal": false
+    },
+    {
+      "name": "Darden Restaurants",
+      "ticker": "DRI",
+      "week_of": "2026-09-07",
+      "close": 209.89,
+      "sma20": 206.24,
+      "pct_above_ma": 1.77,
+      "rsi14": 52.82,
+      "signal": false
+    },
+    {
+      "name": "Datadog",
+      "ticker": "DDOG",
+      "week_of": "2026-09-07",
+      "close": 221.21,
+      "sma20": 231.63,
+      "pct_above_ma": -4.5,
+      "rsi14": 52.79,
+      "signal": false
+    },
+    {
+      "name": "DaVita",
+      "ticker": "DVA",
+      "week_of": "2026-09-07",
+      "close": 181.55,
+      "sma20": 201.64,
+      "pct_above_ma": -9.96,
+      "rsi14": 47.86,
+      "signal": false
+    },
+    {
+      "name": "Deckers Brands",
+      "ticker": "DECK",
+      "week_of": "2026-09-07",
+      "close": 81.27,
+      "sma20": 99.91,
+      "pct_above_ma": -18.66,
+      "rsi14": 33.09,
+      "signal": false
+    },
+    {
+      "name": "Deere & Company",
+      "ticker": "DE",
+      "week_of": "2026-09-07",
+      "close": 675.74,
+      "sma20": 601.91,
+      "pct_above_ma": 12.27,
+      "rsi14": 62.16,
+      "signal": true
+    },
+    {
+      "name": "Dell Technologies",
+      "ticker": "DELL",
+      "week_of": "2026-09-07",
+      "close": 567.29,
+      "sma20": 401.17,
+      "pct_above_ma": 41.41,
+      "rsi14": 74.85,
+      "signal": true
+    },
+    {
+      "name": "Delta Air Lines",
+      "ticker": "DAL",
+      "week_of": "2026-09-07",
+      "close": 79.91,
+      "sma20": 82.4,
+      "pct_above_ma": -3.03,
+      "rsi14": 50.96,
+      "signal": false
+    },
+    {
+      "name": "Devon Energy",
+      "ticker": "DVN",
+      "week_of": "2026-09-07",
+      "close": 50.23,
+      "sma20": 45.46,
+      "pct_above_ma": 10.49,
+      "rsi14": 61.11,
+      "signal": true
+    },
+    {
+      "name": "Dexcom",
+      "ticker": "DXCM",
+      "week_of": "2026-09-07",
+      "close": 83.03,
+      "sma20": 76.34,
+      "pct_above_ma": 8.77,
+      "rsi14": 57.28,
+      "signal": false
+    },
+    {
+      "name": "Diamondback Energy",
+      "ticker": "FANG",
+      "week_of": "2026-09-07",
+      "close": 204.97,
+      "sma20": 194.2,
+      "pct_above_ma": 5.55,
+      "rsi14": 57.65,
+      "signal": false
+    },
+    {
+      "name": "Digital Realty",
+      "ticker": "DLR",
+      "week_of": "2026-09-07",
+      "close": 188.58,
+      "sma20": 188.6,
+      "pct_above_ma": -0.01,
+      "rsi14": 52.08,
+      "signal": false
+    },
+    {
+      "name": "Dollar General",
+      "ticker": "DG",
+      "week_of": "2026-09-07",
+      "close": 124.58,
+      "sma20": 117.66,
+      "pct_above_ma": 5.88,
+      "rsi14": 52.13,
+      "signal": false
+    },
+    {
+      "name": "Dollar Tree",
+      "ticker": "DLTR",
+      "week_of": "2026-09-07",
+      "close": 118.17,
+      "sma20": 117.02,
+      "pct_above_ma": 0.98,
+      "rsi14": 49.22,
+      "signal": false
+    },
+    {
+      "name": "Dominion Energy",
+      "ticker": "D",
+      "week_of": "2026-09-07",
+      "close": 64.36,
+      "sma20": 66.49,
+      "pct_above_ma": -3.2,
+      "rsi14": 47.62,
+      "signal": false
+    },
+    {
+      "name": "Domino's",
+      "ticker": "DPZ",
+      "week_of": "2026-09-07",
+      "close": 311.6,
+      "sma20": 324.05,
+      "pct_above_ma": -3.84,
+      "rsi14": 40.14,
+      "signal": false
+    },
+    {
+      "name": "DoorDash",
+      "ticker": "DASH",
+      "week_of": "2026-09-07",
+      "close": 201.95,
+      "sma20": 186.33,
+      "pct_above_ma": 8.38,
+      "rsi14": 52.89,
+      "signal": false
+    },
+    {
+      "name": "Dover Corporation",
+      "ticker": "DOV",
+      "week_of": "2026-09-07",
+      "close": 189.05,
+      "sma20": 209.9,
+      "pct_above_ma": -9.93,
+      "rsi14": 36.6,
+      "signal": false
+    },
+    {
+      "name": "Dow Inc.",
+      "ticker": "DOW",
+      "week_of": "2026-09-07",
+      "close": 29.03,
+      "sma20": 31.73,
+      "pct_above_ma": -8.51,
+      "rsi14": 44.74,
+      "signal": false
+    },
+    {
+      "name": "D. R. Horton",
+      "ticker": "DHI",
+      "week_of": "2026-09-07",
+      "close": 137.89,
+      "sma20": 148.33,
+      "pct_above_ma": -7.04,
+      "rsi14": 42.07,
+      "signal": false
+    },
+    {
+      "name": "DTE Energy",
+      "ticker": "DTE",
+      "week_of": "2026-09-07",
+      "close": 132.58,
+      "sma20": 143.38,
+      "pct_above_ma": -7.53,
+      "rsi14": 37.42,
+      "signal": false
+    },
+    {
+      "name": "Duke Energy",
+      "ticker": "DUK",
+      "week_of": "2026-09-07",
+      "close": 119.42,
+      "sma20": 123.48,
+      "pct_above_ma": -3.29,
+      "rsi14": 43.45,
+      "signal": false
+    },
+    {
+      "name": "DuPont",
+      "ticker": "DD",
+      "week_of": "2026-09-07",
+      "close": 126.99,
+      "sma20": 139.31,
+      "pct_above_ma": -8.84,
+      "rsi14": 41.29,
+      "signal": false
+    },
+    {
+      "name": "Eaton Corporation",
+      "ticker": "ETN",
+      "week_of": "2026-09-07",
+      "close": 425.37,
+      "sma20": 409.93,
+      "pct_above_ma": 3.77,
+      "rsi14": 56.99,
+      "signal": false
+    },
+    {
+      "name": "eBay Inc.",
+      "ticker": "EBAY",
+      "week_of": "2026-09-07",
+      "close": 107.75,
+      "sma20": 109.18,
+      "pct_above_ma": -1.31,
+      "rsi14": 53.99,
+      "signal": false
+    },
+    {
+      "name": "EchoStar",
+      "ticker": "ECHO",
+      "week_of": "2026-09-07",
+      "close": 93.14,
+      "sma20": 103.89,
+      "pct_above_ma": -10.35,
+      "rsi14": 45.16,
+      "signal": false
+    },
+    {
+      "name": "Ecolab",
+      "ticker": "ECL",
+      "week_of": "2026-09-07",
+      "close": 276.18,
+      "sma20": 270.2,
+      "pct_above_ma": 2.21,
+      "rsi14": 51.56,
+      "signal": false
+    },
+    {
+      "name": "Edison International",
+      "ticker": "EIX",
+      "week_of": "2026-09-07",
+      "close": 56.0,
+      "sma20": 70.53,
+      "pct_above_ma": -20.61,
+      "rsi14": 32.56,
+      "signal": false
+    },
+    {
+      "name": "Edwards Lifesciences",
+      "ticker": "EW",
+      "week_of": "2026-09-07",
+      "close": 84.37,
+      "sma20": 87.17,
+      "pct_above_ma": -3.21,
+      "rsi14": 47.02,
+      "signal": false
+    },
+    {
+      "name": "Elevance Health",
+      "ticker": "ELV",
+      "week_of": "2026-09-07",
+      "close": 418.72,
+      "sma20": 393.46,
+      "pct_above_ma": 6.42,
+      "rsi14": 63.43,
+      "signal": true
+    },
+    {
+      "name": "Emcor",
+      "ticker": "EME",
+      "week_of": "2026-09-07",
+      "close": 780.66,
+      "sma20": 811.6,
+      "pct_above_ma": -3.81,
+      "rsi14": 50.51,
+      "signal": false
+    },
+    {
+      "name": "Emerson Electric",
+      "ticker": "EMR",
+      "week_of": "2026-09-07",
+      "close": 152.19,
+      "sma20": 145.66,
+      "pct_above_ma": 4.48,
+      "rsi14": 55.54,
+      "signal": false
+    },
+    {
+      "name": "Entergy",
+      "ticker": "ETR",
+      "week_of": "2026-09-07",
+      "close": 105.33,
+      "sma20": 110.12,
+      "pct_above_ma": -4.35,
+      "rsi14": 46.83,
+      "signal": false
+    },
+    {
+      "name": "EOG Resources",
+      "ticker": "EOG",
+      "week_of": "2026-09-07",
+      "close": 147.36,
+      "sma20": 138.8,
+      "pct_above_ma": 6.17,
+      "rsi14": 57.82,
+      "signal": false
+    },
+    {
+      "name": "EQT Corporation",
+      "ticker": "EQT",
+      "week_of": "2026-09-07",
+      "close": 54.07,
+      "sma20": 53.56,
+      "pct_above_ma": 0.95,
+      "rsi14": 49.28,
+      "signal": false
+    },
+    {
+      "name": "Equifax",
+      "ticker": "EFX",
+      "week_of": "2026-09-07",
+      "close": 169.0,
+      "sma20": 171.63,
+      "pct_above_ma": -1.53,
+      "rsi14": 44.41,
+      "signal": false
+    },
+    {
+      "name": "Equinix",
+      "ticker": "EQIX",
+      "week_of": "2026-09-07",
+      "close": 1037.72,
+      "sma20": 1054.65,
+      "pct_above_ma": -1.61,
+      "rsi14": 52.67,
+      "signal": false
+    },
+    {
+      "name": "Erie Indemnity",
+      "ticker": "ERIE",
+      "week_of": "2026-09-07",
+      "close": 245.03,
+      "sma20": 235.89,
+      "pct_above_ma": 3.88,
+      "rsi14": 48.47,
+      "signal": false
+    },
+    {
+      "name": "Essex Property Trust",
+      "ticker": "ESS",
+      "week_of": "2026-09-07",
+      "close": 272.91,
+      "sma20": 281.12,
+      "pct_above_ma": -2.92,
+      "rsi14": 48.12,
+      "signal": false
+    },
+    {
+      "name": "Est\u00e9e Lauder Companies (The)",
+      "ticker": "EL",
+      "week_of": "2026-09-07",
+      "close": 97.12,
+      "sma20": 87.42,
+      "pct_above_ma": 11.09,
+      "rsi14": 56.24,
+      "signal": false
+    },
+    {
+      "name": "Everest Group",
+      "ticker": "EG",
+      "week_of": "2026-09-07",
+      "close": 371.71,
+      "sma20": 358.91,
+      "pct_above_ma": 3.57,
+      "rsi14": 58.82,
+      "signal": false
+    },
+    {
+      "name": "Evergy",
+      "ticker": "EVRG",
+      "week_of": "2026-09-07",
+      "close": 81.62,
+      "sma20": 82.82,
+      "pct_above_ma": -1.44,
+      "rsi14": 50.65,
+      "signal": false
+    },
+    {
+      "name": "Eversource Energy",
+      "ticker": "ES",
+      "week_of": "2026-09-07",
+      "close": 68.52,
+      "sma20": 70.93,
+      "pct_above_ma": -3.4,
+      "rsi14": 44.94,
+      "signal": false
+    },
+    {
+      "name": "Exelon",
+      "ticker": "EXC",
+      "week_of": "2026-09-07",
+      "close": 43.16,
+      "sma20": 45.06,
+      "pct_above_ma": -4.22,
+      "rsi14": 41.78,
+      "signal": false
+    },
+    {
+      "name": "Expand Energy",
+      "ticker": "EXE",
+      "week_of": "2026-09-07",
+      "close": 94.83,
+      "sma20": 92.84,
+      "pct_above_ma": 2.14,
+      "rsi14": 48.82,
+      "signal": false
+    },
+    {
+      "name": "Expedia Group",
+      "ticker": "EXPE",
+      "week_of": "2026-09-07",
+      "close": 280.83,
+      "sma20": 266.27,
+      "pct_above_ma": 5.47,
+      "rsi14": 52.99,
+      "signal": false
+    },
+    {
+      "name": "Expeditors International",
+      "ticker": "EXPD",
+      "week_of": "2026-09-07",
+      "close": 192.6,
+      "sma20": 170.58,
+      "pct_above_ma": 12.91,
+      "rsi14": 69.23,
+      "signal": true
+    },
+    {
+      "name": "Extra Space Storage",
+      "ticker": "EXR",
+      "week_of": "2026-09-07",
+      "close": 137.64,
+      "sma20": 144.54,
+      "pct_above_ma": -4.77,
+      "rsi14": 43.19,
+      "signal": false
+    },
+    {
+      "name": "ExxonMobil",
+      "ticker": "XOM",
+      "week_of": "2026-09-07",
+      "close": 165.99,
+      "sma20": 150.28,
+      "pct_above_ma": 10.46,
+      "rsi14": 62.47,
+      "signal": true
+    },
+    {
+      "name": "F5, Inc.",
+      "ticker": "FFIV",
+      "week_of": "2026-09-07",
+      "close": 411.71,
+      "sma20": 390.67,
+      "pct_above_ma": 5.39,
+      "rsi14": 63.31,
+      "signal": true
+    },
+    {
+      "name": "FactSet",
+      "ticker": "FDS",
+      "week_of": "2026-09-07",
+      "close": 259.71,
+      "sma20": 254.11,
+      "pct_above_ma": 2.21,
+      "rsi14": 49.52,
+      "signal": false
+    },
+    {
+      "name": "Fair Isaac",
+      "ticker": "FICO",
+      "week_of": "2026-09-07",
+      "close": 985.39,
+      "sma20": 1142.83,
+      "pct_above_ma": -13.78,
+      "rsi14": 40.07,
+      "signal": false
+    },
+    {
+      "name": "Fastenal",
+      "ticker": "FAST",
+      "week_of": "2026-09-07",
+      "close": 49.32,
+      "sma20": 47.09,
+      "pct_above_ma": 4.74,
+      "rsi14": 57.3,
+      "signal": false
+    },
+    {
+      "name": "Federal Realty Investment Trust",
+      "ticker": "FRT",
+      "week_of": "2026-09-07",
+      "close": 114.36,
+      "sma20": 119.42,
+      "pct_above_ma": -4.24,
+      "rsi14": 48.2,
+      "signal": false
+    },
+    {
+      "name": "FedEx",
+      "ticker": "FDX",
+      "week_of": "2026-09-07",
+      "close": 310.77,
+      "sma20": 318.03,
+      "pct_above_ma": -2.28,
+      "rsi14": 52.13,
+      "signal": false
+    },
+    {
+      "name": "Ferguson Enterprises",
+      "ticker": "FERG",
+      "week_of": "2026-09-07",
+      "close": 222.54,
+      "sma20": 233.87,
+      "pct_above_ma": -4.84,
+      "rsi14": 43.32,
+      "signal": false
+    },
+    {
+      "name": "Fidelity National Information Services",
+      "ticker": "FIS",
+      "week_of": "2026-09-07",
+      "close": 38.14,
+      "sma20": 41.19,
+      "pct_above_ma": -7.4,
+      "rsi14": 35.13,
+      "signal": false
+    },
+    {
+      "name": "Fifth Third Bancorp",
+      "ticker": "FITB",
+      "week_of": "2026-09-07",
+      "close": 54.72,
+      "sma20": 53.97,
+      "pct_above_ma": 1.4,
+      "rsi14": 55.47,
+      "signal": false
+    },
+    {
+      "name": "First Solar",
+      "ticker": "FSLR",
+      "week_of": "2026-09-07",
+      "close": 209.03,
+      "sma20": 232.94,
+      "pct_above_ma": -10.27,
+      "rsi14": 45.81,
+      "signal": false
+    },
+    {
+      "name": "FirstEnergy",
+      "ticker": "FE",
+      "week_of": "2026-09-07",
+      "close": 46.13,
+      "sma20": 46.6,
+      "pct_above_ma": -1.01,
+      "rsi14": 47.01,
+      "signal": false
+    },
+    {
+      "name": "Fiserv",
+      "ticker": "FISV",
+      "week_of": "2026-09-07",
+      "close": 51.58,
+      "sma20": 53.38,
+      "pct_above_ma": -3.38,
+      "rsi14": 38.57,
+      "signal": false
+    },
+    {
+      "name": "Flex Ltd.",
+      "ticker": "FLEX",
+      "week_of": "2026-09-07",
+      "close": 115.78,
+      "sma20": 128.44,
+      "pct_above_ma": -9.86,
+      "rsi14": 52.96,
+      "signal": false
+    },
+    {
+      "name": "Ford Motor Company",
+      "ticker": "F",
+      "week_of": "2026-09-07",
+      "close": 13.97,
+      "sma20": 14.06,
+      "pct_above_ma": -0.64,
+      "rsi14": 51.75,
+      "signal": false
+    },
+    {
+      "name": "Fortinet",
+      "ticker": "FTNT",
+      "week_of": "2026-09-07",
+      "close": 156.07,
+      "sma20": 146.17,
+      "pct_above_ma": 6.78,
+      "rsi14": 64.26,
+      "signal": true
+    },
+    {
+      "name": "Fortive",
+      "ticker": "FTV",
+      "week_of": "2026-09-07",
+      "close": 54.69,
+      "sma20": 60.03,
+      "pct_above_ma": -8.9,
+      "rsi14": 39.0,
+      "signal": false
+    },
+    {
+      "name": "Fox Corporation (Class A)",
+      "ticker": "FOXA",
+      "week_of": "2026-09-07",
+      "close": 65.94,
+      "sma20": 61.62,
+      "pct_above_ma": 7.01,
+      "rsi14": 55.52,
+      "signal": false
+    },
+    {
+      "name": "Fox Corporation (Class B)",
+      "ticker": "FOX",
+      "week_of": "2026-09-07",
+      "close": 58.45,
+      "sma20": 55.14,
+      "pct_above_ma": 6.0,
+      "rsi14": 54.8,
+      "signal": false
+    },
+    {
+      "name": "Franklin Resources",
+      "ticker": "BEN",
+      "week_of": "2026-09-07",
+      "close": 33.65,
+      "sma20": 32.66,
+      "pct_above_ma": 3.03,
+      "rsi14": 64.63,
+      "signal": true
+    },
+    {
+      "name": "Freeport-McMoRan",
+      "ticker": "FCX",
+      "week_of": "2026-09-07",
+      "close": 71.07,
+      "sma20": 65.46,
+      "pct_above_ma": 8.57,
+      "rsi14": 57.49,
+      "signal": false
+    },
+    {
+      "name": "Garmin",
+      "ticker": "GRMN",
+      "week_of": "2026-09-07",
+      "close": 282.67,
+      "sma20": 256.43,
+      "pct_above_ma": 10.23,
+      "rsi14": 59.97,
+      "signal": false
+    },
+    {
+      "name": "Gartner",
+      "ticker": "IT",
+      "week_of": "2026-09-07",
+      "close": 179.59,
+      "sma20": 158.82,
+      "pct_above_ma": 13.08,
+      "rsi14": 52.67,
+      "signal": false
+    },
+    {
+      "name": "GE Aerospace",
+      "ticker": "GE",
+      "week_of": "2026-09-07",
+      "close": 323.66,
+      "sma20": 338.36,
+      "pct_above_ma": -4.35,
+      "rsi14": 46.52,
+      "signal": false
+    },
+    {
+      "name": "GE HealthCare",
+      "ticker": "GEHC",
+      "week_of": "2026-09-07",
+      "close": 63.93,
+      "sma20": 65.77,
+      "pct_above_ma": -2.79,
+      "rsi14": 43.38,
+      "signal": false
+    },
+    {
+      "name": "GE Vernova",
+      "ticker": "GEV",
+      "week_of": "2026-09-07",
+      "close": 957.27,
+      "sma20": 1013.7,
+      "pct_above_ma": -5.57,
+      "rsi14": 50.37,
+      "signal": false
+    },
+    {
+      "name": "Gen Digital",
+      "ticker": "GEN",
+      "week_of": "2026-09-07",
+      "close": 30.26,
+      "sma20": 26.22,
+      "pct_above_ma": 15.42,
+      "rsi14": 65.0,
+      "signal": true
+    },
+    {
+      "name": "Generac",
+      "ticker": "GNRC",
+      "week_of": "2026-09-07",
+      "close": 186.99,
+      "sma20": 235.92,
+      "pct_above_ma": -20.74,
+      "rsi14": 40.01,
+      "signal": false
+    },
+    {
+      "name": "General Dynamics",
+      "ticker": "GD",
+      "week_of": "2026-09-07",
+      "close": 355.9,
+      "sma20": 363.02,
+      "pct_above_ma": -1.96,
+      "rsi14": 47.81,
+      "signal": false
+    },
+    {
+      "name": "General Mills",
+      "ticker": "GIS",
+      "week_of": "2026-09-07",
+      "close": 35.85,
+      "sma20": 35.82,
+      "pct_above_ma": 0.08,
+      "rsi14": 44.93,
+      "signal": false
+    },
+    {
+      "name": "General Motors",
+      "ticker": "GM",
+      "week_of": "2026-09-07",
+      "close": 85.62,
+      "sma20": 81.6,
+      "pct_above_ma": 4.93,
+      "rsi14": 57.58,
+      "signal": false
+    },
+    {
+      "name": "Genuine Parts Company",
+      "ticker": "GPC",
+      "week_of": "2026-09-07",
+      "close": 133.68,
+      "sma20": 117.48,
+      "pct_above_ma": 13.78,
+      "rsi14": 60.54,
+      "signal": true
+    },
+    {
+      "name": "Gilead Sciences",
+      "ticker": "GILD",
+      "week_of": "2026-09-07",
+      "close": 143.72,
+      "sma20": 133.74,
+      "pct_above_ma": 7.46,
+      "rsi14": 58.71,
+      "signal": false
+    },
+    {
+      "name": "Global Payments",
+      "ticker": "GPN",
+      "week_of": "2026-09-07",
+      "close": 88.29,
+      "sma20": 78.28,
+      "pct_above_ma": 12.79,
+      "rsi14": 59.93,
+      "signal": false
+    },
+    {
+      "name": "Globe Life",
+      "ticker": "GL",
+      "week_of": "2026-09-07",
+      "close": 171.17,
+      "sma20": 169.78,
+      "pct_above_ma": 0.82,
+      "rsi14": 55.64,
+      "signal": false
+    },
+    {
+      "name": "GoDaddy",
+      "ticker": "GDDY",
+      "week_of": "2026-09-07",
+      "close": 98.07,
+      "sma20": 89.56,
+      "pct_above_ma": 9.5,
+      "rsi14": 53.51,
+      "signal": false
+    },
+    {
+      "name": "Goldman Sachs",
+      "ticker": "GS",
+      "week_of": "2026-09-07",
+      "close": 1029.18,
+      "sma20": 1018.94,
+      "pct_above_ma": 1.01,
+      "rsi14": 58.92,
+      "signal": false
+    },
+    {
+      "name": "Halliburton",
+      "ticker": "HAL",
+      "week_of": "2026-09-07",
+      "close": 35.84,
+      "sma20": 36.33,
+      "pct_above_ma": -1.34,
+      "rsi14": 52.61,
+      "signal": false
+    },
+    {
+      "name": "Hartford (The)",
+      "ticker": "HIG",
+      "week_of": "2026-09-07",
+      "close": 136.36,
+      "sma20": 135.25,
+      "pct_above_ma": 0.82,
+      "rsi14": 51.17,
+      "signal": false
+    },
+    {
+      "name": "Hasbro",
+      "ticker": "HAS",
+      "week_of": "2026-09-07",
+      "close": 91.54,
+      "sma20": 88.6,
+      "pct_above_ma": 3.32,
+      "rsi14": 54.65,
+      "signal": false
+    },
+    {
+      "name": "HCA Healthcare",
+      "ticker": "HCA",
+      "week_of": "2026-09-07",
+      "close": 426.94,
+      "sma20": 402.72,
+      "pct_above_ma": 6.01,
+      "rsi14": 51.61,
+      "signal": false
+    },
+    {
+      "name": "Healthpeak Properties",
+      "ticker": "DOC",
+      "week_of": "2026-09-07",
+      "close": 20.2,
+      "sma20": 20.29,
+      "pct_above_ma": -0.47,
+      "rsi14": 53.62,
+      "signal": false
+    },
+    {
+      "name": "Henry Schein",
+      "ticker": "HSIC",
+      "week_of": "2026-09-07",
+      "close": 88.36,
+      "sma20": 82.79,
+      "pct_above_ma": 6.73,
+      "rsi14": 61.38,
+      "signal": true
+    },
+    {
+      "name": "Hershey Company (The)",
+      "ticker": "HSY",
+      "week_of": "2026-09-07",
+      "close": 173.32,
+      "sma20": 179.66,
+      "pct_above_ma": -3.53,
+      "rsi14": 42.84,
+      "signal": false
+    },
+    {
+      "name": "Hewlett Packard Enterprise",
+      "ticker": "HPE",
+      "week_of": "2026-09-07",
+      "close": 62.09,
+      "sma20": 46.21,
+      "pct_above_ma": 34.35,
+      "rsi14": 73.64,
+      "signal": true
+    },
+    {
+      "name": "Hilton Worldwide",
+      "ticker": "HLT",
+      "week_of": "2026-09-07",
+      "close": 306.19,
+      "sma20": 325.96,
+      "pct_above_ma": -6.07,
+      "rsi14": 42.85,
+      "signal": false
+    },
+    {
+      "name": "Home Depot (The)",
+      "ticker": "HD",
+      "week_of": "2026-09-07",
+      "close": 308.74,
+      "sma20": 326.56,
+      "pct_above_ma": -5.46,
+      "rsi14": 40.37,
+      "signal": false
+    },
+    {
+      "name": "Honeywell Technologies",
+      "ticker": "HON",
+      "week_of": "2026-09-07",
+      "close": 202.36,
+      "sma20": 228.89,
+      "pct_above_ma": -11.59,
+      "rsi14": 37.47,
+      "signal": false
+    },
+    {
+      "name": "Hormel Foods",
+      "ticker": "HRL",
+      "week_of": "2026-09-07",
+      "close": 20.57,
+      "sma20": 23.23,
+      "pct_above_ma": -11.44,
+      "rsi14": 37.26,
+      "signal": false
+    },
+    {
+      "name": "Host Hotels & Resorts",
+      "ticker": "HST",
+      "week_of": "2026-09-07",
+      "close": 22.24,
+      "sma20": 22.9,
+      "pct_above_ma": -2.89,
+      "rsi14": 52.68,
+      "signal": false
+    },
+    {
+      "name": "Howmet Aerospace",
+      "ticker": "HWM",
+      "week_of": "2026-09-07",
+      "close": 229.61,
+      "sma20": 266.4,
+      "pct_above_ma": -13.81,
+      "rsi14": 38.96,
+      "signal": false
+    },
+    {
+      "name": "HP Inc.",
+      "ticker": "HPQ",
+      "week_of": "2026-09-07",
+      "close": 35.48,
+      "sma20": 26.0,
+      "pct_above_ma": 36.49,
+      "rsi14": 78.02,
+      "signal": true
+    },
+    {
+      "name": "Hubbell Incorporated",
+      "ticker": "HUBB",
+      "week_of": "2026-09-07",
+      "close": 460.4,
+      "sma20": 484.63,
+      "pct_above_ma": -5.0,
+      "rsi14": 44.08,
+      "signal": false
+    },
+    {
+      "name": "Humana",
+      "ticker": "HUM",
+      "week_of": "2026-09-07",
+      "close": 409.8,
+      "sma20": 359.35,
+      "pct_above_ma": 14.04,
+      "rsi14": 69.85,
+      "signal": true
+    },
+    {
+      "name": "Huntington Bancshares",
+      "ticker": "HBAN",
+      "week_of": "2026-09-07",
+      "close": 16.86,
+      "sma20": 16.99,
+      "pct_above_ma": -0.76,
+      "rsi14": 49.31,
+      "signal": false
+    },
+    {
+      "name": "Huntington Ingalls Industries",
+      "ticker": "HII",
+      "week_of": "2026-09-07",
+      "close": 279.69,
+      "sma20": 301.56,
+      "pct_above_ma": -7.25,
+      "rsi14": 39.32,
+      "signal": false
+    },
+    {
+      "name": "IBM",
+      "ticker": "IBM",
+      "week_of": "2026-09-07",
+      "close": 243.29,
+      "sma20": 246.54,
+      "pct_above_ma": -1.32,
+      "rsi14": 48.75,
+      "signal": false
+    },
+    {
+      "name": "IDEX Corporation",
+      "ticker": "IEX",
+      "week_of": "2026-09-07",
+      "close": 224.21,
+      "sma20": 222.32,
+      "pct_above_ma": 0.85,
+      "rsi14": 56.77,
+      "signal": false
+    },
+    {
+      "name": "Idexx Laboratories",
+      "ticker": "IDXX",
+      "week_of": "2026-09-07",
+      "close": 504.7,
+      "sma20": 554.89,
+      "pct_above_ma": -9.04,
+      "rsi14": 35.07,
+      "signal": false
+    },
+    {
+      "name": "Illinois Tool Works",
+      "ticker": "ITW",
+      "week_of": "2026-09-07",
+      "close": 268.16,
+      "sma20": 268.06,
+      "pct_above_ma": 0.04,
+      "rsi14": 48.71,
+      "signal": false
+    },
+    {
+      "name": "Incyte",
+      "ticker": "INCY",
+      "week_of": "2026-09-07",
+      "close": 121.47,
+      "sma20": 111.83,
+      "pct_above_ma": 8.62,
+      "rsi14": 61.28,
+      "signal": true
+    },
+    {
+      "name": "Ingersoll Rand",
+      "ticker": "IR",
+      "week_of": "2026-09-07",
+      "close": 72.93,
+      "sma20": 78.0,
+      "pct_above_ma": -6.5,
+      "rsi14": 39.68,
+      "signal": false
+    },
+    {
+      "name": "Insulet Corporation",
+      "ticker": "PODD",
+      "week_of": "2026-09-07",
+      "close": 131.96,
+      "sma20": 152.95,
+      "pct_above_ma": -13.73,
+      "rsi14": 29.0,
+      "signal": false
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "week_of": "2026-09-07",
+      "close": 102.94,
+      "sma20": 107.2,
+      "pct_above_ma": -3.98,
+      "rsi14": 56.0,
+      "signal": false
+    },
+    {
+      "name": "Interactive Brokers",
+      "ticker": "IBKR",
+      "week_of": "2026-09-07",
+      "close": 91.37,
+      "sma20": 89.43,
+      "pct_above_ma": 2.17,
+      "rsi14": 57.41,
+      "signal": false
+    },
+    {
+      "name": "Intercontinental Exchange",
+      "ticker": "ICE",
+      "week_of": "2026-09-07",
+      "close": 157.4,
+      "sma20": 147.75,
+      "pct_above_ma": 6.53,
+      "rsi14": 54.69,
+      "signal": false
+    },
+    {
+      "name": "International Flavors & Fragrances",
+      "ticker": "IFF",
+      "week_of": "2026-09-07",
+      "close": 83.61,
+      "sma20": 79.24,
+      "pct_above_ma": 5.51,
+      "rsi14": 56.17,
+      "signal": false
+    },
+    {
+      "name": "International Paper",
+      "ticker": "IP",
+      "week_of": "2026-09-07",
+      "close": 34.36,
+      "sma20": 36.48,
+      "pct_above_ma": -5.82,
+      "rsi14": 42.07,
+      "signal": false
+    },
+    {
+      "name": "Intuit",
+      "ticker": "INTU",
+      "week_of": "2026-09-07",
+      "close": 321.57,
+      "sma20": 321.89,
+      "pct_above_ma": -0.1,
+      "rsi14": 41.49,
+      "signal": false
+    },
+    {
+      "name": "Intuitive Surgical",
+      "ticker": "ISRG",
+      "week_of": "2026-09-07",
+      "close": 369.15,
+      "sma20": 398.3,
+      "pct_above_ma": -7.32,
+      "rsi14": 38.57,
+      "signal": false
+    },
+    {
+      "name": "Invesco",
+      "ticker": "IVZ",
+      "week_of": "2026-09-07",
+      "close": 32.28,
+      "sma20": 29.15,
+      "pct_above_ma": 10.74,
+      "rsi14": 66.18,
+      "signal": true
+    },
+    {
+      "name": "Invitation Homes",
+      "ticker": "INVH",
+      "week_of": "2026-09-07",
+      "close": 27.54,
+      "sma20": 29.28,
+      "pct_above_ma": -5.95,
+      "rsi14": 43.38,
+      "signal": false
+    },
+    {
+      "name": "IQVIA",
+      "ticker": "IQV",
+      "week_of": "2026-09-07",
+      "close": 261.77,
+      "sma20": 208.51,
+      "pct_above_ma": 25.54,
+      "rsi14": 70.72,
+      "signal": true
+    },
+    {
+      "name": "Iron Mountain",
+      "ticker": "IRM",
+      "week_of": "2026-09-07",
+      "close": 115.18,
+      "sma20": 123.86,
+      "pct_above_ma": -7.0,
+      "rsi14": 47.91,
+      "signal": false
+    },
+    {
+      "name": "J.B. Hunt",
+      "ticker": "JBHT",
+      "week_of": "2026-09-07",
+      "close": 270.45,
+      "sma20": 272.83,
+      "pct_above_ma": -0.87,
+      "rsi14": 55.67,
+      "signal": false
+    },
+    {
+      "name": "Jabil",
+      "ticker": "JBL",
+      "week_of": "2026-09-07",
+      "close": 318.08,
+      "sma20": 339.07,
+      "pct_above_ma": -6.19,
+      "rsi14": 50.84,
+      "signal": false
+    },
+    {
+      "name": "Jack Henry & Associates",
+      "ticker": "JKHY",
+      "week_of": "2026-09-07",
+      "close": 161.12,
+      "sma20": 147.28,
+      "pct_above_ma": 9.4,
+      "rsi14": 55.42,
+      "signal": false
+    },
+    {
+      "name": "Jacobs Solutions",
+      "ticker": "J",
+      "week_of": "2026-09-07",
+      "close": 141.85,
+      "sma20": 130.87,
+      "pct_above_ma": 8.39,
+      "rsi14": 56.21,
+      "signal": false
+    },
+    {
+      "name": "Johnson & Johnson",
+      "ticker": "JNJ",
+      "week_of": "2026-09-07",
+      "close": 265.58,
+      "sma20": 247.87,
+      "pct_above_ma": 7.14,
+      "rsi14": 61.23,
+      "signal": true
+    },
+    {
+      "name": "Johnson Controls",
+      "ticker": "JCI",
+      "week_of": "2026-09-07",
+      "close": 146.01,
+      "sma20": 143.14,
+      "pct_above_ma": 2.01,
+      "rsi14": 56.01,
+      "signal": false
+    },
+    {
+      "name": "JPMorgan Chase",
+      "ticker": "JPM",
+      "week_of": "2026-09-07",
+      "close": 356.23,
+      "sma20": 332.64,
+      "pct_above_ma": 7.09,
+      "rsi14": 65.33,
+      "signal": true
+    },
+    {
+      "name": "Kenvue",
+      "ticker": "KVUE",
+      "week_of": "2026-09-07",
+      "close": 17.78,
+      "sma20": 18.33,
+      "pct_above_ma": -2.99,
+      "rsi14": 44.81,
+      "signal": false
+    },
+    {
+      "name": "Keurig Dr Pepper",
+      "ticker": "KDP",
+      "week_of": "2026-09-07",
+      "close": 31.39,
+      "sma20": 30.85,
+      "pct_above_ma": 1.74,
+      "rsi14": 54.36,
+      "signal": false
+    },
+    {
+      "name": "KeyCorp",
+      "ticker": "KEY",
+      "week_of": "2026-09-07",
+      "close": 21.84,
+      "sma20": 22.09,
+      "pct_above_ma": -1.13,
+      "rsi14": 51.75,
+      "signal": false
+    },
+    {
+      "name": "Keysight Technologies",
+      "ticker": "KEYS",
+      "week_of": "2026-09-07",
+      "close": 338.64,
+      "sma20": 335.49,
+      "pct_above_ma": 0.94,
+      "rsi14": 57.41,
+      "signal": false
+    },
+    {
+      "name": "Kimberly-Clark",
+      "ticker": "KMB",
+      "week_of": "2026-09-07",
+      "close": 98.15,
+      "sma20": 103.47,
+      "pct_above_ma": -5.14,
+      "rsi14": 40.49,
+      "signal": false
+    },
+    {
+      "name": "Kimco Realty",
+      "ticker": "KIM",
+      "week_of": "2026-09-07",
+      "close": 23.19,
+      "sma20": 24.17,
+      "pct_above_ma": -4.05,
+      "rsi14": 47.16,
+      "signal": false
+    },
+    {
+      "name": "Kinder Morgan",
+      "ticker": "KMI",
+      "week_of": "2026-09-07",
+      "close": 30.86,
+      "sma20": 31.82,
+      "pct_above_ma": -3.01,
+      "rsi14": 48.03,
+      "signal": false
+    },
+    {
+      "name": "KKR & Co.",
+      "ticker": "KKR",
+      "week_of": "2026-09-07",
+      "close": 101.08,
+      "sma20": 100.1,
+      "pct_above_ma": 0.98,
+      "rsi14": 48.0,
+      "signal": false
+    },
+    {
+      "name": "KLA Corporation",
+      "ticker": "KLAC",
+      "week_of": "2026-09-07",
+      "close": 180.64,
+      "sma20": 203.65,
+      "pct_above_ma": -11.3,
+      "rsi14": 47.7,
+      "signal": false
+    },
+    {
+      "name": "Kraft Heinz",
+      "ticker": "KHC",
+      "week_of": "2026-09-07",
+      "close": 24.6,
+      "sma20": 24.04,
+      "pct_above_ma": 2.32,
+      "rsi14": 53.59,
+      "signal": false
+    },
+    {
+      "name": "Kroger",
+      "ticker": "KR",
+      "week_of": "2026-09-07",
+      "close": 58.49,
+      "sma20": 60.14,
+      "pct_above_ma": -2.74,
+      "rsi14": 43.77,
+      "signal": false
+    },
+    {
+      "name": "L3Harris",
+      "ticker": "LHX",
+      "week_of": "2026-09-07",
+      "close": 245.54,
+      "sma20": 288.8,
+      "pct_above_ma": -14.98,
+      "rsi14": 32.13,
+      "signal": false
+    },
+    {
+      "name": "Labcorp",
+      "ticker": "LH",
+      "week_of": "2026-09-07",
+      "close": 311.54,
+      "sma20": 286.31,
+      "pct_above_ma": 8.81,
+      "rsi14": 59.54,
+      "signal": false
+    },
+    {
+      "name": "Lam Research",
+      "ticker": "LRCX",
+      "week_of": "2026-09-07",
+      "close": 298.22,
+      "sma20": 318.72,
+      "pct_above_ma": -6.43,
+      "rsi14": 51.43,
+      "signal": false
+    },
+    {
+      "name": "Las Vegas Sands",
+      "ticker": "LVS",
+      "week_of": "2026-09-07",
+      "close": 42.83,
+      "sma20": 47.77,
+      "pct_above_ma": -10.34,
+      "rsi14": 34.74,
+      "signal": false
+    },
+    {
+      "name": "Leidos",
+      "ticker": "LDOS",
+      "week_of": "2026-09-07",
+      "close": 128.86,
+      "sma20": 124.23,
+      "pct_above_ma": 3.73,
+      "rsi14": 45.24,
+      "signal": false
+    },
+    {
+      "name": "Lennar",
+      "ticker": "LEN",
+      "week_of": "2026-09-07",
+      "close": 79.6,
+      "sma20": 86.57,
+      "pct_above_ma": -8.05,
+      "rsi14": 35.9,
+      "signal": false
+    },
+    {
+      "name": "Lennox International",
+      "ticker": "LII",
+      "week_of": "2026-09-07",
+      "close": 366.04,
+      "sma20": 483.89,
+      "pct_above_ma": -24.35,
+      "rsi14": 30.66,
+      "signal": false
+    },
+    {
+      "name": "Lilly (Eli)",
+      "ticker": "LLY",
+      "week_of": "2026-09-07",
+      "close": 1115.7,
+      "sma20": 1130.9,
+      "pct_above_ma": -1.34,
+      "rsi14": 51.14,
+      "signal": false
+    },
+    {
+      "name": "Linde plc",
+      "ticker": "LIN",
+      "week_of": "2026-09-07",
+      "close": 466.22,
+      "sma20": 501.09,
+      "pct_above_ma": -6.96,
+      "rsi14": 42.04,
+      "signal": false
+    },
+    {
+      "name": "Live Nation Entertainment",
+      "ticker": "LYV",
+      "week_of": "2026-09-07",
+      "close": 170.15,
+      "sma20": 174.09,
+      "pct_above_ma": -2.26,
+      "rsi14": 49.78,
+      "signal": false
+    },
+    {
+      "name": "Lockheed Martin",
+      "ticker": "LMT",
+      "week_of": "2026-09-07",
+      "close": 524.19,
+      "sma20": 536.07,
+      "pct_above_ma": -2.22,
+      "rsi14": 45.4,
+      "signal": false
+    },
+    {
+      "name": "Loews Corporation",
+      "ticker": "L",
+      "week_of": "2026-09-07",
+      "close": 108.79,
+      "sma20": 110.77,
+      "pct_above_ma": -1.79,
+      "rsi14": 47.69,
+      "signal": false
+    },
+    {
+      "name": "Lowe's",
+      "ticker": "LOW",
+      "week_of": "2026-09-07",
+      "close": 196.82,
+      "sma20": 215.04,
+      "pct_above_ma": -8.47,
+      "rsi14": 35.33,
+      "signal": false
+    },
+    {
+      "name": "Lululemon Athletica",
+      "ticker": "LULU",
+      "week_of": "2026-09-07",
+      "close": 98.97,
+      "sma20": 119.07,
+      "pct_above_ma": -16.88,
+      "rsi14": 31.94,
+      "signal": false
+    },
+    {
+      "name": "Lumentum",
+      "ticker": "LITE",
+      "week_of": "2026-09-07",
+      "close": 927.03,
+      "sma20": 860.24,
+      "pct_above_ma": 7.76,
+      "rsi14": 60.21,
+      "signal": true
+    },
+    {
+      "name": "LyondellBasell",
+      "ticker": "LYB",
+      "week_of": "2026-09-07",
+      "close": 63.69,
+      "sma20": 63.07,
+      "pct_above_ma": 0.99,
+      "rsi14": 52.9,
+      "signal": false
+    },
+    {
+      "name": "M&T Bank",
+      "ticker": "MTB",
+      "week_of": "2026-09-07",
+      "close": 239.83,
+      "sma20": 231.67,
+      "pct_above_ma": 3.52,
+      "rsi14": 58.3,
+      "signal": false
+    },
+    {
+      "name": "Marathon Petroleum",
+      "ticker": "MPC",
+      "week_of": "2026-09-07",
+      "close": 395.93,
+      "sma20": 295.68,
+      "pct_above_ma": 33.91,
+      "rsi14": 80.45,
+      "signal": true
+    },
+    {
+      "name": "Marriott International",
+      "ticker": "MAR",
+      "week_of": "2026-09-07",
+      "close": 334.69,
+      "sma20": 365.62,
+      "pct_above_ma": -8.46,
+      "rsi14": 41.84,
+      "signal": false
+    },
+    {
+      "name": "Marsh McLennan",
+      "ticker": "MRSH",
+      "week_of": "2026-09-07",
+      "close": 176.91,
+      "sma20": 175.25,
+      "pct_above_ma": 0.95,
+      "rsi14": 47.9,
+      "signal": false
+    },
+    {
+      "name": "Martin Marietta Materials",
+      "ticker": "MLM",
+      "week_of": "2026-09-07",
+      "close": 509.96,
+      "sma20": 562.55,
+      "pct_above_ma": -9.35,
+      "rsi14": 35.11,
+      "signal": false
+    },
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "week_of": "2026-09-07",
+      "close": 236.1,
+      "sma20": 221.94,
+      "pct_above_ma": 6.38,
+      "rsi14": 60.23,
+      "signal": true
+    },
+    {
+      "name": "Masco",
+      "ticker": "MAS",
+      "week_of": "2026-09-07",
+      "close": 68.52,
+      "sma20": 73.33,
+      "pct_above_ma": -6.56,
+      "rsi14": 45.51,
+      "signal": false
+    },
+    {
+      "name": "Mastercard",
+      "ticker": "MA",
+      "week_of": "2026-09-07",
+      "close": 569.19,
+      "sma20": 530.91,
+      "pct_above_ma": 7.21,
+      "rsi14": 58.86,
+      "signal": false
+    },
+    {
+      "name": "McCormick & Company",
+      "ticker": "MKC",
+      "week_of": "2026-09-07",
+      "close": 51.32,
+      "sma20": 50.49,
+      "pct_above_ma": 1.64,
+      "rsi14": 45.26,
+      "signal": false
+    },
+    {
+      "name": "McDonald's",
+      "ticker": "MCD",
+      "week_of": "2026-09-07",
+      "close": 252.53,
+      "sma20": 270.94,
+      "pct_above_ma": -6.79,
+      "rsi14": 32.09,
+      "signal": false
+    },
+    {
+      "name": "McKesson Corporation",
+      "ticker": "MCK",
+      "week_of": "2026-09-07",
+      "close": 881.51,
+      "sma20": 814.23,
+      "pct_above_ma": 8.26,
+      "rsi14": 57.89,
+      "signal": false
+    },
+    {
+      "name": "Medtronic",
+      "ticker": "MDT",
+      "week_of": "2026-09-07",
+      "close": 90.96,
+      "sma20": 83.42,
+      "pct_above_ma": 9.04,
+      "rsi14": 56.82,
+      "signal": false
+    },
+    {
+      "name": "Merck & Co.",
+      "ticker": "MRK",
+      "week_of": "2026-09-07",
+      "close": 143.93,
+      "sma20": 127.7,
+      "pct_above_ma": 12.71,
+      "rsi14": 64.11,
+      "signal": true
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "week_of": "2026-09-07",
+      "close": 648.03,
+      "sma20": 599.18,
+      "pct_above_ma": 8.15,
+      "rsi14": 54.69,
+      "signal": false
+    },
+    {
+      "name": "MetLife",
+      "ticker": "MET",
+      "week_of": "2026-09-07",
+      "close": 97.14,
+      "sma20": 89.44,
+      "pct_above_ma": 8.61,
+      "rsi14": 68.21,
+      "signal": true
+    },
+    {
+      "name": "Mettler Toledo",
+      "ticker": "MTD",
+      "week_of": "2026-09-07",
+      "close": 1293.52,
+      "sma20": 1267.02,
+      "pct_above_ma": 2.09,
+      "rsi14": 48.63,
+      "signal": false
+    },
+    {
+      "name": "MGM Resorts",
+      "ticker": "MGM",
+      "week_of": "2026-09-07",
+      "close": 39.89,
+      "sma20": 43.74,
+      "pct_above_ma": -8.8,
+      "rsi14": 43.38,
+      "signal": false
+    },
+    {
+      "name": "Microchip Technology",
+      "ticker": "MCHP",
+      "week_of": "2026-09-07",
+      "close": 74.2,
+      "sma20": 85.22,
+      "pct_above_ma": -12.94,
+      "rsi14": 45.52,
+      "signal": false
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "week_of": "2026-09-07",
+      "close": 975.26,
+      "sma20": 906.74,
+      "pct_above_ma": 7.56,
+      "rsi14": 60.64,
+      "signal": true
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "week_of": "2026-09-07",
+      "close": 495.63,
+      "sma20": 433.41,
+      "pct_above_ma": 14.36,
+      "rsi14": 61.42,
+      "signal": true
+    },
+    {
+      "name": "Mid-America Apartment Communities",
+      "ticker": "MAA",
+      "week_of": "2026-09-07",
+      "close": 124.79,
+      "sma20": 131.79,
+      "pct_above_ma": -5.31,
+      "rsi14": 41.57,
+      "signal": false
+    },
+    {
+      "name": "Moderna",
+      "ticker": "MRNA",
+      "week_of": "2026-09-07",
+      "close": 143.97,
+      "sma20": 74.26,
+      "pct_above_ma": 93.86,
+      "rsi14": 78.12,
+      "signal": true
+    },
+    {
+      "name": "Molson Coors Beverage Company",
+      "ticker": "TAP",
+      "week_of": "2026-09-07",
+      "close": 38.93,
+      "sma20": 40.57,
+      "pct_above_ma": -4.03,
+      "rsi14": 41.15,
+      "signal": false
+    },
+    {
+      "name": "Mondelez International",
+      "ticker": "MDLZ",
+      "week_of": "2026-09-07",
+      "close": 62.44,
+      "sma20": 61.4,
+      "pct_above_ma": 1.7,
+      "rsi14": 55.01,
+      "signal": false
+    },
+    {
+      "name": "Monolithic Power Systems",
+      "ticker": "MPWR",
+      "week_of": "2026-09-07",
+      "close": 1234.46,
+      "sma20": 1417.59,
+      "pct_above_ma": -12.92,
+      "rsi14": 44.61,
+      "signal": false
+    },
+    {
+      "name": "Monster Beverage",
+      "ticker": "MNST",
+      "week_of": "2026-09-07",
+      "close": 43.4,
+      "sma20": 45.64,
+      "pct_above_ma": -4.91,
+      "rsi14": 48.11,
+      "signal": false
+    },
+    {
+      "name": "Moody's Corporation",
+      "ticker": "MCO",
+      "week_of": "2026-09-07",
+      "close": 474.95,
+      "sma20": 470.47,
+      "pct_above_ma": 0.95,
+      "rsi14": 50.01,
+      "signal": false
+    },
+    {
+      "name": "Morgan Stanley",
+      "ticker": "MS",
+      "week_of": "2026-09-07",
+      "close": 214.38,
+      "sma20": 210.12,
+      "pct_above_ma": 2.03,
+      "rsi14": 60.85,
+      "signal": true
+    },
+    {
+      "name": "Mosaic Company (The)",
+      "ticker": "MOS",
+      "week_of": "2026-09-07",
+      "close": 25.19,
+      "sma20": 22.62,
+      "pct_above_ma": 11.38,
+      "rsi14": 55.36,
+      "signal": false
+    },
+    {
+      "name": "Motorola Solutions",
+      "ticker": "MSI",
+      "week_of": "2026-09-07",
+      "close": 466.16,
+      "sma20": 428.99,
+      "pct_above_ma": 8.66,
+      "rsi14": 59.97,
+      "signal": false
+    },
+    {
+      "name": "MSCI",
+      "ticker": "MSCI",
+      "week_of": "2026-09-07",
+      "close": 554.61,
+      "sma20": 581.23,
+      "pct_above_ma": -4.58,
+      "rsi14": 46.33,
+      "signal": false
+    },
+    {
+      "name": "Nasdaq, Inc.",
+      "ticker": "NDAQ",
+      "week_of": "2026-09-07",
+      "close": 91.19,
+      "sma20": 90.6,
+      "pct_above_ma": 0.65,
+      "rsi14": 50.43,
+      "signal": false
+    },
+    {
+      "name": "NetApp",
+      "ticker": "NTAP",
+      "week_of": "2026-09-07",
+      "close": 199.28,
+      "sma20": 164.7,
+      "pct_above_ma": 21.0,
+      "rsi14": 69.77,
+      "signal": true
+    },
+    {
+      "name": "Netflix",
+      "ticker": "NFLX",
+      "week_of": "2026-09-07",
+      "close": 77.4,
+      "sma20": 79.3,
+      "pct_above_ma": -2.39,
+      "rsi14": 43.4,
+      "signal": false
+    },
+    {
+      "name": "Newmont",
+      "ticker": "NEM",
+      "week_of": "2026-09-07",
+      "close": 126.81,
+      "sma20": 108.03,
+      "pct_above_ma": 17.38,
+      "rsi14": 62.06,
+      "signal": true
+    },
+    {
+      "name": "News Corp (Class A)",
+      "ticker": "NWSA",
+      "week_of": "2026-09-07",
+      "close": 29.44,
+      "sma20": 27.43,
+      "pct_above_ma": 7.31,
+      "rsi14": 59.92,
+      "signal": false
+    },
+    {
+      "name": "News Corp (Class B)",
+      "ticker": "NWS",
+      "week_of": "2026-09-07",
+      "close": 32.71,
+      "sma20": 31.19,
+      "pct_above_ma": 4.89,
+      "rsi14": 56.42,
+      "signal": false
+    },
+    {
+      "name": "NextEra Energy",
+      "ticker": "NEE",
+      "week_of": "2026-09-07",
+      "close": 82.31,
+      "sma20": 86.77,
+      "pct_above_ma": -5.14,
+      "rsi14": 41.94,
+      "signal": false
+    },
+    {
+      "name": "Nike, Inc.",
+      "ticker": "NKE",
+      "week_of": "2026-09-07",
+      "close": 36.8,
+      "sma20": 41.94,
+      "pct_above_ma": -12.25,
+      "rsi14": 30.44,
+      "signal": false
+    },
+    {
+      "name": "NiSource",
+      "ticker": "NI",
+      "week_of": "2026-09-07",
+      "close": 41.41,
+      "sma20": 45.11,
+      "pct_above_ma": -8.2,
+      "rsi14": 37.87,
+      "signal": false
+    },
+    {
+      "name": "Nordson Corporation",
+      "ticker": "NDSN",
+      "week_of": "2026-09-07",
+      "close": 314.47,
+      "sma20": 296.63,
+      "pct_above_ma": 6.01,
+      "rsi14": 62.49,
+      "signal": true
+    },
+    {
+      "name": "Norfolk Southern",
+      "ticker": "NSC",
+      "week_of": "2026-09-07",
+      "close": 320.27,
+      "sma20": 323.95,
+      "pct_above_ma": -1.14,
+      "rsi14": 50.34,
+      "signal": false
+    },
+    {
+      "name": "Northern Trust",
+      "ticker": "NTRS",
+      "week_of": "2026-09-07",
+      "close": 189.19,
+      "sma20": 176.25,
+      "pct_above_ma": 7.34,
+      "rsi14": 70.81,
+      "signal": true
+    },
+    {
+      "name": "Northrop Grumman",
+      "ticker": "NOC",
+      "week_of": "2026-09-07",
+      "close": 518.97,
+      "sma20": 541.01,
+      "pct_above_ma": -4.07,
+      "rsi14": 41.05,
+      "signal": false
+    },
+    {
+      "name": "Norwegian Cruise Line Holdings",
+      "ticker": "NCLH",
+      "week_of": "2026-09-07",
+      "close": 14.82,
+      "sma20": 18.26,
+      "pct_above_ma": -18.84,
+      "rsi14": 33.89,
+      "signal": false
+    },
+    {
+      "name": "NRG Energy",
+      "ticker": "NRG",
+      "week_of": "2026-09-07",
+      "close": 113.46,
+      "sma20": 130.3,
+      "pct_above_ma": -12.92,
+      "rsi14": 40.5,
+      "signal": false
+    },
+    {
+      "name": "Nucor",
+      "ticker": "NUE",
+      "week_of": "2026-09-07",
+      "close": 259.43,
+      "sma20": 245.37,
+      "pct_above_ma": 5.73,
+      "rsi14": 61.53,
+      "signal": true
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "week_of": "2026-09-07",
+      "close": 218.29,
+      "sma20": 210.97,
+      "pct_above_ma": 3.47,
+      "rsi14": 55.67,
+      "signal": false
+    },
+    {
+      "name": "NVR, Inc.",
+      "ticker": "NVR",
+      "week_of": "2026-09-07",
+      "close": 6160.76,
+      "sma20": 6295.25,
+      "pct_above_ma": -2.14,
+      "rsi14": 41.66,
+      "signal": false
+    },
+    {
+      "name": "NXP Semiconductors",
+      "ticker": "NXPI",
+      "week_of": "2026-09-07",
+      "close": 236.62,
+      "sma20": 271.04,
+      "pct_above_ma": -12.7,
+      "rsi14": 46.17,
+      "signal": false
+    },
+    {
+      "name": "O'Reilly Automotive",
+      "ticker": "ORLY",
+      "week_of": "2026-09-07",
+      "close": 85.82,
+      "sma20": 89.49,
+      "pct_above_ma": -4.1,
+      "rsi14": 42.28,
+      "signal": false
+    },
+    {
+      "name": "Occidental Petroleum",
+      "ticker": "OXY",
+      "week_of": "2026-09-07",
+      "close": 61.46,
+      "sma20": 56.14,
+      "pct_above_ma": 9.47,
+      "rsi14": 61.19,
+      "signal": true
+    },
+    {
+      "name": "Old Dominion",
+      "ticker": "ODFL",
+      "week_of": "2026-09-07",
+      "close": 179.79,
+      "sma20": 214.3,
+      "pct_above_ma": -16.1,
+      "rsi14": 38.2,
+      "signal": false
+    },
+    {
+      "name": "Omnicom Group",
+      "ticker": "OMC",
+      "week_of": "2026-09-07",
+      "close": 79.01,
+      "sma20": 78.75,
+      "pct_above_ma": 0.33,
+      "rsi14": 49.51,
+      "signal": false
+    },
+    {
+      "name": "ON Semiconductor",
+      "ticker": "ON",
+      "week_of": "2026-09-07",
+      "close": 76.14,
+      "sma20": 95.33,
+      "pct_above_ma": -20.13,
+      "rsi14": 43.77,
+      "signal": false
+    },
+    {
+      "name": "Oneok",
+      "ticker": "OKE",
+      "week_of": "2026-09-07",
+      "close": 96.62,
+      "sma20": 89.99,
+      "pct_above_ma": 7.36,
+      "rsi14": 60.6,
+      "signal": true
+    },
+    {
+      "name": "Oracle Corporation",
+      "ticker": "ORCL",
+      "week_of": "2026-09-07",
+      "close": 150.28,
+      "sma20": 162.95,
+      "pct_above_ma": -7.77,
+      "rsi14": 46.36,
+      "signal": false
+    },
+    {
+      "name": "Otis Worldwide",
+      "ticker": "OTIS",
+      "week_of": "2026-09-07",
+      "close": 69.1,
+      "sma20": 72.02,
+      "pct_above_ma": -4.05,
+      "rsi14": 33.77,
+      "signal": false
+    },
+    {
+      "name": "Paccar",
+      "ticker": "PCAR",
+      "week_of": "2026-09-07",
+      "close": 122.73,
+      "sma20": 121.63,
+      "pct_above_ma": 0.9,
+      "rsi14": 51.26,
+      "signal": false
+    },
+    {
+      "name": "Packaging Corporation of America",
+      "ticker": "PKG",
+      "week_of": "2026-09-07",
+      "close": 234.4,
+      "sma20": 233.88,
+      "pct_above_ma": 0.22,
+      "rsi14": 51.48,
+      "signal": false
+    },
+    {
+      "name": "Palantir Technologies",
+      "ticker": "PLTR",
+      "week_of": "2026-09-07",
+      "close": 167.23,
+      "sma20": 145.12,
+      "pct_above_ma": 15.23,
+      "rsi14": 56.09,
+      "signal": false
+    },
+    {
+      "name": "Palo Alto Networks",
+      "ticker": "PANW",
+      "week_of": "2026-09-07",
+      "close": 330.65,
+      "sma20": 307.37,
+      "pct_above_ma": 7.57,
+      "rsi14": 58.24,
+      "signal": false
+    },
+    {
+      "name": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "week_of": "2026-09-07",
+      "close": 10.6,
+      "sma20": 9.99,
+      "pct_above_ma": 6.11,
+      "rsi14": 51.49,
+      "signal": false
+    },
+    {
+      "name": "Parker Hannifin",
+      "ticker": "PH",
+      "week_of": "2026-09-07",
+      "close": 950.23,
+      "sma20": 944.4,
+      "pct_above_ma": 0.62,
+      "rsi14": 50.32,
+      "signal": false
+    },
+    {
+      "name": "Paychex",
+      "ticker": "PAYX",
+      "week_of": "2026-09-07",
+      "close": 115.8,
+      "sma20": 107.28,
+      "pct_above_ma": 7.94,
+      "rsi14": 57.52,
+      "signal": false
+    },
+    {
+      "name": "PayPal",
+      "ticker": "PYPL",
+      "week_of": "2026-09-07",
+      "close": 53.72,
+      "sma20": 50.11,
+      "pct_above_ma": 7.21,
+      "rsi14": 52.52,
+      "signal": false
+    },
+    {
+      "name": "Pentair",
+      "ticker": "PNR",
+      "week_of": "2026-09-07",
+      "close": 56.58,
+      "sma20": 69.48,
+      "pct_above_ma": -18.57,
+      "rsi14": 26.69,
+      "signal": false
+    },
+    {
+      "name": "PepsiCo",
+      "ticker": "PEP",
+      "week_of": "2026-09-07",
+      "close": 136.32,
+      "sma20": 141.18,
+      "pct_above_ma": -3.44,
+      "rsi14": 41.43,
+      "signal": false
+    },
+    {
+      "name": "Pfizer",
+      "ticker": "PFE",
+      "week_of": "2026-09-07",
+      "close": 27.72,
+      "sma20": 25.72,
+      "pct_above_ma": 7.79,
+      "rsi14": 62.11,
+      "signal": true
+    },
+    {
+      "name": "PG&E Corporation",
+      "ticker": "PCG",
+      "week_of": "2026-09-07",
+      "close": 13.8,
+      "sma20": 16.67,
+      "pct_above_ma": -17.2,
+      "rsi14": 31.25,
+      "signal": false
+    },
+    {
+      "name": "Philip Morris International",
+      "ticker": "PM",
+      "week_of": "2026-09-07",
+      "close": 191.06,
+      "sma20": 183.88,
+      "pct_above_ma": 3.9,
+      "rsi14": 58.47,
+      "signal": false
+    },
+    {
+      "name": "Phillips 66",
+      "ticker": "PSX",
+      "week_of": "2026-09-07",
+      "close": 259.47,
+      "sma20": 199.36,
+      "pct_above_ma": 30.15,
+      "rsi14": 79.72,
+      "signal": true
+    },
+    {
+      "name": "Pinnacle West Capital",
+      "ticker": "PNW",
+      "week_of": "2026-09-07",
+      "close": 96.1,
+      "sma20": 101.51,
+      "pct_above_ma": -5.33,
+      "rsi14": 42.86,
+      "signal": false
+    },
+    {
+      "name": "PNC Financial Services",
+      "ticker": "PNC",
+      "week_of": "2026-09-07",
+      "close": 244.24,
+      "sma20": 237.58,
+      "pct_above_ma": 2.8,
+      "rsi14": 58.73,
+      "signal": false
+    },
+    {
+      "name": "PPG Industries",
+      "ticker": "PPG",
+      "week_of": "2026-09-07",
+      "close": 105.5,
+      "sma20": 113.44,
+      "pct_above_ma": -7.0,
+      "rsi14": 43.21,
+      "signal": false
+    },
+    {
+      "name": "PPL Corporation",
+      "ticker": "PPL",
+      "week_of": "2026-09-07",
+      "close": 34.08,
+      "sma20": 35.3,
+      "pct_above_ma": -3.45,
+      "rsi14": 43.19,
+      "signal": false
+    },
+    {
+      "name": "Principal Financial Group",
+      "ticker": "PFG",
+      "week_of": "2026-09-07",
+      "close": 116.17,
+      "sma20": 108.35,
+      "pct_above_ma": 7.21,
+      "rsi14": 68.28,
+      "signal": true
+    },
+    {
+      "name": "Procter & Gamble",
+      "ticker": "PG",
+      "week_of": "2026-09-07",
+      "close": 145.27,
+      "sma20": 145.83,
+      "pct_above_ma": -0.38,
+      "rsi14": 48.13,
+      "signal": false
+    },
+    {
+      "name": "Progressive Corporation",
+      "ticker": "PGR",
+      "week_of": "2026-09-07",
+      "close": 217.62,
+      "sma20": 210.7,
+      "pct_above_ma": 3.28,
+      "rsi14": 53.78,
+      "signal": false
+    },
+    {
+      "name": "Prologis",
+      "ticker": "PLD",
+      "week_of": "2026-09-07",
+      "close": 135.75,
+      "sma20": 142.05,
+      "pct_above_ma": -4.44,
+      "rsi14": 45.92,
+      "signal": false
+    },
+    {
+      "name": "Prudential Financial",
+      "ticker": "PRU",
+      "week_of": "2026-09-07",
+      "close": 119.24,
+      "sma20": 111.25,
+      "pct_above_ma": 7.18,
+      "rsi14": 62.23,
+      "signal": true
+    },
+    {
+      "name": "Public Service Enterprise Group",
+      "ticker": "PEG",
+      "week_of": "2026-09-07",
+      "close": 72.39,
+      "sma20": 76.9,
+      "pct_above_ma": -5.87,
+      "rsi14": 38.04,
+      "signal": false
+    },
+    {
+      "name": "PTC Inc.",
+      "ticker": "PTC",
+      "week_of": "2026-09-07",
+      "close": 130.78,
+      "sma20": 135.18,
+      "pct_above_ma": -3.26,
+      "rsi14": 43.71,
+      "signal": false
+    },
+    {
+      "name": "Public Storage",
+      "ticker": "PSA",
+      "week_of": "2026-09-07",
+      "close": 296.5,
+      "sma20": 313.8,
+      "pct_above_ma": -5.51,
+      "rsi14": 43.93,
+      "signal": false
+    },
+    {
+      "name": "PulteGroup",
+      "ticker": "PHM",
+      "week_of": "2026-09-07",
+      "close": 118.26,
+      "sma20": 124.45,
+      "pct_above_ma": -4.97,
+      "rsi14": 43.38,
+      "signal": false
+    },
+    {
+      "name": "Quanta Services",
+      "ticker": "PWR",
+      "week_of": "2026-09-07",
+      "close": 650.58,
+      "sma20": 680.38,
+      "pct_above_ma": -4.38,
+      "rsi14": 53.62,
+      "signal": false
+    },
+    {
+      "name": "Qualcomm",
+      "ticker": "QCOM",
+      "week_of": "2026-09-07",
+      "close": 181.97,
+      "sma20": 188.42,
+      "pct_above_ma": -3.42,
+      "rsi14": 52.97,
+      "signal": false
+    },
+    {
+      "name": "Quest Diagnostics",
+      "ticker": "DGX",
+      "week_of": "2026-09-07",
+      "close": 235.02,
+      "sma20": 214.19,
+      "pct_above_ma": 9.73,
+      "rsi14": 64.17,
+      "signal": true
+    },
+    {
+      "name": "Qnity Electronics",
+      "ticker": "Q",
+      "week_of": "2026-09-07",
+      "close": 126.4,
+      "sma20": 142.16,
+      "pct_above_ma": -11.08,
+      "rsi14": 46.5,
+      "signal": false
+    },
+    {
+      "name": "Ralph Lauren Corporation",
+      "ticker": "RL",
+      "week_of": "2026-09-07",
+      "close": 339.09,
+      "sma20": 375.27,
+      "pct_above_ma": -9.64,
+      "rsi14": 41.23,
+      "signal": false
+    },
+    {
+      "name": "Raymond James Financial",
+      "ticker": "RJF",
+      "week_of": "2026-09-07",
+      "close": 173.46,
+      "sma20": 163.72,
+      "pct_above_ma": 5.95,
+      "rsi14": 58.38,
+      "signal": false
+    },
+    {
+      "name": "Reddit",
+      "ticker": "RDDT",
+      "week_of": "2026-09-07",
+      "close": 157.77,
+      "sma20": 165.72,
+      "pct_above_ma": -4.8,
+      "rsi14": 47.6,
+      "signal": false
+    },
+    {
+      "name": "RTX Corporation",
+      "ticker": "RTX",
+      "week_of": "2026-09-07",
+      "close": 197.68,
+      "sma20": 194.36,
+      "pct_above_ma": 1.71,
+      "rsi14": 50.79,
+      "signal": false
+    },
+    {
+      "name": "Realty Income",
+      "ticker": "O",
+      "week_of": "2026-09-07",
+      "close": 59.5,
+      "sma20": 61.91,
+      "pct_above_ma": -3.89,
+      "rsi14": 43.34,
+      "signal": false
+    },
+    {
+      "name": "Regency Centers",
+      "ticker": "REG",
+      "week_of": "2026-09-07",
+      "close": 74.62,
+      "sma20": 77.34,
+      "pct_above_ma": -3.52,
+      "rsi14": 45.97,
+      "signal": false
+    },
+    {
+      "name": "Regeneron Pharmaceuticals",
+      "ticker": "REGN",
+      "week_of": "2026-09-07",
+      "close": 781.49,
+      "sma20": 704.11,
+      "pct_above_ma": 10.99,
+      "rsi14": 57.14,
+      "signal": false
+    },
+    {
+      "name": "Regions Financial Corporation",
+      "ticker": "RF",
+      "week_of": "2026-09-07",
+      "close": 30.13,
+      "sma20": 29.38,
+      "pct_above_ma": 2.57,
+      "rsi14": 56.75,
+      "signal": false
+    },
+    {
+      "name": "Republic Services",
+      "ticker": "RSG",
+      "week_of": "2026-09-07",
+      "close": 222.74,
+      "sma20": 213.2,
+      "pct_above_ma": 4.48,
+      "rsi14": 56.73,
+      "signal": false
+    },
+    {
+      "name": "ResMed|",
+      "ticker": "RMD",
+      "week_of": "2026-09-07",
+      "close": 218.27,
+      "sma20": 207.76,
+      "pct_above_ma": 5.06,
+      "rsi14": 49.67,
+      "signal": false
+    },
+    {
+      "name": "Revvity",
+      "ticker": "RVTY",
+      "week_of": "2026-09-07",
+      "close": 124.31,
+      "sma20": 109.61,
+      "pct_above_ma": 13.41,
+      "rsi14": 64.27,
+      "signal": true
+    },
+    {
+      "name": "Robinhood Markets",
+      "ticker": "HOOD",
+      "week_of": "2026-09-07",
+      "close": 112.57,
+      "sma20": 96.02,
+      "pct_above_ma": 17.24,
+      "rsi14": 56.67,
+      "signal": false
+    },
+    {
+      "name": "Rockwell Automation",
+      "ticker": "ROK",
+      "week_of": "2026-09-07",
+      "close": 428.39,
+      "sma20": 450.6,
+      "pct_above_ma": -4.93,
+      "rsi14": 48.24,
+      "signal": false
+    },
+    {
+      "name": "Rollins, Inc.",
+      "ticker": "ROL",
+      "week_of": "2026-09-07",
+      "close": 34.73,
+      "sma20": 43.46,
+      "pct_above_ma": -20.09,
+      "rsi14": 20.78,
+      "signal": false
+    },
+    {
+      "name": "Roper Technologies",
+      "ticker": "ROP",
+      "week_of": "2026-09-07",
+      "close": 388.52,
+      "sma20": 364.01,
+      "pct_above_ma": 6.73,
+      "rsi14": 52.5,
+      "signal": false
+    },
+    {
+      "name": "Ross Stores",
+      "ticker": "ROST",
+      "week_of": "2026-09-07",
+      "close": 230.74,
+      "sma20": 231.43,
+      "pct_above_ma": -0.3,
+      "rsi14": 53.95,
+      "signal": false
+    },
+    {
+      "name": "Royal Caribbean Group",
+      "ticker": "RCL",
+      "week_of": "2026-09-07",
+      "close": 260.14,
+      "sma20": 287.11,
+      "pct_above_ma": -9.39,
+      "rsi14": 41.23,
+      "signal": false
+    },
+    {
+      "name": "S&P Global",
+      "ticker": "SPGI",
+      "week_of": "2026-09-07",
+      "close": 410.71,
+      "sma20": 412.33,
+      "pct_above_ma": -0.39,
+      "rsi14": 46.97,
+      "signal": false
+    },
+    {
+      "name": "Salesforce",
+      "ticker": "CRM",
+      "week_of": "2026-09-07",
+      "close": 247.72,
+      "sma20": 188.91,
+      "pct_above_ma": 31.13,
+      "rsi14": 65.51,
+      "signal": true
+    },
+    {
+      "name": "Sandisk",
+      "ticker": "SNDK",
+      "week_of": "2026-09-07",
+      "close": 1633.35,
+      "sma20": 1606.02,
+      "pct_above_ma": 1.7,
+      "rsi14": 56.34,
+      "signal": false
+    },
+    {
+      "name": "SBA Communications",
+      "ticker": "SBAC",
+      "week_of": "2026-09-07",
+      "close": 185.47,
+      "sma20": 191.8,
+      "pct_above_ma": -3.3,
+      "rsi14": 46.74,
+      "signal": false
+    },
+    {
+      "name": "Schlumberger",
+      "ticker": "SLB",
+      "week_of": "2026-09-07",
+      "close": 56.06,
+      "sma20": 52.41,
+      "pct_above_ma": 6.96,
+      "rsi14": 59.05,
+      "signal": false
+    },
+    {
+      "name": "Seagate Technology",
+      "ticker": "STX",
+      "week_of": "2026-09-07",
+      "close": 830.17,
+      "sma20": 855.64,
+      "pct_above_ma": -2.98,
+      "rsi14": 55.28,
+      "signal": false
+    },
+    {
+      "name": "Sempra",
+      "ticker": "SRE",
+      "week_of": "2026-09-07",
+      "close": 83.34,
+      "sma20": 89.4,
+      "pct_above_ma": -6.78,
+      "rsi14": 40.58,
+      "signal": false
+    },
+    {
+      "name": "ServiceNow",
+      "ticker": "NOW",
+      "week_of": "2026-09-07",
+      "close": 132.53,
+      "sma20": 111.75,
+      "pct_above_ma": 18.59,
+      "rsi14": 56.49,
+      "signal": false
+    },
+    {
+      "name": "Sherwin-Williams",
+      "ticker": "SHW",
+      "week_of": "2026-09-07",
+      "close": 323.31,
+      "sma20": 328.71,
+      "pct_above_ma": -1.64,
+      "rsi14": 46.3,
+      "signal": false
+    },
+    {
+      "name": "Simon Property Group",
+      "ticker": "SPG",
+      "week_of": "2026-09-07",
+      "close": 204.83,
+      "sma20": 212.35,
+      "pct_above_ma": -3.54,
+      "rsi14": 48.19,
+      "signal": false
+    },
+    {
+      "name": "Skyworks Solutions",
+      "ticker": "SWKS",
+      "week_of": "2026-09-07",
+      "close": 88.35,
+      "sma20": 69.54,
+      "pct_above_ma": 27.05,
+      "rsi14": 69.32,
+      "signal": true
+    },
+    {
+      "name": "J.M. Smucker Company (The)",
+      "ticker": "SJM",
+      "week_of": "2026-09-07",
+      "close": 121.14,
+      "sma20": 112.77,
+      "pct_above_ma": 7.43,
+      "rsi14": 58.95,
+      "signal": false
+    },
+    {
+      "name": "Smurfit Westrock",
+      "ticker": "SW",
+      "week_of": "2026-09-07",
+      "close": 43.22,
+      "sma20": 44.0,
+      "pct_above_ma": -1.76,
+      "rsi14": 48.13,
+      "signal": false
+    },
+    {
+      "name": "Snap-on",
+      "ticker": "SNA",
+      "week_of": "2026-09-07",
+      "close": 375.44,
+      "sma20": 388.03,
+      "pct_above_ma": -3.24,
+      "rsi14": 46.03,
+      "signal": false
+    },
+    {
+      "name": "Solventum",
+      "ticker": "SOLV",
+      "week_of": "2026-09-07",
+      "close": 87.45,
+      "sma20": 80.6,
+      "pct_above_ma": 8.5,
+      "rsi14": 58.91,
+      "signal": false
+    },
+    {
+      "name": "Southern Company",
+      "ticker": "SO",
+      "week_of": "2026-09-07",
+      "close": 87.17,
+      "sma20": 92.42,
+      "pct_above_ma": -5.69,
+      "rsi14": 39.08,
+      "signal": false
+    },
+    {
+      "name": "Southwest Airlines",
+      "ticker": "LUV",
+      "week_of": "2026-09-07",
+      "close": 39.24,
+      "sma20": 43.57,
+      "pct_above_ma": -9.95,
+      "rsi14": 43.23,
+      "signal": false
+    },
+    {
+      "name": "Stanley Black & Decker",
+      "ticker": "SWK",
+      "week_of": "2026-09-07",
+      "close": 89.24,
+      "sma20": 87.92,
+      "pct_above_ma": 1.5,
+      "rsi14": 52.8,
+      "signal": false
+    },
+    {
+      "name": "Starbucks",
+      "ticker": "SBUX",
+      "week_of": "2026-09-07",
+      "close": 98.74,
+      "sma20": 103.45,
+      "pct_above_ma": -4.56,
+      "rsi14": 46.93,
+      "signal": false
+    },
+    {
+      "name": "State Street Corporation",
+      "ticker": "STT",
+      "week_of": "2026-09-07",
+      "close": 193.4,
+      "sma20": 173.51,
+      "pct_above_ma": 11.46,
+      "rsi14": 80.62,
+      "signal": true
+    },
+    {
+      "name": "Steel Dynamics",
+      "ticker": "STLD",
+      "week_of": "2026-09-07",
+      "close": 239.79,
+      "sma20": 244.08,
+      "pct_above_ma": -1.76,
+      "rsi14": 54.37,
+      "signal": false
+    },
+    {
+      "name": "Steris",
+      "ticker": "STE",
+      "week_of": "2026-09-07",
+      "close": 210.76,
+      "sma20": 217.9,
+      "pct_above_ma": -3.28,
+      "rsi14": 41.81,
+      "signal": false
+    },
+    {
+      "name": "Stryker Corporation",
+      "ticker": "SYK",
+      "week_of": "2026-09-07",
+      "close": 275.56,
+      "sma20": 315.44,
+      "pct_above_ma": -12.64,
+      "rsi14": 33.19,
+      "signal": false
+    },
+    {
+      "name": "Supermicro",
+      "ticker": "SMCI",
+      "week_of": "2026-09-07",
+      "close": 40.1,
+      "sma20": 33.59,
+      "pct_above_ma": 19.39,
+      "rsi14": 57.74,
+      "signal": false
+    },
+    {
+      "name": "Synchrony Financial",
+      "ticker": "SYF",
+      "week_of": "2026-09-07",
+      "close": 75.99,
+      "sma20": 75.05,
+      "pct_above_ma": 1.25,
+      "rsi14": 51.51,
+      "signal": false
+    },
+    {
+      "name": "Synopsys",
+      "ticker": "SNPS",
+      "week_of": "2026-09-07",
+      "close": 397.38,
+      "sma20": 441.76,
+      "pct_above_ma": -10.05,
+      "rsi14": 44.07,
+      "signal": false
+    },
+    {
+      "name": "Sysco",
+      "ticker": "SYY",
+      "week_of": "2026-09-07",
+      "close": 83.21,
+      "sma20": 79.95,
+      "pct_above_ma": 4.08,
+      "rsi14": 55.16,
+      "signal": false
+    },
+    {
+      "name": "T-Mobile US",
+      "ticker": "TMUS",
+      "week_of": "2026-09-07",
+      "close": 182.33,
+      "sma20": 183.09,
+      "pct_above_ma": -0.41,
+      "rsi14": 45.9,
+      "signal": false
+    },
+    {
+      "name": "T. Rowe Price",
+      "ticker": "TROW",
+      "week_of": "2026-09-07",
+      "close": 106.29,
+      "sma20": 109.48,
+      "pct_above_ma": -2.91,
+      "rsi14": 48.94,
+      "signal": false
+    },
+    {
+      "name": "Take-Two Interactive",
+      "ticker": "TTWO",
+      "week_of": "2026-09-07",
+      "close": 215.47,
+      "sma20": 232.13,
+      "pct_above_ma": -7.18,
+      "rsi14": 43.43,
+      "signal": false
+    },
+    {
+      "name": "Tapestry, Inc.",
+      "ticker": "TPR",
+      "week_of": "2026-09-07",
+      "close": 118.49,
+      "sma20": 138.2,
+      "pct_above_ma": -14.26,
+      "rsi14": 39.34,
+      "signal": false
+    },
+    {
+      "name": "Targa Resources",
+      "ticker": "TRGP",
+      "week_of": "2026-09-07",
+      "close": 290.25,
+      "sma20": 271.23,
+      "pct_above_ma": 7.01,
+      "rsi14": 61.62,
+      "signal": true
+    },
+    {
+      "name": "Target Corporation",
+      "ticker": "TGT",
+      "week_of": "2026-09-07",
+      "close": 155.83,
+      "sma20": 138.95,
+      "pct_above_ma": 12.15,
+      "rsi14": 64.62,
+      "signal": true
+    },
+    {
+      "name": "TE Connectivity",
+      "ticker": "TEL",
+      "week_of": "2026-09-07",
+      "close": 211.96,
+      "sma20": 206.36,
+      "pct_above_ma": 2.71,
+      "rsi14": 51.94,
+      "signal": false
+    },
+    {
+      "name": "Teledyne Technologies",
+      "ticker": "TDY",
+      "week_of": "2026-09-07",
+      "close": 603.79,
+      "sma20": 633.37,
+      "pct_above_ma": -4.67,
+      "rsi14": 44.2,
+      "signal": false
+    },
+    {
+      "name": "Teradyne",
+      "ticker": "TER",
+      "week_of": "2026-09-07",
+      "close": 379.72,
+      "sma20": 372.15,
+      "pct_above_ma": 2.03,
+      "rsi14": 55.05,
+      "signal": false
+    },
+    {
+      "name": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "week_of": "2026-09-07",
+      "close": 365.44,
+      "sma20": 379.46,
+      "pct_above_ma": -3.69,
+      "rsi14": 47.79,
+      "signal": false
+    },
+    {
+      "name": "Texas Instruments",
+      "ticker": "TXN",
+      "week_of": "2026-09-07",
+      "close": 268.7,
+      "sma20": 285.98,
+      "pct_above_ma": -6.04,
+      "rsi14": 52.16,
+      "signal": false
+    },
+    {
+      "name": "Texas Pacific Land Corporation",
+      "ticker": "TPL",
+      "week_of": "2026-09-07",
+      "close": 369.1,
+      "sma20": 386.74,
+      "pct_above_ma": -4.56,
+      "rsi14": 46.25,
+      "signal": false
+    },
+    {
+      "name": "Textron",
+      "ticker": "TXT",
+      "week_of": "2026-09-07",
+      "close": 81.0,
+      "sma20": 89.12,
+      "pct_above_ma": -9.11,
+      "rsi14": 40.48,
+      "signal": false
+    },
+    {
+      "name": "Thermo Fisher Scientific",
+      "ticker": "TMO",
+      "week_of": "2026-09-07",
+      "close": 609.82,
+      "sma20": 530.64,
+      "pct_above_ma": 14.92,
+      "rsi14": 65.08,
+      "signal": true
+    },
+    {
+      "name": "TJX Companies",
+      "ticker": "TJX",
+      "week_of": "2026-09-07",
+      "close": 126.02,
+      "sma20": 151.47,
+      "pct_above_ma": -16.8,
+      "rsi14": 30.34,
+      "signal": false
+    },
+    {
+      "name": "TKO Group Holdings",
+      "ticker": "TKO",
+      "week_of": "2026-09-07",
+      "close": 190.31,
+      "sma20": 192.2,
+      "pct_above_ma": -0.98,
+      "rsi14": 48.99,
+      "signal": false
+    },
+    {
+      "name": "Trade Desk (The)",
+      "ticker": "TTD",
+      "week_of": "2026-09-07",
+      "close": 14.34,
+      "sma20": 18.23,
+      "pct_above_ma": -21.32,
+      "rsi14": 31.03,
+      "signal": false
+    },
+    {
+      "name": "Tractor Supply",
+      "ticker": "TSCO",
+      "week_of": "2026-09-07",
+      "close": 33.01,
+      "sma20": 31.93,
+      "pct_above_ma": 3.39,
+      "rsi14": 40.43,
+      "signal": false
+    },
+    {
+      "name": "Trane Technologies",
+      "ticker": "TT",
+      "week_of": "2026-09-07",
+      "close": 442.52,
+      "sma20": 464.6,
+      "pct_above_ma": -4.75,
+      "rsi14": 45.54,
+      "signal": false
+    },
+    {
+      "name": "TransDigm Group",
+      "ticker": "TDG",
+      "week_of": "2026-09-07",
+      "close": 1140.32,
+      "sma20": 1232.71,
+      "pct_above_ma": -7.49,
+      "rsi14": 39.8,
+      "signal": false
+    },
+    {
+      "name": "Travelers Companies (The)",
+      "ticker": "TRV",
+      "week_of": "2026-09-07",
+      "close": 375.2,
+      "sma20": 337.95,
+      "pct_above_ma": 11.02,
+      "rsi14": 67.12,
+      "signal": true
+    },
+    {
+      "name": "Trimble Inc.",
+      "ticker": "TRMB",
+      "week_of": "2026-09-07",
+      "close": 57.66,
+      "sma20": 56.26,
+      "pct_above_ma": 2.49,
+      "rsi14": 45.74,
+      "signal": false
+    },
+    {
+      "name": "Truist Financial",
+      "ticker": "TFC",
+      "week_of": "2026-09-07",
+      "close": 50.4,
+      "sma20": 50.12,
+      "pct_above_ma": 0.55,
+      "rsi14": 52.32,
+      "signal": false
+    },
+    {
+      "name": "Tyler Technologies",
+      "ticker": "TYL",
+      "week_of": "2026-09-07",
+      "close": 336.67,
+      "sma20": 320.34,
+      "pct_above_ma": 5.1,
+      "rsi14": 48.56,
+      "signal": false
+    },
+    {
+      "name": "Tyson Foods",
+      "ticker": "TSN",
+      "week_of": "2026-09-07",
+      "close": 52.98,
+      "sma20": 58.29,
+      "pct_above_ma": -9.11,
+      "rsi14": 37.82,
+      "signal": false
+    },
+    {
+      "name": "U.S. Bancorp",
+      "ticker": "USB",
+      "week_of": "2026-09-07",
+      "close": 62.84,
+      "sma20": 59.92,
+      "pct_above_ma": 4.88,
+      "rsi14": 60.96,
+      "signal": true
+    },
+    {
+      "name": "Uber",
+      "ticker": "UBER",
+      "week_of": "2026-09-07",
+      "close": 71.67,
+      "sma20": 73.45,
+      "pct_above_ma": -2.43,
+      "rsi14": 45.36,
+      "signal": false
+    },
+    {
+      "name": "UDR, Inc.",
+      "ticker": "UDR",
+      "week_of": "2026-09-07",
+      "close": 35.12,
+      "sma20": 37.92,
+      "pct_above_ma": -7.39,
+      "rsi14": 39.88,
+      "signal": false
+    },
+    {
+      "name": "Ulta Beauty",
+      "ticker": "ULTA",
+      "week_of": "2026-09-07",
+      "close": 546.78,
+      "sma20": 503.76,
+      "pct_above_ma": 8.54,
+      "rsi14": 53.53,
+      "signal": false
+    },
+    {
+      "name": "Union Pacific Corporation",
+      "ticker": "UNP",
+      "week_of": "2026-09-07",
+      "close": 284.4,
+      "sma20": 280.9,
+      "pct_above_ma": 1.24,
+      "rsi14": 54.71,
+      "signal": false
+    },
+    {
+      "name": "United Airlines Holdings",
+      "ticker": "UAL",
+      "week_of": "2026-09-07",
+      "close": 109.82,
+      "sma20": 114.48,
+      "pct_above_ma": -4.07,
+      "rsi14": 48.33,
+      "signal": false
+    },
+    {
+      "name": "United Parcel Service",
+      "ticker": "UPS",
+      "week_of": "2026-09-07",
+      "close": 100.28,
+      "sma20": 104.57,
+      "pct_above_ma": -4.11,
+      "rsi14": 46.14,
+      "signal": false
+    },
+    {
+      "name": "United Rentals",
+      "ticker": "URI",
+      "week_of": "2026-09-07",
+      "close": 989.12,
+      "sma20": 1049.79,
+      "pct_above_ma": -5.78,
+      "rsi14": 48.35,
+      "signal": false
+    },
+    {
+      "name": "UnitedHealth Group",
+      "ticker": "UNH",
+      "week_of": "2026-09-07",
+      "close": 376.77,
+      "sma20": 398.15,
+      "pct_above_ma": -5.37,
+      "rsi14": 49.46,
+      "signal": false
+    },
+    {
+      "name": "Universal Health Services",
+      "ticker": "UHS",
+      "week_of": "2026-09-07",
+      "close": 174.83,
+      "sma20": 160.47,
+      "pct_above_ma": 8.95,
+      "rsi14": 52.46,
+      "signal": false
+    },
+    {
+      "name": "Valero Energy",
+      "ticker": "VLO",
+      "week_of": "2026-09-07",
+      "close": 390.42,
+      "sma20": 289.99,
+      "pct_above_ma": 34.63,
+      "rsi14": 80.81,
+      "signal": true
+    },
+    {
+      "name": "Veeva Systems",
+      "ticker": "VEEV",
+      "week_of": "2026-09-07",
+      "close": 262.4,
+      "sma20": 199.63,
+      "pct_above_ma": 31.44,
+      "rsi14": 66.41,
+      "signal": true
+    },
+    {
+      "name": "Ventas",
+      "ticker": "VTR",
+      "week_of": "2026-09-07",
+      "close": 89.99,
+      "sma20": 89.57,
+      "pct_above_ma": 0.47,
+      "rsi14": 53.31,
+      "signal": false
+    },
+    {
+      "name": "Veralto",
+      "ticker": "VLTO",
+      "week_of": "2026-09-07",
+      "close": 94.1,
+      "sma20": 90.97,
+      "pct_above_ma": 3.44,
+      "rsi14": 51.45,
+      "signal": false
+    },
+    {
+      "name": "Verisign",
+      "ticker": "VRSN",
+      "week_of": "2026-09-07",
+      "close": 292.71,
+      "sma20": 282.24,
+      "pct_above_ma": 3.71,
+      "rsi14": 59.19,
+      "signal": false
+    },
+    {
+      "name": "Verisk Analytics",
+      "ticker": "VRSK",
+      "week_of": "2026-09-07",
+      "close": 176.2,
+      "sma20": 183.26,
+      "pct_above_ma": -3.85,
+      "rsi14": 42.39,
+      "signal": false
+    },
+    {
+      "name": "Verizon",
+      "ticker": "VZ",
+      "week_of": "2026-09-07",
+      "close": 50.61,
+      "sma20": 46.64,
+      "pct_above_ma": 8.52,
+      "rsi14": 63.86,
+      "signal": true
+    },
+    {
+      "name": "Vertex Pharmaceuticals",
+      "ticker": "VRTX",
+      "week_of": "2026-09-07",
+      "close": 515.44,
+      "sma20": 480.71,
+      "pct_above_ma": 7.23,
+      "rsi14": 57.86,
+      "signal": false
+    },
+    {
+      "name": "Vertiv",
+      "ticker": "VRT",
+      "week_of": "2026-09-07",
+      "close": 257.0,
+      "sma20": 299.23,
+      "pct_above_ma": -14.11,
+      "rsi14": 46.72,
+      "signal": false
+    },
+    {
+      "name": "Viatris",
+      "ticker": "VTRS",
+      "week_of": "2026-09-07",
+      "close": 16.51,
+      "sma20": 16.36,
+      "pct_above_ma": 0.94,
+      "rsi14": 57.2,
+      "signal": false
+    },
+    {
+      "name": "Vici Properties",
+      "ticker": "VICI",
+      "week_of": "2026-09-07",
+      "close": 24.83,
+      "sma20": 26.88,
+      "pct_above_ma": -7.61,
+      "rsi14": 35.88,
+      "signal": false
+    },
+    {
+      "name": "Visa Inc.",
+      "ticker": "V",
+      "week_of": "2026-09-07",
+      "close": 370.45,
+      "sma20": 347.14,
+      "pct_above_ma": 6.71,
+      "rsi14": 62.05,
+      "signal": true
+    },
+    {
+      "name": "Vistra Corp.",
+      "ticker": "VST",
+      "week_of": "2026-09-07",
+      "close": 148.38,
+      "sma20": 150.91,
+      "pct_above_ma": -1.67,
+      "rsi14": 47.76,
+      "signal": false
+    },
+    {
+      "name": "Vivmark Residential",
+      "ticker": "VMRK",
+      "week_of": "2026-09-07",
+      "close": 65.54,
+      "sma20": 66.31,
+      "pct_above_ma": -1.16,
+      "rsi14": 51.4,
+      "signal": false
+    },
+    {
+      "name": "Vulcan Materials Company",
+      "ticker": "VMC",
+      "week_of": "2026-09-07",
+      "close": 252.74,
+      "sma20": 281.62,
+      "pct_above_ma": -10.26,
+      "rsi14": 37.54,
+      "signal": false
+    },
+    {
+      "name": "W. R. Berkley Corporation",
+      "ticker": "WRB",
+      "week_of": "2026-09-07",
+      "close": 69.9,
+      "sma20": 69.11,
+      "pct_above_ma": 1.14,
+      "rsi14": 51.5,
+      "signal": false
+    },
+    {
+      "name": "W. W. Grainger",
+      "ticker": "GWW",
+      "week_of": "2026-09-07",
+      "close": 1280.0,
+      "sma20": 1306.52,
+      "pct_above_ma": -2.03,
+      "rsi14": 52.5,
+      "signal": false
+    },
+    {
+      "name": "Wabtec",
+      "ticker": "WAB",
+      "week_of": "2026-09-07",
+      "close": 283.22,
+      "sma20": 275.06,
+      "pct_above_ma": 2.97,
+      "rsi14": 58.13,
+      "signal": false
+    },
+    {
+      "name": "Walmart",
+      "ticker": "WMT",
+      "week_of": "2026-09-07",
+      "close": 107.15,
+      "sma20": 115.32,
+      "pct_above_ma": -7.08,
+      "rsi14": 41.85,
+      "signal": false
+    },
+    {
+      "name": "Walt Disney Company (The)",
+      "ticker": "DIS",
+      "week_of": "2026-09-07",
+      "close": 106.55,
+      "sma20": 101.87,
+      "pct_above_ma": 4.59,
+      "rsi14": 55.24,
+      "signal": false
+    },
+    {
+      "name": "Warner Bros. Discovery",
+      "ticker": "WBD",
+      "week_of": "2026-09-07",
+      "close": 28.04,
+      "sma20": 27.08,
+      "pct_above_ma": 3.54,
+      "rsi14": 58.81,
+      "signal": false
+    },
+    {
+      "name": "Waste Management",
+      "ticker": "WM",
+      "week_of": "2026-09-07",
+      "close": 213.46,
+      "sma20": 222.33,
+      "pct_above_ma": -3.99,
+      "rsi14": 41.82,
+      "signal": false
+    },
+    {
+      "name": "Waters Corporation",
+      "ticker": "WAT",
+      "week_of": "2026-09-07",
+      "close": 408.34,
+      "sma20": 375.35,
+      "pct_above_ma": 8.79,
+      "rsi14": 62.28,
+      "signal": true
+    },
+    {
+      "name": "WEC Energy Group",
+      "ticker": "WEC",
+      "week_of": "2026-09-07",
+      "close": 105.33,
+      "sma20": 110.88,
+      "pct_above_ma": -5.0,
+      "rsi14": 42.19,
+      "signal": false
+    },
+    {
+      "name": "Wells Fargo",
+      "ticker": "WFC",
+      "week_of": "2026-09-07",
+      "close": 90.29,
+      "sma20": 83.42,
+      "pct_above_ma": 8.24,
+      "rsi14": 59.93,
+      "signal": false
+    },
+    {
+      "name": "Welltower",
+      "ticker": "WELL",
+      "week_of": "2026-09-07",
+      "close": 235.62,
+      "sma20": 226.34,
+      "pct_above_ma": 4.1,
+      "rsi14": 59.81,
+      "signal": false
+    },
+    {
+      "name": "West Pharmaceutical Services",
+      "ticker": "WST",
+      "week_of": "2026-09-07",
+      "close": 346.23,
+      "sma20": 335.76,
+      "pct_above_ma": 3.12,
+      "rsi14": 58.7,
+      "signal": false
+    },
+    {
+      "name": "Western Digital",
+      "ticker": "WDC",
+      "week_of": "2026-09-07",
+      "close": 447.18,
+      "sma20": 512.63,
+      "pct_above_ma": -12.77,
+      "rsi14": 50.14,
+      "signal": false
+    },
+    {
+      "name": "Weyerhaeuser",
+      "ticker": "WY",
+      "week_of": "2026-09-07",
+      "close": 22.06,
+      "sma20": 23.82,
+      "pct_above_ma": -7.38,
+      "rsi14": 40.21,
+      "signal": false
+    },
+    {
+      "name": "Williams-Sonoma, Inc.",
+      "ticker": "WSM",
+      "week_of": "2026-09-07",
+      "close": 226.23,
+      "sma20": 218.33,
+      "pct_above_ma": 3.62,
+      "rsi14": 54.73,
+      "signal": false
+    },
+    {
+      "name": "Williams Companies",
+      "ticker": "WMB",
+      "week_of": "2026-09-07",
+      "close": 72.85,
+      "sma20": 73.04,
+      "pct_above_ma": -0.25,
+      "rsi14": 52.64,
+      "signal": false
+    },
+    {
+      "name": "Willis Towers Watson",
+      "ticker": "WTW",
+      "week_of": "2026-09-07",
+      "close": 315.61,
+      "sma20": 290.97,
+      "pct_above_ma": 8.47,
+      "rsi14": 53.97,
+      "signal": false
+    },
+    {
+      "name": "Workday, Inc.",
+      "ticker": "WDAY",
+      "week_of": "2026-09-07",
+      "close": 185.7,
+      "sma20": 152.48,
+      "pct_above_ma": 21.78,
+      "rsi14": 58.25,
+      "signal": false
+    },
+    {
+      "name": "Wynn Resorts",
+      "ticker": "WYNN",
+      "week_of": "2026-09-07",
+      "close": 87.7,
+      "sma20": 99.2,
+      "pct_above_ma": -11.59,
+      "rsi14": 34.98,
+      "signal": false
+    },
+    {
+      "name": "Xcel Energy",
+      "ticker": "XEL",
+      "week_of": "2026-09-07",
+      "close": 75.5,
+      "sma20": 78.8,
+      "pct_above_ma": -4.19,
+      "rsi14": 43.56,
+      "signal": false
+    },
+    {
+      "name": "Xylem Inc.",
+      "ticker": "XYL",
+      "week_of": "2026-09-07",
+      "close": 106.96,
+      "sma20": 113.6,
+      "pct_above_ma": -5.84,
+      "rsi14": 36.7,
+      "signal": false
+    },
+    {
+      "name": "Yum! Brands",
+      "ticker": "YUM",
+      "week_of": "2026-09-07",
+      "close": 140.87,
+      "sma20": 151.75,
+      "pct_above_ma": -7.17,
+      "rsi14": 40.21,
+      "signal": false
+    },
+    {
+      "name": "Zebra Technologies",
+      "ticker": "ZBRA",
+      "week_of": "2026-09-07",
+      "close": 350.37,
+      "sma20": 285.56,
+      "pct_above_ma": 22.7,
+      "rsi14": 66.22,
+      "signal": true
+    },
+    {
+      "name": "Zimmer Biomet",
+      "ticker": "ZBH",
+      "week_of": "2026-09-07",
+      "close": 93.49,
+      "sma20": 90.89,
+      "pct_above_ma": 2.86,
+      "rsi14": 50.58,
+      "signal": false
+    },
+    {
+      "name": "Zoetis",
+      "ticker": "ZTS",
+      "week_of": "2026-09-07",
+      "close": 72.97,
+      "sma20": 78.36,
+      "pct_above_ma": -6.88,
+      "rsi14": 31.23,
+      "signal": false
+    },
+    {
+      "name": "Alnylam Pharmaceuticals",
+      "ticker": "ALNY",
+      "week_of": "2026-09-07",
+      "close": 248.68,
+      "sma20": 271.26,
+      "pct_above_ma": -8.32,
+      "rsi14": 41.2,
+      "signal": false
+    },
+    {
+      "name": "Arm Holdings",
+      "ticker": "ARM",
+      "week_of": "2026-09-07",
+      "close": 264.79,
+      "sma20": 287.89,
+      "pct_above_ma": -8.02,
+      "rsi14": 52.48,
+      "signal": false
+    },
+    {
+      "name": "ASML Holding",
+      "ticker": "ASML",
+      "week_of": "2026-09-07",
+      "close": 1698.3,
+      "sma20": 1706.3,
+      "pct_above_ma": -0.47,
+      "rsi14": 54.89,
+      "signal": false
+    },
+    {
+      "name": "Astera Labs",
+      "ticker": "ALAB",
+      "week_of": "2026-09-07",
+      "close": 291.22,
+      "sma20": 316.78,
+      "pct_above_ma": -8.07,
+      "rsi14": 51.73,
+      "signal": false
+    },
+    {
+      "name": "Coca-Cola Europacific Partners",
+      "ticker": "CCEP",
+      "week_of": "2026-09-07",
+      "close": 102.77,
+      "sma20": 101.36,
+      "pct_above_ma": 1.39,
+      "rsi14": 52.4,
+      "signal": false
+    },
+    {
+      "name": "CoreWeave",
+      "ticker": "CRWV",
+      "week_of": "2026-09-07",
+      "close": 88.99,
+      "sma20": 95.24,
+      "pct_above_ma": -6.56,
+      "rsi14": 48.81,
+      "signal": false
+    },
+    {
+      "name": "Ferrovial",
+      "ticker": "FER",
+      "week_of": "2026-09-07",
+      "close": 56.15,
+      "sma20": 65.12,
+      "pct_above_ma": -13.78,
+      "rsi14": 32.41,
+      "signal": false
+    },
+    {
+      "name": "Mercado Libre",
+      "ticker": "MELI",
+      "week_of": "2026-09-07",
+      "close": 1897.37,
+      "sma20": 1771.8,
+      "pct_above_ma": 7.09,
+      "rsi14": 53.51,
+      "signal": false
+    },
+    {
+      "name": "MicroStrategy",
+      "ticker": "MSTR",
+      "week_of": "2026-09-07",
+      "close": 130.97,
+      "sma20": 124.45,
+      "pct_above_ma": 5.24,
+      "rsi14": 49.54,
+      "signal": false
+    },
+    {
+      "name": "Nebius Group",
+      "ticker": "NBIS",
+      "week_of": "2026-09-07",
+      "close": 224.55,
+      "sma20": 216.03,
+      "pct_above_ma": 3.94,
+      "rsi14": 55.95,
+      "signal": false
+    },
+    {
+      "name": "PDD Holdings",
+      "ticker": "PDD",
+      "week_of": "2026-09-07",
+      "close": 77.81,
+      "sma20": 86.48,
+      "pct_above_ma": -10.02,
+      "rsi14": 36.93,
+      "signal": false
+    },
+    {
+      "name": "Rocket Lab",
+      "ticker": "RKLB",
+      "week_of": "2026-09-07",
+      "close": 62.95,
+      "sma20": 89.89,
+      "pct_above_ma": -29.97,
+      "rsi14": 42.85,
+      "signal": false
+    },
+    {
+      "name": "Shopify",
+      "ticker": "SHOP",
+      "week_of": "2026-09-07",
+      "close": 128.79,
+      "sma20": 124.1,
+      "pct_above_ma": 3.78,
+      "rsi14": 49.47,
+      "signal": false
+    },
+    {
+      "name": "Thomson Reuters",
+      "ticker": "TRI",
+      "week_of": "2026-09-07",
+      "close": 97.35,
+      "sma20": 92.16,
+      "pct_above_ma": 5.64,
+      "rsi14": 49.08,
+      "signal": false
+    }
+  ],
+  "failed": [
+    {
+      "ticker": "FDXF",
+      "name": "FedEx Freight",
+      "error": "not enough weekly history for FDXF (16 weeks, need at least 21)"
+    },
+    {
+      "ticker": "HONA",
+      "name": "Honeywell Aerospace",
+      "error": "not enough weekly history for HONA (13 weeks, need at least 21)"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SpaceX",
+      "error": "not enough weekly history for SPCX (14 weeks, need at least 21)"
+    }
+  ]
 }
