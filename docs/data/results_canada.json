@@ -1,6 +1,6 @@
 {
   "run_type": "canada_index",
-  "generated_at": "2026-09-14T22:03:26.753191+00:00",
+  "generated_at": "2026-09-15T22:06:11.090797+00:00",
   "results": [
     {
       "name": "5N Plus Inc.",
@@ -396,8 +396,8 @@
       "name": "Brookfield Corporation",
       "ticker": "BN.TO",
       "week_of": "2026-09-07",
-      "close": 52.93,
-      "sma20": 60.57,
+      "close": 52.83,
+      "sma20": 60.46,
       "pct_above_ma": -12.61,
       "rsi14": 33.27,
       "signal": false
@@ -1906,8 +1906,8 @@
       "name": "Teck Resources Limited",
       "ticker": "TECK-B.TO",
       "week_of": "2026-09-07",
-      "close": 92.11,
-      "sma20": 87.75,
+      "close": 91.99,
+      "sma20": 87.63,
       "pct_above_ma": 4.97,
       "rsi14": 57.36,
       "signal": false
@@ -2167,7 +2167,7 @@
     {
       "ticker": "OLA.TO",
       "name": "Orla Mining Ltd.",
-      "error": "not enough weekly history for OLA.TO (2 weeks, need at least 21)"
+      "error": "not enough weekly history for OLA.TO (1 weeks, need at least 21)"
     },
     {
       "ticker": "SES.TO",
