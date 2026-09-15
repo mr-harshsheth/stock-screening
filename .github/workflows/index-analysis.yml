@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Refresh the autocomplete ticker directory
+        run: python scripts/build_ticker_directory.py
+
       - name: Run index analysis
         run: python scripts/analyze_index.py --index ${{ inputs.index }}
 
@@ -49,7 +52,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/results_${{ inputs.index }}.json docs/data/history_${{ inputs.index }}.json
+          git add docs/data/results_${{ inputs.index }}.json docs/data/history_${{ inputs.index }}.json docs/data/known_tickers.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else

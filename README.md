@@ -26,11 +26,13 @@ stock-screener/
 │       ├── results_canada.json       # latest S&P/TSX Composite scan results
 │       ├── history_canada.json       # log of past Canada index scans
 │       ├── results_us.json           # latest S&P 500 + Nasdaq-100 scan results
-│       └── history_us.json           # log of past US index scans
+│       ├── history_us.json           # log of past US index scans
+│       └── known_tickers.json        # static autocomplete directory (~700 major tickers)
 ├── scripts/
 │   ├── analyze.py               # main analysis logic (fetch, indicators, signals)
 │   ├── analyze_index.py          # same logic, run across a full market index
 │   ├── index_constituents.py      # scrapes S&P 500 / Nasdaq-100 / TSX Composite tickers from Wikipedia
+│   ├── build_ticker_directory.py   # builds known_tickers.json for the autocomplete box
 │   ├── resolve_tickers.py        # turns typed company names into tickers
 │   └── notify.py                  # email sending
 ├── .github/workflows/
@@ -72,7 +74,27 @@ list for the S&P/TSX Composite (Canada) or S&P 500 + Nasdaq-100 (US) from
 Wikipedia, runs the same SMA20/RSI14 screener across every ticker in it, and
 writes to `results_canada.json`/`results_us.json` (kept separate from your
 personal watchlist). These scans cover hundreds of tickers, so expect
-15-30 minutes rather than the ~1 minute a personal-watchlist run takes.
+15-30 minutes rather than the ~1 minute a personal-watchlist run takes. The
+Canada/US tables only show tickers that actually signaled (no point paging
+through hundreds of "no" rows), and every run also refreshes
+`known_tickers.json`, the autocomplete list.
+
+## Other features
+
+- **Autocomplete when adding stocks**: typing into the "Add stocks" box
+  matches against `known_tickers.json` (S&P 500 + Nasdaq-100 + S&P/TSX
+  Composite, ~700 companies) and shows instant suggestions - no network
+  call, so no wait and no Yahoo Finance rate limits. Picking a suggestion
+  adds a "chip" with the confirmed ticker; typing something not in that list
+  and pressing Enter still adds it as free text, resolved the normal
+  (slower) way once you click **Add to Watchlist**.
+- **Charts**: click any ticker anywhere on the page to open a live candlestick
+  chart (an embedded [TradingView](https://www.tradingview.com/) widget) with
+  every timeframe from 1 day to all-time, and a toggle between candlestick,
+  area, and other chart styles built into the widget's own toolbar. This
+  needs no backend of ours - Yahoo Finance doesn't allow direct browser
+  requests (no CORS), so real-time charting is delegated to TradingView's
+  free embeddable widget instead of trying to proxy Yahoo ourselves.
 
 ---
 

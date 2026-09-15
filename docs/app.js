@@ -22,9 +22,11 @@ const POLL_MAX_ATTEMPTS = 20; // ~5 minutes - personal watchlist runs are quick
 const INDEX_POLL_INTERVAL_MS = 20000;
 const INDEX_POLL_MAX_ATTEMPTS = 90; // ~30 minutes - full index scans are slow
 
+const MAX_SUGGESTIONS = 8;
+
 // Per-region table config. "main" is the personal watchlist; "canada" and
-// "us" are the full-index scans. Keeping this in one place lets the render/
-// sort/poll logic below stay generic instead of duplicated three times.
+// "us" are the full-index scans (which only show rows that signaled, with
+// no Signal column since every row shown is already a "yes").
 const REGIONS = {
   main: {
     resultsPath: "data/results.json",
@@ -34,6 +36,8 @@ const REGIONS = {
     failedListId: "failed-list",
     unresolvedBoxId: "unresolved-box",
     unresolvedListId: "unresolved-list",
+    signalOnly: false,
+    showSignalColumn: true,
   },
   canada: {
     resultsPath: "data/results_canada.json",
@@ -41,6 +45,8 @@ const REGIONS = {
     lastAnalyzedId: "last-analyzed-canada",
     failedBoxId: "canada-failed-box",
     failedListId: "canada-failed-list",
+    signalOnly: true,
+    showSignalColumn: false,
   },
   us: {
     resultsPath: "data/results_us.json",
@@ -48,6 +54,8 @@ const REGIONS = {
     lastAnalyzedId: "last-analyzed-us",
     failedBoxId: "us-failed-box",
     failedListId: "us-failed-list",
+    signalOnly: true,
+    showSignalColumn: false,
   },
 };
 
@@ -181,9 +189,34 @@ async function loadRegionResults(region) {
   }
 }
 
+let tickerDirectory = [];
+
+async function loadTickerDirectory() {
+  try {
+    tickerDirectory = await fetchJson("data/known_tickers.json");
+  } catch (err) {
+    console.error("Could not load ticker directory for autocomplete:", err);
+    tickerDirectory = [];
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Small helpers
+// ---------------------------------------------------------------------------
+
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str == null ? "" : String(str);
+  return div.innerHTML;
+}
+
 // ---------------------------------------------------------------------------
 // Rendering
 // ---------------------------------------------------------------------------
+
+function tickerLinkHtml(ticker, name) {
+  return `<a href="#" class="ticker-link" data-ticker="${escapeHtml(ticker)}" data-name="${escapeHtml(name)}">${escapeHtml(ticker)}</a>`;
+}
 
 function renderWatchlist(watchlist) {
   const tbody = document.querySelector("#watchlist-table tbody");
@@ -196,7 +229,7 @@ function renderWatchlist(watchlist) {
     tr.appendChild(nameTd);
 
     const tickerTd = document.createElement("td");
-    tickerTd.textContent = entry.ticker;
+    tickerTd.innerHTML = tickerLinkHtml(entry.ticker, entry.name);
     tr.appendChild(tickerTd);
 
     const actionTd = document.createElement("td");
@@ -229,31 +262,35 @@ function renderResultsInto(region, payload) {
   lastPayload[region] = payload;
   const config = REGIONS[region];
 
-  const results = (payload && payload.results) || [];
+  const allResults = (payload && payload.results) || [];
   const failed = (payload && payload.failed) || [];
   const unresolved = (payload && payload.unresolved) || [];
 
-  const sorted = sortResults(results, sortStates[region]);
+  const shown = config.signalOnly ? allResults.filter((r) => r.signal) : allResults;
+  const sorted = sortResults(shown, sortStates[region]);
 
   const tbody = document.querySelector(`#${config.tableId} tbody`);
   tbody.innerHTML = "";
   sorted.forEach((r) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td>${r.ticker}</td>
-      <td>${r.name}</td>
+      <td>${tickerLinkHtml(r.ticker, r.name)}</td>
+      <td>${escapeHtml(r.name)}</td>
       <td>${r.close}</td>
       <td>${r.sma20}</td>
       <td>${r.pct_above_ma}%</td>
       <td>${r.rsi14}</td>
-      <td class="${r.signal ? "signal-yes" : "signal-no"}">${r.signal ? "YES" : "no"}</td>
+      ${config.showSignalColumn ? `<td class="${r.signal ? "signal-yes" : "signal-no"}">${r.signal ? "YES" : "no"}</td>` : ""}
     `;
     tbody.appendChild(tr);
   });
 
   const lastAnalyzed = document.getElementById(config.lastAnalyzedId);
   if (payload && payload.generated_at) {
-    lastAnalyzed.textContent = `Last analyzed: ${payload.generated_at} (${payload.run_type || "unknown"} run, ${results.length} tickers)`;
+    const countText = config.signalOnly
+      ? `${allResults.length} scanned, ${shown.length} signaled`
+      : `${allResults.length} tickers`;
+    lastAnalyzed.textContent = `Last analyzed: ${payload.generated_at} (${payload.run_type || "unknown"} run, ${countText})`;
   } else {
     lastAnalyzed.textContent = "No analysis has been run yet.";
   }
@@ -301,19 +338,206 @@ function renderHistory(history) {
 }
 
 // ---------------------------------------------------------------------------
+// Chart modal (TradingView widget, loaded lazily on first use)
+// ---------------------------------------------------------------------------
+
+let tvScriptPromise = null;
+
+function loadTradingViewScript() {
+  if (window.TradingView) return Promise.resolve();
+  if (tvScriptPromise) return tvScriptPromise;
+
+  tvScriptPromise = new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = "https://s3.tradingview.com/tv.js";
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error("Could not load the TradingView chart library."));
+    document.head.appendChild(script);
+  });
+  return tvScriptPromise;
+}
+
+function toTradingViewSymbol(ticker) {
+  if (ticker.endsWith(".TO")) {
+    return `TSX:${ticker.slice(0, -3)}`;
+  }
+  return ticker;
+}
+
+function openChart(ticker, name) {
+  const modal = document.getElementById("chart-modal");
+  const title = document.getElementById("chart-modal-title");
+  const container = document.getElementById("tv-chart-container");
+
+  title.textContent = name ? `${name} (${ticker})` : ticker;
+  container.innerHTML = "";
+  modal.hidden = false;
+
+  loadTradingViewScript()
+    .then(() => {
+      container.innerHTML = "";
+      new window.TradingView.widget({
+        autosize: true,
+        symbol: toTradingViewSymbol(ticker),
+        interval: "D",
+        timezone: "Etc/UTC",
+        theme: "light",
+        style: "1",
+        locale: "en",
+        toolbar_bg: "#f8f9fb",
+        enable_publishing: false,
+        allow_symbol_change: false,
+        container_id: "tv-chart-container",
+      });
+    })
+    .catch((err) => {
+      container.innerHTML = `<p class="hint warn">${escapeHtml(err.message)}</p>`;
+    });
+}
+
+function closeChart() {
+  document.getElementById("chart-modal").hidden = true;
+  document.getElementById("tv-chart-container").innerHTML = "";
+}
+
+// ---------------------------------------------------------------------------
+// Autocomplete + watchlist "chips"
+// ---------------------------------------------------------------------------
+
+let pendingChips = [];
+let currentSuggestions = [];
+let activeSuggestionIndex = -1;
+
+function renderChips() {
+  const row = document.getElementById("pending-chips");
+  row.innerHTML = "";
+  pendingChips.forEach((chip, i) => {
+    const span = document.createElement("span");
+    span.className = "chip";
+    span.innerHTML = `${escapeHtml(chip.label)} <button type="button" aria-label="Remove">&times;</button>`;
+    span.querySelector("button").addEventListener("click", () => {
+      pendingChips.splice(i, 1);
+      renderChips();
+    });
+    row.appendChild(span);
+  });
+}
+
+function addChip(chip) {
+  const exists = pendingChips.some((c) => c.value.toLowerCase() === chip.value.toLowerCase());
+  if (!exists) {
+    pendingChips.push(chip);
+    renderChips();
+  }
+}
+
+function hideSuggestions() {
+  document.getElementById("stock-suggestions").hidden = true;
+  currentSuggestions = [];
+  activeSuggestionIndex = -1;
+}
+
+function renderSuggestions(matches) {
+  currentSuggestions = matches;
+  activeSuggestionIndex = -1;
+  const ul = document.getElementById("stock-suggestions");
+  ul.innerHTML = "";
+
+  if (!matches.length) {
+    ul.hidden = true;
+    return;
+  }
+
+  matches.forEach((entry, i) => {
+    const li = document.createElement("li");
+    li.innerHTML = `${escapeHtml(entry.name)} <span class="suggestion-ticker">${escapeHtml(entry.ticker)}</span> <span class="suggestion-market">${entry.market}</span>`;
+    li.addEventListener("mousedown", (e) => {
+      e.preventDefault(); // keep focus in the input so typing can continue
+      selectSuggestion(entry);
+    });
+    ul.appendChild(li);
+  });
+  ul.hidden = false;
+}
+
+function selectSuggestion(entry) {
+  addChip({ label: `${entry.name} (${entry.ticker})`, value: entry.ticker });
+  const input = document.getElementById("stock-search");
+  input.value = "";
+  hideSuggestions();
+  input.focus();
+}
+
+function updateActiveSuggestion() {
+  document.querySelectorAll("#stock-suggestions li").forEach((li, i) => {
+    li.classList.toggle("active", i === activeSuggestionIndex);
+  });
+}
+
+function onSearchInput(e) {
+  const query = e.target.value.trim().toLowerCase();
+  if (!query) {
+    hideSuggestions();
+    return;
+  }
+
+  const scored = [];
+  for (const entry of tickerDirectory) {
+    const ticker = entry.ticker.toLowerCase();
+    const name = entry.name.toLowerCase();
+    let score;
+    if (ticker === query) score = 0;
+    else if (ticker.startsWith(query)) score = 1;
+    else if (name.startsWith(query)) score = 2;
+    else if (name.includes(query) || ticker.includes(query)) score = 3;
+    else continue;
+    scored.push({ entry, score });
+  }
+  scored.sort((a, b) => a.score - b.score || a.entry.name.localeCompare(b.entry.name));
+  renderSuggestions(scored.slice(0, MAX_SUGGESTIONS).map((s) => s.entry));
+}
+
+function onSearchKeydown(e) {
+  if (e.key === "ArrowDown") {
+    if (!currentSuggestions.length) return;
+    e.preventDefault();
+    activeSuggestionIndex = (activeSuggestionIndex + 1) % currentSuggestions.length;
+    updateActiveSuggestion();
+  } else if (e.key === "ArrowUp") {
+    if (!currentSuggestions.length) return;
+    e.preventDefault();
+    activeSuggestionIndex = (activeSuggestionIndex - 1 + currentSuggestions.length) % currentSuggestions.length;
+    updateActiveSuggestion();
+  } else if (e.key === "Enter") {
+    e.preventDefault();
+    if (activeSuggestionIndex >= 0 && currentSuggestions[activeSuggestionIndex]) {
+      selectSuggestion(currentSuggestions[activeSuggestionIndex]);
+    } else {
+      const value = e.target.value.trim();
+      if (value) {
+        addChip({ label: value, value: value });
+        e.target.value = "";
+        hideSuggestions();
+      }
+    }
+  } else if (e.key === "Escape") {
+    hideSuggestions();
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Actions
 // ---------------------------------------------------------------------------
 
 async function addToWatchlist() {
-  const textarea = document.getElementById("add-entries");
-  const value = textarea.value.trim();
   const statusEl = document.getElementById("add-status");
 
-  if (!value) {
-    statusEl.textContent = "Type at least one name or ticker first.";
+  if (pendingChips.length === 0) {
+    statusEl.textContent = "Add at least one stock first.";
     return;
   }
 
+  const value = pendingChips.map((c) => c.value).join(", ");
   const btn = document.getElementById("add-btn");
   btn.disabled = true;
   statusEl.textContent = "Triggering workflow...";
@@ -321,7 +545,8 @@ async function addToWatchlist() {
   try {
     await dispatchWorkflow(MANUAL_WORKFLOW_FILE, { add_entries: value });
     statusEl.textContent = "Triggered - check back in ~1 minute. Refreshing...";
-    textarea.value = "";
+    pendingChips = [];
+    renderChips();
     pollForRegionUpdate("main", statusEl, POLL_INTERVAL_MS, POLL_MAX_ATTEMPTS, { alsoLoadWatchlist: true, alsoLoadHistory: true });
   } catch (err) {
     statusEl.textContent = `Error: ${err.message}`;
@@ -449,12 +674,36 @@ function init() {
   document.getElementById("analyze-canada-btn").addEventListener("click", () => analyzeIndex("canada", "canada"));
   document.getElementById("analyze-us-btn").addEventListener("click", () => analyzeIndex("us", "us"));
 
+  // Autocomplete
+  document.getElementById("stock-search").addEventListener("input", onSearchInput);
+  document.getElementById("stock-search").addEventListener("keydown", onSearchKeydown);
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".autocomplete-wrap")) hideSuggestions();
+  });
+
+  // Chart modal
+  document.getElementById("chart-modal-close").addEventListener("click", closeChart);
+  document.getElementById("chart-modal").addEventListener("click", (e) => {
+    if (e.target.id === "chart-modal") closeChart();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !document.getElementById("chart-modal").hidden) closeChart();
+  });
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest(".ticker-link");
+    if (link) {
+      e.preventDefault();
+      openChart(link.dataset.ticker, link.dataset.name);
+    }
+  });
+
   wireSortHandlers("main");
   wireSortHandlers("canada");
   wireSortHandlers("us");
 
   loadWatchlist();
   loadHistory();
+  loadTickerDirectory();
   loadRegionResults("main");
   loadRegionResults("canada");
   loadRegionResults("us");

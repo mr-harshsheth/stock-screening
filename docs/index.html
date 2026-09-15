@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Stock Screener</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -51,9 +54,14 @@
     <section class="card">
       <h2>Watchlist</h2>
       <div class="form-row">
-        <label for="add-entries">Add stocks (names or tickers, comma or newline separated)</label>
-        <textarea id="add-entries" rows="3" placeholder="Apple, MSFT, Tesla, Nvidia"></textarea>
+        <label for="stock-search">Add stocks (type a name or ticker)</label>
+        <div class="autocomplete-wrap">
+          <input type="text" id="stock-search" autocomplete="off" placeholder="e.g. Apple, TD Bank, NVDA" />
+          <ul id="stock-suggestions" class="suggestions-list" hidden></ul>
+        </div>
+        <p class="hint">Pick a suggestion, or type anything and press Enter - names outside the suggestion list still get resolved when you click Add.</p>
       </div>
+      <div id="pending-chips" class="chips-row"></div>
       <button id="add-btn">Add to Watchlist</button>
       <span id="add-status" class="status"></span>
 
@@ -110,7 +118,7 @@
       </h2>
       <button id="analyze-canada-btn">Analyse Canada</button>
       <span id="analyze-canada-status" class="status"></span>
-      <p class="hint">Scans ~250 stocks. Can take 15-30 minutes - feel free to close the page and check back.</p>
+      <p class="hint">Scans ~250 stocks, showing only the ones that signal. Can take 15-30 minutes - feel free to close the page and check back.</p>
       <div id="canada-body" hidden>
         <p class="hint" id="last-analyzed-canada"></p>
         <div id="canada-failed-box" hidden>
@@ -125,7 +133,6 @@
               <th data-key="sma20">SMA20</th>
               <th data-key="pct_above_ma">% above MA</th>
               <th data-key="rsi14">RSI14</th>
-              <th data-key="signal">Signal</th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -141,7 +148,7 @@
       </h2>
       <button id="analyze-us-btn">Analyse US</button>
       <span id="analyze-us-status" class="status"></span>
-      <p class="hint">Scans ~550 stocks. Can take 15-30 minutes - feel free to close the page and check back.</p>
+      <p class="hint">Scans ~550 stocks, showing only the ones that signal. Can take 15-30 minutes - feel free to close the page and check back.</p>
       <div id="us-body" hidden>
         <p class="hint" id="last-analyzed-us"></p>
         <div id="us-failed-box" hidden>
@@ -156,7 +163,6 @@
               <th data-key="sma20">SMA20</th>
               <th data-key="pct_above_ma">% above MA</th>
               <th data-key="rsi14">RSI14</th>
-              <th data-key="signal">Signal</th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -192,6 +198,17 @@
   <footer>
     <p>Data via Yahoo Finance. Not investment advice.</p>
   </footer>
+
+  <!-- Chart modal (populated with a TradingView widget on ticker click) -->
+  <div id="chart-modal" class="modal-overlay" hidden>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <h3 id="chart-modal-title">Chart</h3>
+        <button class="modal-close" id="chart-modal-close" aria-label="Close">&times;</button>
+      </div>
+      <div id="tv-chart-container" class="tv-chart-container"></div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>

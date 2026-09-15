@@ -1,0 +1,3687 @@
+[
+  {
+    "name": "3M",
+    "ticker": "MMM",
+    "market": "US"
+  },
+  {
+    "name": "5N Plus Inc.",
+    "ticker": "VNP.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "A. O. Smith",
+    "ticker": "AOS",
+    "market": "US"
+  },
+  {
+    "name": "Abbott Laboratories",
+    "ticker": "ABT",
+    "market": "US"
+  },
+  {
+    "name": "AbbVie",
+    "ticker": "ABBV",
+    "market": "US"
+  },
+  {
+    "name": "AbraSilver Resource Corp.",
+    "ticker": "ABRA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Accenture",
+    "ticker": "ACN",
+    "market": "US"
+  },
+  {
+    "name": "Adobe Inc.",
+    "ticker": "ADBE",
+    "market": "US"
+  },
+  {
+    "name": "Advanced Micro Devices",
+    "ticker": "AMD",
+    "market": "US"
+  },
+  {
+    "name": "Advantage Energy Ltd.",
+    "ticker": "AAV.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Aecon Group Inc.",
+    "ticker": "ARE.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "AES Corporation",
+    "ticker": "AES",
+    "market": "US"
+  },
+  {
+    "name": "Aflac",
+    "ticker": "AFL",
+    "market": "US"
+  },
+  {
+    "name": "Agilent Technologies",
+    "ticker": "A",
+    "market": "US"
+  },
+  {
+    "name": "Agnico Eagle Mines Limited",
+    "ticker": "AEM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Air Canada",
+    "ticker": "AC.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Air Products",
+    "ticker": "APD",
+    "market": "US"
+  },
+  {
+    "name": "Airbnb",
+    "ticker": "ABNB",
+    "market": "US"
+  },
+  {
+    "name": "Akamai Technologies",
+    "ticker": "AKAM",
+    "market": "US"
+  },
+  {
+    "name": "Alamos Gold Inc.",
+    "ticker": "AGI.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Albemarle Corporation",
+    "ticker": "ALB",
+    "market": "US"
+  },
+  {
+    "name": "Alexandria Real Estate Equities",
+    "ticker": "ARE",
+    "market": "US"
+  },
+  {
+    "name": "Algonquin Power & Utilities Corp.",
+    "ticker": "AQN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Align Technology",
+    "ticker": "ALGN",
+    "market": "US"
+  },
+  {
+    "name": "Alimentation Couche-Tard Inc.",
+    "ticker": "ATD.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Allegion",
+    "ticker": "ALLE",
+    "market": "US"
+  },
+  {
+    "name": "Alliant Energy",
+    "ticker": "LNT",
+    "market": "US"
+  },
+  {
+    "name": "Allied Gold Corporation",
+    "ticker": "AAUC.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Allied Properties Real Estate Investment Trust",
+    "ticker": "AP-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Allstate",
+    "ticker": "ALL",
+    "market": "US"
+  },
+  {
+    "name": "Alnylam Pharmaceuticals",
+    "ticker": "ALNY",
+    "market": "US"
+  },
+  {
+    "name": "Alphabet Inc. (Class A)",
+    "ticker": "GOOGL",
+    "market": "US"
+  },
+  {
+    "name": "Alphabet Inc. (Class C)",
+    "ticker": "GOOG",
+    "market": "US"
+  },
+  {
+    "name": "AltaGas Ltd.",
+    "ticker": "ALA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Altria",
+    "ticker": "MO",
+    "market": "US"
+  },
+  {
+    "name": "Altus Group Limited",
+    "ticker": "AIF.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Amazon",
+    "ticker": "AMZN",
+    "market": "US"
+  },
+  {
+    "name": "Amcor",
+    "ticker": "AMCR",
+    "market": "US"
+  },
+  {
+    "name": "Ameren",
+    "ticker": "AEE",
+    "market": "US"
+  },
+  {
+    "name": "American Electric Power",
+    "ticker": "AEP",
+    "market": "US"
+  },
+  {
+    "name": "American Express",
+    "ticker": "AXP",
+    "market": "US"
+  },
+  {
+    "name": "American International Group",
+    "ticker": "AIG",
+    "market": "US"
+  },
+  {
+    "name": "American Tower",
+    "ticker": "AMT",
+    "market": "US"
+  },
+  {
+    "name": "American Water Works",
+    "ticker": "AWK",
+    "market": "US"
+  },
+  {
+    "name": "Americas Gold And Silver Corporation",
+    "ticker": "USA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Ameriprise Financial",
+    "ticker": "AMP",
+    "market": "US"
+  },
+  {
+    "name": "Ametek",
+    "ticker": "AME",
+    "market": "US"
+  },
+  {
+    "name": "Amgen",
+    "ticker": "AMGN",
+    "market": "US"
+  },
+  {
+    "name": "Amphenol",
+    "ticker": "APH",
+    "market": "US"
+  },
+  {
+    "name": "Analog Devices",
+    "ticker": "ADI",
+    "market": "US"
+  },
+  {
+    "name": "Aon plc",
+    "ticker": "AON",
+    "market": "US"
+  },
+  {
+    "name": "APA Corporation",
+    "ticker": "APA",
+    "market": "US"
+  },
+  {
+    "name": "Apollo Global Management",
+    "ticker": "APO",
+    "market": "US"
+  },
+  {
+    "name": "Apple Inc.",
+    "ticker": "AAPL",
+    "market": "US"
+  },
+  {
+    "name": "Applied Materials",
+    "ticker": "AMAT",
+    "market": "US"
+  },
+  {
+    "name": "AppLovin",
+    "ticker": "APP",
+    "market": "US"
+  },
+  {
+    "name": "Aptiv",
+    "ticker": "APTV",
+    "market": "US"
+  },
+  {
+    "name": "ARC Resources Ltd.",
+    "ticker": "ARX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Arch Capital Group",
+    "ticker": "ACGL",
+    "market": "US"
+  },
+  {
+    "name": "Archer Daniels Midland",
+    "ticker": "ADM",
+    "market": "US"
+  },
+  {
+    "name": "Ares Management",
+    "ticker": "ARES",
+    "market": "US"
+  },
+  {
+    "name": "Aris Mining Corporation",
+    "ticker": "ARIS.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Arista Networks",
+    "ticker": "ANET",
+    "market": "US"
+  },
+  {
+    "name": "Aritzia Inc.",
+    "ticker": "ATZ.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Arm Holdings",
+    "ticker": "ARM",
+    "market": "US"
+  },
+  {
+    "name": "Arthur J. Gallagher & Co.",
+    "ticker": "AJG",
+    "market": "US"
+  },
+  {
+    "name": "ASML Holding",
+    "ticker": "ASML",
+    "market": "US"
+  },
+  {
+    "name": "Assurant",
+    "ticker": "AIZ",
+    "market": "US"
+  },
+  {
+    "name": "Astera Labs",
+    "ticker": "ALAB",
+    "market": "US"
+  },
+  {
+    "name": "AT&T",
+    "ticker": "T",
+    "market": "US"
+  },
+  {
+    "name": "ATCO Ltd.",
+    "ticker": "ACO-X.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Athabasca Oil Corporation",
+    "ticker": "ATH.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "AtkinsRéalis Group Inc.",
+    "ticker": "ATRL.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Atmos Energy",
+    "ticker": "ATO",
+    "market": "US"
+  },
+  {
+    "name": "ATS Corporation",
+    "ticker": "ATS.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Autodesk",
+    "ticker": "ADSK",
+    "market": "US"
+  },
+  {
+    "name": "Automatic Data Processing",
+    "ticker": "ADP",
+    "market": "US"
+  },
+  {
+    "name": "AutoZone",
+    "ticker": "AZO",
+    "market": "US"
+  },
+  {
+    "name": "Avery Dennison",
+    "ticker": "AVY",
+    "market": "US"
+  },
+  {
+    "name": "Avino Silver & Gold Mines Ltd.",
+    "ticker": "ASM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Axon Enterprise",
+    "ticker": "AXON",
+    "market": "US"
+  },
+  {
+    "name": "Aya Gold & Silver Inc.",
+    "ticker": "AYA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "B2Gold Corp.",
+    "ticker": "BTO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Badger Infrastructure Solutions Ltd.",
+    "ticker": "BDGI.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Baker Hughes",
+    "ticker": "BKR",
+    "market": "US"
+  },
+  {
+    "name": "Ball Corporation",
+    "ticker": "BALL",
+    "market": "US"
+  },
+  {
+    "name": "Bank of America",
+    "ticker": "BAC",
+    "market": "US"
+  },
+  {
+    "name": "Bank of Montreal",
+    "ticker": "BMO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Bank of Nova Scotia",
+    "ticker": "BNS.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Barrick Gold Corporation",
+    "ticker": "ABX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Bausch Health Companies Inc.",
+    "ticker": "BHC.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Baxter International",
+    "ticker": "BAX",
+    "market": "US"
+  },
+  {
+    "name": "Baytex Energy Corp.",
+    "ticker": "BTE.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "BCE Inc.",
+    "ticker": "BCE.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Becton Dickinson",
+    "ticker": "BDX",
+    "market": "US"
+  },
+  {
+    "name": "Berkshire Hathaway",
+    "ticker": "BRK-B",
+    "market": "US"
+  },
+  {
+    "name": "Best Buy",
+    "ticker": "BBY",
+    "market": "US"
+  },
+  {
+    "name": "Bio-Techne",
+    "ticker": "TECH",
+    "market": "US"
+  },
+  {
+    "name": "Biogen",
+    "ticker": "BIIB",
+    "market": "US"
+  },
+  {
+    "name": "Birchcliff Energy Ltd.",
+    "ticker": "BIR.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Bird Construction Inc.",
+    "ticker": "BDT.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "BlackBerry Limited",
+    "ticker": "BB.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "BlackRock",
+    "ticker": "BLK",
+    "market": "US"
+  },
+  {
+    "name": "Blackstone Inc.",
+    "ticker": "BX",
+    "market": "US"
+  },
+  {
+    "name": "Block, Inc.",
+    "ticker": "XYZ",
+    "market": "US"
+  },
+  {
+    "name": "BNY Mellon",
+    "ticker": "BNY",
+    "market": "US"
+  },
+  {
+    "name": "Boardwalk Real Estate Investment Trust",
+    "ticker": "BEI-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Boeing",
+    "ticker": "BA",
+    "market": "US"
+  },
+  {
+    "name": "Bombardier Inc.",
+    "ticker": "BBD-B.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Booking Holdings",
+    "ticker": "BKNG",
+    "market": "US"
+  },
+  {
+    "name": "Boralex Inc.",
+    "ticker": "BLX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Boston Scientific",
+    "ticker": "BSX",
+    "market": "US"
+  },
+  {
+    "name": "Boyd Group Services Inc.",
+    "ticker": "BYD.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Bristol Myers Squibb",
+    "ticker": "BMY",
+    "market": "US"
+  },
+  {
+    "name": "Broadcom",
+    "ticker": "AVGO",
+    "market": "US"
+  },
+  {
+    "name": "Broadridge Financial Solutions",
+    "ticker": "BR",
+    "market": "US"
+  },
+  {
+    "name": "Brookfield Asset Management Ltd.",
+    "ticker": "BAM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Brookfield Business Corporation",
+    "ticker": "BBUC.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Brookfield Corporation",
+    "ticker": "BN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Brookfield Infrastructure Partners L.P.",
+    "ticker": "BIP-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Brookfield Renewable Partners L.P.",
+    "ticker": "BEP-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Brown & Brown",
+    "ticker": "BRO",
+    "market": "US"
+  },
+  {
+    "name": "Brown–Forman",
+    "ticker": "BF-B",
+    "market": "US"
+  },
+  {
+    "name": "BRP Inc.",
+    "ticker": "DOO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Builders FirstSource",
+    "ticker": "BLDR",
+    "market": "US"
+  },
+  {
+    "name": "Bunge Global",
+    "ticker": "BG",
+    "market": "US"
+  },
+  {
+    "name": "BXP, Inc.",
+    "ticker": "BXP",
+    "market": "US"
+  },
+  {
+    "name": "C.H. Robinson",
+    "ticker": "CHRW",
+    "market": "US"
+  },
+  {
+    "name": "Cadence Design Systems",
+    "ticker": "CDNS",
+    "market": "US"
+  },
+  {
+    "name": "CAE Inc.",
+    "ticker": "CAE.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Camden Property Trust",
+    "ticker": "CPT",
+    "market": "US"
+  },
+  {
+    "name": "Cameco Corporation",
+    "ticker": "CCO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Canadian Apartment Properties Real Estate Investment Trust",
+    "ticker": "CAR-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Canadian Imperial Bank of Commerce",
+    "ticker": "CM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Canadian National Railway Company",
+    "ticker": "CNR.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Canadian Natural Resources Limited",
+    "ticker": "CNQ.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Canadian Pacific Kansas City Limited",
+    "ticker": "CP.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Canadian Tire Corporation Limited",
+    "ticker": "CTC-A.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Canadian Utilities Limited",
+    "ticker": "CU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Capital One",
+    "ticker": "COF",
+    "market": "US"
+  },
+  {
+    "name": "Capital Power Corporation",
+    "ticker": "CPX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Capstone Copper Corp.",
+    "ticker": "CS.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Cardinal Health",
+    "ticker": "CAH",
+    "market": "US"
+  },
+  {
+    "name": "Cargojet Inc.",
+    "ticker": "CJT.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Carnival Corporation",
+    "ticker": "CCL",
+    "market": "US"
+  },
+  {
+    "name": "Carrier Global",
+    "ticker": "CARR",
+    "market": "US"
+  },
+  {
+    "name": "Carvana",
+    "ticker": "CVNA",
+    "market": "US"
+  },
+  {
+    "name": "Casey's",
+    "ticker": "CASY",
+    "market": "US"
+  },
+  {
+    "name": "Caterpillar Inc.",
+    "ticker": "CAT",
+    "market": "US"
+  },
+  {
+    "name": "Cboe Global Markets",
+    "ticker": "CBOE",
+    "market": "US"
+  },
+  {
+    "name": "CBRE Group",
+    "ticker": "CBRE",
+    "market": "US"
+  },
+  {
+    "name": "CCL Industries Inc.",
+    "ticker": "CCL-B.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "CDW Corporation",
+    "ticker": "CDW",
+    "market": "US"
+  },
+  {
+    "name": "Celestica Inc.",
+    "ticker": "CLS.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Cencora",
+    "ticker": "COR",
+    "market": "US"
+  },
+  {
+    "name": "Cenovus Energy Inc.",
+    "ticker": "CVE.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Centene Corporation",
+    "ticker": "CNC",
+    "market": "US"
+  },
+  {
+    "name": "CenterPoint Energy",
+    "ticker": "CNP",
+    "market": "US"
+  },
+  {
+    "name": "Centerra Gold Inc.",
+    "ticker": "CG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "CES Energy Solutions Corp.",
+    "ticker": "CEU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "CF Industries",
+    "ticker": "CF",
+    "market": "US"
+  },
+  {
+    "name": "CGI Inc.",
+    "ticker": "GIB-A.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Charles River Laboratories",
+    "ticker": "CRL",
+    "market": "US"
+  },
+  {
+    "name": "Charles Schwab Corporation",
+    "ticker": "SCHW",
+    "market": "US"
+  },
+  {
+    "name": "Charter Communications",
+    "ticker": "CHTR",
+    "market": "US"
+  },
+  {
+    "name": "Chartwell Retirement Residences",
+    "ticker": "CSH-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Chevron Corporation",
+    "ticker": "CVX",
+    "market": "US"
+  },
+  {
+    "name": "Chipotle Mexican Grill",
+    "ticker": "CMG",
+    "market": "US"
+  },
+  {
+    "name": "Choice Properties Real Estate Investment Trust",
+    "ticker": "CHP-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Chubb Limited",
+    "ticker": "CB",
+    "market": "US"
+  },
+  {
+    "name": "Church & Dwight",
+    "ticker": "CHD",
+    "market": "US"
+  },
+  {
+    "name": "Ciena",
+    "ticker": "CIEN",
+    "market": "US"
+  },
+  {
+    "name": "Cigna",
+    "ticker": "CI",
+    "market": "US"
+  },
+  {
+    "name": "Cincinnati Financial",
+    "ticker": "CINF",
+    "market": "US"
+  },
+  {
+    "name": "Cintas",
+    "ticker": "CTAS",
+    "market": "US"
+  },
+  {
+    "name": "Cisco",
+    "ticker": "CSCO",
+    "market": "US"
+  },
+  {
+    "name": "Citigroup",
+    "ticker": "C",
+    "market": "US"
+  },
+  {
+    "name": "Citizens Financial Group",
+    "ticker": "CFG",
+    "market": "US"
+  },
+  {
+    "name": "Clorox",
+    "ticker": "CLX",
+    "market": "US"
+  },
+  {
+    "name": "CME Group",
+    "ticker": "CME",
+    "market": "US"
+  },
+  {
+    "name": "CMS Energy",
+    "ticker": "CMS",
+    "market": "US"
+  },
+  {
+    "name": "Coca-Cola Company (The)",
+    "ticker": "KO",
+    "market": "US"
+  },
+  {
+    "name": "Coca-Cola Europacific Partners",
+    "ticker": "CCEP",
+    "market": "US"
+  },
+  {
+    "name": "Cogeco Communications Inc.",
+    "ticker": "CCA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Cognizant",
+    "ticker": "CTSH",
+    "market": "US"
+  },
+  {
+    "name": "Coherent Corp.",
+    "ticker": "COHR",
+    "market": "US"
+  },
+  {
+    "name": "Coinbase",
+    "ticker": "COIN",
+    "market": "US"
+  },
+  {
+    "name": "Colgate-Palmolive",
+    "ticker": "CL",
+    "market": "US"
+  },
+  {
+    "name": "Colliers International Group Inc.",
+    "ticker": "CIGI.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Comcast",
+    "ticker": "CMCSA",
+    "market": "US"
+  },
+  {
+    "name": "Comfort Systems USA",
+    "ticker": "FIX",
+    "market": "US"
+  },
+  {
+    "name": "ConocoPhillips",
+    "ticker": "COP",
+    "market": "US"
+  },
+  {
+    "name": "Consolidated Edison",
+    "ticker": "ED",
+    "market": "US"
+  },
+  {
+    "name": "Constellation Brands",
+    "ticker": "STZ",
+    "market": "US"
+  },
+  {
+    "name": "Constellation Energy",
+    "ticker": "CEG",
+    "market": "US"
+  },
+  {
+    "name": "Constellation Software Inc.",
+    "ticker": "CSU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Cooper Companies (The)",
+    "ticker": "COO",
+    "market": "US"
+  },
+  {
+    "name": "Copart",
+    "ticker": "CPRT",
+    "market": "US"
+  },
+  {
+    "name": "CoreWeave",
+    "ticker": "CRWV",
+    "market": "US"
+  },
+  {
+    "name": "Corning Inc.",
+    "ticker": "GLW",
+    "market": "US"
+  },
+  {
+    "name": "Corpay",
+    "ticker": "CPAY",
+    "market": "US"
+  },
+  {
+    "name": "Corteva",
+    "ticker": "CTVA",
+    "market": "US"
+  },
+  {
+    "name": "CoStar Group",
+    "ticker": "CSGP",
+    "market": "US"
+  },
+  {
+    "name": "Costco",
+    "ticker": "COST",
+    "market": "US"
+  },
+  {
+    "name": "CRH plc",
+    "ticker": "CRH",
+    "market": "US"
+  },
+  {
+    "name": "Crombie Real Estate Investment Trust",
+    "ticker": "CRR-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "CrowdStrike",
+    "ticker": "CRWD",
+    "market": "US"
+  },
+  {
+    "name": "Crown Castle",
+    "ticker": "CCI",
+    "market": "US"
+  },
+  {
+    "name": "CSX Corporation",
+    "ticker": "CSX",
+    "market": "US"
+  },
+  {
+    "name": "CT Real Estate Investment Trust",
+    "ticker": "CRT-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Cummins",
+    "ticker": "CMI",
+    "market": "US"
+  },
+  {
+    "name": "Curaleaf Holdings, Inc.",
+    "ticker": "CURA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "CVS Health",
+    "ticker": "CVS",
+    "market": "US"
+  },
+  {
+    "name": "D. R. Horton",
+    "ticker": "DHI",
+    "market": "US"
+  },
+  {
+    "name": "Danaher Corporation",
+    "ticker": "DHR",
+    "market": "US"
+  },
+  {
+    "name": "Darden Restaurants",
+    "ticker": "DRI",
+    "market": "US"
+  },
+  {
+    "name": "Datadog",
+    "ticker": "DDOG",
+    "market": "US"
+  },
+  {
+    "name": "DaVita",
+    "ticker": "DVA",
+    "market": "US"
+  },
+  {
+    "name": "Deckers Brands",
+    "ticker": "DECK",
+    "market": "US"
+  },
+  {
+    "name": "Deere & Company",
+    "ticker": "DE",
+    "market": "US"
+  },
+  {
+    "name": "Definity Financial Corporation",
+    "ticker": "DFY.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Dell Technologies",
+    "ticker": "DELL",
+    "market": "US"
+  },
+  {
+    "name": "Delta Air Lines",
+    "ticker": "DAL",
+    "market": "US"
+  },
+  {
+    "name": "Denison Mines Corp.",
+    "ticker": "DML.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Descartes Systems Group Inc.",
+    "ticker": "DSG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Devon Energy",
+    "ticker": "DVN",
+    "market": "US"
+  },
+  {
+    "name": "Dexcom",
+    "ticker": "DXCM",
+    "market": "US"
+  },
+  {
+    "name": "Diamondback Energy",
+    "ticker": "FANG",
+    "market": "US"
+  },
+  {
+    "name": "Digital Realty",
+    "ticker": "DLR",
+    "market": "US"
+  },
+  {
+    "name": "Discovery Silver Corp.",
+    "ticker": "DSV.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Dollar General",
+    "ticker": "DG",
+    "market": "US"
+  },
+  {
+    "name": "Dollar Tree",
+    "ticker": "DLTR",
+    "market": "US"
+  },
+  {
+    "name": "Dollarama Inc.",
+    "ticker": "DOL.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Dominion Energy",
+    "ticker": "D",
+    "market": "US"
+  },
+  {
+    "name": "Domino's",
+    "ticker": "DPZ",
+    "market": "US"
+  },
+  {
+    "name": "DoorDash",
+    "ticker": "DASH",
+    "market": "US"
+  },
+  {
+    "name": "Dover Corporation",
+    "ticker": "DOV",
+    "market": "US"
+  },
+  {
+    "name": "Dow Inc.",
+    "ticker": "DOW",
+    "market": "US"
+  },
+  {
+    "name": "Dream Industrial Real Estate Investment Trust",
+    "ticker": "DIR-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "DTE Energy",
+    "ticker": "DTE",
+    "market": "US"
+  },
+  {
+    "name": "Duke Energy",
+    "ticker": "DUK",
+    "market": "US"
+  },
+  {
+    "name": "Dundee Precious Metals Inc.",
+    "ticker": "DPM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "DuPont",
+    "ticker": "DD",
+    "market": "US"
+  },
+  {
+    "name": "Eaton Corporation",
+    "ticker": "ETN",
+    "market": "US"
+  },
+  {
+    "name": "eBay Inc.",
+    "ticker": "EBAY",
+    "market": "US"
+  },
+  {
+    "name": "EchoStar",
+    "ticker": "ECHO",
+    "market": "US"
+  },
+  {
+    "name": "Ecolab",
+    "ticker": "ECL",
+    "market": "US"
+  },
+  {
+    "name": "Edison International",
+    "ticker": "EIX",
+    "market": "US"
+  },
+  {
+    "name": "Edwards Lifesciences",
+    "ticker": "EW",
+    "market": "US"
+  },
+  {
+    "name": "Eldorado Gold Corporation",
+    "ticker": "ELD.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Element Fleet Management Corp.",
+    "ticker": "EFN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Elevance Health",
+    "ticker": "ELV",
+    "market": "US"
+  },
+  {
+    "name": "Emcor",
+    "ticker": "EME",
+    "market": "US"
+  },
+  {
+    "name": "Emera Incorporated",
+    "ticker": "EMA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Emerson Electric",
+    "ticker": "EMR",
+    "market": "US"
+  },
+  {
+    "name": "Empire Company Limited",
+    "ticker": "EMP-A.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Enbridge Inc.",
+    "ticker": "ENB.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Endeavour Silver Corp.",
+    "ticker": "EDR.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Energy Fuels Inc.",
+    "ticker": "EFR.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Entergy",
+    "ticker": "ETR",
+    "market": "US"
+  },
+  {
+    "name": "EOG Resources",
+    "ticker": "EOG",
+    "market": "US"
+  },
+  {
+    "name": "EQB Inc.",
+    "ticker": "EQB.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "EQT Corporation",
+    "ticker": "EQT",
+    "market": "US"
+  },
+  {
+    "name": "Equifax",
+    "ticker": "EFX",
+    "market": "US"
+  },
+  {
+    "name": "Equifax Inc.",
+    "ticker": "EFX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Equinix",
+    "ticker": "EQIX",
+    "market": "US"
+  },
+  {
+    "name": "Equinox Gold Corp.",
+    "ticker": "EQX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Erie Indemnity",
+    "ticker": "ERIE",
+    "market": "US"
+  },
+  {
+    "name": "Ero Copper Corp.",
+    "ticker": "ERO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Essex Property Trust",
+    "ticker": "ESS",
+    "market": "US"
+  },
+  {
+    "name": "Estée Lauder Companies (The)",
+    "ticker": "EL",
+    "market": "US"
+  },
+  {
+    "name": "Everest Group",
+    "ticker": "EG",
+    "market": "US"
+  },
+  {
+    "name": "Evergy",
+    "ticker": "EVRG",
+    "market": "US"
+  },
+  {
+    "name": "Eversource Energy",
+    "ticker": "ES",
+    "market": "US"
+  },
+  {
+    "name": "Exchange Income Corporation",
+    "ticker": "EIF.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Exelon",
+    "ticker": "EXC",
+    "market": "US"
+  },
+  {
+    "name": "Expand Energy",
+    "ticker": "EXE",
+    "market": "US"
+  },
+  {
+    "name": "Expedia Group",
+    "ticker": "EXPE",
+    "market": "US"
+  },
+  {
+    "name": "Expeditors International",
+    "ticker": "EXPD",
+    "market": "US"
+  },
+  {
+    "name": "Extra Space Storage",
+    "ticker": "EXR",
+    "market": "US"
+  },
+  {
+    "name": "ExxonMobil",
+    "ticker": "XOM",
+    "market": "US"
+  },
+  {
+    "name": "F5, Inc.",
+    "ticker": "FFIV",
+    "market": "US"
+  },
+  {
+    "name": "FactSet",
+    "ticker": "FDS",
+    "market": "US"
+  },
+  {
+    "name": "Fair Isaac",
+    "ticker": "FICO",
+    "market": "US"
+  },
+  {
+    "name": "Fairfax Financial Holdings Limited",
+    "ticker": "FFH.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Fastenal",
+    "ticker": "FAST",
+    "market": "US"
+  },
+  {
+    "name": "Federal Realty Investment Trust",
+    "ticker": "FRT",
+    "market": "US"
+  },
+  {
+    "name": "FedEx",
+    "ticker": "FDX",
+    "market": "US"
+  },
+  {
+    "name": "FedEx Freight",
+    "ticker": "FDXF",
+    "market": "US"
+  },
+  {
+    "name": "Ferguson Enterprises",
+    "ticker": "FERG",
+    "market": "US"
+  },
+  {
+    "name": "Ferrovial",
+    "ticker": "FER",
+    "market": "US"
+  },
+  {
+    "name": "Fidelity National Information Services",
+    "ticker": "FIS",
+    "market": "US"
+  },
+  {
+    "name": "Fifth Third Bancorp",
+    "ticker": "FITB",
+    "market": "US"
+  },
+  {
+    "name": "Finning International Inc.",
+    "ticker": "FTT.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "First Capital Real Estate Investment Trust",
+    "ticker": "FCR-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "First Majestic Silver Corp.",
+    "ticker": "AG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "First Quantum Minerals Ltd.",
+    "ticker": "FM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "First Solar",
+    "ticker": "FSLR",
+    "market": "US"
+  },
+  {
+    "name": "FirstEnergy",
+    "ticker": "FE",
+    "market": "US"
+  },
+  {
+    "name": "FirstService Corporation",
+    "ticker": "FSV.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Fiserv",
+    "ticker": "FISV",
+    "market": "US"
+  },
+  {
+    "name": "Flex Ltd.",
+    "ticker": "FLEX",
+    "market": "US"
+  },
+  {
+    "name": "Ford Motor Company",
+    "ticker": "F",
+    "market": "US"
+  },
+  {
+    "name": "Fortinet",
+    "ticker": "FTNT",
+    "market": "US"
+  },
+  {
+    "name": "Fortis Inc.",
+    "ticker": "FTS.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Fortive",
+    "ticker": "FTV",
+    "market": "US"
+  },
+  {
+    "name": "Fortuna Mining Corp.",
+    "ticker": "FVI.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Fox Corporation (Class A)",
+    "ticker": "FOXA",
+    "market": "US"
+  },
+  {
+    "name": "Fox Corporation (Class B)",
+    "ticker": "FOX",
+    "market": "US"
+  },
+  {
+    "name": "Franco-Nevada Corporation",
+    "ticker": "FNV.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Franklin Resources",
+    "ticker": "BEN",
+    "market": "US"
+  },
+  {
+    "name": "Freehold Royalties Ltd.",
+    "ticker": "FRU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Freeport-McMoRan",
+    "ticker": "FCX",
+    "market": "US"
+  },
+  {
+    "name": "G Mining Ventures Corp.",
+    "ticker": "GMIN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Garmin",
+    "ticker": "GRMN",
+    "market": "US"
+  },
+  {
+    "name": "Gartner",
+    "ticker": "IT",
+    "market": "US"
+  },
+  {
+    "name": "GE Aerospace",
+    "ticker": "GE",
+    "market": "US"
+  },
+  {
+    "name": "GE HealthCare",
+    "ticker": "GEHC",
+    "market": "US"
+  },
+  {
+    "name": "GE Vernova",
+    "ticker": "GEV",
+    "market": "US"
+  },
+  {
+    "name": "Gen Digital",
+    "ticker": "GEN",
+    "market": "US"
+  },
+  {
+    "name": "Generac",
+    "ticker": "GNRC",
+    "market": "US"
+  },
+  {
+    "name": "General Dynamics",
+    "ticker": "GD",
+    "market": "US"
+  },
+  {
+    "name": "General Mills",
+    "ticker": "GIS",
+    "market": "US"
+  },
+  {
+    "name": "General Motors",
+    "ticker": "GM",
+    "market": "US"
+  },
+  {
+    "name": "Genuine Parts Company",
+    "ticker": "GPC",
+    "market": "US"
+  },
+  {
+    "name": "George Weston Limited",
+    "ticker": "WN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "GFL Environmental Inc.",
+    "ticker": "GFL.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Gibson Energy Inc.",
+    "ticker": "GEI.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Gildan Activewear Inc.",
+    "ticker": "GIL.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Gilead Sciences",
+    "ticker": "GILD",
+    "market": "US"
+  },
+  {
+    "name": "Global Payments",
+    "ticker": "GPN",
+    "market": "US"
+  },
+  {
+    "name": "Globe Life",
+    "ticker": "GL",
+    "market": "US"
+  },
+  {
+    "name": "GoDaddy",
+    "ticker": "GDDY",
+    "market": "US"
+  },
+  {
+    "name": "goeasy Ltd.",
+    "ticker": "GSY.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Goldman Sachs",
+    "ticker": "GS",
+    "market": "US"
+  },
+  {
+    "name": "Granite Real Estate Investment Trust",
+    "ticker": "GRT-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Great-West Lifeco Inc.",
+    "ticker": "GWO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "H&R Real Estate Investment Trust",
+    "ticker": "HR-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Halliburton",
+    "ticker": "HAL",
+    "market": "US"
+  },
+  {
+    "name": "Hartford (The)",
+    "ticker": "HIG",
+    "market": "US"
+  },
+  {
+    "name": "Hasbro",
+    "ticker": "HAS",
+    "market": "US"
+  },
+  {
+    "name": "HCA Healthcare",
+    "ticker": "HCA",
+    "market": "US"
+  },
+  {
+    "name": "Headwater Exploration Inc.",
+    "ticker": "HWX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Healthpeak Properties",
+    "ticker": "DOC",
+    "market": "US"
+  },
+  {
+    "name": "Henry Schein",
+    "ticker": "HSIC",
+    "market": "US"
+  },
+  {
+    "name": "Hershey Company (The)",
+    "ticker": "HSY",
+    "market": "US"
+  },
+  {
+    "name": "Hewlett Packard Enterprise",
+    "ticker": "HPE",
+    "market": "US"
+  },
+  {
+    "name": "Hilton Worldwide",
+    "ticker": "HLT",
+    "market": "US"
+  },
+  {
+    "name": "Home Depot (The)",
+    "ticker": "HD",
+    "market": "US"
+  },
+  {
+    "name": "Honeywell Aerospace",
+    "ticker": "HONA",
+    "market": "US"
+  },
+  {
+    "name": "Honeywell Technologies",
+    "ticker": "HON",
+    "market": "US"
+  },
+  {
+    "name": "Hormel Foods",
+    "ticker": "HRL",
+    "market": "US"
+  },
+  {
+    "name": "Host Hotels & Resorts",
+    "ticker": "HST",
+    "market": "US"
+  },
+  {
+    "name": "Howmet Aerospace",
+    "ticker": "HWM",
+    "market": "US"
+  },
+  {
+    "name": "HP Inc.",
+    "ticker": "HPQ",
+    "market": "US"
+  },
+  {
+    "name": "Hubbell Incorporated",
+    "ticker": "HUBB",
+    "market": "US"
+  },
+  {
+    "name": "Hudbay Minerals Inc.",
+    "ticker": "HBM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Humana",
+    "ticker": "HUM",
+    "market": "US"
+  },
+  {
+    "name": "Huntington Bancshares",
+    "ticker": "HBAN",
+    "market": "US"
+  },
+  {
+    "name": "Huntington Ingalls Industries",
+    "ticker": "HII",
+    "market": "US"
+  },
+  {
+    "name": "Hydro One Limited",
+    "ticker": "H.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "I-80 Gold Corp.",
+    "ticker": "IAU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "iA Financial Corporation Inc.",
+    "ticker": "IAG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Iamgold Corporation",
+    "ticker": "IMG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "IBM",
+    "ticker": "IBM",
+    "market": "US"
+  },
+  {
+    "name": "IDEX Corporation",
+    "ticker": "IEX",
+    "market": "US"
+  },
+  {
+    "name": "Idexx Laboratories",
+    "ticker": "IDXX",
+    "market": "US"
+  },
+  {
+    "name": "IGM Financial Inc.",
+    "ticker": "IGM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Illinois Tool Works",
+    "ticker": "ITW",
+    "market": "US"
+  },
+  {
+    "name": "Imperial Oil Limited",
+    "ticker": "IMO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Incyte",
+    "ticker": "INCY",
+    "market": "US"
+  },
+  {
+    "name": "Ingersoll Rand",
+    "ticker": "IR",
+    "market": "US"
+  },
+  {
+    "name": "Insulet Corporation",
+    "ticker": "PODD",
+    "market": "US"
+  },
+  {
+    "name": "Intact Financial Corporation",
+    "ticker": "IFC.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Intel",
+    "ticker": "INTC",
+    "market": "US"
+  },
+  {
+    "name": "Interactive Brokers",
+    "ticker": "IBKR",
+    "market": "US"
+  },
+  {
+    "name": "Intercontinental Exchange",
+    "ticker": "ICE",
+    "market": "US"
+  },
+  {
+    "name": "International Flavors & Fragrances",
+    "ticker": "IFF",
+    "market": "US"
+  },
+  {
+    "name": "International Paper",
+    "ticker": "IP",
+    "market": "US"
+  },
+  {
+    "name": "International Petroleum Corporation",
+    "ticker": "IPCO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "InterRent Real Estate Investment Trust",
+    "ticker": "IIP-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Intuit",
+    "ticker": "INTU",
+    "market": "US"
+  },
+  {
+    "name": "Intuitive Surgical",
+    "ticker": "ISRG",
+    "market": "US"
+  },
+  {
+    "name": "Invesco",
+    "ticker": "IVZ",
+    "market": "US"
+  },
+  {
+    "name": "Invitation Homes",
+    "ticker": "INVH",
+    "market": "US"
+  },
+  {
+    "name": "IQVIA",
+    "ticker": "IQV",
+    "market": "US"
+  },
+  {
+    "name": "Iron Mountain",
+    "ticker": "IRM",
+    "market": "US"
+  },
+  {
+    "name": "Ivanhoe Mines Ltd.",
+    "ticker": "IVN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "J.B. Hunt",
+    "ticker": "JBHT",
+    "market": "US"
+  },
+  {
+    "name": "J.M. Smucker Company (The)",
+    "ticker": "SJM",
+    "market": "US"
+  },
+  {
+    "name": "Jabil",
+    "ticker": "JBL",
+    "market": "US"
+  },
+  {
+    "name": "Jack Henry & Associates",
+    "ticker": "JKHY",
+    "market": "US"
+  },
+  {
+    "name": "Jacobs Solutions",
+    "ticker": "J",
+    "market": "US"
+  },
+  {
+    "name": "Jamieson Wellness Inc.",
+    "ticker": "JWEL.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Johnson & Johnson",
+    "ticker": "JNJ",
+    "market": "US"
+  },
+  {
+    "name": "Johnson Controls",
+    "ticker": "JCI",
+    "market": "US"
+  },
+  {
+    "name": "JPMorgan Chase",
+    "ticker": "JPM",
+    "market": "US"
+  },
+  {
+    "name": "K92 Mining Inc.",
+    "ticker": "KNT.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Kelt Exploration Ltd.",
+    "ticker": "KEL.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Kenvue",
+    "ticker": "KVUE",
+    "market": "US"
+  },
+  {
+    "name": "Keurig Dr Pepper",
+    "ticker": "KDP",
+    "market": "US"
+  },
+  {
+    "name": "KeyCorp",
+    "ticker": "KEY",
+    "market": "US"
+  },
+  {
+    "name": "Keyera Corp.",
+    "ticker": "KEY.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Keysight Technologies",
+    "ticker": "KEYS",
+    "market": "US"
+  },
+  {
+    "name": "Killam Apartment Real Estate Investment Trust",
+    "ticker": "KMP-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Kimberly-Clark",
+    "ticker": "KMB",
+    "market": "US"
+  },
+  {
+    "name": "Kimco Realty",
+    "ticker": "KIM",
+    "market": "US"
+  },
+  {
+    "name": "Kinaxis Inc.",
+    "ticker": "KXS.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Kinder Morgan",
+    "ticker": "KMI",
+    "market": "US"
+  },
+  {
+    "name": "Kinross Gold Corporation",
+    "ticker": "K.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "KKR & Co.",
+    "ticker": "KKR",
+    "market": "US"
+  },
+  {
+    "name": "KLA Corporation",
+    "ticker": "KLAC",
+    "market": "US"
+  },
+  {
+    "name": "Kraft Heinz",
+    "ticker": "KHC",
+    "market": "US"
+  },
+  {
+    "name": "Kroger",
+    "ticker": "KR",
+    "market": "US"
+  },
+  {
+    "name": "L3Harris",
+    "ticker": "LHX",
+    "market": "US"
+  },
+  {
+    "name": "Labcorp",
+    "ticker": "LH",
+    "market": "US"
+  },
+  {
+    "name": "Labrador Iron Ore Royalty Corporation",
+    "ticker": "LIF.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Lam Research",
+    "ticker": "LRCX",
+    "market": "US"
+  },
+  {
+    "name": "Las Vegas Sands",
+    "ticker": "LVS",
+    "market": "US"
+  },
+  {
+    "name": "Laurentian Bank of Canada",
+    "ticker": "LB.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Leidos",
+    "ticker": "LDOS",
+    "market": "US"
+  },
+  {
+    "name": "Lennar",
+    "ticker": "LEN",
+    "market": "US"
+  },
+  {
+    "name": "Lennox International",
+    "ticker": "LII",
+    "market": "US"
+  },
+  {
+    "name": "Lightspeed Commerce Inc.",
+    "ticker": "LSPD.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Lilly (Eli)",
+    "ticker": "LLY",
+    "market": "US"
+  },
+  {
+    "name": "Linamar Corporation",
+    "ticker": "LNR.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Linde plc",
+    "ticker": "LIN",
+    "market": "US"
+  },
+  {
+    "name": "Lithium Americas Corp.",
+    "ticker": "LAC.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Live Nation Entertainment",
+    "ticker": "LYV",
+    "market": "US"
+  },
+  {
+    "name": "Loblaw Companies Limited",
+    "ticker": "L.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Lockheed Martin",
+    "ticker": "LMT",
+    "market": "US"
+  },
+  {
+    "name": "Loews Corporation",
+    "ticker": "L",
+    "market": "US"
+  },
+  {
+    "name": "Lowe's",
+    "ticker": "LOW",
+    "market": "US"
+  },
+  {
+    "name": "Lululemon Athletica",
+    "ticker": "LULU",
+    "market": "US"
+  },
+  {
+    "name": "Lumentum",
+    "ticker": "LITE",
+    "market": "US"
+  },
+  {
+    "name": "Lundin Gold Inc.",
+    "ticker": "LUG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Lundin Mining Corporation",
+    "ticker": "LUN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "LyondellBasell",
+    "ticker": "LYB",
+    "market": "US"
+  },
+  {
+    "name": "M&T Bank",
+    "ticker": "MTB",
+    "market": "US"
+  },
+  {
+    "name": "Magna International Inc.",
+    "ticker": "MG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Manulife Financial Corporation",
+    "ticker": "MFC.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Maple Leaf Foods Inc.",
+    "ticker": "MFI.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Marathon Petroleum",
+    "ticker": "MPC",
+    "market": "US"
+  },
+  {
+    "name": "Marriott International",
+    "ticker": "MAR",
+    "market": "US"
+  },
+  {
+    "name": "Marsh McLennan",
+    "ticker": "MRSH",
+    "market": "US"
+  },
+  {
+    "name": "Martin Marietta Materials",
+    "ticker": "MLM",
+    "market": "US"
+  },
+  {
+    "name": "Marvell Technology",
+    "ticker": "MRVL",
+    "market": "US"
+  },
+  {
+    "name": "Masco",
+    "ticker": "MAS",
+    "market": "US"
+  },
+  {
+    "name": "Mastercard",
+    "ticker": "MA",
+    "market": "US"
+  },
+  {
+    "name": "McCormick & Company",
+    "ticker": "MKC",
+    "market": "US"
+  },
+  {
+    "name": "McDonald's",
+    "ticker": "MCD",
+    "market": "US"
+  },
+  {
+    "name": "McKesson Corporation",
+    "ticker": "MCK",
+    "market": "US"
+  },
+  {
+    "name": "MDA Space Ltd.",
+    "ticker": "MDA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Medtronic",
+    "ticker": "MDT",
+    "market": "US"
+  },
+  {
+    "name": "Mercado Libre",
+    "ticker": "MELI",
+    "market": "US"
+  },
+  {
+    "name": "Merck & Co.",
+    "ticker": "MRK",
+    "market": "US"
+  },
+  {
+    "name": "Meta Platforms",
+    "ticker": "META",
+    "market": "US"
+  },
+  {
+    "name": "Methanex Corporation",
+    "ticker": "MX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "MetLife",
+    "ticker": "MET",
+    "market": "US"
+  },
+  {
+    "name": "Metro Inc.",
+    "ticker": "MRU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Mettler Toledo",
+    "ticker": "MTD",
+    "market": "US"
+  },
+  {
+    "name": "MGM Resorts",
+    "ticker": "MGM",
+    "market": "US"
+  },
+  {
+    "name": "Microchip Technology",
+    "ticker": "MCHP",
+    "market": "US"
+  },
+  {
+    "name": "Micron Technology",
+    "ticker": "MU",
+    "market": "US"
+  },
+  {
+    "name": "Microsoft",
+    "ticker": "MSFT",
+    "market": "US"
+  },
+  {
+    "name": "MicroStrategy",
+    "ticker": "MSTR",
+    "market": "US"
+  },
+  {
+    "name": "Mid-America Apartment Communities",
+    "ticker": "MAA",
+    "market": "US"
+  },
+  {
+    "name": "Moderna",
+    "ticker": "MRNA",
+    "market": "US"
+  },
+  {
+    "name": "Molson Coors Beverage Company",
+    "ticker": "TAP",
+    "market": "US"
+  },
+  {
+    "name": "Mondelez International",
+    "ticker": "MDLZ",
+    "market": "US"
+  },
+  {
+    "name": "Monolithic Power Systems",
+    "ticker": "MPWR",
+    "market": "US"
+  },
+  {
+    "name": "Monster Beverage",
+    "ticker": "MNST",
+    "market": "US"
+  },
+  {
+    "name": "Montage Gold Corp.",
+    "ticker": "MAU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Moody's Corporation",
+    "ticker": "MCO",
+    "market": "US"
+  },
+  {
+    "name": "Morgan Stanley",
+    "ticker": "MS",
+    "market": "US"
+  },
+  {
+    "name": "Mosaic Company (The)",
+    "ticker": "MOS",
+    "market": "US"
+  },
+  {
+    "name": "Motorola Solutions",
+    "ticker": "MSI",
+    "market": "US"
+  },
+  {
+    "name": "MSCI",
+    "ticker": "MSCI",
+    "market": "US"
+  },
+  {
+    "name": "Mullen Group Ltd.",
+    "ticker": "MTL.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Nasdaq, Inc.",
+    "ticker": "NDAQ",
+    "market": "US"
+  },
+  {
+    "name": "Nebius Group",
+    "ticker": "NBIS",
+    "market": "US"
+  },
+  {
+    "name": "NetApp",
+    "ticker": "NTAP",
+    "market": "US"
+  },
+  {
+    "name": "Netflix",
+    "ticker": "NFLX",
+    "market": "US"
+  },
+  {
+    "name": "Newmont",
+    "ticker": "NEM",
+    "market": "US"
+  },
+  {
+    "name": "News Corp (Class A)",
+    "ticker": "NWSA",
+    "market": "US"
+  },
+  {
+    "name": "News Corp (Class B)",
+    "ticker": "NWS",
+    "market": "US"
+  },
+  {
+    "name": "NexGen Energy Ltd.",
+    "ticker": "NXE.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "NextEra Energy",
+    "ticker": "NEE",
+    "market": "US"
+  },
+  {
+    "name": "NFI Group Inc.",
+    "ticker": "NFI.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "NGEx Minerals Ltd.",
+    "ticker": "NGEX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Nike, Inc.",
+    "ticker": "NKE",
+    "market": "US"
+  },
+  {
+    "name": "NiSource",
+    "ticker": "NI",
+    "market": "US"
+  },
+  {
+    "name": "Nordson Corporation",
+    "ticker": "NDSN",
+    "market": "US"
+  },
+  {
+    "name": "Norfolk Southern",
+    "ticker": "NSC",
+    "market": "US"
+  },
+  {
+    "name": "North West Company Inc.",
+    "ticker": "NWC.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Northern Trust",
+    "ticker": "NTRS",
+    "market": "US"
+  },
+  {
+    "name": "Northland Power Inc.",
+    "ticker": "NPI.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Northrop Grumman",
+    "ticker": "NOC",
+    "market": "US"
+  },
+  {
+    "name": "Norwegian Cruise Line Holdings",
+    "ticker": "NCLH",
+    "market": "US"
+  },
+  {
+    "name": "NovaGold Resources Inc.",
+    "ticker": "NG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "NRG Energy",
+    "ticker": "NRG",
+    "market": "US"
+  },
+  {
+    "name": "Nucor",
+    "ticker": "NUE",
+    "market": "US"
+  },
+  {
+    "name": "Nutrien Ltd.",
+    "ticker": "NTR.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Nvidia",
+    "ticker": "NVDA",
+    "market": "US"
+  },
+  {
+    "name": "NVR, Inc.",
+    "ticker": "NVR",
+    "market": "US"
+  },
+  {
+    "name": "NXP Semiconductors",
+    "ticker": "NXPI",
+    "market": "US"
+  },
+  {
+    "name": "O'Reilly Automotive",
+    "ticker": "ORLY",
+    "market": "US"
+  },
+  {
+    "name": "Occidental Petroleum",
+    "ticker": "OXY",
+    "market": "US"
+  },
+  {
+    "name": "OceanaGold Corporation",
+    "ticker": "OGC.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Old Dominion",
+    "ticker": "ODFL",
+    "market": "US"
+  },
+  {
+    "name": "Omnicom Group",
+    "ticker": "OMC",
+    "market": "US"
+  },
+  {
+    "name": "ON Semiconductor",
+    "ticker": "ON",
+    "market": "US"
+  },
+  {
+    "name": "Oneok",
+    "ticker": "OKE",
+    "market": "US"
+  },
+  {
+    "name": "Onex Corporation",
+    "ticker": "ONEX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Open Text Corporation",
+    "ticker": "OTEX.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Oracle Corporation",
+    "ticker": "ORCL",
+    "market": "US"
+  },
+  {
+    "name": "Orla Mining Ltd.",
+    "ticker": "OLA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Osisko Gold Royalties Ltd.",
+    "ticker": "OR.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Otis Worldwide",
+    "ticker": "OTIS",
+    "market": "US"
+  },
+  {
+    "name": "Paccar",
+    "ticker": "PCAR",
+    "market": "US"
+  },
+  {
+    "name": "Packaging Corporation of America",
+    "ticker": "PKG",
+    "market": "US"
+  },
+  {
+    "name": "Palantir Technologies",
+    "ticker": "PLTR",
+    "market": "US"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "ticker": "PANW",
+    "market": "US"
+  },
+  {
+    "name": "Pan American Silver Corp.",
+    "ticker": "PAAS.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Paramount Resources Ltd.",
+    "ticker": "POU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Paramount Skydance Corporation",
+    "ticker": "PSKY",
+    "market": "US"
+  },
+  {
+    "name": "Parex Resources Inc.",
+    "ticker": "PXT.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Parker Hannifin",
+    "ticker": "PH",
+    "market": "US"
+  },
+  {
+    "name": "Paychex",
+    "ticker": "PAYX",
+    "market": "US"
+  },
+  {
+    "name": "PayPal",
+    "ticker": "PYPL",
+    "market": "US"
+  },
+  {
+    "name": "PDD Holdings",
+    "ticker": "PDD",
+    "market": "US"
+  },
+  {
+    "name": "Pembina Pipeline Corporation",
+    "ticker": "PPL.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Pentair",
+    "ticker": "PNR",
+    "market": "US"
+  },
+  {
+    "name": "PepsiCo",
+    "ticker": "PEP",
+    "market": "US"
+  },
+  {
+    "name": "Perpetua Resources Corp.",
+    "ticker": "PPTA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Pet Valu Holdings Ltd.",
+    "ticker": "PET.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Peyto Exploration & Development Corp.",
+    "ticker": "PEY.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Pfizer",
+    "ticker": "PFE",
+    "market": "US"
+  },
+  {
+    "name": "PG&E Corporation",
+    "ticker": "PCG",
+    "market": "US"
+  },
+  {
+    "name": "Philip Morris International",
+    "ticker": "PM",
+    "market": "US"
+  },
+  {
+    "name": "Phillips 66",
+    "ticker": "PSX",
+    "market": "US"
+  },
+  {
+    "name": "Pinnacle West Capital",
+    "ticker": "PNW",
+    "market": "US"
+  },
+  {
+    "name": "PNC Financial Services",
+    "ticker": "PNC",
+    "market": "US"
+  },
+  {
+    "name": "Power Corporation of Canada",
+    "ticker": "POW.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "PPG Industries",
+    "ticker": "PPG",
+    "market": "US"
+  },
+  {
+    "name": "PPL Corporation",
+    "ticker": "PPL",
+    "market": "US"
+  },
+  {
+    "name": "PrairieSky Royalty Ltd.",
+    "ticker": "PSK.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Premium Brands Holdings Corporation",
+    "ticker": "PBH.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Primaris Real Estate Investment Trust",
+    "ticker": "PMZ-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Principal Financial Group",
+    "ticker": "PFG",
+    "market": "US"
+  },
+  {
+    "name": "Procter & Gamble",
+    "ticker": "PG",
+    "market": "US"
+  },
+  {
+    "name": "Progressive Corporation",
+    "ticker": "PGR",
+    "market": "US"
+  },
+  {
+    "name": "Prologis",
+    "ticker": "PLD",
+    "market": "US"
+  },
+  {
+    "name": "Prudential Financial",
+    "ticker": "PRU",
+    "market": "US"
+  },
+  {
+    "name": "PTC Inc.",
+    "ticker": "PTC",
+    "market": "US"
+  },
+  {
+    "name": "Public Service Enterprise Group",
+    "ticker": "PEG",
+    "market": "US"
+  },
+  {
+    "name": "Public Storage",
+    "ticker": "PSA",
+    "market": "US"
+  },
+  {
+    "name": "PulteGroup",
+    "ticker": "PHM",
+    "market": "US"
+  },
+  {
+    "name": "Qnity Electronics",
+    "ticker": "Q",
+    "market": "US"
+  },
+  {
+    "name": "Qualcomm",
+    "ticker": "QCOM",
+    "market": "US"
+  },
+  {
+    "name": "Quanta Services",
+    "ticker": "PWR",
+    "market": "US"
+  },
+  {
+    "name": "Quebecor Inc.",
+    "ticker": "QBR-B.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Quest Diagnostics",
+    "ticker": "DGX",
+    "market": "US"
+  },
+  {
+    "name": "Ralph Lauren Corporation",
+    "ticker": "RL",
+    "market": "US"
+  },
+  {
+    "name": "Raymond James Financial",
+    "ticker": "RJF",
+    "market": "US"
+  },
+  {
+    "name": "RB Global, Inc.",
+    "ticker": "RBA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Realty Income",
+    "ticker": "O",
+    "market": "US"
+  },
+  {
+    "name": "Reddit",
+    "ticker": "RDDT",
+    "market": "US"
+  },
+  {
+    "name": "Regency Centers",
+    "ticker": "REG",
+    "market": "US"
+  },
+  {
+    "name": "Regeneron Pharmaceuticals",
+    "ticker": "REGN",
+    "market": "US"
+  },
+  {
+    "name": "Regions Financial Corporation",
+    "ticker": "RF",
+    "market": "US"
+  },
+  {
+    "name": "Republic Services",
+    "ticker": "RSG",
+    "market": "US"
+  },
+  {
+    "name": "ResMed|",
+    "ticker": "RMD",
+    "market": "US"
+  },
+  {
+    "name": "Restaurant Brands International Inc.",
+    "ticker": "QSR.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Revvity",
+    "ticker": "RVTY",
+    "market": "US"
+  },
+  {
+    "name": "Richelieu Hardware Ltd.",
+    "ticker": "RCH.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "RioCan Real Estate Investment Trust",
+    "ticker": "REI-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Robinhood Markets",
+    "ticker": "HOOD",
+    "market": "US"
+  },
+  {
+    "name": "Rocket Lab",
+    "ticker": "RKLB",
+    "market": "US"
+  },
+  {
+    "name": "Rockwell Automation",
+    "ticker": "ROK",
+    "market": "US"
+  },
+  {
+    "name": "Rogers Communications Inc.",
+    "ticker": "RCI-B.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Rollins, Inc.",
+    "ticker": "ROL",
+    "market": "US"
+  },
+  {
+    "name": "Roper Technologies",
+    "ticker": "ROP",
+    "market": "US"
+  },
+  {
+    "name": "Ross Stores",
+    "ticker": "ROST",
+    "market": "US"
+  },
+  {
+    "name": "Royal Bank of Canada",
+    "ticker": "RY.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Royal Caribbean Group",
+    "ticker": "RCL",
+    "market": "US"
+  },
+  {
+    "name": "RTX Corporation",
+    "ticker": "RTX",
+    "market": "US"
+  },
+  {
+    "name": "Russel Metals Inc.",
+    "ticker": "RUS.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "S&P Global",
+    "ticker": "SPGI",
+    "market": "US"
+  },
+  {
+    "name": "Salesforce",
+    "ticker": "CRM",
+    "market": "US"
+  },
+  {
+    "name": "Sandisk",
+    "ticker": "SNDK",
+    "market": "US"
+  },
+  {
+    "name": "Saputo Inc.",
+    "ticker": "SAP.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "SBA Communications",
+    "ticker": "SBAC",
+    "market": "US"
+  },
+  {
+    "name": "Schlumberger",
+    "ticker": "SLB",
+    "market": "US"
+  },
+  {
+    "name": "Seabridge Gold Inc.",
+    "ticker": "SEA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Seagate Technology",
+    "ticker": "STX",
+    "market": "US"
+  },
+  {
+    "name": "Secure Energy Services Inc.",
+    "ticker": "SES.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Sempra",
+    "ticker": "SRE",
+    "market": "US"
+  },
+  {
+    "name": "ServiceNow",
+    "ticker": "NOW",
+    "market": "US"
+  },
+  {
+    "name": "Sherwin-Williams",
+    "ticker": "SHW",
+    "market": "US"
+  },
+  {
+    "name": "Shopify",
+    "ticker": "SHOP",
+    "market": "US"
+  },
+  {
+    "name": "Shopify Inc.",
+    "ticker": "SHOP.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Sienna Senior Living Inc.",
+    "ticker": "SIA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Silvercorp Metals Inc.",
+    "ticker": "SVM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Simon Property Group",
+    "ticker": "SPG",
+    "market": "US"
+  },
+  {
+    "name": "Skeena Resources Limited",
+    "ticker": "SKE.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Skyworks Solutions",
+    "ticker": "SWKS",
+    "market": "US"
+  },
+  {
+    "name": "SmartCentres Real Estate Investment Trust",
+    "ticker": "SRU-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Smurfit Westrock",
+    "ticker": "SW",
+    "market": "US"
+  },
+  {
+    "name": "Snap-on",
+    "ticker": "SNA",
+    "market": "US"
+  },
+  {
+    "name": "Solventum",
+    "ticker": "SOLV",
+    "market": "US"
+  },
+  {
+    "name": "South Bow Corporation",
+    "ticker": "SOBO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Southern Company",
+    "ticker": "SO",
+    "market": "US"
+  },
+  {
+    "name": "Southwest Airlines",
+    "ticker": "LUV",
+    "market": "US"
+  },
+  {
+    "name": "SpaceX",
+    "ticker": "SPCX",
+    "market": "US"
+  },
+  {
+    "name": "Sprott Inc.",
+    "ticker": "SII.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "SSR Mining Inc.",
+    "ticker": "SSRM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Stanley Black & Decker",
+    "ticker": "SWK",
+    "market": "US"
+  },
+  {
+    "name": "Stantec Inc.",
+    "ticker": "STN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Starbucks",
+    "ticker": "SBUX",
+    "market": "US"
+  },
+  {
+    "name": "State Street Corporation",
+    "ticker": "STT",
+    "market": "US"
+  },
+  {
+    "name": "Steel Dynamics",
+    "ticker": "STLD",
+    "market": "US"
+  },
+  {
+    "name": "Stella-Jones Inc.",
+    "ticker": "SJ.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Steris",
+    "ticker": "STE",
+    "market": "US"
+  },
+  {
+    "name": "Strathcona Resources Ltd.",
+    "ticker": "SCR.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Stryker Corporation",
+    "ticker": "SYK",
+    "market": "US"
+  },
+  {
+    "name": "Sun Life Financial Inc.",
+    "ticker": "SLF.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Suncor Energy Inc.",
+    "ticker": "SU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Superior Plus Corp.",
+    "ticker": "SPB.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Supermicro",
+    "ticker": "SMCI",
+    "market": "US"
+  },
+  {
+    "name": "Synchrony Financial",
+    "ticker": "SYF",
+    "market": "US"
+  },
+  {
+    "name": "Synopsys",
+    "ticker": "SNPS",
+    "market": "US"
+  },
+  {
+    "name": "Sysco",
+    "ticker": "SYY",
+    "market": "US"
+  },
+  {
+    "name": "T-Mobile US",
+    "ticker": "TMUS",
+    "market": "US"
+  },
+  {
+    "name": "T. Rowe Price",
+    "ticker": "TROW",
+    "market": "US"
+  },
+  {
+    "name": "Take-Two Interactive",
+    "ticker": "TTWO",
+    "market": "US"
+  },
+  {
+    "name": "Tamarack Valley Energy Ltd.",
+    "ticker": "TVE.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Tapestry, Inc.",
+    "ticker": "TPR",
+    "market": "US"
+  },
+  {
+    "name": "Targa Resources",
+    "ticker": "TRGP",
+    "market": "US"
+  },
+  {
+    "name": "Target Corporation",
+    "ticker": "TGT",
+    "market": "US"
+  },
+  {
+    "name": "Taseko Mines Limited",
+    "ticker": "TKO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "TC Energy Corporation",
+    "ticker": "TRP.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "TE Connectivity",
+    "ticker": "TEL",
+    "market": "US"
+  },
+  {
+    "name": "Teck Resources Limited",
+    "ticker": "TECK-B.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Teledyne Technologies",
+    "ticker": "TDY",
+    "market": "US"
+  },
+  {
+    "name": "Telus Corporation",
+    "ticker": "T.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Teradyne",
+    "ticker": "TER",
+    "market": "US"
+  },
+  {
+    "name": "TerraVest Industries Inc.",
+    "ticker": "TVK.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Tesla, Inc.",
+    "ticker": "TSLA",
+    "market": "US"
+  },
+  {
+    "name": "Texas Instruments",
+    "ticker": "TXN",
+    "market": "US"
+  },
+  {
+    "name": "Texas Pacific Land Corporation",
+    "ticker": "TPL",
+    "market": "US"
+  },
+  {
+    "name": "Textron",
+    "ticker": "TXT",
+    "market": "US"
+  },
+  {
+    "name": "TFI International Inc.",
+    "ticker": "TFII.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Thermo Fisher Scientific",
+    "ticker": "TMO",
+    "market": "US"
+  },
+  {
+    "name": "Thomson Reuters",
+    "ticker": "TRI",
+    "market": "US"
+  },
+  {
+    "name": "Thomson Reuters Corporation",
+    "ticker": "TRI.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "TJX Companies",
+    "ticker": "TJX",
+    "market": "US"
+  },
+  {
+    "name": "TKO Group Holdings",
+    "ticker": "TKO",
+    "market": "US"
+  },
+  {
+    "name": "TMX Group Limited",
+    "ticker": "X.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Topaz Energy Corp.",
+    "ticker": "TPZ.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Torex Gold Resources Inc.",
+    "ticker": "TXG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Toromont Industries Ltd.",
+    "ticker": "TIH.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Toronto-Dominion Bank",
+    "ticker": "TD.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Tourmaline Oil Corp.",
+    "ticker": "TOU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Tractor Supply",
+    "ticker": "TSCO",
+    "market": "US"
+  },
+  {
+    "name": "Trade Desk (The)",
+    "ticker": "TTD",
+    "market": "US"
+  },
+  {
+    "name": "Trane Technologies",
+    "ticker": "TT",
+    "market": "US"
+  },
+  {
+    "name": "TransAlta Corporation",
+    "ticker": "TA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Transcontinental Inc.",
+    "ticker": "TCL-A.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "TransDigm Group",
+    "ticker": "TDG",
+    "market": "US"
+  },
+  {
+    "name": "Travelers Companies (The)",
+    "ticker": "TRV",
+    "market": "US"
+  },
+  {
+    "name": "Trimble Inc.",
+    "ticker": "TRMB",
+    "market": "US"
+  },
+  {
+    "name": "Triple Flag Precious Metals Corp.",
+    "ticker": "TFPM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Trisura Group Ltd.",
+    "ticker": "TSU.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Truist Financial",
+    "ticker": "TFC",
+    "market": "US"
+  },
+  {
+    "name": "Tyler Technologies",
+    "ticker": "TYL",
+    "market": "US"
+  },
+  {
+    "name": "Tyson Foods",
+    "ticker": "TSN",
+    "market": "US"
+  },
+  {
+    "name": "U.S. Bancorp",
+    "ticker": "USB",
+    "market": "US"
+  },
+  {
+    "name": "Uber",
+    "ticker": "UBER",
+    "market": "US"
+  },
+  {
+    "name": "UDR, Inc.",
+    "ticker": "UDR",
+    "market": "US"
+  },
+  {
+    "name": "Ulta Beauty",
+    "ticker": "ULTA",
+    "market": "US"
+  },
+  {
+    "name": "Union Pacific Corporation",
+    "ticker": "UNP",
+    "market": "US"
+  },
+  {
+    "name": "United Airlines Holdings",
+    "ticker": "UAL",
+    "market": "US"
+  },
+  {
+    "name": "United Parcel Service",
+    "ticker": "UPS",
+    "market": "US"
+  },
+  {
+    "name": "United Rentals",
+    "ticker": "URI",
+    "market": "US"
+  },
+  {
+    "name": "UnitedHealth Group",
+    "ticker": "UNH",
+    "market": "US"
+  },
+  {
+    "name": "Universal Health Services",
+    "ticker": "UHS",
+    "market": "US"
+  },
+  {
+    "name": "Valero Energy",
+    "ticker": "VLO",
+    "market": "US"
+  },
+  {
+    "name": "Veeva Systems",
+    "ticker": "VEEV",
+    "market": "US"
+  },
+  {
+    "name": "Ventas",
+    "ticker": "VTR",
+    "market": "US"
+  },
+  {
+    "name": "Veralto",
+    "ticker": "VLTO",
+    "market": "US"
+  },
+  {
+    "name": "Verisign",
+    "ticker": "VRSN",
+    "market": "US"
+  },
+  {
+    "name": "Verisk Analytics",
+    "ticker": "VRSK",
+    "market": "US"
+  },
+  {
+    "name": "Verizon",
+    "ticker": "VZ",
+    "market": "US"
+  },
+  {
+    "name": "Vermilion Energy Inc.",
+    "ticker": "VET.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Vertex Pharmaceuticals",
+    "ticker": "VRTX",
+    "market": "US"
+  },
+  {
+    "name": "Vertiv",
+    "ticker": "VRT",
+    "market": "US"
+  },
+  {
+    "name": "Viatris",
+    "ticker": "VTRS",
+    "market": "US"
+  },
+  {
+    "name": "Vici Properties",
+    "ticker": "VICI",
+    "market": "US"
+  },
+  {
+    "name": "Visa Inc.",
+    "ticker": "V",
+    "market": "US"
+  },
+  {
+    "name": "Vistra Corp.",
+    "ticker": "VST",
+    "market": "US"
+  },
+  {
+    "name": "Vital Infrastructure Property Trust.",
+    "ticker": "VITL-UN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Vivmark Residential",
+    "ticker": "VMRK",
+    "market": "US"
+  },
+  {
+    "name": "Vizsla Silver Corp.",
+    "ticker": "VZLA.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Vulcan Materials Company",
+    "ticker": "VMC",
+    "market": "US"
+  },
+  {
+    "name": "W. R. Berkley Corporation",
+    "ticker": "WRB",
+    "market": "US"
+  },
+  {
+    "name": "W. W. Grainger",
+    "ticker": "GWW",
+    "market": "US"
+  },
+  {
+    "name": "Wabtec",
+    "ticker": "WAB",
+    "market": "US"
+  },
+  {
+    "name": "Walmart",
+    "ticker": "WMT",
+    "market": "US"
+  },
+  {
+    "name": "Walt Disney Company (The)",
+    "ticker": "DIS",
+    "market": "US"
+  },
+  {
+    "name": "Warner Bros. Discovery",
+    "ticker": "WBD",
+    "market": "US"
+  },
+  {
+    "name": "Waste Connections Inc.",
+    "ticker": "WCN.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Waste Management",
+    "ticker": "WM",
+    "market": "US"
+  },
+  {
+    "name": "Waters Corporation",
+    "ticker": "WAT",
+    "market": "US"
+  },
+  {
+    "name": "WEC Energy Group",
+    "ticker": "WEC",
+    "market": "US"
+  },
+  {
+    "name": "Wells Fargo",
+    "ticker": "WFC",
+    "market": "US"
+  },
+  {
+    "name": "Welltower",
+    "ticker": "WELL",
+    "market": "US"
+  },
+  {
+    "name": "Wesdome Gold Mines Ltd.",
+    "ticker": "WDO.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "West Fraser Timber Co. Ltd.",
+    "ticker": "WFG.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "West Pharmaceutical Services",
+    "ticker": "WST",
+    "market": "US"
+  },
+  {
+    "name": "Western Digital",
+    "ticker": "WDC",
+    "market": "US"
+  },
+  {
+    "name": "Weyerhaeuser",
+    "ticker": "WY",
+    "market": "US"
+  },
+  {
+    "name": "Wheaton Precious Metals Corp.",
+    "ticker": "WPM.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Whitecap Resources Inc.",
+    "ticker": "WCP.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Williams Companies",
+    "ticker": "WMB",
+    "market": "US"
+  },
+  {
+    "name": "Williams-Sonoma, Inc.",
+    "ticker": "WSM",
+    "market": "US"
+  },
+  {
+    "name": "Willis Towers Watson",
+    "ticker": "WTW",
+    "market": "US"
+  },
+  {
+    "name": "Winpak Ltd.",
+    "ticker": "WPK.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Workday, Inc.",
+    "ticker": "WDAY",
+    "market": "US"
+  },
+  {
+    "name": "WSP Global Inc.",
+    "ticker": "WSP.TO",
+    "market": "Canada"
+  },
+  {
+    "name": "Wynn Resorts",
+    "ticker": "WYNN",
+    "market": "US"
+  },
+  {
+    "name": "Xcel Energy",
+    "ticker": "XEL",
+    "market": "US"
+  },
+  {
+    "name": "Xylem Inc.",
+    "ticker": "XYL",
+    "market": "US"
+  },
+  {
+    "name": "Yum! Brands",
+    "ticker": "YUM",
+    "market": "US"
+  },
+  {
+    "name": "Zebra Technologies",
+    "ticker": "ZBRA",
+    "market": "US"
+  },
+  {
+    "name": "Zimmer Biomet",
+    "ticker": "ZBH",
+    "market": "US"
+  },
+  {
+    "name": "Zoetis",
+    "ticker": "ZTS",
+    "market": "US"
+  }
+]
