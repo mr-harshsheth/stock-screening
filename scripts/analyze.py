@@ -1,10 +1,10 @@
 """
 Weekly stock screener.
 
-Fetches weekly OHLC data for every ticker in docs/data/watchlist.json,
-computes SMA20 and Wilder's RSI14 on the weekly close, and flags a "signal"
-when the latest completed weekly candle satisfies the threshold conditions
-below.
+Fetches weekly OHLC(V) data for every ticker in docs/data/watchlist.json,
+computes SMA20, Wilder's RSI14, and a 20-week average Volume on the weekly
+close, then assigns each ticker to at most one buy category (highest one it
+qualifies for) based on the thresholds below.
 
 Writes:
   - docs/data/results.json   (overwritten each run: latest snapshot)
@@ -26,12 +26,25 @@ import pandas as pd
 import yfinance as yf
 
 # ---------------------------------------------------------------------------
-# Tunable constants - edit these to change signal behavior.
+# Tunable constants - edit these to change category thresholds.
+#
+# Every ticker is checked against three categories and assigned to the
+# highest one it qualifies for (or none, in which case it's excluded from
+# the results the front end shows):
+#
+#   Strongest Buy: 1%-10% above SMA20, RSI14 > 60, AND this week's Volume
+#                  is at least VOLUME_MULTIPLIER x the 20-week avg Volume.
+#   Strong Buy:    1%-10% above SMA20 and RSI14 > 60 (didn't qualify above).
+#   Buy:           more than 10% above SMA20 and RSI14 > 60.
 # ---------------------------------------------------------------------------
 MA_PERIOD = 20
 RSI_PERIOD = 14
-RSI_UPPER_THRESHOLD = 60
-MA_DISTANCE_THRESHOLD_PCT = 2.0  # close must be this % above SMA20
+VOLUME_LOOKBACK = 20
+
+RSI_THRESHOLD = 60
+BUY_ZONE_MIN_PCT = 1.0
+BUY_ZONE_MAX_PCT = 10.0
+VOLUME_MULTIPLIER = 1.5
 
 WEEKS_OF_HISTORY = 90  # weeks of data to pull so both indicators are warmed up
 MAX_RETRIES = 3
@@ -122,37 +135,57 @@ def drop_incomplete_week(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def categorize(pct_above_ma: float, rsi14: float, volume_ratio: float) -> str | None:
+    """Assign a ticker to the highest buy category it qualifies for, or None."""
+    if rsi14 <= RSI_THRESHOLD:
+        return None
+
+    in_buy_zone = BUY_ZONE_MIN_PCT <= pct_above_ma <= BUY_ZONE_MAX_PCT
+    above_buy_zone = pct_above_ma > BUY_ZONE_MAX_PCT
+
+    if in_buy_zone and volume_ratio >= VOLUME_MULTIPLIER:
+        return "Strongest Buy"
+    if in_buy_zone:
+        return "Strong Buy"
+    if above_buy_zone:
+        return "Buy"
+    return None
+
+
 def analyze_ticker(entry: dict) -> dict:
-    """Run the indicator/signal computation for a single watchlist entry."""
+    """Run the indicator/category computation for a single watchlist entry."""
     ticker = entry["ticker"]
     name = entry.get("name", ticker)
 
     df = fetch_weekly_history(ticker)
     df = drop_incomplete_week(df)
 
-    if len(df) < max(MA_PERIOD, RSI_PERIOD) + 1:
+    min_weeks_needed = max(MA_PERIOD, RSI_PERIOD, VOLUME_LOOKBACK) + 1
+    if len(df) < min_weeks_needed:
         raise RuntimeError(
             f"not enough weekly history for {ticker} ({len(df)} weeks, need at least "
-            f"{max(MA_PERIOD, RSI_PERIOD) + 1})"
+            f"{min_weeks_needed})"
         )
 
     close = df["Close"]
+    volume = df["Volume"]
     sma20 = close.rolling(window=MA_PERIOD).mean()
     rsi14 = compute_rsi(close, RSI_PERIOD)
+    avg_volume = volume.rolling(window=VOLUME_LOOKBACK).mean()
 
     latest_close = float(close.iloc[-1])
     latest_sma = float(sma20.iloc[-1])
     latest_rsi = float(rsi14.iloc[-1])
+    latest_volume = float(volume.iloc[-1])
+    latest_avg_volume = float(avg_volume.iloc[-1])
 
-    if pd.isna(latest_sma) or pd.isna(latest_rsi):
+    if pd.isna(latest_sma) or pd.isna(latest_rsi) or pd.isna(latest_avg_volume):
         raise RuntimeError(f"indicators not warmed up yet for {ticker}")
 
     pct_above_ma = ((latest_close - latest_sma) / latest_sma) * 100
+    volume_ratio = (latest_volume / latest_avg_volume) if latest_avg_volume else 0.0
 
-    signal = (
-        latest_close > latest_sma * (1 + MA_DISTANCE_THRESHOLD_PCT / 100)
-        and latest_rsi > RSI_UPPER_THRESHOLD
-    )
+    category = categorize(pct_above_ma, latest_rsi, volume_ratio)
 
     latest_date = df.index[-1]
     if hasattr(latest_date, "isoformat"):
@@ -168,7 +201,10 @@ def analyze_ticker(entry: dict) -> dict:
         "sma20": round(latest_sma, 2),
         "pct_above_ma": round(pct_above_ma, 2),
         "rsi14": round(latest_rsi, 2),
-        "signal": bool(signal),
+        "volume": int(latest_volume),
+        "avg_volume_20wk": int(latest_avg_volume),
+        "volume_ratio": round(volume_ratio, 2),
+        "category": category,
     }
 
 
@@ -206,8 +242,10 @@ def run_analysis(run_type: str) -> dict:
         "run_type": run_type,
         "generated_at": generated_at,
         "total": len(watchlist),
-        "signaled": [r["ticker"] for r in results if r["signal"]],
-        "no_signal_count": len([r for r in results if not r["signal"]]),
+        "strongest_buy": [r["ticker"] for r in results if r["category"] == "Strongest Buy"],
+        "strong_buy": [r["ticker"] for r in results if r["category"] == "Strong Buy"],
+        "buy": [r["ticker"] for r in results if r["category"] == "Buy"],
+        "no_category_count": len([r for r in results if not r["category"]]),
         "failed": [f["ticker"] for f in failed],
         "unresolved": unresolved,
     }
@@ -224,9 +262,14 @@ def run_analysis(run_type: str) -> dict:
         json.dump(history, f, indent=2)
         f.write("\n")
 
+    total_categorized = (
+        len(history_entry["strongest_buy"]) + len(history_entry["strong_buy"]) + len(history_entry["buy"])
+    )
     print(
         f"[analyze] done: {len(results)} analyzed, "
-        f"{len(history_entry['signaled'])} signaled, {len(failed)} failed"
+        f"{total_categorized} categorized "
+        f"({len(history_entry['strongest_buy'])} strongest, {len(history_entry['strong_buy'])} strong, "
+        f"{len(history_entry['buy'])} buy), {len(failed)} failed"
     )
     return payload
 

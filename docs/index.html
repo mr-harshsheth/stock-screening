@@ -88,26 +88,14 @@
     <!-- Results -->
     <section class="card">
       <h2>Results</h2>
+      <p class="hint">Grouped into Strongest Buy / Strong Buy / Buy - stocks that don't qualify for any category are hidden.</p>
       <div id="unresolved-box" hidden>
         <p class="hint warn">Could not resolve (check spelling): <span id="unresolved-list"></span></p>
       </div>
       <div id="failed-box" hidden>
         <p class="hint warn">Failed to fetch: <span id="failed-list"></span></p>
       </div>
-      <table id="results-table">
-        <thead>
-          <tr>
-            <th data-key="ticker">Ticker</th>
-            <th data-key="name">Name</th>
-            <th data-key="close">Close</th>
-            <th data-key="sma20">SMA20</th>
-            <th data-key="pct_above_ma">% above MA</th>
-            <th data-key="rsi14">RSI14</th>
-            <th data-key="signal">Signal</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <div id="results-groups"></div>
     </section>
 
     <!-- Canada index scan -->
@@ -118,25 +106,13 @@
       </h2>
       <button id="analyze-canada-btn">Analyse Canada</button>
       <span id="analyze-canada-status" class="status"></span>
-      <p class="hint">Scans ~250 stocks, showing only the ones that signal. Can take 15-30 minutes - feel free to close the page and check back.</p>
+      <p class="hint">Scans ~250 stocks, grouped into Strongest Buy / Strong Buy / Buy. Can take 15-30 minutes - feel free to close the page and check back.</p>
       <div id="canada-body" hidden>
         <p class="hint" id="last-analyzed-canada"></p>
         <div id="canada-failed-box" hidden>
           <p class="hint warn">Failed to fetch: <span id="canada-failed-list"></span></p>
         </div>
-        <table id="results-canada-table">
-          <thead>
-            <tr>
-              <th data-key="ticker">Ticker</th>
-              <th data-key="name">Name</th>
-              <th data-key="close">Close</th>
-              <th data-key="sma20">SMA20</th>
-              <th data-key="pct_above_ma">% above MA</th>
-              <th data-key="rsi14">RSI14</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+        <div id="results-canada-groups"></div>
       </div>
     </section>
 
@@ -148,25 +124,13 @@
       </h2>
       <button id="analyze-us-btn">Analyse US</button>
       <span id="analyze-us-status" class="status"></span>
-      <p class="hint">Scans ~550 stocks, showing only the ones that signal. Can take 15-30 minutes - feel free to close the page and check back.</p>
+      <p class="hint">Scans ~550 stocks, grouped into Strongest Buy / Strong Buy / Buy. Can take 15-30 minutes - feel free to close the page and check back.</p>
       <div id="us-body" hidden>
         <p class="hint" id="last-analyzed-us"></p>
         <div id="us-failed-box" hidden>
           <p class="hint warn">Failed to fetch: <span id="us-failed-list"></span></p>
         </div>
-        <table id="results-us-table">
-          <thead>
-            <tr>
-              <th data-key="ticker">Ticker</th>
-              <th data-key="name">Name</th>
-              <th data-key="close">Close</th>
-              <th data-key="sma20">SMA20</th>
-              <th data-key="pct_above_ma">% above MA</th>
-              <th data-key="rsi14">RSI14</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+        <div id="results-us-groups"></div>
       </div>
     </section>
 
@@ -183,8 +147,10 @@
               <th>When (UTC)</th>
               <th>Type</th>
               <th>Total</th>
-              <th>Signaled</th>
-              <th>No signal</th>
+              <th>Strongest Buy</th>
+              <th>Strong Buy</th>
+              <th>Buy</th>
+              <th>No category</th>
               <th>Failed</th>
               <th>Unresolved</th>
             </tr>

@@ -35,6 +35,8 @@ RUN_TYPE_LABELS = {
     "us_index": "US Index (S&P 500 + Nasdaq-100)",
 }
 
+CATEGORY_ORDER = ["Strongest Buy", "Strong Buy", "Buy"]
+
 
 def load_results(path: Path) -> dict:
     with open(path, "r", encoding="utf-8") as f:
@@ -46,26 +48,32 @@ def build_email_body(payload: dict) -> str:
     failed = payload.get("failed", [])
     unresolved = payload.get("unresolved", [])
 
-    signaled = [r for r in results if r["signal"]]
-    no_signal = [r for r in results if not r["signal"]]
+    no_category_count = len([r for r in results if not r.get("category")])
 
     lines = []
     lines.append(f"Run type: {payload.get('run_type')}")
     lines.append(f"Generated at (UTC): {payload.get('generated_at')}")
     lines.append("")
 
-    if signaled:
-        lines.append(f"SIGNALED ({len(signaled)}):")
-        for r in signaled:
+    any_categorized = False
+    for category in CATEGORY_ORDER:
+        matches = [r for r in results if r.get("category") == category]
+        if not matches:
+            continue
+        any_categorized = True
+        lines.append(f"{category.upper()} ({len(matches)}):")
+        for r in matches:
             lines.append(
                 f"  {r['ticker']:8s} close={r['close']:<10} sma20={r['sma20']:<10} "
-                f"%above_ma={r['pct_above_ma']:<7} rsi14={r['rsi14']}"
+                f"%above_ma={r['pct_above_ma']:<7} rsi14={r['rsi14']:<7} vol_ratio={r['volume_ratio']}x"
             )
-    else:
-        lines.append("SIGNALED: none")
+        lines.append("")
 
-    lines.append("")
-    lines.append(f"No signal: {len(no_signal)} ticker(s)")
+    if not any_categorized:
+        lines.append("No stocks matched Strongest Buy / Strong Buy / Buy this run.")
+        lines.append("")
+
+    lines.append(f"No category: {no_category_count} ticker(s)")
     lines.append(f"Failed to fetch: {len(failed)} ticker(s)")
     if failed:
         for f_entry in failed:
@@ -109,8 +117,8 @@ def main():
     run_type = payload.get("run_type", "unknown")
     run_label = RUN_TYPE_LABELS.get(run_type, run_type)
 
-    signaled_count = len([r for r in payload.get("results", []) if r["signal"]])
-    subject = f"[Stock Screener] {run_label} run - {signaled_count} signal(s)"
+    categorized_count = len([r for r in payload.get("results", []) if r.get("category")])
+    subject = f"[Stock Screener] {run_label} run - {categorized_count} categorized"
     body = build_email_body(payload)
 
     send_email(subject, body)

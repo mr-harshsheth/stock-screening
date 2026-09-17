@@ -248,17 +248,6 @@ table tbody tr:last-child td {
   color: var(--accent-hover);
 }
 
-.signal-yes {
-  color: var(--signal-yes);
-  font-weight: 700;
-  background: var(--signal-yes-bg);
-  border-radius: 6px;
-}
-
-.signal-no {
-  color: var(--muted-light);
-}
-
 .remove-btn {
   background: #fff;
   color: var(--danger);
@@ -283,21 +272,15 @@ footer {
 }
 
 /* Table scrolls horizontally on narrow screens rather than breaking layout */
-#results-table,
-#results-canada-table,
-#results-us-table,
+.category-table,
 #history-table,
 #watchlist-table {
   display: block;
   overflow-x: auto;
 }
 
-#results-table thead,
-#results-table tbody,
-#results-canada-table thead,
-#results-canada-table tbody,
-#results-us-table thead,
-#results-us-table tbody,
+.category-table thead,
+.category-table tbody,
 #history-table thead,
 #history-table tbody,
 #watchlist-table thead,
@@ -305,6 +288,47 @@ footer {
   display: table;
   width: 100%;
   table-layout: auto;
+}
+
+/* --------------------------------------------------------------------- */
+/* Category groups (Strongest Buy / Strong Buy / Buy)                    */
+/* --------------------------------------------------------------------- */
+
+.category-group {
+  margin-top: 18px;
+}
+
+.category-group:first-child {
+  margin-top: 0;
+}
+
+.category-heading {
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 6px 0 6px 12px;
+  margin: 0 0 8px;
+  border-left: 4px solid var(--accent);
+  letter-spacing: -0.005em;
+}
+
+.category-heading.cat-strongest {
+  border-color: #b45309;
+  color: #b45309;
+}
+
+.category-heading.cat-strong {
+  border-color: var(--signal-yes);
+  color: var(--signal-yes);
+}
+
+.category-heading.cat-buy {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.category-empty {
+  padding-left: 12px;
+  margin-top: 0;
 }
 
 /* --------------------------------------------------------------------- */

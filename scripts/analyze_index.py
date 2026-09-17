@@ -88,8 +88,10 @@ def run_index_analysis(index: str) -> dict:
         "run_type": run_type,
         "generated_at": generated_at,
         "total": len(constituents),
-        "signaled": [r["ticker"] for r in results if r["signal"]],
-        "no_signal_count": len([r for r in results if not r["signal"]]),
+        "strongest_buy": [r["ticker"] for r in results if r["category"] == "Strongest Buy"],
+        "strong_buy": [r["ticker"] for r in results if r["category"] == "Strong Buy"],
+        "buy": [r["ticker"] for r in results if r["category"] == "Buy"],
+        "no_category_count": len([r for r in results if not r["category"]]),
         "failed": [f["ticker"] for f in failed],
     }
 
@@ -106,9 +108,14 @@ def run_index_analysis(index: str) -> dict:
         json.dump(history, f, indent=2)
         f.write("\n")
 
+    total_categorized = (
+        len(history_entry["strongest_buy"]) + len(history_entry["strong_buy"]) + len(history_entry["buy"])
+    )
     print(
         f"[analyze_index] {index} done: {len(results)} analyzed, "
-        f"{len(history_entry['signaled'])} signaled, {len(failed)} failed"
+        f"{total_categorized} categorized "
+        f"({len(history_entry['strongest_buy'])} strongest, {len(history_entry['strong_buy'])} strong, "
+        f"{len(history_entry['buy'])} buy), {len(failed)} failed"
     )
     return payload
 

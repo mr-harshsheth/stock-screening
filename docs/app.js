@@ -24,46 +24,52 @@ const INDEX_POLL_MAX_ATTEMPTS = 90; // ~30 minutes - full index scans are slow
 
 const MAX_SUGGESTIONS = 8;
 
-// Per-region table config. "main" is the personal watchlist; "canada" and
-// "us" are the full-index scans (which only show rows that signaled, with
-// no Signal column since every row shown is already a "yes").
+// A ticker is assigned to at most one of these, highest first. Anything not
+// matching any category is excluded from the results shown on the page.
+const CATEGORY_ORDER = ["Strongest Buy", "Strong Buy", "Buy"];
+const CATEGORY_CLASS = {
+  "Strongest Buy": "cat-strongest",
+  "Strong Buy": "cat-strong",
+  Buy: "cat-buy",
+};
+
+// Per-region config. "main" is the personal watchlist; "canada" and "us"
+// are the full-index scans. Each renders its results as three category
+// groups (Strongest Buy / Strong Buy / Buy) inside its "groupsId" container.
 const REGIONS = {
   main: {
     resultsPath: "data/results.json",
-    tableId: "results-table",
+    groupsId: "results-groups",
     lastAnalyzedId: "last-analyzed",
     failedBoxId: "failed-box",
     failedListId: "failed-list",
     unresolvedBoxId: "unresolved-box",
     unresolvedListId: "unresolved-list",
-    signalOnly: false,
-    showSignalColumn: true,
   },
   canada: {
     resultsPath: "data/results_canada.json",
-    tableId: "results-canada-table",
+    groupsId: "results-canada-groups",
     lastAnalyzedId: "last-analyzed-canada",
     failedBoxId: "canada-failed-box",
     failedListId: "canada-failed-list",
-    signalOnly: true,
-    showSignalColumn: false,
   },
   us: {
     resultsPath: "data/results_us.json",
-    tableId: "results-us-table",
+    groupsId: "results-us-groups",
     lastAnalyzedId: "last-analyzed-us",
     failedBoxId: "us-failed-box",
     failedListId: "us-failed-list",
-    signalOnly: true,
-    showSignalColumn: false,
   },
 };
 
-const sortStates = {
-  main: { key: null, asc: true },
-  canada: { key: null, asc: true },
-  us: { key: null, asc: true },
-};
+// sortStates[region][category] = { key, asc } - each category table sorts independently.
+const sortStates = {};
+for (const region of Object.keys(REGIONS)) {
+  sortStates[region] = {};
+  for (const category of CATEGORY_ORDER) {
+    sortStates[region][category] = { key: "pct_above_ma", asc: false };
+  }
+}
 
 const lastPayload = { main: null, canada: null, us: null };
 
@@ -258,20 +264,26 @@ function sortResults(results, sortState) {
   return copy;
 }
 
-function renderResultsInto(region, payload) {
-  lastPayload[region] = payload;
-  const config = REGIONS[region];
+function buildCategoryTable(region, category, rows) {
+  const table = document.createElement("table");
+  table.className = "category-table";
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th data-key="ticker">Ticker</th>
+        <th data-key="name">Name</th>
+        <th data-key="close">Close</th>
+        <th data-key="sma20">SMA20</th>
+        <th data-key="pct_above_ma">% above MA</th>
+        <th data-key="rsi14">RSI14</th>
+        <th data-key="volume_ratio">Vol vs 20w avg</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  `;
 
-  const allResults = (payload && payload.results) || [];
-  const failed = (payload && payload.failed) || [];
-  const unresolved = (payload && payload.unresolved) || [];
-
-  const shown = config.signalOnly ? allResults.filter((r) => r.signal) : allResults;
-  const sorted = sortResults(shown, sortStates[region]);
-
-  const tbody = document.querySelector(`#${config.tableId} tbody`);
-  tbody.innerHTML = "";
-  sorted.forEach((r) => {
+  const tbody = table.querySelector("tbody");
+  rows.forEach((r) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${tickerLinkHtml(r.ticker, r.name)}</td>
@@ -280,17 +292,68 @@ function renderResultsInto(region, payload) {
       <td>${r.sma20}</td>
       <td>${r.pct_above_ma}%</td>
       <td>${r.rsi14}</td>
-      ${config.showSignalColumn ? `<td class="${r.signal ? "signal-yes" : "signal-no"}">${r.signal ? "YES" : "no"}</td>` : ""}
+      <td>${r.volume_ratio}x</td>
     `;
     tbody.appendChild(tr);
   });
 
+  table.querySelectorAll("th[data-key]").forEach((th) => {
+    th.addEventListener("click", () => {
+      const key = th.dataset.key;
+      const state = sortStates[region][category];
+      if (state.key === key) {
+        state.asc = !state.asc;
+      } else {
+        state.key = key;
+        state.asc = true;
+      }
+      if (lastPayload[region]) renderResultsInto(region, lastPayload[region]);
+    });
+  });
+
+  return table;
+}
+
+function renderResultsInto(region, payload) {
+  lastPayload[region] = payload;
+  const config = REGIONS[region];
+
+  const allResults = (payload && payload.results) || [];
+  const failed = (payload && payload.failed) || [];
+  const unresolved = (payload && payload.unresolved) || [];
+
+  const groupsEl = document.getElementById(config.groupsId);
+  groupsEl.innerHTML = "";
+
+  let totalCategorized = 0;
+  CATEGORY_ORDER.forEach((category) => {
+    const matches = allResults.filter((r) => r.category === category);
+    totalCategorized += matches.length;
+    const sorted = sortResults(matches, sortStates[region][category]);
+
+    const section = document.createElement("div");
+    section.className = "category-group";
+
+    const heading = document.createElement("h3");
+    heading.className = `category-heading ${CATEGORY_CLASS[category]}`;
+    heading.textContent = `${category} (${matches.length})`;
+    section.appendChild(heading);
+
+    if (matches.length) {
+      section.appendChild(buildCategoryTable(region, category, sorted));
+    } else {
+      const p = document.createElement("p");
+      p.className = "hint category-empty";
+      p.textContent = "No stocks currently in this category.";
+      section.appendChild(p);
+    }
+
+    groupsEl.appendChild(section);
+  });
+
   const lastAnalyzed = document.getElementById(config.lastAnalyzedId);
   if (payload && payload.generated_at) {
-    const countText = config.signalOnly
-      ? `${allResults.length} scanned, ${shown.length} signaled`
-      : `${allResults.length} tickers`;
-    lastAnalyzed.textContent = `Last analyzed: ${payload.generated_at} (${payload.run_type || "unknown"} run, ${countText})`;
+    lastAnalyzed.textContent = `Last analyzed: ${payload.generated_at} (${payload.run_type || "unknown"} run, ${allResults.length} scanned, ${totalCategorized} categorized)`;
   } else {
     lastAnalyzed.textContent = "No analysis has been run yet.";
   }
@@ -328,8 +391,10 @@ function renderHistory(history) {
         <td>${h.generated_at}</td>
         <td>${h.run_type}</td>
         <td>${h.total}</td>
-        <td>${(h.signaled || []).join(", ") || "-"}</td>
-        <td>${h.no_signal_count}</td>
+        <td>${(h.strongest_buy || []).join(", ") || "-"}</td>
+        <td>${(h.strong_buy || []).join(", ") || "-"}</td>
+        <td>${(h.buy || []).join(", ") || "-"}</td>
+        <td>${h.no_category_count}</td>
         <td>${(h.failed || []).join(", ") || "-"}</td>
         <td>${(h.unresolved || []).join(", ") || "-"}</td>
       `;
@@ -379,7 +444,10 @@ function openChart(ticker, name) {
       new window.TradingView.widget({
         autosize: true,
         symbol: toTradingViewSymbol(ticker),
-        interval: "D",
+        // Weekly by default since that's the timeframe our SMA20/RSI14/
+        // category logic is computed on - you can still switch it in the
+        // widget's own toolbar.
+        interval: "W",
         timezone: "Etc/UTC",
         theme: "light",
         style: "1",
@@ -388,6 +456,11 @@ function openChart(ticker, name) {
         enable_publishing: false,
         allow_symbol_change: false,
         container_id: "tv-chart-container",
+        studies: ["MASimple@tv-basicstudies", "RSI@tv-basicstudies", "Volume@tv-basicstudies"],
+        studies_overrides: {
+          "moving average.length": 20,
+          "relative strength index.length": 14,
+        },
       });
     })
     .catch((err) => {
@@ -628,23 +701,6 @@ async function pollForRegionUpdate(region, statusEl, intervalMs, maxAttempts, ex
 // Wiring
 // ---------------------------------------------------------------------------
 
-function wireSortHandlers(region) {
-  const config = REGIONS[region];
-  document.querySelectorAll(`#${config.tableId} thead th[data-key]`).forEach((th) => {
-    th.addEventListener("click", () => {
-      const key = th.dataset.key;
-      const state = sortStates[region];
-      if (state.key === key) {
-        state.asc = !state.asc;
-      } else {
-        state.key = key;
-        state.asc = true;
-      }
-      if (lastPayload[region]) renderResultsInto(region, lastPayload[region]);
-    });
-  });
-}
-
 function init() {
   populateSetupForm();
 
@@ -696,10 +752,6 @@ function init() {
       openChart(link.dataset.ticker, link.dataset.name);
     }
   });
-
-  wireSortHandlers("main");
-  wireSortHandlers("canada");
-  wireSortHandlers("us");
 
   loadWatchlist();
   loadHistory();

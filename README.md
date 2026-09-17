@@ -60,7 +60,7 @@ Browser (GitHub Pages site)
    ▼
 GitHub Actions workflow (scheduled OR dispatched)
    │  1. resolve_tickers.py: resolve any newly typed names -> tickers, update docs/data/watchlist.json
-   │  2. analyze.py: fetch weekly data via yfinance, compute SMA20 + RSI14, check signal
+   │  2. analyze.py: fetch weekly data via yfinance, compute SMA20 + RSI14 + Volume, assign category
    │  3. Writes docs/data/results.json (latest) and appends docs/data/history.json
    │  4. notify.py: emails you the results
    │  5. Commits the updated JSON files back to the repo
@@ -75,9 +75,10 @@ Wikipedia, runs the same SMA20/RSI14 screener across every ticker in it, and
 writes to `results_canada.json`/`results_us.json` (kept separate from your
 personal watchlist). These scans cover hundreds of tickers, so expect
 15-30 minutes rather than the ~1 minute a personal-watchlist run takes. The
-Canada/US tables only show tickers that actually signaled (no point paging
-through hundreds of "no" rows), and every run also refreshes
-`known_tickers.json`, the autocomplete list.
+Canada/US sections only show tickers that landed in a category (Strongest
+Buy / Strong Buy / Buy) - no point paging through hundreds of uncategorized
+rows - and every run also refreshes `known_tickers.json`, the autocomplete
+list.
 
 ## Other features
 
@@ -89,12 +90,15 @@ through hundreds of "no" rows), and every run also refreshes
   and pressing Enter still adds it as free text, resolved the normal
   (slower) way once you click **Add to Watchlist**.
 - **Charts**: click any ticker anywhere on the page to open a live candlestick
-  chart (an embedded [TradingView](https://www.tradingview.com/) widget) with
-  every timeframe from 1 day to all-time, and a toggle between candlestick,
-  area, and other chart styles built into the widget's own toolbar. This
-  needs no backend of ours - Yahoo Finance doesn't allow direct browser
-  requests (no CORS), so real-time charting is delegated to TradingView's
-  free embeddable widget instead of trying to proxy Yahoo ourselves.
+  chart (an embedded [TradingView](https://www.tradingview.com/) widget),
+  defaulting to the **Weekly** timeframe with **SMA(20)**, **RSI(14)**, and
+  **Volume** already plotted - matching what the category logic is computed
+  on. Every other timeframe (1 day to all-time) and a toggle between
+  candlestick, area, and other chart styles are available in the widget's
+  own toolbar. This needs no backend of ours - Yahoo Finance doesn't allow
+  direct browser requests (no CORS), so real-time charting is delegated to
+  TradingView's free embeddable widget instead of trying to proxy Yahoo
+  ourselves.
 
 ---
 
@@ -283,27 +287,35 @@ output when you're done.
 
 ---
 
-## Signal logic
+## Category logic
 
-Defined as constants at the top of `scripts/analyze.py`:
+On the latest *completed* weekly candle, every ticker is checked against
+three categories (thresholds defined as constants at the top of
+`scripts/analyze.py`) and assigned to the highest one it qualifies for. A
+ticker matching none of them is excluded from the results the page shows.
 
 ```python
-MA_PERIOD = 20
-RSI_PERIOD = 14
-RSI_UPPER_THRESHOLD = 60
-MA_DISTANCE_THRESHOLD_PCT = 2.0   # close must be this % above SMA20
+RSI_THRESHOLD = 60
+BUY_ZONE_MIN_PCT = 1.0
+BUY_ZONE_MAX_PCT = 10.0
+VOLUME_MULTIPLIER = 1.5
 ```
 
-A stock signals when, on the latest completed weekly candle:
-
-```
-close > SMA20 * (1 + MA_DISTANCE_THRESHOLD_PCT / 100)
-AND
-RSI14 > RSI_UPPER_THRESHOLD
-```
+| Category | Condition |
+|---|---|
+| **Strongest Buy** | 1%-10% above SMA20, RSI14 > 60, AND this week's Volume >= 1.5x the 20-week average Volume |
+| **Strong Buy** | 1%-10% above SMA20 and RSI14 > 60 (didn't already qualify for Strongest Buy) |
+| **Buy** | More than 10% above SMA20 and RSI14 > 60 |
 
 RSI14 uses proper Wilder smoothing (an EMA with `alpha = 1/14`), not a
-simple moving average of gains/losses.
+simple moving average of gains/losses. The Results section on the page (and
+the Canada/US index scans) group tickers under these three headers, in this
+order, and hide anything that doesn't qualify for any of them.
+
+**Note:** because this replaced the old single "signal" flag, any
+`results*.json`/`history*.json` committed before this change won't have a
+`category` field yet - re-run **Analyze Now** / **Analyse Canada** /
+**Analyse US** once after deploying to regenerate them in the new format.
 
 ## Troubleshooting
 
