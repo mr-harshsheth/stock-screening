@@ -1,6 +1,6 @@
 {
   "run_type": "us_index",
-  "generated_at": "2026-09-15T22:12:39.573504+00:00",
+  "generated_at": "2026-09-17T02:53:18.092685+00:00",
   "results": [
     {
       "name": "3M",
@@ -10,7 +10,10 @@
       "sma20": 161.96,
       "pct_above_ma": 1.86,
       "rsi14": 51.54,
-      "signal": false
+      "volume": 11662500,
+      "avg_volume_20wk": 16919175,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "A. O. Smith",
@@ -20,7 +23,10 @@
       "sma20": 59.55,
       "pct_above_ma": -3.62,
       "rsi14": 40.43,
-      "signal": false
+      "volume": 5393100,
+      "avg_volume_20wk": 8095585,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "Abbott Laboratories",
@@ -30,7 +36,10 @@
       "sma20": 97.17,
       "pct_above_ma": 4.92,
       "rsi14": 48.51,
-      "signal": false
+      "volume": 34110100,
+      "avg_volume_20wk": 55350895,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "AbbVie",
@@ -40,7 +49,10 @@
       "sma20": 238.13,
       "pct_above_ma": 7.97,
       "rsi14": 60.55,
-      "signal": true
+      "volume": 18141500,
+      "avg_volume_20wk": 29761130,
+      "volume_ratio": 0.61,
+      "category": "Strong Buy"
     },
     {
       "name": "Accenture",
@@ -50,7 +62,10 @@
       "sma20": 165.43,
       "pct_above_ma": 11.17,
       "rsi14": 51.52,
-      "signal": false
+      "volume": 16928500,
+      "avg_volume_20wk": 35465580,
+      "volume_ratio": 0.48,
+      "category": null
     },
     {
       "name": "Adobe Inc.",
@@ -60,7 +75,10 @@
       "sma20": 243.98,
       "pct_above_ma": 3.38,
       "rsi14": 48.43,
-      "signal": false
+      "volume": 30828000,
+      "avg_volume_20wk": 28122385,
+      "volume_ratio": 1.1,
+      "category": null
     },
     {
       "name": "Advanced Micro Devices",
@@ -70,7 +88,10 @@
       "sma20": 488.01,
       "pct_above_ma": 5.76,
       "rsi14": 61.63,
-      "signal": true
+      "volume": 85350600,
+      "avg_volume_20wk": 143606710,
+      "volume_ratio": 0.59,
+      "category": "Strong Buy"
     },
     {
       "name": "AES Corporation",
@@ -80,7 +101,10 @@
       "sma20": 14.55,
       "pct_above_ma": 1.65,
       "rsi14": 59.71,
-      "signal": false
+      "volume": 27976400,
+      "avg_volume_20wk": 42093120,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Aflac",
@@ -90,7 +114,10 @@
       "sma20": 118.26,
       "pct_above_ma": -2.52,
       "rsi14": 47.67,
-      "signal": false
+      "volume": 7310400,
+      "avg_volume_20wk": 11124955,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Agilent Technologies",
@@ -100,7 +127,10 @@
       "sma20": 134.85,
       "pct_above_ma": 8.96,
       "rsi14": 58.68,
-      "signal": false
+      "volume": 6753900,
+      "avg_volume_20wk": 10981350,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Air Products",
@@ -110,7 +140,10 @@
       "sma20": 294.32,
       "pct_above_ma": -0.98,
       "rsi14": 49.76,
-      "signal": false
+      "volume": 3767000,
+      "avg_volume_20wk": 5693610,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Airbnb",
@@ -120,7 +153,10 @@
       "sma20": 153.13,
       "pct_above_ma": 11.14,
       "rsi14": 60.84,
-      "signal": true
+      "volume": 18692000,
+      "avg_volume_20wk": 20414845,
+      "volume_ratio": 0.92,
+      "category": "Buy"
     },
     {
       "name": "Akamai Technologies",
@@ -130,7 +166,10 @@
       "sma20": 123.79,
       "pct_above_ma": -13.73,
       "rsi14": 45.97,
-      "signal": false
+      "volume": 14951000,
+      "avg_volume_20wk": 21259390,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Albemarle Corporation",
@@ -140,7 +179,10 @@
       "sma20": 147.0,
       "pct_above_ma": -20.05,
       "rsi14": 39.87,
-      "signal": false
+      "volume": 11955100,
+      "avg_volume_20wk": 10966935,
+      "volume_ratio": 1.09,
+      "category": null
     },
     {
       "name": "Alexandria Real Estate Equities",
@@ -150,7 +192,10 @@
       "sma20": 49.77,
       "pct_above_ma": 2.75,
       "rsi14": 50.41,
-      "signal": false
+      "volume": 5781500,
+      "avg_volume_20wk": 9613905,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Align Technology",
@@ -160,17 +205,23 @@
       "sma20": 170.4,
       "pct_above_ma": -11.49,
       "rsi14": 39.91,
-      "signal": false
+      "volume": 3370400,
+      "avg_volume_20wk": 4734575,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Allegion",
       "ticker": "ALLE",
       "week_of": "2026-09-07",
-      "close": 153.35,
-      "sma20": 143.94,
+      "close": 152.81,
+      "sma20": 143.43,
       "pct_above_ma": 6.54,
       "rsi14": 53.0,
-      "signal": false
+      "volume": 3481800,
+      "avg_volume_20wk": 6024825,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "Alliant Energy",
@@ -180,7 +231,10 @@
       "sma20": 71.87,
       "pct_above_ma": -6.41,
       "rsi14": 40.97,
-      "signal": false
+      "volume": 7680300,
+      "avg_volume_20wk": 11852425,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Allstate",
@@ -190,7 +244,10 @@
       "sma20": 239.09,
       "pct_above_ma": 6.11,
       "rsi14": 62.34,
-      "signal": true
+      "volume": 7516900,
+      "avg_volume_20wk": 8290175,
+      "volume_ratio": 0.91,
+      "category": "Strong Buy"
     },
     {
       "name": "Alphabet Inc. (Class A)",
@@ -200,7 +257,10 @@
       "sma20": 359.15,
       "pct_above_ma": -5.75,
       "rsi14": 49.38,
-      "signal": false
+      "volume": 104333300,
+      "avg_volume_20wk": 146380120,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Alphabet Inc. (Class C)",
@@ -210,17 +270,23 @@
       "sma20": 356.77,
       "pct_above_ma": -5.98,
       "rsi14": 48.98,
-      "signal": false
+      "volume": 65716800,
+      "avg_volume_20wk": 99092130,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Altria",
       "ticker": "MO",
       "week_of": "2026-09-07",
-      "close": 68.98,
-      "sma20": 70.28,
+      "close": 67.9,
+      "sma20": 69.17,
       "pct_above_ma": -1.85,
       "rsi14": 52.03,
-      "signal": false
+      "volume": 30710000,
+      "avg_volume_20wk": 42178805,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Amazon",
@@ -230,7 +296,10 @@
       "sma20": 256.01,
       "pct_above_ma": 0.3,
       "rsi14": 53.21,
-      "signal": false
+      "volume": 114662400,
+      "avg_volume_20wk": 220827860,
+      "volume_ratio": 0.52,
+      "category": null
     },
     {
       "name": "Amcor",
@@ -240,7 +309,10 @@
       "sma20": 41.96,
       "pct_above_ma": 0.85,
       "rsi14": 49.2,
-      "signal": false
+      "volume": 12611300,
+      "avg_volume_20wk": 18141365,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Ameren",
@@ -250,7 +322,10 @@
       "sma20": 108.96,
       "pct_above_ma": -3.73,
       "rsi14": 44.92,
-      "signal": false
+      "volume": 5602000,
+      "avg_volume_20wk": 8020275,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "American Electric Power",
@@ -260,7 +335,10 @@
       "sma20": 128.56,
       "pct_above_ma": -4.07,
       "rsi14": 46.17,
-      "signal": false
+      "volume": 13237100,
+      "avg_volume_20wk": 21485565,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "American Express",
@@ -270,17 +348,23 @@
       "sma20": 330.39,
       "pct_above_ma": -1.72,
       "rsi14": 46.69,
-      "signal": false
+      "volume": 9646600,
+      "avg_volume_20wk": 14127700,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "American International Group",
       "ticker": "AIG",
       "week_of": "2026-09-07",
-      "close": 75.33,
-      "sma20": 76.83,
+      "close": 74.83,
+      "sma20": 76.32,
       "pct_above_ma": -1.95,
       "rsi14": 45.62,
-      "signal": false
+      "volume": 21706600,
+      "avg_volume_20wk": 19586270,
+      "volume_ratio": 1.11,
+      "category": null
     },
     {
       "name": "American Tower",
@@ -290,7 +374,10 @@
       "sma20": 176.04,
       "pct_above_ma": 1.03,
       "rsi14": 51.65,
-      "signal": false
+      "volume": 8381600,
+      "avg_volume_20wk": 14106270,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "American Water Works",
@@ -300,7 +387,10 @@
       "sma20": 130.71,
       "pct_above_ma": 5.34,
       "rsi14": 57.55,
-      "signal": false
+      "volume": 7609300,
+      "avg_volume_20wk": 10398025,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Ameriprise Financial",
@@ -310,17 +400,23 @@
       "sma20": 503.28,
       "pct_above_ma": 10.79,
       "rsi14": 67.75,
-      "signal": true
+      "volume": 2212300,
+      "avg_volume_20wk": 2843445,
+      "volume_ratio": 0.78,
+      "category": "Buy"
     },
     {
       "name": "Ametek",
       "ticker": "AME",
       "week_of": "2026-09-07",
-      "close": 241.87,
-      "sma20": 236.02,
+      "close": 241.52,
+      "sma20": 235.68,
       "pct_above_ma": 2.48,
       "rsi14": 57.84,
-      "signal": false
+      "volume": 4758900,
+      "avg_volume_20wk": 6116470,
+      "volume_ratio": 0.78,
+      "category": null
     },
     {
       "name": "Amgen",
@@ -330,7 +426,10 @@
       "sma20": 370.19,
       "pct_above_ma": 1.93,
       "rsi14": 51.2,
-      "signal": false
+      "volume": 15449800,
+      "avg_volume_20wk": 12995110,
+      "volume_ratio": 1.19,
+      "category": null
     },
     {
       "name": "Amphenol",
@@ -340,7 +439,10 @@
       "sma20": 76.68,
       "pct_above_ma": 9.43,
       "rsi14": 59.96,
-      "signal": false
+      "volume": 43777000,
+      "avg_volume_20wk": 81253875,
+      "volume_ratio": 0.54,
+      "category": null
     },
     {
       "name": "Analog Devices",
@@ -350,7 +452,10 @@
       "sma20": 389.94,
       "pct_above_ma": -2.86,
       "rsi14": 53.68,
-      "signal": false
+      "volume": 11353900,
+      "avg_volume_20wk": 20788225,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "Aon plc",
@@ -360,7 +465,10 @@
       "sma20": 336.81,
       "pct_above_ma": -10.13,
       "rsi14": 35.77,
-      "signal": false
+      "volume": 8880400,
+      "avg_volume_20wk": 7114940,
+      "volume_ratio": 1.25,
+      "category": null
     },
     {
       "name": "APA Corporation",
@@ -370,7 +478,10 @@
       "sma20": 37.63,
       "pct_above_ma": 18.88,
       "rsi14": 69.37,
-      "signal": true
+      "volume": 20097300,
+      "avg_volume_20wk": 27463630,
+      "volume_ratio": 0.73,
+      "category": "Buy"
     },
     {
       "name": "Apollo Global Management",
@@ -380,7 +491,10 @@
       "sma20": 128.49,
       "pct_above_ma": 0.38,
       "rsi14": 51.22,
-      "signal": false
+      "volume": 9569500,
+      "avg_volume_20wk": 17965185,
+      "volume_ratio": 0.53,
+      "category": null
     },
     {
       "name": "Apple Inc.",
@@ -390,7 +504,10 @@
       "sma20": 308.53,
       "pct_above_ma": 7.7,
       "rsi14": 64.12,
-      "signal": true
+      "volume": 221845900,
+      "avg_volume_20wk": 253636555,
+      "volume_ratio": 0.87,
+      "category": "Strong Buy"
     },
     {
       "name": "Applied Materials",
@@ -400,7 +517,10 @@
       "sma20": 504.39,
       "pct_above_ma": -9.5,
       "rsi14": 48.95,
-      "signal": false
+      "volume": 19391700,
+      "avg_volume_20wk": 41784535,
+      "volume_ratio": 0.46,
+      "category": null
     },
     {
       "name": "AppLovin",
@@ -410,7 +530,10 @@
       "sma20": 435.09,
       "pct_above_ma": -25.54,
       "rsi14": 37.85,
-      "signal": false
+      "volume": 16337600,
+      "avg_volume_20wk": 26702240,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "Aptiv",
@@ -420,7 +543,10 @@
       "sma20": 56.77,
       "pct_above_ma": -19.77,
       "rsi14": 30.55,
-      "signal": false
+      "volume": 13612900,
+      "avg_volume_20wk": 18745090,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Arch Capital Group",
@@ -430,7 +556,10 @@
       "sma20": 96.85,
       "pct_above_ma": -0.78,
       "rsi14": 47.96,
-      "signal": false
+      "volume": 14751000,
+      "avg_volume_20wk": 11020965,
+      "volume_ratio": 1.34,
+      "category": null
     },
     {
       "name": "Archer Daniels Midland",
@@ -440,17 +569,23 @@
       "sma20": 79.62,
       "pct_above_ma": 8.92,
       "rsi14": 64.91,
-      "signal": true
+      "volume": 17647800,
+      "avg_volume_20wk": 18357990,
+      "volume_ratio": 0.96,
+      "category": "Strong Buy"
     },
     {
       "name": "Ares Management",
       "ticker": "ARES",
       "week_of": "2026-09-07",
-      "close": 131.64,
-      "sma20": 128.36,
+      "close": 130.26,
+      "sma20": 127.02,
       "pct_above_ma": 2.55,
       "rsi14": 50.65,
-      "signal": false
+      "volume": 8171900,
+      "avg_volume_20wk": 11647200,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Arista Networks",
@@ -460,7 +595,10 @@
       "sma20": 172.48,
       "pct_above_ma": 15.72,
       "rsi14": 63.53,
-      "signal": true
+      "volume": 15864400,
+      "avg_volume_20wk": 41147000,
+      "volume_ratio": 0.39,
+      "category": "Buy"
     },
     {
       "name": "Arthur J. Gallagher & Co.",
@@ -470,7 +608,10 @@
       "sma20": 233.14,
       "pct_above_ma": 3.08,
       "rsi14": 49.83,
-      "signal": false
+      "volume": 4472000,
+      "avg_volume_20wk": 7922435,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "Assurant",
@@ -480,7 +621,10 @@
       "sma20": 267.67,
       "pct_above_ma": 5.53,
       "rsi14": 68.24,
-      "signal": true
+      "volume": 1033000,
+      "avg_volume_20wk": 1914760,
+      "volume_ratio": 0.54,
+      "category": "Strong Buy"
     },
     {
       "name": "AT&T",
@@ -490,7 +634,10 @@
       "sma20": 23.8,
       "pct_above_ma": 9.51,
       "rsi14": 57.07,
-      "signal": false
+      "volume": 168631800,
+      "avg_volume_20wk": 254197545,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Atmos Energy",
@@ -500,7 +647,10 @@
       "sma20": 172.18,
       "pct_above_ma": -5.22,
       "rsi14": 37.82,
-      "signal": false
+      "volume": 3314400,
+      "avg_volume_20wk": 6011930,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "Autodesk",
@@ -510,7 +660,10 @@
       "sma20": 227.0,
       "pct_above_ma": -6.43,
       "rsi14": 42.0,
-      "signal": false
+      "volume": 9155500,
+      "avg_volume_20wk": 11656130,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "Automatic Data Processing",
@@ -520,7 +673,10 @@
       "sma20": 243.2,
       "pct_above_ma": 10.3,
       "rsi14": 60.54,
-      "signal": true
+      "volume": 7398500,
+      "avg_volume_20wk": 12476190,
+      "volume_ratio": 0.59,
+      "category": "Buy"
     },
     {
       "name": "AutoZone",
@@ -530,7 +686,10 @@
       "sma20": 3118.16,
       "pct_above_ma": -7.74,
       "rsi14": 35.78,
-      "signal": false
+      "volume": 1327900,
+      "avg_volume_20wk": 1552280,
+      "volume_ratio": 0.86,
+      "category": null
     },
     {
       "name": "Avery Dennison",
@@ -540,7 +699,10 @@
       "sma20": 164.94,
       "pct_above_ma": 2.69,
       "rsi14": 50.12,
-      "signal": false
+      "volume": 3347800,
+      "avg_volume_20wk": 3990145,
+      "volume_ratio": 0.84,
+      "category": null
     },
     {
       "name": "Axon Enterprise",
@@ -550,7 +712,10 @@
       "sma20": 497.95,
       "pct_above_ma": -3.74,
       "rsi14": 46.09,
-      "signal": false
+      "volume": 3026900,
+      "avg_volume_20wk": 5016075,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Baker Hughes",
@@ -560,7 +725,10 @@
       "sma20": 61.11,
       "pct_above_ma": -3.35,
       "rsi14": 49.22,
-      "signal": false
+      "volume": 34207900,
+      "avg_volume_20wk": 39115610,
+      "volume_ratio": 0.87,
+      "category": null
     },
     {
       "name": "Ball Corporation",
@@ -570,7 +738,10 @@
       "sma20": 60.14,
       "pct_above_ma": -0.41,
       "rsi14": 48.91,
-      "signal": false
+      "volume": 8121600,
+      "avg_volume_20wk": 11961590,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Bank of America",
@@ -580,7 +751,10 @@
       "sma20": 57.79,
       "pct_above_ma": 8.48,
       "rsi14": 66.65,
-      "signal": true
+      "volume": 122586000,
+      "avg_volume_20wk": 160726920,
+      "volume_ratio": 0.76,
+      "category": "Strong Buy"
     },
     {
       "name": "Baxter International",
@@ -590,7 +764,10 @@
       "sma20": 22.26,
       "pct_above_ma": 6.9,
       "rsi14": 54.78,
-      "signal": false
+      "volume": 22409300,
+      "avg_volume_20wk": 32961820,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Becton Dickinson",
@@ -600,7 +777,10 @@
       "sma20": 160.24,
       "pct_above_ma": 10.99,
       "rsi14": 60.35,
-      "signal": true
+      "volume": 6622100,
+      "avg_volume_20wk": 11527420,
+      "volume_ratio": 0.57,
+      "category": "Buy"
     },
     {
       "name": "Berkshire Hathaway",
@@ -610,7 +790,10 @@
       "sma20": 495.0,
       "pct_above_ma": 3.11,
       "rsi14": 56.79,
-      "signal": false
+      "volume": 15150000,
+      "avg_volume_20wk": 22522405,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "Best Buy",
@@ -620,7 +803,10 @@
       "sma20": 77.37,
       "pct_above_ma": 17.36,
       "rsi14": 65.45,
-      "signal": true
+      "volume": 12354900,
+      "avg_volume_20wk": 19235635,
+      "volume_ratio": 0.64,
+      "category": "Buy"
     },
     {
       "name": "Bio-Techne",
@@ -630,7 +816,10 @@
       "sma20": 63.6,
       "pct_above_ma": 13.4,
       "rsi14": 65.17,
-      "signal": true
+      "volume": 10595400,
+      "avg_volume_20wk": 19993265,
+      "volume_ratio": 0.53,
+      "category": "Buy"
     },
     {
       "name": "Biogen",
@@ -640,7 +829,10 @@
       "sma20": 204.43,
       "pct_above_ma": 6.22,
       "rsi14": 63.45,
-      "signal": true
+      "volume": 3324400,
+      "avg_volume_20wk": 5344105,
+      "volume_ratio": 0.62,
+      "category": "Strong Buy"
     },
     {
       "name": "BlackRock",
@@ -650,7 +842,10 @@
       "sma20": 1067.0,
       "pct_above_ma": 1.19,
       "rsi14": 51.3,
-      "signal": false
+      "volume": 1892300,
+      "avg_volume_20wk": 3321845,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Blackstone Inc.",
@@ -660,7 +855,10 @@
       "sma20": 126.22,
       "pct_above_ma": 1.81,
       "rsi14": 49.39,
-      "signal": false
+      "volume": 14957700,
+      "avg_volume_20wk": 22932635,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Block, Inc.",
@@ -670,7 +868,10 @@
       "sma20": 76.76,
       "pct_above_ma": 3.2,
       "rsi14": 55.17,
-      "signal": false
+      "volume": 12806600,
+      "avg_volume_20wk": 25588410,
+      "volume_ratio": 0.5,
+      "category": null
     },
     {
       "name": "BNY Mellon",
@@ -680,7 +881,10 @@
       "sma20": 149.21,
       "pct_above_ma": 9.01,
       "rsi14": 73.32,
-      "signal": true
+      "volume": 10435500,
+      "avg_volume_20wk": 16660525,
+      "volume_ratio": 0.63,
+      "category": "Strong Buy"
     },
     {
       "name": "Boeing",
@@ -690,7 +894,10 @@
       "sma20": 220.56,
       "pct_above_ma": -4.58,
       "rsi14": 45.71,
-      "signal": false
+      "volume": 17505000,
+      "avg_volume_20wk": 28664580,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "Booking Holdings",
@@ -700,7 +907,10 @@
       "sma20": 180.79,
       "pct_above_ma": -3.8,
       "rsi14": 44.19,
-      "signal": false
+      "volume": 35175900,
+      "avg_volume_20wk": 34019790,
+      "volume_ratio": 1.03,
+      "category": null
     },
     {
       "name": "Boston Scientific",
@@ -710,7 +920,10 @@
       "sma20": 48.41,
       "pct_above_ma": -11.22,
       "rsi14": 31.39,
-      "signal": false
+      "volume": 96673000,
+      "avg_volume_20wk": 98114390,
+      "volume_ratio": 0.99,
+      "category": null
     },
     {
       "name": "Bristol Myers Squibb",
@@ -720,7 +933,10 @@
       "sma20": 60.23,
       "pct_above_ma": 5.66,
       "rsi14": 58.23,
-      "signal": false
+      "volume": 29645800,
+      "avg_volume_20wk": 54068150,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "Broadcom",
@@ -730,7 +946,10 @@
       "sma20": 392.83,
       "pct_above_ma": -7.85,
       "rsi14": 47.25,
-      "signal": false
+      "volume": 101544300,
+      "avg_volume_20wk": 118658545,
+      "volume_ratio": 0.86,
+      "category": null
     },
     {
       "name": "Broadridge Financial Solutions",
@@ -740,7 +959,10 @@
       "sma20": 154.57,
       "pct_above_ma": 8.52,
       "rsi14": 51.25,
-      "signal": false
+      "volume": 4158400,
+      "avg_volume_20wk": 6653945,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Brown & Brown",
@@ -750,7 +972,10 @@
       "sma20": 64.75,
       "pct_above_ma": 2.23,
       "rsi14": 45.83,
-      "signal": false
+      "volume": 7223600,
+      "avg_volume_20wk": 13476090,
+      "volume_ratio": 0.54,
+      "category": null
     },
     {
       "name": "Brown\u2013Forman",
@@ -760,7 +985,10 @@
       "sma20": 26.61,
       "pct_above_ma": -1.45,
       "rsi14": 46.89,
-      "signal": false
+      "volume": 9882300,
+      "avg_volume_20wk": 13845960,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Builders FirstSource",
@@ -770,7 +998,10 @@
       "sma20": 74.02,
       "pct_above_ma": -18.44,
       "rsi14": 33.79,
-      "signal": false
+      "volume": 10623100,
+      "avg_volume_20wk": 11998900,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "Bunge Global",
@@ -780,7 +1011,10 @@
       "sma20": 116.91,
       "pct_above_ma": 4.7,
       "rsi14": 57.45,
-      "signal": false
+      "volume": 7965900,
+      "avg_volume_20wk": 7744920,
+      "volume_ratio": 1.03,
+      "category": null
     },
     {
       "name": "BXP, Inc.",
@@ -790,7 +1024,10 @@
       "sma20": 65.26,
       "pct_above_ma": -0.86,
       "rsi14": 49.48,
-      "signal": false
+      "volume": 4923700,
+      "avg_volume_20wk": 6892800,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "C.H. Robinson",
@@ -800,7 +1037,10 @@
       "sma20": 170.37,
       "pct_above_ma": -10.33,
       "rsi14": 44.41,
-      "signal": false
+      "volume": 6030400,
+      "avg_volume_20wk": 8616400,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Cadence Design Systems",
@@ -810,7 +1050,10 @@
       "sma20": 349.22,
       "pct_above_ma": -17.14,
       "rsi14": 38.7,
-      "signal": false
+      "volume": 11179400,
+      "avg_volume_20wk": 11606570,
+      "volume_ratio": 0.96,
+      "category": null
     },
     {
       "name": "Camden Property Trust",
@@ -820,7 +1063,10 @@
       "sma20": 109.07,
       "pct_above_ma": -5.56,
       "rsi14": 42.32,
-      "signal": false
+      "volume": 4145500,
+      "avg_volume_20wk": 5168630,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "Capital One",
@@ -830,7 +1076,10 @@
       "sma20": 201.73,
       "pct_above_ma": 3.25,
       "rsi14": 51.56,
-      "signal": false
+      "volume": 12161700,
+      "avg_volume_20wk": 20140140,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Cardinal Health",
@@ -840,7 +1089,10 @@
       "sma20": 221.77,
       "pct_above_ma": 5.77,
       "rsi14": 57.36,
-      "signal": false
+      "volume": 4953600,
+      "avg_volume_20wk": 10487070,
+      "volume_ratio": 0.47,
+      "category": null
     },
     {
       "name": "Carnival Corporation",
@@ -850,7 +1102,10 @@
       "sma20": 26.75,
       "pct_above_ma": -14.94,
       "rsi14": 37.82,
-      "signal": false
+      "volume": 75036500,
+      "avg_volume_20wk": 111291955,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "Carrier Global",
@@ -860,7 +1115,10 @@
       "sma20": 65.37,
       "pct_above_ma": -12.1,
       "rsi14": 40.1,
-      "signal": false
+      "volume": 22811800,
+      "avg_volume_20wk": 30316310,
+      "volume_ratio": 0.75,
+      "category": null
     },
     {
       "name": "Carvana",
@@ -870,7 +1128,10 @@
       "sma20": 69.06,
       "pct_above_ma": 0.15,
       "rsi14": 49.39,
-      "signal": false
+      "volume": 24578500,
+      "avg_volume_20wk": 49448960,
+      "volume_ratio": 0.5,
+      "category": null
     },
     {
       "name": "Casey's",
@@ -880,7 +1141,10 @@
       "sma20": 813.12,
       "pct_above_ma": -24.31,
       "rsi14": 34.31,
-      "signal": false
+      "volume": 5265900,
+      "avg_volume_20wk": 2373220,
+      "volume_ratio": 2.22,
+      "category": null
     },
     {
       "name": "Caterpillar Inc.",
@@ -890,7 +1154,10 @@
       "sma20": 883.4,
       "pct_above_ma": -7.34,
       "rsi14": 49.61,
-      "signal": false
+      "volume": 7978700,
+      "avg_volume_20wk": 14299630,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "Cboe Global Markets",
@@ -900,7 +1167,10 @@
       "sma20": 296.94,
       "pct_above_ma": -5.36,
       "rsi14": 48.01,
-      "signal": false
+      "volume": 3536900,
+      "avg_volume_20wk": 6200710,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "CBRE Group",
@@ -910,7 +1180,10 @@
       "sma20": 140.41,
       "pct_above_ma": 0.07,
       "rsi14": 46.64,
-      "signal": false
+      "volume": 6513000,
+      "avg_volume_20wk": 9501535,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "CDW Corporation",
@@ -920,7 +1193,10 @@
       "sma20": 132.63,
       "pct_above_ma": 15.96,
       "rsi14": 60.86,
-      "signal": true
+      "volume": 6927200,
+      "avg_volume_20wk": 9845245,
+      "volume_ratio": 0.7,
+      "category": "Buy"
     },
     {
       "name": "Cencora",
@@ -930,7 +1206,10 @@
       "sma20": 296.4,
       "pct_above_ma": 8.49,
       "rsi14": 55.26,
-      "signal": false
+      "volume": 5606400,
+      "avg_volume_20wk": 7891670,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Centene Corporation",
@@ -940,7 +1219,10 @@
       "sma20": 63.22,
       "pct_above_ma": 5.07,
       "rsi14": 63.37,
-      "signal": true
+      "volume": 17091000,
+      "avg_volume_20wk": 25529865,
+      "volume_ratio": 0.67,
+      "category": "Strong Buy"
     },
     {
       "name": "CenterPoint Energy",
@@ -950,7 +1232,10 @@
       "sma20": 41.83,
       "pct_above_ma": -6.5,
       "rsi14": 40.91,
-      "signal": false
+      "volume": 24180400,
+      "avg_volume_20wk": 29129755,
+      "volume_ratio": 0.83,
+      "category": null
     },
     {
       "name": "CF Industries",
@@ -960,7 +1245,10 @@
       "sma20": 118.62,
       "pct_above_ma": 12.19,
       "rsi14": 62.0,
-      "signal": true
+      "volume": 10752100,
+      "avg_volume_20wk": 12997795,
+      "volume_ratio": 0.83,
+      "category": "Buy"
     },
     {
       "name": "Charles River Laboratories",
@@ -970,7 +1258,10 @@
       "sma20": 222.67,
       "pct_above_ma": 24.97,
       "rsi14": 68.72,
-      "signal": true
+      "volume": 3050600,
+      "avg_volume_20wk": 4274270,
+      "volume_ratio": 0.71,
+      "category": "Buy"
     },
     {
       "name": "Charles Schwab Corporation",
@@ -980,7 +1271,10 @@
       "sma20": 98.65,
       "pct_above_ma": 8.72,
       "rsi14": 62.14,
-      "signal": true
+      "volume": 26816100,
+      "avg_volume_20wk": 45957335,
+      "volume_ratio": 0.58,
+      "category": "Strong Buy"
     },
     {
       "name": "Charter Communications",
@@ -990,7 +1284,10 @@
       "sma20": 143.5,
       "pct_above_ma": 1.58,
       "rsi14": 41.93,
-      "signal": false
+      "volume": 11624800,
+      "avg_volume_20wk": 15870495,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Chevron Corporation",
@@ -1000,7 +1297,10 @@
       "sma20": 188.33,
       "pct_above_ma": 13.66,
       "rsi14": 66.34,
-      "signal": true
+      "volume": 32284100,
+      "avg_volume_20wk": 42361665,
+      "volume_ratio": 0.76,
+      "category": "Buy"
     },
     {
       "name": "Chipotle Mexican Grill",
@@ -1010,7 +1310,10 @@
       "sma20": 33.94,
       "pct_above_ma": 6.67,
       "rsi14": 52.37,
-      "signal": false
+      "volume": 37255300,
+      "avg_volume_20wk": 88347575,
+      "volume_ratio": 0.42,
+      "category": null
     },
     {
       "name": "Chubb Limited",
@@ -1020,7 +1323,10 @@
       "sma20": 336.49,
       "pct_above_ma": 0.52,
       "rsi14": 53.1,
-      "signal": false
+      "volume": 5267300,
+      "avg_volume_20wk": 8326015,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "Church & Dwight",
@@ -1030,7 +1336,10 @@
       "sma20": 97.33,
       "pct_above_ma": -3.27,
       "rsi14": 45.14,
-      "signal": false
+      "volume": 8562700,
+      "avg_volume_20wk": 9335000,
+      "volume_ratio": 0.92,
+      "category": null
     },
     {
       "name": "Ciena",
@@ -1040,7 +1349,10 @@
       "sma20": 447.76,
       "pct_above_ma": -21.94,
       "rsi14": 44.28,
-      "signal": false
+      "volume": 9564500,
+      "avg_volume_20wk": 12304080,
+      "volume_ratio": 0.78,
+      "category": null
     },
     {
       "name": "Cigna",
@@ -1050,7 +1362,10 @@
       "sma20": 282.37,
       "pct_above_ma": -0.57,
       "rsi14": 50.56,
-      "signal": false
+      "volume": 6030500,
+      "avg_volume_20wk": 8057665,
+      "volume_ratio": 0.75,
+      "category": null
     },
     {
       "name": "Cincinnati Financial",
@@ -1060,7 +1375,10 @@
       "sma20": 172.03,
       "pct_above_ma": -1.3,
       "rsi14": 49.82,
-      "signal": false
+      "volume": 1657300,
+      "avg_volume_20wk": 3435420,
+      "volume_ratio": 0.48,
+      "category": null
     },
     {
       "name": "Cintas",
@@ -1070,7 +1388,10 @@
       "sma20": 186.42,
       "pct_above_ma": 8.09,
       "rsi14": 59.62,
-      "signal": false
+      "volume": 7622000,
+      "avg_volume_20wk": 10275920,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Cisco",
@@ -1080,7 +1401,10 @@
       "sma20": 113.54,
       "pct_above_ma": -1.24,
       "rsi14": 57.57,
-      "signal": false
+      "volume": 51218500,
+      "avg_volume_20wk": 109719500,
+      "volume_ratio": 0.47,
+      "category": null
     },
     {
       "name": "Citigroup",
@@ -1090,7 +1414,10 @@
       "sma20": 133.23,
       "pct_above_ma": 4.19,
       "rsi14": 60.43,
-      "signal": true
+      "volume": 27642500,
+      "avg_volume_20wk": 53920125,
+      "volume_ratio": 0.51,
+      "category": "Strong Buy"
     },
     {
       "name": "Citizens Financial Group",
@@ -1100,7 +1427,10 @@
       "sma20": 68.16,
       "pct_above_ma": 3.41,
       "rsi14": 59.63,
-      "signal": false
+      "volume": 13331500,
+      "avg_volume_20wk": 19483505,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Clorox",
@@ -1110,7 +1440,10 @@
       "sma20": 95.24,
       "pct_above_ma": -7.85,
       "rsi14": 37.96,
-      "signal": false
+      "volume": 14439200,
+      "avg_volume_20wk": 14038025,
+      "volume_ratio": 1.03,
+      "category": null
     },
     {
       "name": "CME Group",
@@ -1120,7 +1453,10 @@
       "sma20": 264.63,
       "pct_above_ma": 4.12,
       "rsi14": 52.82,
-      "signal": false
+      "volume": 5984700,
+      "avg_volume_20wk": 13631075,
+      "volume_ratio": 0.44,
+      "category": null
     },
     {
       "name": "CMS Energy",
@@ -1130,17 +1466,23 @@
       "sma20": 72.2,
       "pct_above_ma": -6.99,
       "rsi14": 36.97,
-      "signal": false
+      "volume": 11372100,
+      "avg_volume_20wk": 16256600,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Coca-Cola Company (The)",
       "ticker": "KO",
       "week_of": "2026-09-07",
-      "close": 88.29,
-      "sma20": 83.49,
+      "close": 87.77,
+      "sma20": 82.99,
       "pct_above_ma": 5.75,
       "rsi14": 63.79,
-      "signal": true
+      "volume": 53773000,
+      "avg_volume_20wk": 80550945,
+      "volume_ratio": 0.67,
+      "category": "Strong Buy"
     },
     {
       "name": "Cognizant",
@@ -1150,7 +1492,10 @@
       "sma20": 51.9,
       "pct_above_ma": 15.61,
       "rsi14": 54.02,
-      "signal": false
+      "volume": 19183800,
+      "avg_volume_20wk": 45823350,
+      "volume_ratio": 0.42,
+      "category": null
     },
     {
       "name": "Coherent Corp.",
@@ -1160,7 +1505,10 @@
       "sma20": 333.0,
       "pct_above_ma": -8.3,
       "rsi14": 50.99,
-      "signal": false
+      "volume": 26679900,
+      "avg_volume_20wk": 29685210,
+      "volume_ratio": 0.9,
+      "category": null
     },
     {
       "name": "Coinbase",
@@ -1170,7 +1518,10 @@
       "sma20": 169.98,
       "pct_above_ma": 3.1,
       "rsi14": 48.46,
-      "signal": false
+      "volume": 24703800,
+      "avg_volume_20wk": 42029740,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "Colgate-Palmolive",
@@ -1180,7 +1531,10 @@
       "sma20": 90.11,
       "pct_above_ma": -3.67,
       "rsi14": 44.41,
-      "signal": false
+      "volume": 18301600,
+      "avg_volume_20wk": 23593600,
+      "volume_ratio": 0.78,
+      "category": null
     },
     {
       "name": "Comcast",
@@ -1190,7 +1544,10 @@
       "sma20": 24.65,
       "pct_above_ma": 2.25,
       "rsi14": 47.87,
-      "signal": false
+      "volume": 113980600,
+      "avg_volume_20wk": 153723300,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Comfort Systems USA",
@@ -1200,7 +1557,10 @@
       "sma20": 1778.75,
       "pct_above_ma": -4.94,
       "rsi14": 53.66,
-      "signal": false
+      "volume": 1151700,
+      "avg_volume_20wk": 2183825,
+      "volume_ratio": 0.53,
+      "category": null
     },
     {
       "name": "ConocoPhillips",
@@ -1210,7 +1570,10 @@
       "sma20": 118.91,
       "pct_above_ma": 15.51,
       "rsi14": 66.41,
-      "signal": true
+      "volume": 21846200,
+      "avg_volume_20wk": 34293210,
+      "volume_ratio": 0.64,
+      "category": "Buy"
     },
     {
       "name": "Consolidated Edison",
@@ -1220,7 +1583,10 @@
       "sma20": 107.82,
       "pct_above_ma": -1.27,
       "rsi14": 48.32,
-      "signal": false
+      "volume": 7243000,
+      "avg_volume_20wk": 11232595,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "Constellation Brands",
@@ -1230,7 +1596,10 @@
       "sma20": 137.55,
       "pct_above_ma": -10.97,
       "rsi14": 36.75,
-      "signal": false
+      "volume": 11493800,
+      "avg_volume_20wk": 10137240,
+      "volume_ratio": 1.13,
+      "category": null
     },
     {
       "name": "Constellation Energy",
@@ -1240,7 +1609,10 @@
       "sma20": 273.27,
       "pct_above_ma": 4.2,
       "rsi14": 51.0,
-      "signal": false
+      "volume": 10145700,
+      "avg_volume_20wk": 15810675,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "Cooper Companies (The)",
@@ -1250,7 +1622,10 @@
       "sma20": 67.92,
       "pct_above_ma": -20.63,
       "rsi14": 30.44,
-      "signal": false
+      "volume": 37581800,
+      "avg_volume_20wk": 13491190,
+      "volume_ratio": 2.79,
+      "category": null
     },
     {
       "name": "Copart",
@@ -1260,7 +1635,10 @@
       "sma20": 31.12,
       "pct_above_ma": -3.77,
       "rsi14": 41.47,
-      "signal": false
+      "volume": 51917400,
+      "avg_volume_20wk": 53082750,
+      "volume_ratio": 0.98,
+      "category": null
     },
     {
       "name": "Corning Inc.",
@@ -1270,7 +1648,10 @@
       "sma20": 172.82,
       "pct_above_ma": -3.71,
       "rsi14": 53.21,
-      "signal": false
+      "volume": 32751500,
+      "avg_volume_20wk": 65431195,
+      "volume_ratio": 0.5,
+      "category": null
     },
     {
       "name": "Corpay",
@@ -1280,7 +1661,10 @@
       "sma20": 367.76,
       "pct_above_ma": 11.0,
       "rsi14": 63.99,
-      "signal": true
+      "volume": 1748700,
+      "avg_volume_20wk": 2759735,
+      "volume_ratio": 0.63,
+      "category": "Buy"
     },
     {
       "name": "Corteva",
@@ -1290,7 +1674,10 @@
       "sma20": 81.5,
       "pct_above_ma": 2.94,
       "rsi14": 55.15,
-      "signal": false
+      "volume": 17732800,
+      "avg_volume_20wk": 20432515,
+      "volume_ratio": 0.87,
+      "category": null
     },
     {
       "name": "CoStar Group",
@@ -1300,7 +1687,10 @@
       "sma20": 31.32,
       "pct_above_ma": -2.76,
       "rsi14": 36.24,
-      "signal": false
+      "volume": 24011900,
+      "avg_volume_20wk": 36257340,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Costco",
@@ -1310,7 +1700,10 @@
       "sma20": 960.6,
       "pct_above_ma": -5.81,
       "rsi14": 39.07,
-      "signal": false
+      "volume": 8000200,
+      "avg_volume_20wk": 10551145,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "CRH plc",
@@ -1320,7 +1713,10 @@
       "sma20": 102.55,
       "pct_above_ma": -13.65,
       "rsi14": 34.02,
-      "signal": false
+      "volume": 18736400,
+      "avg_volume_20wk": 22332865,
+      "volume_ratio": 0.84,
+      "category": null
     },
     {
       "name": "CrowdStrike",
@@ -1330,17 +1726,23 @@
       "sma20": 182.39,
       "pct_above_ma": 13.35,
       "rsi14": 61.4,
-      "signal": true
+      "volume": 27954100,
+      "avg_volume_20wk": 53183365,
+      "volume_ratio": 0.53,
+      "category": "Buy"
     },
     {
       "name": "Crown Castle",
       "ticker": "CCI",
       "week_of": "2026-09-07",
-      "close": 75.62,
-      "sma20": 81.74,
+      "close": 74.54,
+      "sma20": 80.57,
       "pct_above_ma": -7.48,
       "rsi14": 39.95,
-      "signal": false
+      "volume": 11327700,
+      "avg_volume_20wk": 18258275,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "CSX Corporation",
@@ -1350,7 +1752,10 @@
       "sma20": 48.28,
       "pct_above_ma": 1.39,
       "rsi14": 57.99,
-      "signal": false
+      "volume": 33990400,
+      "avg_volume_20wk": 56841335,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Cummins",
@@ -1360,7 +1765,10 @@
       "sma20": 640.91,
       "pct_above_ma": -13.13,
       "rsi14": 40.29,
-      "signal": false
+      "volume": 3695100,
+      "avg_volume_20wk": 4832965,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "CVS Health",
@@ -1370,7 +1778,10 @@
       "sma20": 97.25,
       "pct_above_ma": -2.66,
       "rsi14": 52.7,
-      "signal": false
+      "volume": 18563500,
+      "avg_volume_20wk": 37879550,
+      "volume_ratio": 0.49,
+      "category": null
     },
     {
       "name": "Danaher Corporation",
@@ -1380,7 +1791,10 @@
       "sma20": 191.75,
       "pct_above_ma": 4.38,
       "rsi14": 50.89,
-      "signal": false
+      "volume": 12699000,
+      "avg_volume_20wk": 22232150,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Darden Restaurants",
@@ -1390,7 +1804,10 @@
       "sma20": 206.24,
       "pct_above_ma": 1.77,
       "rsi14": 52.82,
-      "signal": false
+      "volume": 4350400,
+      "avg_volume_20wk": 5743260,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "Datadog",
@@ -1400,7 +1817,10 @@
       "sma20": 231.63,
       "pct_above_ma": -4.5,
       "rsi14": 52.79,
-      "signal": false
+      "volume": 14741700,
+      "avg_volume_20wk": 25511730,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "DaVita",
@@ -1410,7 +1830,10 @@
       "sma20": 201.64,
       "pct_above_ma": -9.96,
       "rsi14": 47.86,
-      "signal": false
+      "volume": 2643200,
+      "avg_volume_20wk": 4152810,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "Deckers Brands",
@@ -1420,7 +1843,10 @@
       "sma20": 99.91,
       "pct_above_ma": -18.66,
       "rsi14": 33.09,
-      "signal": false
+      "volume": 13038200,
+      "avg_volume_20wk": 11266465,
+      "volume_ratio": 1.16,
+      "category": null
     },
     {
       "name": "Deere & Company",
@@ -1430,7 +1856,10 @@
       "sma20": 601.91,
       "pct_above_ma": 12.27,
       "rsi14": 62.16,
-      "signal": true
+      "volume": 4417500,
+      "avg_volume_20wk": 6066040,
+      "volume_ratio": 0.73,
+      "category": "Buy"
     },
     {
       "name": "Dell Technologies",
@@ -1440,7 +1869,10 @@
       "sma20": 401.17,
       "pct_above_ma": 41.41,
       "rsi14": 74.85,
-      "signal": true
+      "volume": 34335500,
+      "avg_volume_20wk": 40165090,
+      "volume_ratio": 0.85,
+      "category": "Buy"
     },
     {
       "name": "Delta Air Lines",
@@ -1450,17 +1882,23 @@
       "sma20": 82.4,
       "pct_above_ma": -3.03,
       "rsi14": 50.96,
-      "signal": false
+      "volume": 20527600,
+      "avg_volume_20wk": 32054595,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "Devon Energy",
       "ticker": "DVN",
       "week_of": "2026-09-07",
-      "close": 50.23,
-      "sma20": 45.46,
+      "close": 49.91,
+      "sma20": 45.17,
       "pct_above_ma": 10.49,
       "rsi14": 61.11,
-      "signal": true
+      "volume": 47298900,
+      "avg_volume_20wk": 62089485,
+      "volume_ratio": 0.76,
+      "category": "Buy"
     },
     {
       "name": "Dexcom",
@@ -1470,7 +1908,10 @@
       "sma20": 76.34,
       "pct_above_ma": 8.77,
       "rsi14": 57.28,
-      "signal": false
+      "volume": 18488500,
+      "avg_volume_20wk": 25777875,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "Diamondback Energy",
@@ -1480,17 +1921,23 @@
       "sma20": 194.2,
       "pct_above_ma": 5.55,
       "rsi14": 57.65,
-      "signal": false
+      "volume": 7487300,
+      "avg_volume_20wk": 10585655,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Digital Realty",
       "ticker": "DLR",
       "week_of": "2026-09-07",
-      "close": 188.58,
-      "sma20": 188.6,
+      "close": 187.3,
+      "sma20": 187.32,
       "pct_above_ma": -0.01,
       "rsi14": 52.08,
-      "signal": false
+      "volume": 5950800,
+      "avg_volume_20wk": 12591025,
+      "volume_ratio": 0.47,
+      "category": null
     },
     {
       "name": "Dollar General",
@@ -1500,7 +1947,10 @@
       "sma20": 117.66,
       "pct_above_ma": 5.88,
       "rsi14": 52.13,
-      "signal": false
+      "volume": 9465300,
+      "avg_volume_20wk": 14552620,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Dollar Tree",
@@ -1510,7 +1960,10 @@
       "sma20": 117.02,
       "pct_above_ma": 0.98,
       "rsi14": 49.22,
-      "signal": false
+      "volume": 12872800,
+      "avg_volume_20wk": 15705300,
+      "volume_ratio": 0.82,
+      "category": null
     },
     {
       "name": "Dominion Energy",
@@ -1520,17 +1973,23 @@
       "sma20": 66.49,
       "pct_above_ma": -3.2,
       "rsi14": 47.62,
-      "signal": false
+      "volume": 21669700,
+      "avg_volume_20wk": 28578760,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "Domino's",
       "ticker": "DPZ",
       "week_of": "2026-09-07",
-      "close": 311.6,
-      "sma20": 324.05,
+      "close": 309.68,
+      "sma20": 322.05,
       "pct_above_ma": -3.84,
       "rsi14": 40.14,
-      "signal": false
+      "volume": 2508200,
+      "avg_volume_20wk": 4491205,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "DoorDash",
@@ -1540,7 +1999,10 @@
       "sma20": 186.33,
       "pct_above_ma": 8.38,
       "rsi14": 52.89,
-      "signal": false
+      "volume": 14580600,
+      "avg_volume_20wk": 22095565,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Dover Corporation",
@@ -1550,7 +2012,10 @@
       "sma20": 209.9,
       "pct_above_ma": -9.93,
       "rsi14": 36.6,
-      "signal": false
+      "volume": 5248400,
+      "avg_volume_20wk": 5091955,
+      "volume_ratio": 1.03,
+      "category": null
     },
     {
       "name": "Dow Inc.",
@@ -1560,7 +2025,10 @@
       "sma20": 31.73,
       "pct_above_ma": -8.51,
       "rsi14": 44.74,
-      "signal": false
+      "volume": 35598300,
+      "avg_volume_20wk": 51285700,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "D. R. Horton",
@@ -1570,7 +2038,10 @@
       "sma20": 148.33,
       "pct_above_ma": -7.04,
       "rsi14": 42.07,
-      "signal": false
+      "volume": 10930900,
+      "avg_volume_20wk": 10919275,
+      "volume_ratio": 1.0,
+      "category": null
     },
     {
       "name": "DTE Energy",
@@ -1580,7 +2051,10 @@
       "sma20": 143.38,
       "pct_above_ma": -7.53,
       "rsi14": 37.42,
-      "signal": false
+      "volume": 5559000,
+      "avg_volume_20wk": 6882215,
+      "volume_ratio": 0.81,
+      "category": null
     },
     {
       "name": "Duke Energy",
@@ -1590,7 +2064,10 @@
       "sma20": 123.48,
       "pct_above_ma": -3.29,
       "rsi14": 43.45,
-      "signal": false
+      "volume": 13845800,
+      "avg_volume_20wk": 17998705,
+      "volume_ratio": 0.77,
+      "category": null
     },
     {
       "name": "DuPont",
@@ -1600,7 +2077,10 @@
       "sma20": 139.31,
       "pct_above_ma": -8.84,
       "rsi14": 41.29,
-      "signal": false
+      "volume": 4378800,
+      "avg_volume_20wk": 6698466,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Eaton Corporation",
@@ -1610,7 +2090,10 @@
       "sma20": 409.93,
       "pct_above_ma": 3.77,
       "rsi14": 56.99,
-      "signal": false
+      "volume": 6970300,
+      "avg_volume_20wk": 11468715,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "eBay Inc.",
@@ -1620,7 +2103,10 @@
       "sma20": 109.18,
       "pct_above_ma": -1.31,
       "rsi14": 53.99,
-      "signal": false
+      "volume": 21797200,
+      "avg_volume_20wk": 22842970,
+      "volume_ratio": 0.95,
+      "category": null
     },
     {
       "name": "EchoStar",
@@ -1630,17 +2116,23 @@
       "sma20": 103.89,
       "pct_above_ma": -10.35,
       "rsi14": 45.16,
-      "signal": false
+      "volume": 11368900,
+      "avg_volume_20wk": 32139395,
+      "volume_ratio": 0.35,
+      "category": null
     },
     {
       "name": "Ecolab",
       "ticker": "ECL",
       "week_of": "2026-09-07",
-      "close": 276.18,
-      "sma20": 270.2,
+      "close": 275.45,
+      "sma20": 269.48,
       "pct_above_ma": 2.21,
       "rsi14": 51.56,
-      "signal": false
+      "volume": 5047600,
+      "avg_volume_20wk": 7369945,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Edison International",
@@ -1650,7 +2142,10 @@
       "sma20": 70.53,
       "pct_above_ma": -20.61,
       "rsi14": 32.56,
-      "signal": false
+      "volume": 20974400,
+      "avg_volume_20wk": 17176780,
+      "volume_ratio": 1.22,
+      "category": null
     },
     {
       "name": "Edwards Lifesciences",
@@ -1660,7 +2155,10 @@
       "sma20": 87.17,
       "pct_above_ma": -3.21,
       "rsi14": 47.02,
-      "signal": false
+      "volume": 12425500,
+      "avg_volume_20wk": 21428540,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "Elevance Health",
@@ -1670,7 +2168,10 @@
       "sma20": 393.46,
       "pct_above_ma": 6.42,
       "rsi14": 63.43,
-      "signal": true
+      "volume": 5645200,
+      "avg_volume_20wk": 7072675,
+      "volume_ratio": 0.8,
+      "category": "Strong Buy"
     },
     {
       "name": "Emcor",
@@ -1680,7 +2181,10 @@
       "sma20": 811.6,
       "pct_above_ma": -3.81,
       "rsi14": 50.51,
-      "signal": false
+      "volume": 1081100,
+      "avg_volume_20wk": 1978145,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "Emerson Electric",
@@ -1690,7 +2194,10 @@
       "sma20": 145.66,
       "pct_above_ma": 4.48,
       "rsi14": 55.54,
-      "signal": false
+      "volume": 8399800,
+      "avg_volume_20wk": 13220685,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "Entergy",
@@ -1700,7 +2207,10 @@
       "sma20": 110.12,
       "pct_above_ma": -4.35,
       "rsi14": 46.83,
-      "signal": false
+      "volume": 12567700,
+      "avg_volume_20wk": 15142700,
+      "volume_ratio": 0.83,
+      "category": null
     },
     {
       "name": "EOG Resources",
@@ -1710,7 +2220,10 @@
       "sma20": 138.8,
       "pct_above_ma": 6.17,
       "rsi14": 57.82,
-      "signal": false
+      "volume": 11993500,
+      "avg_volume_20wk": 16152525,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "EQT Corporation",
@@ -1720,7 +2233,10 @@
       "sma20": 53.56,
       "pct_above_ma": 0.95,
       "rsi14": 49.28,
-      "signal": false
+      "volume": 22771500,
+      "avg_volume_20wk": 33484880,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Equifax",
@@ -1730,7 +2246,10 @@
       "sma20": 171.63,
       "pct_above_ma": -1.53,
       "rsi14": 44.41,
-      "signal": false
+      "volume": 5368800,
+      "avg_volume_20wk": 7583340,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Equinix",
@@ -1740,7 +2259,10 @@
       "sma20": 1054.65,
       "pct_above_ma": -1.61,
       "rsi14": 52.67,
-      "signal": false
+      "volume": 2004000,
+      "avg_volume_20wk": 2816340,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Erie Indemnity",
@@ -1750,7 +2272,10 @@
       "sma20": 235.89,
       "pct_above_ma": 3.88,
       "rsi14": 48.47,
-      "signal": false
+      "volume": 749800,
+      "avg_volume_20wk": 1234215,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "Essex Property Trust",
@@ -1760,7 +2285,10 @@
       "sma20": 281.12,
       "pct_above_ma": -2.92,
       "rsi14": 48.12,
-      "signal": false
+      "volume": 1700900,
+      "avg_volume_20wk": 2328510,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Est\u00e9e Lauder Companies (The)",
@@ -1770,7 +2298,10 @@
       "sma20": 87.42,
       "pct_above_ma": 11.09,
       "rsi14": 56.24,
-      "signal": false
+      "volume": 10837500,
+      "avg_volume_20wk": 16323635,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Everest Group",
@@ -1780,7 +2311,10 @@
       "sma20": 358.91,
       "pct_above_ma": 3.57,
       "rsi14": 58.82,
-      "signal": false
+      "volume": 1596000,
+      "avg_volume_20wk": 1798095,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "Evergy",
@@ -1790,7 +2324,10 @@
       "sma20": 82.82,
       "pct_above_ma": -1.44,
       "rsi14": 50.65,
-      "signal": false
+      "volume": 9110100,
+      "avg_volume_20wk": 9936230,
+      "volume_ratio": 0.92,
+      "category": null
     },
     {
       "name": "Eversource Energy",
@@ -1800,7 +2337,10 @@
       "sma20": 70.93,
       "pct_above_ma": -3.4,
       "rsi14": 44.94,
-      "signal": false
+      "volume": 8338200,
+      "avg_volume_20wk": 11626650,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "Exelon",
@@ -1810,7 +2350,10 @@
       "sma20": 45.06,
       "pct_above_ma": -4.22,
       "rsi14": 41.78,
-      "signal": false
+      "volume": 33904000,
+      "avg_volume_20wk": 39898770,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Expand Energy",
@@ -1820,7 +2363,10 @@
       "sma20": 92.84,
       "pct_above_ma": 2.14,
       "rsi14": 48.82,
-      "signal": false
+      "volume": 10006600,
+      "avg_volume_20wk": 15796470,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "Expedia Group",
@@ -1830,7 +2376,10 @@
       "sma20": 266.27,
       "pct_above_ma": 5.47,
       "rsi14": 52.99,
-      "signal": false
+      "volume": 9300200,
+      "avg_volume_20wk": 7904015,
+      "volume_ratio": 1.18,
+      "category": null
     },
     {
       "name": "Expeditors International",
@@ -1840,17 +2389,23 @@
       "sma20": 170.58,
       "pct_above_ma": 12.91,
       "rsi14": 69.23,
-      "signal": true
+      "volume": 3382100,
+      "avg_volume_20wk": 5519535,
+      "volume_ratio": 0.61,
+      "category": "Buy"
     },
     {
       "name": "Extra Space Storage",
       "ticker": "EXR",
       "week_of": "2026-09-07",
-      "close": 137.64,
-      "sma20": 144.54,
+      "close": 136.04,
+      "sma20": 142.86,
       "pct_above_ma": -4.77,
       "rsi14": 43.19,
-      "signal": false
+      "volume": 5996700,
+      "avg_volume_20wk": 5528380,
+      "volume_ratio": 1.08,
+      "category": null
     },
     {
       "name": "ExxonMobil",
@@ -1860,7 +2415,10 @@
       "sma20": 150.28,
       "pct_above_ma": 10.46,
       "rsi14": 62.47,
-      "signal": true
+      "volume": 53709400,
+      "avg_volume_20wk": 76173185,
+      "volume_ratio": 0.71,
+      "category": "Buy"
     },
     {
       "name": "F5, Inc.",
@@ -1870,7 +2428,10 @@
       "sma20": 390.67,
       "pct_above_ma": 5.39,
       "rsi14": 63.31,
-      "signal": true
+      "volume": 1961200,
+      "avg_volume_20wk": 3160610,
+      "volume_ratio": 0.62,
+      "category": "Strong Buy"
     },
     {
       "name": "FactSet",
@@ -1880,7 +2441,10 @@
       "sma20": 254.11,
       "pct_above_ma": 2.21,
       "rsi14": 49.52,
-      "signal": false
+      "volume": 5088400,
+      "avg_volume_20wk": 4433820,
+      "volume_ratio": 1.15,
+      "category": null
     },
     {
       "name": "Fair Isaac",
@@ -1890,7 +2454,10 @@
       "sma20": 1142.83,
       "pct_above_ma": -13.78,
       "rsi14": 40.07,
-      "signal": false
+      "volume": 2226900,
+      "avg_volume_20wk": 1646275,
+      "volume_ratio": 1.35,
+      "category": null
     },
     {
       "name": "Fastenal",
@@ -1900,7 +2467,10 @@
       "sma20": 47.09,
       "pct_above_ma": 4.74,
       "rsi14": 57.3,
-      "signal": false
+      "volume": 24668800,
+      "avg_volume_20wk": 35302475,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Federal Realty Investment Trust",
@@ -1910,7 +2480,10 @@
       "sma20": 119.42,
       "pct_above_ma": -4.24,
       "rsi14": 48.2,
-      "signal": false
+      "volume": 3485400,
+      "avg_volume_20wk": 4250910,
+      "volume_ratio": 0.82,
+      "category": null
     },
     {
       "name": "FedEx",
@@ -1920,7 +2493,10 @@
       "sma20": 318.03,
       "pct_above_ma": -2.28,
       "rsi14": 52.13,
-      "signal": false
+      "volume": 5239200,
+      "avg_volume_20wk": 8946826,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "Ferguson Enterprises",
@@ -1930,7 +2506,10 @@
       "sma20": 233.87,
       "pct_above_ma": -4.84,
       "rsi14": 43.32,
-      "signal": false
+      "volume": 3928100,
+      "avg_volume_20wk": 9546970,
+      "volume_ratio": 0.41,
+      "category": null
     },
     {
       "name": "Fidelity National Information Services",
@@ -1940,7 +2519,10 @@
       "sma20": 41.19,
       "pct_above_ma": -7.4,
       "rsi14": 35.13,
-      "signal": false
+      "volume": 23443500,
+      "avg_volume_20wk": 30644315,
+      "volume_ratio": 0.77,
+      "category": null
     },
     {
       "name": "Fifth Third Bancorp",
@@ -1950,7 +2532,10 @@
       "sma20": 53.97,
       "pct_above_ma": 1.4,
       "rsi14": 55.47,
-      "signal": false
+      "volume": 16701000,
+      "avg_volume_20wk": 29313235,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "First Solar",
@@ -1960,7 +2545,10 @@
       "sma20": 232.94,
       "pct_above_ma": -10.27,
       "rsi14": 45.81,
-      "signal": false
+      "volume": 10607600,
+      "avg_volume_20wk": 11585045,
+      "volume_ratio": 0.92,
+      "category": null
     },
     {
       "name": "FirstEnergy",
@@ -1970,7 +2558,10 @@
       "sma20": 46.6,
       "pct_above_ma": -1.01,
       "rsi14": 47.01,
-      "signal": false
+      "volume": 19591300,
+      "avg_volume_20wk": 22928595,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Fiserv",
@@ -1980,7 +2571,10 @@
       "sma20": 53.38,
       "pct_above_ma": -3.38,
       "rsi14": 38.57,
-      "signal": false
+      "volume": 38681800,
+      "avg_volume_20wk": 36688915,
+      "volume_ratio": 1.05,
+      "category": null
     },
     {
       "name": "Flex Ltd.",
@@ -1990,7 +2584,10 @@
       "sma20": 128.44,
       "pct_above_ma": -9.86,
       "rsi14": 52.96,
-      "signal": false
+      "volume": 11890400,
+      "avg_volume_20wk": 28398310,
+      "volume_ratio": 0.42,
+      "category": null
     },
     {
       "name": "Ford Motor Company",
@@ -2000,7 +2597,10 @@
       "sma20": 14.06,
       "pct_above_ma": -0.64,
       "rsi14": 51.75,
-      "signal": false
+      "volume": 202918300,
+      "avg_volume_20wk": 275162045,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Fortinet",
@@ -2010,7 +2610,10 @@
       "sma20": 146.17,
       "pct_above_ma": 6.78,
       "rsi14": 64.26,
-      "signal": true
+      "volume": 12257500,
+      "avg_volume_20wk": 27282815,
+      "volume_ratio": 0.45,
+      "category": "Strong Buy"
     },
     {
       "name": "Fortive",
@@ -2020,7 +2623,10 @@
       "sma20": 60.03,
       "pct_above_ma": -8.9,
       "rsi14": 39.0,
-      "signal": false
+      "volume": 7148700,
+      "avg_volume_20wk": 13823260,
+      "volume_ratio": 0.52,
+      "category": null
     },
     {
       "name": "Fox Corporation (Class A)",
@@ -2030,7 +2636,10 @@
       "sma20": 61.62,
       "pct_above_ma": 7.01,
       "rsi14": 55.52,
-      "signal": false
+      "volume": 19090700,
+      "avg_volume_20wk": 26588325,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "Fox Corporation (Class B)",
@@ -2040,7 +2649,10 @@
       "sma20": 55.14,
       "pct_above_ma": 6.0,
       "rsi14": 54.8,
-      "signal": false
+      "volume": 4434400,
+      "avg_volume_20wk": 7108750,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Franklin Resources",
@@ -2050,7 +2662,10 @@
       "sma20": 32.66,
       "pct_above_ma": 3.03,
       "rsi14": 64.63,
-      "signal": true
+      "volume": 11235600,
+      "avg_volume_20wk": 21181700,
+      "volume_ratio": 0.53,
+      "category": "Strong Buy"
     },
     {
       "name": "Freeport-McMoRan",
@@ -2060,7 +2675,10 @@
       "sma20": 65.46,
       "pct_above_ma": 8.57,
       "rsi14": 57.49,
-      "signal": false
+      "volume": 59947700,
+      "avg_volume_20wk": 68876705,
+      "volume_ratio": 0.87,
+      "category": null
     },
     {
       "name": "Garmin",
@@ -2070,7 +2688,10 @@
       "sma20": 256.43,
       "pct_above_ma": 10.23,
       "rsi14": 59.97,
-      "signal": false
+      "volume": 2566300,
+      "avg_volume_20wk": 4247985,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Gartner",
@@ -2080,7 +2701,10 @@
       "sma20": 158.82,
       "pct_above_ma": 13.08,
       "rsi14": 52.67,
-      "signal": false
+      "volume": 4666300,
+      "avg_volume_20wk": 7298985,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "GE Aerospace",
@@ -2090,7 +2714,10 @@
       "sma20": 338.36,
       "pct_above_ma": -4.35,
       "rsi14": 46.52,
-      "signal": false
+      "volume": 14073800,
+      "avg_volume_20wk": 21705555,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "GE HealthCare",
@@ -2100,7 +2727,10 @@
       "sma20": 65.77,
       "pct_above_ma": -2.79,
       "rsi14": 43.38,
-      "signal": false
+      "volume": 13017400,
+      "avg_volume_20wk": 23783835,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "GE Vernova",
@@ -2110,7 +2740,10 @@
       "sma20": 1013.7,
       "pct_above_ma": -5.57,
       "rsi14": 50.37,
-      "signal": false
+      "volume": 5811300,
+      "avg_volume_20wk": 12581105,
+      "volume_ratio": 0.46,
+      "category": null
     },
     {
       "name": "Gen Digital",
@@ -2120,7 +2753,10 @@
       "sma20": 26.22,
       "pct_above_ma": 15.42,
       "rsi14": 65.0,
-      "signal": true
+      "volume": 19091300,
+      "avg_volume_20wk": 30952515,
+      "volume_ratio": 0.62,
+      "category": "Buy"
     },
     {
       "name": "Generac",
@@ -2130,7 +2766,10 @@
       "sma20": 235.92,
       "pct_above_ma": -20.74,
       "rsi14": 40.01,
-      "signal": false
+      "volume": 2545500,
+      "avg_volume_20wk": 4783335,
+      "volume_ratio": 0.53,
+      "category": null
     },
     {
       "name": "General Dynamics",
@@ -2140,7 +2779,10 @@
       "sma20": 363.02,
       "pct_above_ma": -1.96,
       "rsi14": 47.81,
-      "signal": false
+      "volume": 4191600,
+      "avg_volume_20wk": 5741545,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "General Mills",
@@ -2150,7 +2792,10 @@
       "sma20": 35.82,
       "pct_above_ma": 0.08,
       "rsi14": 44.93,
-      "signal": false
+      "volume": 37416000,
+      "avg_volume_20wk": 47015700,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "General Motors",
@@ -2160,7 +2805,10 @@
       "sma20": 81.6,
       "pct_above_ma": 4.93,
       "rsi14": 57.58,
-      "signal": false
+      "volume": 27522000,
+      "avg_volume_20wk": 35036620,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "Genuine Parts Company",
@@ -2170,17 +2818,23 @@
       "sma20": 117.48,
       "pct_above_ma": 13.78,
       "rsi14": 60.54,
-      "signal": true
+      "volume": 3620700,
+      "avg_volume_20wk": 7524395,
+      "volume_ratio": 0.48,
+      "category": "Buy"
     },
     {
       "name": "Gilead Sciences",
       "ticker": "GILD",
       "week_of": "2026-09-07",
-      "close": 143.72,
-      "sma20": 133.74,
+      "close": 142.92,
+      "sma20": 132.99,
       "pct_above_ma": 7.46,
       "rsi14": 58.71,
-      "signal": false
+      "volume": 20884300,
+      "avg_volume_20wk": 33819020,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Global Payments",
@@ -2190,7 +2844,10 @@
       "sma20": 78.28,
       "pct_above_ma": 12.79,
       "rsi14": 59.93,
-      "signal": false
+      "volume": 9010000,
+      "avg_volume_20wk": 16699000,
+      "volume_ratio": 0.54,
+      "category": null
     },
     {
       "name": "Globe Life",
@@ -2200,7 +2857,10 @@
       "sma20": 169.78,
       "pct_above_ma": 0.82,
       "rsi14": 55.64,
-      "signal": false
+      "volume": 1340000,
+      "avg_volume_20wk": 2837630,
+      "volume_ratio": 0.47,
+      "category": null
     },
     {
       "name": "GoDaddy",
@@ -2210,7 +2870,10 @@
       "sma20": 89.56,
       "pct_above_ma": 9.5,
       "rsi14": 53.51,
-      "signal": false
+      "volume": 7456800,
+      "avg_volume_20wk": 11276585,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Goldman Sachs",
@@ -2220,7 +2883,10 @@
       "sma20": 1018.94,
       "pct_above_ma": 1.01,
       "rsi14": 58.92,
-      "signal": false
+      "volume": 5984700,
+      "avg_volume_20wk": 9720480,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Halliburton",
@@ -2230,7 +2896,10 @@
       "sma20": 36.33,
       "pct_above_ma": -1.34,
       "rsi14": 52.61,
-      "signal": false
+      "volume": 36366900,
+      "avg_volume_20wk": 55114400,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Hartford (The)",
@@ -2240,7 +2909,10 @@
       "sma20": 135.25,
       "pct_above_ma": 0.82,
       "rsi14": 51.17,
-      "signal": false
+      "volume": 4881500,
+      "avg_volume_20wk": 7876615,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Hasbro",
@@ -2250,17 +2922,23 @@
       "sma20": 88.6,
       "pct_above_ma": 3.32,
       "rsi14": 54.65,
-      "signal": false
+      "volume": 5872800,
+      "avg_volume_20wk": 9357820,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "HCA Healthcare",
       "ticker": "HCA",
       "week_of": "2026-09-07",
-      "close": 426.94,
-      "sma20": 402.72,
+      "close": 426.15,
+      "sma20": 401.98,
       "pct_above_ma": 6.01,
       "rsi14": 51.61,
-      "signal": false
+      "volume": 6641000,
+      "avg_volume_20wk": 7371450,
+      "volume_ratio": 0.9,
+      "category": null
     },
     {
       "name": "Healthpeak Properties",
@@ -2270,7 +2948,10 @@
       "sma20": 20.29,
       "pct_above_ma": -0.47,
       "rsi14": 53.62,
-      "signal": false
+      "volume": 14852500,
+      "avg_volume_20wk": 34521025,
+      "volume_ratio": 0.43,
+      "category": null
     },
     {
       "name": "Henry Schein",
@@ -2280,7 +2961,10 @@
       "sma20": 82.79,
       "pct_above_ma": 6.73,
       "rsi14": 61.38,
-      "signal": true
+      "volume": 3729900,
+      "avg_volume_20wk": 6589105,
+      "volume_ratio": 0.57,
+      "category": "Strong Buy"
     },
     {
       "name": "Hershey Company (The)",
@@ -2290,7 +2974,10 @@
       "sma20": 179.66,
       "pct_above_ma": -3.53,
       "rsi14": 42.84,
-      "signal": false
+      "volume": 5035000,
+      "avg_volume_20wk": 8719755,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "Hewlett Packard Enterprise",
@@ -2300,7 +2987,10 @@
       "sma20": 46.21,
       "pct_above_ma": 34.35,
       "rsi14": 73.64,
-      "signal": true
+      "volume": 116551400,
+      "avg_volume_20wk": 116084520,
+      "volume_ratio": 1.0,
+      "category": "Buy"
     },
     {
       "name": "Hilton Worldwide",
@@ -2310,7 +3000,10 @@
       "sma20": 325.96,
       "pct_above_ma": -6.07,
       "rsi14": 42.85,
-      "signal": false
+      "volume": 6500700,
+      "avg_volume_20wk": 9493890,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Home Depot (The)",
@@ -2320,7 +3013,10 @@
       "sma20": 326.56,
       "pct_above_ma": -5.46,
       "rsi14": 40.37,
-      "signal": false
+      "volume": 17250000,
+      "avg_volume_20wk": 21614215,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "Honeywell Technologies",
@@ -2330,7 +3026,10 @@
       "sma20": 228.89,
       "pct_above_ma": -11.59,
       "rsi14": 37.47,
-      "signal": false
+      "volume": 9156700,
+      "avg_volume_20wk": 19380217,
+      "volume_ratio": 0.47,
+      "category": null
     },
     {
       "name": "Hormel Foods",
@@ -2340,7 +3039,10 @@
       "sma20": 23.23,
       "pct_above_ma": -11.44,
       "rsi14": 37.26,
-      "signal": false
+      "volume": 17477500,
+      "avg_volume_20wk": 23979350,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Host Hotels & Resorts",
@@ -2350,7 +3052,10 @@
       "sma20": 22.9,
       "pct_above_ma": -2.89,
       "rsi14": 52.68,
-      "signal": false
+      "volume": 30907100,
+      "avg_volume_20wk": 43689740,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Howmet Aerospace",
@@ -2360,7 +3065,10 @@
       "sma20": 266.4,
       "pct_above_ma": -13.81,
       "rsi14": 38.96,
-      "signal": false
+      "volume": 25573000,
+      "avg_volume_20wk": 13852825,
+      "volume_ratio": 1.85,
+      "category": null
     },
     {
       "name": "HP Inc.",
@@ -2370,7 +3078,10 @@
       "sma20": 26.0,
       "pct_above_ma": 36.49,
       "rsi14": 78.02,
-      "signal": true
+      "volume": 71830700,
+      "avg_volume_20wk": 84113030,
+      "volume_ratio": 0.85,
+      "category": "Buy"
     },
     {
       "name": "Hubbell Incorporated",
@@ -2380,7 +3091,10 @@
       "sma20": 484.63,
       "pct_above_ma": -5.0,
       "rsi14": 44.08,
-      "signal": false
+      "volume": 1849243,
+      "avg_volume_20wk": 2932589,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "Humana",
@@ -2390,7 +3104,10 @@
       "sma20": 359.35,
       "pct_above_ma": 14.04,
       "rsi14": 69.85,
-      "signal": true
+      "volume": 3334400,
+      "avg_volume_20wk": 6928330,
+      "volume_ratio": 0.48,
+      "category": "Buy"
     },
     {
       "name": "Huntington Bancshares",
@@ -2400,7 +3117,10 @@
       "sma20": 16.99,
       "pct_above_ma": -0.76,
       "rsi14": 49.31,
-      "signal": false
+      "volume": 84952200,
+      "avg_volume_20wk": 108154815,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "Huntington Ingalls Industries",
@@ -2410,7 +3130,10 @@
       "sma20": 301.56,
       "pct_above_ma": -7.25,
       "rsi14": 39.32,
-      "signal": false
+      "volume": 1541300,
+      "avg_volume_20wk": 2457715,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "IBM",
@@ -2420,7 +3143,10 @@
       "sma20": 246.54,
       "pct_above_ma": -1.32,
       "rsi14": 48.75,
-      "signal": false
+      "volume": 21915100,
+      "avg_volume_20wk": 43989655,
+      "volume_ratio": 0.5,
+      "category": null
     },
     {
       "name": "IDEX Corporation",
@@ -2430,7 +3156,10 @@
       "sma20": 222.32,
       "pct_above_ma": 0.85,
       "rsi14": 56.77,
-      "signal": false
+      "volume": 2003500,
+      "avg_volume_20wk": 3255835,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Idexx Laboratories",
@@ -2440,7 +3169,10 @@
       "sma20": 554.89,
       "pct_above_ma": -9.04,
       "rsi14": 35.07,
-      "signal": false
+      "volume": 1993400,
+      "avg_volume_20wk": 3006530,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Illinois Tool Works",
@@ -2450,7 +3182,10 @@
       "sma20": 268.06,
       "pct_above_ma": 0.04,
       "rsi14": 48.71,
-      "signal": false
+      "volume": 5104800,
+      "avg_volume_20wk": 6476325,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "Incyte",
@@ -2460,7 +3195,10 @@
       "sma20": 111.83,
       "pct_above_ma": 8.62,
       "rsi14": 61.28,
-      "signal": true
+      "volume": 5472400,
+      "avg_volume_20wk": 8153330,
+      "volume_ratio": 0.67,
+      "category": "Strong Buy"
     },
     {
       "name": "Ingersoll Rand",
@@ -2470,7 +3208,10 @@
       "sma20": 78.0,
       "pct_above_ma": -6.5,
       "rsi14": 39.68,
-      "signal": false
+      "volume": 14792000,
+      "avg_volume_20wk": 19417530,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "Insulet Corporation",
@@ -2480,7 +3221,10 @@
       "sma20": 152.95,
       "pct_above_ma": -13.73,
       "rsi14": 29.0,
-      "signal": false
+      "volume": 7905500,
+      "avg_volume_20wk": 8053745,
+      "volume_ratio": 0.98,
+      "category": null
     },
     {
       "name": "Intel",
@@ -2490,7 +3234,10 @@
       "sma20": 107.2,
       "pct_above_ma": -3.98,
       "rsi14": 56.0,
-      "signal": false
+      "volume": 421038200,
+      "avg_volume_20wk": 586770325,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "Interactive Brokers",
@@ -2500,17 +3247,23 @@
       "sma20": 89.43,
       "pct_above_ma": 2.17,
       "rsi14": 57.41,
-      "signal": false
+      "volume": 10789200,
+      "avg_volume_20wk": 22171880,
+      "volume_ratio": 0.49,
+      "category": null
     },
     {
       "name": "Intercontinental Exchange",
       "ticker": "ICE",
       "week_of": "2026-09-07",
-      "close": 157.4,
-      "sma20": 147.75,
+      "close": 156.88,
+      "sma20": 147.26,
       "pct_above_ma": 6.53,
       "rsi14": 54.69,
-      "signal": false
+      "volume": 14517900,
+      "avg_volume_20wk": 19826175,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "International Flavors & Fragrances",
@@ -2520,7 +3273,10 @@
       "sma20": 79.24,
       "pct_above_ma": 5.51,
       "rsi14": 56.17,
-      "signal": false
+      "volume": 6522700,
+      "avg_volume_20wk": 8982895,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "International Paper",
@@ -2530,7 +3286,10 @@
       "sma20": 36.48,
       "pct_above_ma": -5.82,
       "rsi14": 42.07,
-      "signal": false
+      "volume": 18617600,
+      "avg_volume_20wk": 27575515,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Intuit",
@@ -2540,7 +3299,10 @@
       "sma20": 321.89,
       "pct_above_ma": -0.1,
       "rsi14": 41.49,
-      "signal": false
+      "volume": 11906600,
+      "avg_volume_20wk": 22578850,
+      "volume_ratio": 0.53,
+      "category": null
     },
     {
       "name": "Intuitive Surgical",
@@ -2550,7 +3312,10 @@
       "sma20": 398.3,
       "pct_above_ma": -7.32,
       "rsi14": 38.57,
-      "signal": false
+      "volume": 12337100,
+      "avg_volume_20wk": 13468800,
+      "volume_ratio": 0.92,
+      "category": null
     },
     {
       "name": "Invesco",
@@ -2560,7 +3325,10 @@
       "sma20": 29.15,
       "pct_above_ma": 10.74,
       "rsi14": 66.18,
-      "signal": true
+      "volume": 12074800,
+      "avg_volume_20wk": 23408040,
+      "volume_ratio": 0.52,
+      "category": "Buy"
     },
     {
       "name": "Invitation Homes",
@@ -2570,7 +3338,10 @@
       "sma20": 29.28,
       "pct_above_ma": -5.95,
       "rsi14": 43.38,
-      "signal": false
+      "volume": 23046800,
+      "avg_volume_20wk": 24013700,
+      "volume_ratio": 0.96,
+      "category": null
     },
     {
       "name": "IQVIA",
@@ -2580,17 +3351,23 @@
       "sma20": 208.51,
       "pct_above_ma": 25.54,
       "rsi14": 70.72,
-      "signal": true
+      "volume": 5220100,
+      "avg_volume_20wk": 7441630,
+      "volume_ratio": 0.7,
+      "category": "Buy"
     },
     {
       "name": "Iron Mountain",
       "ticker": "IRM",
       "week_of": "2026-09-07",
-      "close": 115.18,
-      "sma20": 123.86,
+      "close": 114.29,
+      "sma20": 122.9,
       "pct_above_ma": -7.0,
       "rsi14": 47.91,
-      "signal": false
+      "volume": 5763700,
+      "avg_volume_20wk": 8317515,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "J.B. Hunt",
@@ -2600,7 +3377,10 @@
       "sma20": 272.83,
       "pct_above_ma": -0.87,
       "rsi14": 55.67,
-      "signal": false
+      "volume": 3488900,
+      "avg_volume_20wk": 4564040,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "Jabil",
@@ -2610,7 +3390,10 @@
       "sma20": 339.07,
       "pct_above_ma": -6.19,
       "rsi14": 50.84,
-      "signal": false
+      "volume": 3501200,
+      "avg_volume_20wk": 5838780,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Jack Henry & Associates",
@@ -2620,7 +3403,10 @@
       "sma20": 147.28,
       "pct_above_ma": 9.4,
       "rsi14": 55.42,
-      "signal": false
+      "volume": 3186800,
+      "avg_volume_20wk": 6370675,
+      "volume_ratio": 0.5,
+      "category": null
     },
     {
       "name": "Jacobs Solutions",
@@ -2630,7 +3416,10 @@
       "sma20": 130.87,
       "pct_above_ma": 8.39,
       "rsi14": 56.21,
-      "signal": false
+      "volume": 2671800,
+      "avg_volume_20wk": 5440330,
+      "volume_ratio": 0.49,
+      "category": null
     },
     {
       "name": "Johnson & Johnson",
@@ -2640,7 +3429,10 @@
       "sma20": 247.87,
       "pct_above_ma": 7.14,
       "rsi14": 61.23,
-      "signal": true
+      "volume": 23840000,
+      "avg_volume_20wk": 36742730,
+      "volume_ratio": 0.65,
+      "category": "Strong Buy"
     },
     {
       "name": "Johnson Controls",
@@ -2650,7 +3442,10 @@
       "sma20": 143.14,
       "pct_above_ma": 2.01,
       "rsi14": 56.01,
-      "signal": false
+      "volume": 14523700,
+      "avg_volume_20wk": 18291700,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "JPMorgan Chase",
@@ -2660,7 +3455,10 @@
       "sma20": 332.64,
       "pct_above_ma": 7.09,
       "rsi14": 65.33,
-      "signal": true
+      "volume": 21488400,
+      "avg_volume_20wk": 39070410,
+      "volume_ratio": 0.55,
+      "category": "Strong Buy"
     },
     {
       "name": "Kenvue",
@@ -2670,7 +3468,10 @@
       "sma20": 18.33,
       "pct_above_ma": -2.99,
       "rsi14": 44.81,
-      "signal": false
+      "volume": 152248700,
+      "avg_volume_20wk": 102965270,
+      "volume_ratio": 1.48,
+      "category": null
     },
     {
       "name": "Keurig Dr Pepper",
@@ -2680,7 +3481,10 @@
       "sma20": 30.85,
       "pct_above_ma": 1.74,
       "rsi14": 54.36,
-      "signal": false
+      "volume": 39360900,
+      "avg_volume_20wk": 60397430,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "KeyCorp",
@@ -2690,7 +3494,10 @@
       "sma20": 22.09,
       "pct_above_ma": -1.13,
       "rsi14": 51.75,
-      "signal": false
+      "volume": 52761300,
+      "avg_volume_20wk": 51961140,
+      "volume_ratio": 1.02,
+      "category": null
     },
     {
       "name": "Keysight Technologies",
@@ -2700,7 +3507,10 @@
       "sma20": 335.49,
       "pct_above_ma": 0.94,
       "rsi14": 57.41,
-      "signal": false
+      "volume": 2988600,
+      "avg_volume_20wk": 7075295,
+      "volume_ratio": 0.42,
+      "category": null
     },
     {
       "name": "Kimberly-Clark",
@@ -2710,7 +3520,10 @@
       "sma20": 103.47,
       "pct_above_ma": -5.14,
       "rsi14": 40.49,
-      "signal": false
+      "volume": 28271700,
+      "avg_volume_20wk": 20761065,
+      "volume_ratio": 1.36,
+      "category": null
     },
     {
       "name": "Kimco Realty",
@@ -2720,7 +3533,10 @@
       "sma20": 24.17,
       "pct_above_ma": -4.05,
       "rsi14": 47.16,
-      "signal": false
+      "volume": 29695200,
+      "avg_volume_20wk": 23325800,
+      "volume_ratio": 1.27,
+      "category": null
     },
     {
       "name": "Kinder Morgan",
@@ -2730,7 +3546,10 @@
       "sma20": 31.82,
       "pct_above_ma": -3.01,
       "rsi14": 48.03,
-      "signal": false
+      "volume": 52916600,
+      "avg_volume_20wk": 49808815,
+      "volume_ratio": 1.06,
+      "category": null
     },
     {
       "name": "KKR & Co.",
@@ -2740,7 +3559,10 @@
       "sma20": 100.1,
       "pct_above_ma": 0.98,
       "rsi14": 48.0,
-      "signal": false
+      "volume": 14743000,
+      "avg_volume_20wk": 21515780,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "KLA Corporation",
@@ -2750,7 +3572,10 @@
       "sma20": 203.65,
       "pct_above_ma": -11.3,
       "rsi14": 47.7,
-      "signal": false
+      "volume": 39632400,
+      "avg_volume_20wk": 57029925,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "Kraft Heinz",
@@ -2760,7 +3585,10 @@
       "sma20": 24.04,
       "pct_above_ma": 2.32,
       "rsi14": 53.59,
-      "signal": false
+      "volume": 187273900,
+      "avg_volume_20wk": 76288500,
+      "volume_ratio": 2.45,
+      "category": null
     },
     {
       "name": "Kroger",
@@ -2770,7 +3598,10 @@
       "sma20": 60.14,
       "pct_above_ma": -2.74,
       "rsi14": 43.77,
-      "signal": false
+      "volume": 34140900,
+      "avg_volume_20wk": 34158150,
+      "volume_ratio": 1.0,
+      "category": null
     },
     {
       "name": "L3Harris",
@@ -2780,7 +3611,10 @@
       "sma20": 288.8,
       "pct_above_ma": -14.98,
       "rsi14": 32.13,
-      "signal": false
+      "volume": 6329200,
+      "avg_volume_20wk": 7118135,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "Labcorp",
@@ -2790,7 +3624,10 @@
       "sma20": 286.31,
       "pct_above_ma": 8.81,
       "rsi14": 59.54,
-      "signal": false
+      "volume": 3646200,
+      "avg_volume_20wk": 3307075,
+      "volume_ratio": 1.1,
+      "category": null
     },
     {
       "name": "Lam Research",
@@ -2800,7 +3637,10 @@
       "sma20": 318.72,
       "pct_above_ma": -6.43,
       "rsi14": 51.43,
-      "signal": false
+      "volume": 34479100,
+      "avg_volume_20wk": 50464105,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Las Vegas Sands",
@@ -2810,17 +3650,23 @@
       "sma20": 47.77,
       "pct_above_ma": -10.34,
       "rsi14": 34.74,
-      "signal": false
+      "volume": 23935800,
+      "avg_volume_20wk": 23287200,
+      "volume_ratio": 1.03,
+      "category": null
     },
     {
       "name": "Leidos",
       "ticker": "LDOS",
       "week_of": "2026-09-07",
-      "close": 128.86,
-      "sma20": 124.23,
+      "close": 128.44,
+      "sma20": 123.83,
       "pct_above_ma": 3.73,
       "rsi14": 45.24,
-      "signal": false
+      "volume": 5116600,
+      "avg_volume_20wk": 7320505,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Lennar",
@@ -2830,7 +3676,10 @@
       "sma20": 86.57,
       "pct_above_ma": -8.05,
       "rsi14": 35.9,
-      "signal": false
+      "volume": 16616700,
+      "avg_volume_20wk": 12607420,
+      "volume_ratio": 1.32,
+      "category": null
     },
     {
       "name": "Lennox International",
@@ -2840,7 +3689,10 @@
       "sma20": 483.89,
       "pct_above_ma": -24.35,
       "rsi14": 30.66,
-      "signal": false
+      "volume": 1924800,
+      "avg_volume_20wk": 2306515,
+      "volume_ratio": 0.83,
+      "category": null
     },
     {
       "name": "Lilly (Eli)",
@@ -2850,7 +3702,10 @@
       "sma20": 1130.9,
       "pct_above_ma": -1.34,
       "rsi14": 51.14,
-      "signal": false
+      "volume": 8278300,
+      "avg_volume_20wk": 14324015,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "Linde plc",
@@ -2860,7 +3715,10 @@
       "sma20": 501.09,
       "pct_above_ma": -6.96,
       "rsi14": 42.04,
-      "signal": false
+      "volume": 8456200,
+      "avg_volume_20wk": 10580475,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "Live Nation Entertainment",
@@ -2870,7 +3728,10 @@
       "sma20": 174.09,
       "pct_above_ma": -2.26,
       "rsi14": 49.78,
-      "signal": false
+      "volume": 9379100,
+      "avg_volume_20wk": 11096250,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Lockheed Martin",
@@ -2880,7 +3741,10 @@
       "sma20": 536.07,
       "pct_above_ma": -2.22,
       "rsi14": 45.4,
-      "signal": false
+      "volume": 5371400,
+      "avg_volume_20wk": 5943350,
+      "volume_ratio": 0.9,
+      "category": null
     },
     {
       "name": "Loews Corporation",
@@ -2890,7 +3754,10 @@
       "sma20": 110.77,
       "pct_above_ma": -1.79,
       "rsi14": 47.69,
-      "signal": false
+      "volume": 3193200,
+      "avg_volume_20wk": 3979905,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "Lowe's",
@@ -2900,7 +3767,10 @@
       "sma20": 215.04,
       "pct_above_ma": -8.47,
       "rsi14": 35.33,
-      "signal": false
+      "volume": 11084800,
+      "avg_volume_20wk": 14504590,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "Lululemon Athletica",
@@ -2910,7 +3780,10 @@
       "sma20": 119.07,
       "pct_above_ma": -16.88,
       "rsi14": 31.94,
-      "signal": false
+      "volume": 34285700,
+      "avg_volume_20wk": 20079165,
+      "volume_ratio": 1.71,
+      "category": null
     },
     {
       "name": "Lumentum",
@@ -2920,7 +3793,10 @@
       "sma20": 860.24,
       "pct_above_ma": 7.76,
       "rsi14": 60.21,
-      "signal": true
+      "volume": 19289700,
+      "avg_volume_20wk": 25383615,
+      "volume_ratio": 0.76,
+      "category": "Strong Buy"
     },
     {
       "name": "LyondellBasell",
@@ -2930,7 +3806,10 @@
       "sma20": 63.07,
       "pct_above_ma": 0.99,
       "rsi14": 52.9,
-      "signal": false
+      "volume": 13119400,
+      "avg_volume_20wk": 23323880,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "M&T Bank",
@@ -2940,7 +3819,10 @@
       "sma20": 231.67,
       "pct_above_ma": 3.52,
       "rsi14": 58.3,
-      "signal": false
+      "volume": 4365900,
+      "avg_volume_20wk": 5050610,
+      "volume_ratio": 0.86,
+      "category": null
     },
     {
       "name": "Marathon Petroleum",
@@ -2950,7 +3832,10 @@
       "sma20": 295.68,
       "pct_above_ma": 33.91,
       "rsi14": 80.45,
-      "signal": true
+      "volume": 8743600,
+      "avg_volume_20wk": 11344950,
+      "volume_ratio": 0.77,
+      "category": "Buy"
     },
     {
       "name": "Marriott International",
@@ -2960,7 +3845,10 @@
       "sma20": 365.62,
       "pct_above_ma": -8.46,
       "rsi14": 41.84,
-      "signal": false
+      "volume": 7423600,
+      "avg_volume_20wk": 7428865,
+      "volume_ratio": 1.0,
+      "category": null
     },
     {
       "name": "Marsh McLennan",
@@ -2970,7 +3858,10 @@
       "sma20": 175.25,
       "pct_above_ma": 0.95,
       "rsi14": 47.9,
-      "signal": false
+      "volume": 8171200,
+      "avg_volume_20wk": 12161505,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "Martin Marietta Materials",
@@ -2980,7 +3871,10 @@
       "sma20": 562.55,
       "pct_above_ma": -9.35,
       "rsi14": 35.11,
-      "signal": false
+      "volume": 3325200,
+      "avg_volume_20wk": 2930730,
+      "volume_ratio": 1.13,
+      "category": null
     },
     {
       "name": "Marvell Technology",
@@ -2990,7 +3884,10 @@
       "sma20": 221.94,
       "pct_above_ma": 6.38,
       "rsi14": 60.23,
-      "signal": true
+      "volume": 74873900,
+      "avg_volume_20wk": 168272075,
+      "volume_ratio": 0.44,
+      "category": "Strong Buy"
     },
     {
       "name": "Masco",
@@ -3000,7 +3897,10 @@
       "sma20": 73.33,
       "pct_above_ma": -6.56,
       "rsi14": 45.51,
-      "signal": false
+      "volume": 9473100,
+      "avg_volume_20wk": 11790810,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "Mastercard",
@@ -3010,7 +3910,10 @@
       "sma20": 530.91,
       "pct_above_ma": 7.21,
       "rsi14": 58.86,
-      "signal": false
+      "volume": 8459800,
+      "avg_volume_20wk": 16568045,
+      "volume_ratio": 0.51,
+      "category": null
     },
     {
       "name": "McCormick & Company",
@@ -3020,7 +3923,10 @@
       "sma20": 50.49,
       "pct_above_ma": 1.64,
       "rsi14": 45.26,
-      "signal": false
+      "volume": 10970500,
+      "avg_volume_20wk": 17598960,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "McDonald's",
@@ -3030,7 +3936,10 @@
       "sma20": 270.94,
       "pct_above_ma": -6.79,
       "rsi14": 32.09,
-      "signal": false
+      "volume": 17073800,
+      "avg_volume_20wk": 21660280,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "McKesson Corporation",
@@ -3040,7 +3949,10 @@
       "sma20": 814.23,
       "pct_above_ma": 8.26,
       "rsi14": 57.89,
-      "signal": false
+      "volume": 3462000,
+      "avg_volume_20wk": 5316540,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Medtronic",
@@ -3050,17 +3962,23 @@
       "sma20": 83.42,
       "pct_above_ma": 9.04,
       "rsi14": 56.82,
-      "signal": false
+      "volume": 26455700,
+      "avg_volume_20wk": 44062545,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Merck & Co.",
       "ticker": "MRK",
       "week_of": "2026-09-07",
-      "close": 143.93,
-      "sma20": 127.7,
+      "close": 143.09,
+      "sma20": 126.95,
       "pct_above_ma": 12.71,
       "rsi14": 64.11,
-      "signal": true
+      "volume": 35953200,
+      "avg_volume_20wk": 48932030,
+      "volume_ratio": 0.73,
+      "category": "Buy"
     },
     {
       "name": "Meta Platforms",
@@ -3070,7 +3988,10 @@
       "sma20": 599.18,
       "pct_above_ma": 8.15,
       "rsi14": 54.69,
-      "signal": false
+      "volume": 93267300,
+      "avg_volume_20wk": 86769780,
+      "volume_ratio": 1.07,
+      "category": null
     },
     {
       "name": "MetLife",
@@ -3080,7 +4001,10 @@
       "sma20": 89.44,
       "pct_above_ma": 8.61,
       "rsi14": 68.21,
-      "signal": true
+      "volume": 10567200,
+      "avg_volume_20wk": 16911630,
+      "volume_ratio": 0.62,
+      "category": "Strong Buy"
     },
     {
       "name": "Mettler Toledo",
@@ -3090,7 +4014,10 @@
       "sma20": 1267.02,
       "pct_above_ma": 2.09,
       "rsi14": 48.63,
-      "signal": false
+      "volume": 627400,
+      "avg_volume_20wk": 937865,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "MGM Resorts",
@@ -3100,7 +4027,10 @@
       "sma20": 43.74,
       "pct_above_ma": -8.8,
       "rsi14": 43.38,
-      "signal": false
+      "volume": 9884800,
+      "avg_volume_20wk": 17784780,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "Microchip Technology",
@@ -3110,7 +4040,10 @@
       "sma20": 85.22,
       "pct_above_ma": -12.94,
       "rsi14": 45.52,
-      "signal": false
+      "volume": 30192200,
+      "avg_volume_20wk": 53116610,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Micron Technology",
@@ -3120,7 +4053,10 @@
       "sma20": 906.74,
       "pct_above_ma": 7.56,
       "rsi14": 60.64,
-      "signal": true
+      "volume": 98387600,
+      "avg_volume_20wk": 218198395,
+      "volume_ratio": 0.45,
+      "category": "Strong Buy"
     },
     {
       "name": "Microsoft",
@@ -3130,7 +4066,10 @@
       "sma20": 433.41,
       "pct_above_ma": 14.36,
       "rsi14": 61.42,
-      "signal": true
+      "volume": 62321200,
+      "avg_volume_20wk": 172028045,
+      "volume_ratio": 0.36,
+      "category": "Buy"
     },
     {
       "name": "Mid-America Apartment Communities",
@@ -3140,7 +4079,10 @@
       "sma20": 131.79,
       "pct_above_ma": -5.31,
       "rsi14": 41.57,
-      "signal": false
+      "volume": 4594000,
+      "avg_volume_20wk": 4776385,
+      "volume_ratio": 0.96,
+      "category": null
     },
     {
       "name": "Moderna",
@@ -3150,7 +4092,10 @@
       "sma20": 74.26,
       "pct_above_ma": 93.86,
       "rsi14": 78.12,
-      "signal": true
+      "volume": 42241900,
+      "avg_volume_20wk": 62255260,
+      "volume_ratio": 0.68,
+      "category": "Buy"
     },
     {
       "name": "Molson Coors Beverage Company",
@@ -3160,7 +4105,10 @@
       "sma20": 40.57,
       "pct_above_ma": -4.03,
       "rsi14": 41.15,
-      "signal": false
+      "volume": 13553500,
+      "avg_volume_20wk": 15200995,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "Mondelez International",
@@ -3170,7 +4118,10 @@
       "sma20": 61.4,
       "pct_above_ma": 1.7,
       "rsi14": 55.01,
-      "signal": false
+      "volume": 31429500,
+      "avg_volume_20wk": 40890390,
+      "volume_ratio": 0.77,
+      "category": null
     },
     {
       "name": "Monolithic Power Systems",
@@ -3180,7 +4131,10 @@
       "sma20": 1417.59,
       "pct_above_ma": -12.92,
       "rsi14": 44.61,
-      "signal": false
+      "volume": 2452000,
+      "avg_volume_20wk": 3997975,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "Monster Beverage",
@@ -3190,7 +4144,10 @@
       "sma20": 45.64,
       "pct_above_ma": -4.91,
       "rsi14": 48.11,
-      "signal": false
+      "volume": 36883600,
+      "avg_volume_20wk": 53319840,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "Moody's Corporation",
@@ -3200,7 +4157,10 @@
       "sma20": 470.47,
       "pct_above_ma": 0.95,
       "rsi14": 50.01,
-      "signal": false
+      "volume": 2713700,
+      "avg_volume_20wk": 4407855,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Morgan Stanley",
@@ -3210,7 +4170,10 @@
       "sma20": 210.12,
       "pct_above_ma": 2.03,
       "rsi14": 60.85,
-      "signal": true
+      "volume": 15953500,
+      "avg_volume_20wk": 25610485,
+      "volume_ratio": 0.62,
+      "category": "Strong Buy"
     },
     {
       "name": "Mosaic Company (The)",
@@ -3220,17 +4183,23 @@
       "sma20": 22.62,
       "pct_above_ma": 11.38,
       "rsi14": 55.36,
-      "signal": false
+      "volume": 32420700,
+      "avg_volume_20wk": 41485955,
+      "volume_ratio": 0.78,
+      "category": null
     },
     {
       "name": "Motorola Solutions",
       "ticker": "MSI",
       "week_of": "2026-09-07",
-      "close": 466.16,
-      "sma20": 428.99,
+      "close": 464.96,
+      "sma20": 427.89,
       "pct_above_ma": 8.66,
       "rsi14": 59.97,
-      "signal": false
+      "volume": 3402800,
+      "avg_volume_20wk": 5148590,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "MSCI",
@@ -3240,7 +4209,10 @@
       "sma20": 581.23,
       "pct_above_ma": -4.58,
       "rsi14": 46.33,
-      "signal": false
+      "volume": 1940400,
+      "avg_volume_20wk": 3162720,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "Nasdaq, Inc.",
@@ -3250,7 +4222,10 @@
       "sma20": 90.6,
       "pct_above_ma": 0.65,
       "rsi14": 50.43,
-      "signal": false
+      "volume": 11789500,
+      "avg_volume_20wk": 17381980,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "NetApp",
@@ -3260,7 +4235,10 @@
       "sma20": 164.7,
       "pct_above_ma": 21.0,
       "rsi14": 69.77,
-      "signal": true
+      "volume": 9027900,
+      "avg_volume_20wk": 14191410,
+      "volume_ratio": 0.64,
+      "category": "Buy"
     },
     {
       "name": "Netflix",
@@ -3270,7 +4248,10 @@
       "sma20": 79.3,
       "pct_above_ma": -2.39,
       "rsi14": 43.4,
-      "signal": false
+      "volume": 98931900,
+      "avg_volume_20wk": 184968220,
+      "volume_ratio": 0.53,
+      "category": null
     },
     {
       "name": "Newmont",
@@ -3280,7 +4261,10 @@
       "sma20": 108.03,
       "pct_above_ma": 17.38,
       "rsi14": 62.06,
-      "signal": true
+      "volume": 28427200,
+      "avg_volume_20wk": 38018515,
+      "volume_ratio": 0.75,
+      "category": "Buy"
     },
     {
       "name": "News Corp (Class A)",
@@ -3290,7 +4274,10 @@
       "sma20": 27.43,
       "pct_above_ma": 7.31,
       "rsi14": 59.92,
-      "signal": false
+      "volume": 14644600,
+      "avg_volume_20wk": 22299420,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "News Corp (Class B)",
@@ -3300,7 +4287,10 @@
       "sma20": 31.19,
       "pct_above_ma": 4.89,
       "rsi14": 56.42,
-      "signal": false
+      "volume": 3925700,
+      "avg_volume_20wk": 6858640,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "NextEra Energy",
@@ -3310,7 +4300,10 @@
       "sma20": 86.77,
       "pct_above_ma": -5.14,
       "rsi14": 41.94,
-      "signal": false
+      "volume": 40061400,
+      "avg_volume_20wk": 54217845,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Nike, Inc.",
@@ -3320,7 +4313,10 @@
       "sma20": 41.94,
       "pct_above_ma": -12.25,
       "rsi14": 30.44,
-      "signal": false
+      "volume": 122697000,
+      "avg_volume_20wk": 115203605,
+      "volume_ratio": 1.07,
+      "category": null
     },
     {
       "name": "NiSource",
@@ -3330,7 +4326,10 @@
       "sma20": 45.11,
       "pct_above_ma": -8.2,
       "rsi14": 37.87,
-      "signal": false
+      "volume": 18420300,
+      "avg_volume_20wk": 24202340,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "Nordson Corporation",
@@ -3340,7 +4339,10 @@
       "sma20": 296.63,
       "pct_above_ma": 6.01,
       "rsi14": 62.49,
-      "signal": true
+      "volume": 1150700,
+      "avg_volume_20wk": 1885110,
+      "volume_ratio": 0.61,
+      "category": "Strong Buy"
     },
     {
       "name": "Norfolk Southern",
@@ -3350,7 +4352,10 @@
       "sma20": 323.95,
       "pct_above_ma": -1.14,
       "rsi14": 50.34,
-      "signal": false
+      "volume": 4017700,
+      "avg_volume_20wk": 5561630,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "Northern Trust",
@@ -3360,7 +4365,10 @@
       "sma20": 176.25,
       "pct_above_ma": 7.34,
       "rsi14": 70.81,
-      "signal": true
+      "volume": 3774400,
+      "avg_volume_20wk": 5103185,
+      "volume_ratio": 0.74,
+      "category": "Strong Buy"
     },
     {
       "name": "Northrop Grumman",
@@ -3370,7 +4378,10 @@
       "sma20": 541.01,
       "pct_above_ma": -4.07,
       "rsi14": 41.05,
-      "signal": false
+      "volume": 3428000,
+      "avg_volume_20wk": 4203385,
+      "volume_ratio": 0.82,
+      "category": null
     },
     {
       "name": "Norwegian Cruise Line Holdings",
@@ -3380,7 +4391,10 @@
       "sma20": 18.26,
       "pct_above_ma": -18.84,
       "rsi14": 33.89,
-      "signal": false
+      "volume": 69735400,
+      "avg_volume_20wk": 88885870,
+      "volume_ratio": 0.78,
+      "category": null
     },
     {
       "name": "NRG Energy",
@@ -3390,7 +4404,10 @@
       "sma20": 130.3,
       "pct_above_ma": -12.92,
       "rsi14": 40.5,
-      "signal": false
+      "volume": 10496100,
+      "avg_volume_20wk": 13264365,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "Nucor",
@@ -3400,7 +4417,10 @@
       "sma20": 245.37,
       "pct_above_ma": 5.73,
       "rsi14": 61.53,
-      "signal": true
+      "volume": 4119700,
+      "avg_volume_20wk": 7283025,
+      "volume_ratio": 0.57,
+      "category": "Strong Buy"
     },
     {
       "name": "Nvidia",
@@ -3410,7 +4430,10 @@
       "sma20": 210.97,
       "pct_above_ma": 3.47,
       "rsi14": 55.67,
-      "signal": false
+      "volume": 400749200,
+      "avg_volume_20wk": 696920935,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "NVR, Inc.",
@@ -3420,17 +4443,23 @@
       "sma20": 6295.25,
       "pct_above_ma": -2.14,
       "rsi14": 41.66,
-      "signal": false
+      "volume": 171100,
+      "avg_volume_20wk": 148090,
+      "volume_ratio": 1.16,
+      "category": null
     },
     {
       "name": "NXP Semiconductors",
       "ticker": "NXPI",
       "week_of": "2026-09-07",
-      "close": 236.62,
-      "sma20": 271.04,
+      "close": 235.56,
+      "sma20": 269.82,
       "pct_above_ma": -12.7,
       "rsi14": 46.17,
-      "signal": false
+      "volume": 15572300,
+      "avg_volume_20wk": 19533235,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "O'Reilly Automotive",
@@ -3440,7 +4469,10 @@
       "sma20": 89.49,
       "pct_above_ma": -4.1,
       "rsi14": 42.28,
-      "signal": false
+      "volume": 24192300,
+      "avg_volume_20wk": 33576795,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "Occidental Petroleum",
@@ -3450,7 +4482,10 @@
       "sma20": 56.14,
       "pct_above_ma": 9.47,
       "rsi14": 61.19,
-      "signal": true
+      "volume": 32366100,
+      "avg_volume_20wk": 46348325,
+      "volume_ratio": 0.7,
+      "category": "Strong Buy"
     },
     {
       "name": "Old Dominion",
@@ -3460,7 +4495,10 @@
       "sma20": 214.3,
       "pct_above_ma": -16.1,
       "rsi14": 38.2,
-      "signal": false
+      "volume": 6119200,
+      "avg_volume_20wk": 8955405,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Omnicom Group",
@@ -3470,7 +4508,10 @@
       "sma20": 78.75,
       "pct_above_ma": 0.33,
       "rsi14": 49.51,
-      "signal": false
+      "volume": 11362100,
+      "avg_volume_20wk": 17663445,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "ON Semiconductor",
@@ -3480,7 +4521,10 @@
       "sma20": 95.33,
       "pct_above_ma": -20.13,
       "rsi14": 43.77,
-      "signal": false
+      "volume": 40495800,
+      "avg_volume_20wk": 54580775,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Oneok",
@@ -3490,7 +4534,10 @@
       "sma20": 89.99,
       "pct_above_ma": 7.36,
       "rsi14": 60.6,
-      "signal": true
+      "volume": 12355200,
+      "avg_volume_20wk": 18208135,
+      "volume_ratio": 0.68,
+      "category": "Strong Buy"
     },
     {
       "name": "Oracle Corporation",
@@ -3500,7 +4547,10 @@
       "sma20": 162.95,
       "pct_above_ma": -7.77,
       "rsi14": 46.36,
-      "signal": false
+      "volume": 202390700,
+      "avg_volume_20wk": 143028150,
+      "volume_ratio": 1.42,
+      "category": null
     },
     {
       "name": "Otis Worldwide",
@@ -3510,7 +4560,10 @@
       "sma20": 72.02,
       "pct_above_ma": -4.05,
       "rsi14": 33.77,
-      "signal": false
+      "volume": 14833000,
+      "avg_volume_20wk": 17795230,
+      "volume_ratio": 0.83,
+      "category": null
     },
     {
       "name": "Paccar",
@@ -3520,17 +4573,23 @@
       "sma20": 121.63,
       "pct_above_ma": 0.9,
       "rsi14": 51.26,
-      "signal": false
+      "volume": 8951100,
+      "avg_volume_20wk": 14993515,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Packaging Corporation of America",
       "ticker": "PKG",
       "week_of": "2026-09-07",
-      "close": 234.4,
-      "sma20": 233.88,
+      "close": 232.89,
+      "sma20": 232.38,
       "pct_above_ma": 0.22,
       "rsi14": 51.48,
-      "signal": false
+      "volume": 2958300,
+      "avg_volume_20wk": 3194500,
+      "volume_ratio": 0.93,
+      "category": null
     },
     {
       "name": "Palantir Technologies",
@@ -3540,7 +4599,10 @@
       "sma20": 145.12,
       "pct_above_ma": 15.23,
       "rsi14": 56.09,
-      "signal": false
+      "volume": 81680200,
+      "avg_volume_20wk": 194895670,
+      "volume_ratio": 0.42,
+      "category": null
     },
     {
       "name": "Palo Alto Networks",
@@ -3550,17 +4612,23 @@
       "sma20": 307.37,
       "pct_above_ma": 7.57,
       "rsi14": 58.24,
-      "signal": false
+      "volume": 19882000,
+      "avg_volume_20wk": 35153800,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Paramount Skydance Corporation",
       "ticker": "PSKY",
       "week_of": "2026-09-07",
-      "close": 10.6,
-      "sma20": 9.99,
+      "close": 10.55,
+      "sma20": 9.94,
       "pct_above_ma": 6.11,
       "rsi14": 51.49,
-      "signal": false
+      "volume": 48662400,
+      "avg_volume_20wk": 48857410,
+      "volume_ratio": 1.0,
+      "category": null
     },
     {
       "name": "Parker Hannifin",
@@ -3570,7 +4638,10 @@
       "sma20": 944.4,
       "pct_above_ma": 0.62,
       "rsi14": 50.32,
-      "signal": false
+      "volume": 2011400,
+      "avg_volume_20wk": 3386740,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "Paychex",
@@ -3580,7 +4651,10 @@
       "sma20": 107.28,
       "pct_above_ma": 7.94,
       "rsi14": 57.52,
-      "signal": false
+      "volume": 9848600,
+      "avg_volume_20wk": 14752005,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "PayPal",
@@ -3590,7 +4664,10 @@
       "sma20": 50.11,
       "pct_above_ma": 7.21,
       "rsi14": 52.52,
-      "signal": false
+      "volume": 40591800,
+      "avg_volume_20wk": 74191565,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "Pentair",
@@ -3600,7 +4677,10 @@
       "sma20": 69.48,
       "pct_above_ma": -18.57,
       "rsi14": 26.69,
-      "signal": false
+      "volume": 9602900,
+      "avg_volume_20wk": 14318775,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "PepsiCo",
@@ -3610,7 +4690,10 @@
       "sma20": 141.18,
       "pct_above_ma": -3.44,
       "rsi14": 41.43,
-      "signal": false
+      "volume": 33670700,
+      "avg_volume_20wk": 38191590,
+      "volume_ratio": 0.88,
+      "category": null
     },
     {
       "name": "Pfizer",
@@ -3620,7 +4703,10 @@
       "sma20": 25.72,
       "pct_above_ma": 7.79,
       "rsi14": 62.11,
-      "signal": true
+      "volume": 115264000,
+      "avg_volume_20wk": 191006015,
+      "volume_ratio": 0.6,
+      "category": "Strong Buy"
     },
     {
       "name": "PG&E Corporation",
@@ -3630,7 +4716,10 @@
       "sma20": 16.67,
       "pct_above_ma": -17.2,
       "rsi14": 31.25,
-      "signal": false
+      "volume": 188851900,
+      "avg_volume_20wk": 130384270,
+      "volume_ratio": 1.45,
+      "category": null
     },
     {
       "name": "Philip Morris International",
@@ -3640,7 +4729,10 @@
       "sma20": 183.88,
       "pct_above_ma": 3.9,
       "rsi14": 58.47,
-      "signal": false
+      "volume": 18768600,
+      "avg_volume_20wk": 23206345,
+      "volume_ratio": 0.81,
+      "category": null
     },
     {
       "name": "Phillips 66",
@@ -3650,7 +4742,10 @@
       "sma20": 199.36,
       "pct_above_ma": 30.15,
       "rsi14": 79.72,
-      "signal": true
+      "volume": 10214400,
+      "avg_volume_20wk": 12690535,
+      "volume_ratio": 0.8,
+      "category": "Buy"
     },
     {
       "name": "Pinnacle West Capital",
@@ -3660,7 +4755,10 @@
       "sma20": 101.51,
       "pct_above_ma": -5.33,
       "rsi14": 42.86,
-      "signal": false
+      "volume": 3465300,
+      "avg_volume_20wk": 5682940,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "PNC Financial Services",
@@ -3670,7 +4768,10 @@
       "sma20": 237.58,
       "pct_above_ma": 2.8,
       "rsi14": 58.73,
-      "signal": false
+      "volume": 5048500,
+      "avg_volume_20wk": 8793145,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "PPG Industries",
@@ -3680,7 +4781,10 @@
       "sma20": 113.44,
       "pct_above_ma": -7.0,
       "rsi14": 43.21,
-      "signal": false
+      "volume": 7812200,
+      "avg_volume_20wk": 8689695,
+      "volume_ratio": 0.9,
+      "category": null
     },
     {
       "name": "PPL Corporation",
@@ -3690,7 +4794,10 @@
       "sma20": 35.3,
       "pct_above_ma": -3.45,
       "rsi14": 43.19,
-      "signal": false
+      "volume": 31200100,
+      "avg_volume_20wk": 42623725,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Principal Financial Group",
@@ -3700,7 +4807,10 @@
       "sma20": 108.35,
       "pct_above_ma": 7.21,
       "rsi14": 68.28,
-      "signal": true
+      "volume": 5009200,
+      "avg_volume_20wk": 6329850,
+      "volume_ratio": 0.79,
+      "category": "Strong Buy"
     },
     {
       "name": "Procter & Gamble",
@@ -3710,7 +4820,10 @@
       "sma20": 145.83,
       "pct_above_ma": -0.38,
       "rsi14": 48.13,
-      "signal": false
+      "volume": 40046700,
+      "avg_volume_20wk": 42649435,
+      "volume_ratio": 0.94,
+      "category": null
     },
     {
       "name": "Progressive Corporation",
@@ -3720,17 +4833,23 @@
       "sma20": 210.7,
       "pct_above_ma": 3.28,
       "rsi14": 53.78,
-      "signal": false
+      "volume": 6514300,
+      "avg_volume_20wk": 13883695,
+      "volume_ratio": 0.47,
+      "category": null
     },
     {
       "name": "Prologis",
       "ticker": "PLD",
       "week_of": "2026-09-07",
-      "close": 135.75,
-      "sma20": 142.05,
+      "close": 134.68,
+      "sma20": 140.93,
       "pct_above_ma": -4.44,
       "rsi14": 45.92,
-      "signal": false
+      "volume": 11724500,
+      "avg_volume_20wk": 18691075,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "Prudential Financial",
@@ -3740,7 +4859,10 @@
       "sma20": 111.25,
       "pct_above_ma": 7.18,
       "rsi14": 62.23,
-      "signal": true
+      "volume": 6259300,
+      "avg_volume_20wk": 8997560,
+      "volume_ratio": 0.7,
+      "category": "Strong Buy"
     },
     {
       "name": "Public Service Enterprise Group",
@@ -3750,7 +4872,10 @@
       "sma20": 76.9,
       "pct_above_ma": -5.87,
       "rsi14": 38.04,
-      "signal": false
+      "volume": 10289300,
+      "avg_volume_20wk": 14024055,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "PTC Inc.",
@@ -3760,27 +4885,36 @@
       "sma20": 135.18,
       "pct_above_ma": -3.26,
       "rsi14": 43.71,
-      "signal": false
+      "volume": 7702000,
+      "avg_volume_20wk": 8013980,
+      "volume_ratio": 0.96,
+      "category": null
     },
     {
       "name": "Public Storage",
       "ticker": "PSA",
       "week_of": "2026-09-07",
-      "close": 296.5,
-      "sma20": 313.8,
+      "close": 293.49,
+      "sma20": 310.62,
       "pct_above_ma": -5.51,
       "rsi14": 43.93,
-      "signal": false
+      "volume": 3043300,
+      "avg_volume_20wk": 4693390,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "PulteGroup",
       "ticker": "PHM",
       "week_of": "2026-09-07",
-      "close": 118.26,
-      "sma20": 124.45,
+      "close": 118.0,
+      "sma20": 124.17,
       "pct_above_ma": -4.97,
       "rsi14": 43.38,
-      "signal": false
+      "volume": 6832800,
+      "avg_volume_20wk": 8049045,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Quanta Services",
@@ -3790,7 +4924,10 @@
       "sma20": 680.38,
       "pct_above_ma": -4.38,
       "rsi14": 53.62,
-      "signal": false
+      "volume": 2856300,
+      "avg_volume_20wk": 5824340,
+      "volume_ratio": 0.49,
+      "category": null
     },
     {
       "name": "Qualcomm",
@@ -3800,7 +4937,10 @@
       "sma20": 188.42,
       "pct_above_ma": -3.42,
       "rsi14": 52.97,
-      "signal": false
+      "volume": 68075500,
+      "avg_volume_20wk": 91720230,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Quest Diagnostics",
@@ -3810,7 +4950,10 @@
       "sma20": 214.19,
       "pct_above_ma": 9.73,
       "rsi14": 64.17,
-      "signal": true
+      "volume": 3607300,
+      "avg_volume_20wk": 4349120,
+      "volume_ratio": 0.83,
+      "category": "Strong Buy"
     },
     {
       "name": "Qnity Electronics",
@@ -3820,7 +4963,10 @@
       "sma20": 142.16,
       "pct_above_ma": -11.08,
       "rsi14": 46.5,
-      "signal": false
+      "volume": 5163500,
+      "avg_volume_20wk": 9266785,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "Ralph Lauren Corporation",
@@ -3830,7 +4976,10 @@
       "sma20": 375.27,
       "pct_above_ma": -9.64,
       "rsi14": 41.23,
-      "signal": false
+      "volume": 3146600,
+      "avg_volume_20wk": 3246285,
+      "volume_ratio": 0.97,
+      "category": null
     },
     {
       "name": "Raymond James Financial",
@@ -3840,7 +4989,10 @@
       "sma20": 163.72,
       "pct_above_ma": 5.95,
       "rsi14": 58.38,
-      "signal": false
+      "volume": 4602000,
+      "avg_volume_20wk": 6265685,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Reddit",
@@ -3850,7 +5002,10 @@
       "sma20": 165.72,
       "pct_above_ma": -4.8,
       "rsi14": 47.6,
-      "signal": false
+      "volume": 18836700,
+      "avg_volume_20wk": 27381695,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "RTX Corporation",
@@ -3860,7 +5015,10 @@
       "sma20": 194.36,
       "pct_above_ma": 1.71,
       "rsi14": 50.79,
-      "signal": false
+      "volume": 13273800,
+      "avg_volume_20wk": 24278940,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "Realty Income",
@@ -3870,7 +5028,10 @@
       "sma20": 61.91,
       "pct_above_ma": -3.89,
       "rsi14": 43.34,
-      "signal": false
+      "volume": 24688000,
+      "avg_volume_20wk": 27621875,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "Regency Centers",
@@ -3880,7 +5041,10 @@
       "sma20": 77.34,
       "pct_above_ma": -3.52,
       "rsi14": 45.97,
-      "signal": false
+      "volume": 6003900,
+      "avg_volume_20wk": 6854920,
+      "volume_ratio": 0.88,
+      "category": null
     },
     {
       "name": "Regeneron Pharmaceuticals",
@@ -3890,7 +5054,10 @@
       "sma20": 704.11,
       "pct_above_ma": 10.99,
       "rsi14": 57.14,
-      "signal": false
+      "volume": 2148800,
+      "avg_volume_20wk": 4356400,
+      "volume_ratio": 0.49,
+      "category": null
     },
     {
       "name": "Regions Financial Corporation",
@@ -3900,7 +5067,10 @@
       "sma20": 29.38,
       "pct_above_ma": 2.57,
       "rsi14": 56.75,
-      "signal": false
+      "volume": 26418700,
+      "avg_volume_20wk": 45846125,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "Republic Services",
@@ -3910,7 +5080,10 @@
       "sma20": 213.2,
       "pct_above_ma": 4.48,
       "rsi14": 56.73,
-      "signal": false
+      "volume": 6262300,
+      "avg_volume_20wk": 7727030,
+      "volume_ratio": 0.81,
+      "category": null
     },
     {
       "name": "ResMed|",
@@ -3920,7 +5093,10 @@
       "sma20": 207.76,
       "pct_above_ma": 5.06,
       "rsi14": 49.67,
-      "signal": false
+      "volume": 4994900,
+      "avg_volume_20wk": 7262815,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "Revvity",
@@ -3930,7 +5106,10 @@
       "sma20": 109.61,
       "pct_above_ma": 13.41,
       "rsi14": 64.27,
-      "signal": true
+      "volume": 5873900,
+      "avg_volume_20wk": 7330630,
+      "volume_ratio": 0.8,
+      "category": "Buy"
     },
     {
       "name": "Robinhood Markets",
@@ -3940,7 +5119,10 @@
       "sma20": 96.02,
       "pct_above_ma": 17.24,
       "rsi14": 56.67,
-      "signal": false
+      "volume": 81049200,
+      "avg_volume_20wk": 122563865,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Rockwell Automation",
@@ -3950,7 +5132,10 @@
       "sma20": 450.6,
       "pct_above_ma": -4.93,
       "rsi14": 48.24,
-      "signal": false
+      "volume": 2814600,
+      "avg_volume_20wk": 3848905,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Rollins, Inc.",
@@ -3960,7 +5145,10 @@
       "sma20": 43.46,
       "pct_above_ma": -20.09,
       "rsi14": 20.78,
-      "signal": false
+      "volume": 18687500,
+      "avg_volume_20wk": 22628505,
+      "volume_ratio": 0.83,
+      "category": null
     },
     {
       "name": "Roper Technologies",
@@ -3970,7 +5158,10 @@
       "sma20": 364.01,
       "pct_above_ma": 6.73,
       "rsi14": 52.5,
-      "signal": false
+      "volume": 2316000,
+      "avg_volume_20wk": 4711750,
+      "volume_ratio": 0.49,
+      "category": null
     },
     {
       "name": "Ross Stores",
@@ -3980,7 +5171,10 @@
       "sma20": 231.43,
       "pct_above_ma": -0.3,
       "rsi14": 53.95,
-      "signal": false
+      "volume": 7399000,
+      "avg_volume_20wk": 13773740,
+      "volume_ratio": 0.54,
+      "category": null
     },
     {
       "name": "Royal Caribbean Group",
@@ -3990,7 +5184,10 @@
       "sma20": 287.11,
       "pct_above_ma": -9.39,
       "rsi14": 41.23,
-      "signal": false
+      "volume": 8962600,
+      "avg_volume_20wk": 11824395,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "S&P Global",
@@ -4000,7 +5197,10 @@
       "sma20": 412.33,
       "pct_above_ma": -0.39,
       "rsi14": 46.97,
-      "signal": false
+      "volume": 6819900,
+      "avg_volume_20wk": 10494014,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Salesforce",
@@ -4010,7 +5210,10 @@
       "sma20": 188.91,
       "pct_above_ma": 31.13,
       "rsi14": 65.51,
-      "signal": true
+      "volume": 49807300,
+      "avg_volume_20wk": 70812925,
+      "volume_ratio": 0.7,
+      "category": "Buy"
     },
     {
       "name": "Sandisk",
@@ -4020,7 +5223,10 @@
       "sma20": 1606.02,
       "pct_above_ma": 1.7,
       "rsi14": 56.34,
-      "signal": false
+      "volume": 38883100,
+      "avg_volume_20wk": 66023350,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "SBA Communications",
@@ -4030,7 +5236,10 @@
       "sma20": 191.8,
       "pct_above_ma": -3.3,
       "rsi14": 46.74,
-      "signal": false
+      "volume": 4552200,
+      "avg_volume_20wk": 4633145,
+      "volume_ratio": 0.98,
+      "category": null
     },
     {
       "name": "Schlumberger",
@@ -4040,7 +5249,10 @@
       "sma20": 52.41,
       "pct_above_ma": 6.96,
       "rsi14": 59.05,
-      "signal": false
+      "volume": 55259600,
+      "avg_volume_20wk": 64373875,
+      "volume_ratio": 0.86,
+      "category": null
     },
     {
       "name": "Seagate Technology",
@@ -4050,7 +5262,10 @@
       "sma20": 855.64,
       "pct_above_ma": -2.98,
       "rsi14": 55.28,
-      "signal": false
+      "volume": 15778500,
+      "avg_volume_20wk": 21983850,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "Sempra",
@@ -4060,7 +5275,10 @@
       "sma20": 89.4,
       "pct_above_ma": -6.78,
       "rsi14": 40.58,
-      "signal": false
+      "volume": 11179000,
+      "avg_volume_20wk": 18095290,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "ServiceNow",
@@ -4070,7 +5288,10 @@
       "sma20": 111.75,
       "pct_above_ma": 18.59,
       "rsi14": 56.49,
-      "signal": false
+      "volume": 49871000,
+      "avg_volume_20wk": 118078975,
+      "volume_ratio": 0.42,
+      "category": null
     },
     {
       "name": "Sherwin-Williams",
@@ -4080,7 +5301,10 @@
       "sma20": 328.71,
       "pct_above_ma": -1.64,
       "rsi14": 46.3,
-      "signal": false
+      "volume": 6412400,
+      "avg_volume_20wk": 10325420,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Simon Property Group",
@@ -4090,7 +5314,10 @@
       "sma20": 212.35,
       "pct_above_ma": -3.54,
       "rsi14": 48.19,
-      "signal": false
+      "volume": 6008200,
+      "avg_volume_20wk": 8113335,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Skyworks Solutions",
@@ -4100,7 +5327,10 @@
       "sma20": 69.54,
       "pct_above_ma": 27.05,
       "rsi14": 69.32,
-      "signal": true
+      "volume": 34054400,
+      "avg_volume_20wk": 27218620,
+      "volume_ratio": 1.25,
+      "category": "Buy"
     },
     {
       "name": "J.M. Smucker Company (The)",
@@ -4110,7 +5340,10 @@
       "sma20": 112.77,
       "pct_above_ma": 7.43,
       "rsi14": 58.95,
-      "signal": false
+      "volume": 5224100,
+      "avg_volume_20wk": 7692520,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Smurfit Westrock",
@@ -4120,7 +5353,10 @@
       "sma20": 44.0,
       "pct_above_ma": -1.76,
       "rsi14": 48.13,
-      "signal": false
+      "volume": 13685600,
+      "avg_volume_20wk": 25200125,
+      "volume_ratio": 0.54,
+      "category": null
     },
     {
       "name": "Snap-on",
@@ -4130,7 +5366,10 @@
       "sma20": 388.03,
       "pct_above_ma": -3.24,
       "rsi14": 46.03,
-      "signal": false
+      "volume": 1021200,
+      "avg_volume_20wk": 1618010,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "Solventum",
@@ -4140,7 +5379,10 @@
       "sma20": 80.6,
       "pct_above_ma": 8.5,
       "rsi14": 58.91,
-      "signal": false
+      "volume": 3392800,
+      "avg_volume_20wk": 7115575,
+      "volume_ratio": 0.48,
+      "category": null
     },
     {
       "name": "Southern Company",
@@ -4150,7 +5392,10 @@
       "sma20": 92.42,
       "pct_above_ma": -5.69,
       "rsi14": 39.08,
-      "signal": false
+      "volume": 20944500,
+      "avg_volume_20wk": 27819985,
+      "volume_ratio": 0.75,
+      "category": null
     },
     {
       "name": "Southwest Airlines",
@@ -4160,7 +5405,10 @@
       "sma20": 43.57,
       "pct_above_ma": -9.95,
       "rsi14": 43.23,
-      "signal": false
+      "volume": 17995300,
+      "avg_volume_20wk": 27753570,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Stanley Black & Decker",
@@ -4170,7 +5418,10 @@
       "sma20": 87.92,
       "pct_above_ma": 1.5,
       "rsi14": 52.8,
-      "signal": false
+      "volume": 7798700,
+      "avg_volume_20wk": 8506630,
+      "volume_ratio": 0.92,
+      "category": null
     },
     {
       "name": "Starbucks",
@@ -4180,7 +5431,10 @@
       "sma20": 103.45,
       "pct_above_ma": -4.56,
       "rsi14": 46.93,
-      "signal": false
+      "volume": 24737000,
+      "avg_volume_20wk": 35577335,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "State Street Corporation",
@@ -4190,7 +5444,10 @@
       "sma20": 173.51,
       "pct_above_ma": 11.46,
       "rsi14": 80.62,
-      "signal": true
+      "volume": 5758300,
+      "avg_volume_20wk": 9564200,
+      "volume_ratio": 0.6,
+      "category": "Buy"
     },
     {
       "name": "Steel Dynamics",
@@ -4200,7 +5457,10 @@
       "sma20": 244.08,
       "pct_above_ma": -1.76,
       "rsi14": 54.37,
-      "signal": false
+      "volume": 3415300,
+      "avg_volume_20wk": 5627965,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "Steris",
@@ -4210,7 +5470,10 @@
       "sma20": 217.9,
       "pct_above_ma": -3.28,
       "rsi14": 41.81,
-      "signal": false
+      "volume": 2457000,
+      "avg_volume_20wk": 3684985,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "Stryker Corporation",
@@ -4220,7 +5483,10 @@
       "sma20": 315.44,
       "pct_above_ma": -12.64,
       "rsi14": 33.19,
-      "signal": false
+      "volume": 19018300,
+      "avg_volume_20wk": 13054735,
+      "volume_ratio": 1.46,
+      "category": null
     },
     {
       "name": "Supermicro",
@@ -4230,7 +5496,10 @@
       "sma20": 33.59,
       "pct_above_ma": 19.39,
       "rsi14": 57.74,
-      "signal": false
+      "volume": 146861800,
+      "avg_volume_20wk": 248066330,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "Synchrony Financial",
@@ -4240,7 +5509,10 @@
       "sma20": 75.05,
       "pct_above_ma": 1.25,
       "rsi14": 51.51,
-      "signal": false
+      "volume": 10809700,
+      "avg_volume_20wk": 17385070,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Synopsys",
@@ -4250,7 +5522,10 @@
       "sma20": 441.76,
       "pct_above_ma": -10.05,
       "rsi14": 44.07,
-      "signal": false
+      "volume": 6409500,
+      "avg_volume_20wk": 9052170,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Sysco",
@@ -4260,7 +5535,10 @@
       "sma20": 79.95,
       "pct_above_ma": 4.08,
       "rsi14": 55.16,
-      "signal": false
+      "volume": 16157000,
+      "avg_volume_20wk": 16523395,
+      "volume_ratio": 0.98,
+      "category": null
     },
     {
       "name": "T-Mobile US",
@@ -4270,17 +5548,23 @@
       "sma20": 183.09,
       "pct_above_ma": -0.41,
       "rsi14": 45.9,
-      "signal": false
+      "volume": 15786000,
+      "avg_volume_20wk": 24434025,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "T. Rowe Price",
       "ticker": "TROW",
       "week_of": "2026-09-07",
-      "close": 106.29,
-      "sma20": 109.48,
+      "close": 104.98,
+      "sma20": 108.14,
       "pct_above_ma": -2.91,
       "rsi14": 48.94,
-      "signal": false
+      "volume": 5205900,
+      "avg_volume_20wk": 9368025,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "Take-Two Interactive",
@@ -4290,7 +5574,10 @@
       "sma20": 232.13,
       "pct_above_ma": -7.18,
       "rsi14": 43.43,
-      "signal": false
+      "volume": 8570600,
+      "avg_volume_20wk": 11877160,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "Tapestry, Inc.",
@@ -4300,7 +5587,10 @@
       "sma20": 138.2,
       "pct_above_ma": -14.26,
       "rsi14": 39.34,
-      "signal": false
+      "volume": 14457200,
+      "avg_volume_20wk": 13764480,
+      "volume_ratio": 1.05,
+      "category": null
     },
     {
       "name": "Targa Resources",
@@ -4310,7 +5600,10 @@
       "sma20": 271.23,
       "pct_above_ma": 7.01,
       "rsi14": 61.62,
-      "signal": true
+      "volume": 3508500,
+      "avg_volume_20wk": 5846150,
+      "volume_ratio": 0.6,
+      "category": "Strong Buy"
     },
     {
       "name": "Target Corporation",
@@ -4320,7 +5613,10 @@
       "sma20": 138.95,
       "pct_above_ma": 12.15,
       "rsi14": 64.62,
-      "signal": true
+      "volume": 11906100,
+      "avg_volume_20wk": 22570035,
+      "volume_ratio": 0.53,
+      "category": "Buy"
     },
     {
       "name": "TE Connectivity",
@@ -4330,7 +5626,10 @@
       "sma20": 206.36,
       "pct_above_ma": 2.71,
       "rsi14": 51.94,
-      "signal": false
+      "volume": 6601300,
+      "avg_volume_20wk": 11995820,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "Teledyne Technologies",
@@ -4340,7 +5639,10 @@
       "sma20": 633.37,
       "pct_above_ma": -4.67,
       "rsi14": 44.2,
-      "signal": false
+      "volume": 995500,
+      "avg_volume_20wk": 1576965,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "Teradyne",
@@ -4350,7 +5652,10 @@
       "sma20": 372.15,
       "pct_above_ma": 2.03,
       "rsi14": 55.05,
-      "signal": false
+      "volume": 9778900,
+      "avg_volume_20wk": 18909600,
+      "volume_ratio": 0.52,
+      "category": null
     },
     {
       "name": "Tesla, Inc.",
@@ -4360,7 +5665,10 @@
       "sma20": 379.46,
       "pct_above_ma": -3.69,
       "rsi14": 47.79,
-      "signal": false
+      "volume": 143463300,
+      "avg_volume_20wk": 213511755,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "Texas Instruments",
@@ -4370,7 +5678,10 @@
       "sma20": 285.98,
       "pct_above_ma": -6.04,
       "rsi14": 52.16,
-      "signal": false
+      "volume": 20786100,
+      "avg_volume_20wk": 37673775,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "Texas Pacific Land Corporation",
@@ -4380,7 +5691,10 @@
       "sma20": 386.74,
       "pct_above_ma": -4.56,
       "rsi14": 46.25,
-      "signal": false
+      "volume": 1222700,
+      "avg_volume_20wk": 1869845,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Textron",
@@ -4390,17 +5704,23 @@
       "sma20": 89.12,
       "pct_above_ma": -9.11,
       "rsi14": 40.48,
-      "signal": false
+      "volume": 8057400,
+      "avg_volume_20wk": 7538505,
+      "volume_ratio": 1.07,
+      "category": null
     },
     {
       "name": "Thermo Fisher Scientific",
       "ticker": "TMO",
       "week_of": "2026-09-07",
-      "close": 609.82,
-      "sma20": 530.64,
+      "close": 609.35,
+      "sma20": 530.23,
       "pct_above_ma": 14.92,
       "rsi14": 65.08,
-      "signal": true
+      "volume": 7990500,
+      "avg_volume_20wk": 10370185,
+      "volume_ratio": 0.77,
+      "category": "Buy"
     },
     {
       "name": "TJX Companies",
@@ -4410,17 +5730,23 @@
       "sma20": 151.47,
       "pct_above_ma": -16.8,
       "rsi14": 30.34,
-      "signal": false
+      "volume": 31664700,
+      "avg_volume_20wk": 29998885,
+      "volume_ratio": 1.06,
+      "category": null
     },
     {
       "name": "TKO Group Holdings",
       "ticker": "TKO",
       "week_of": "2026-09-07",
-      "close": 190.31,
-      "sma20": 192.2,
+      "close": 189.53,
+      "sma20": 191.42,
       "pct_above_ma": -0.98,
       "rsi14": 48.99,
-      "signal": false
+      "volume": 5308400,
+      "avg_volume_20wk": 6256985,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Trade Desk (The)",
@@ -4430,7 +5756,10 @@
       "sma20": 18.23,
       "pct_above_ma": -21.32,
       "rsi14": 31.03,
-      "signal": false
+      "volume": 57962600,
+      "avg_volume_20wk": 101830905,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Tractor Supply",
@@ -4440,7 +5769,10 @@
       "sma20": 31.93,
       "pct_above_ma": 3.39,
       "rsi14": 40.43,
-      "signal": false
+      "volume": 42181100,
+      "avg_volume_20wk": 57417305,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Trane Technologies",
@@ -4450,7 +5782,10 @@
       "sma20": 464.6,
       "pct_above_ma": -4.75,
       "rsi14": 45.54,
-      "signal": false
+      "volume": 3384200,
+      "avg_volume_20wk": 6029320,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "TransDigm Group",
@@ -4460,7 +5795,10 @@
       "sma20": 1232.71,
       "pct_above_ma": -7.49,
       "rsi14": 39.8,
-      "signal": false
+      "volume": 1406500,
+      "avg_volume_20wk": 1877165,
+      "volume_ratio": 0.75,
+      "category": null
     },
     {
       "name": "Travelers Companies (The)",
@@ -4470,7 +5808,10 @@
       "sma20": 337.95,
       "pct_above_ma": 11.02,
       "rsi14": 67.12,
-      "signal": true
+      "volume": 5639300,
+      "avg_volume_20wk": 8427205,
+      "volume_ratio": 0.67,
+      "category": "Buy"
     },
     {
       "name": "Trimble Inc.",
@@ -4480,7 +5821,10 @@
       "sma20": 56.26,
       "pct_above_ma": 2.49,
       "rsi14": 45.74,
-      "signal": false
+      "volume": 8456000,
+      "avg_volume_20wk": 14747900,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Truist Financial",
@@ -4490,7 +5834,10 @@
       "sma20": 50.12,
       "pct_above_ma": 0.55,
       "rsi14": 52.32,
-      "signal": false
+      "volume": 23692500,
+      "avg_volume_20wk": 37935915,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Tyler Technologies",
@@ -4500,7 +5847,10 @@
       "sma20": 320.34,
       "pct_above_ma": 5.1,
       "rsi14": 48.56,
-      "signal": false
+      "volume": 2771600,
+      "avg_volume_20wk": 4152150,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "Tyson Foods",
@@ -4510,7 +5860,10 @@
       "sma20": 58.29,
       "pct_above_ma": -9.11,
       "rsi14": 37.82,
-      "signal": false
+      "volume": 16730700,
+      "avg_volume_20wk": 15918455,
+      "volume_ratio": 1.05,
+      "category": null
     },
     {
       "name": "U.S. Bancorp",
@@ -4520,7 +5873,10 @@
       "sma20": 59.92,
       "pct_above_ma": 4.88,
       "rsi14": 60.96,
-      "signal": true
+      "volume": 21792000,
+      "avg_volume_20wk": 38573255,
+      "volume_ratio": 0.56,
+      "category": "Strong Buy"
     },
     {
       "name": "Uber",
@@ -4530,17 +5886,23 @@
       "sma20": 73.45,
       "pct_above_ma": -2.43,
       "rsi14": 45.36,
-      "signal": false
+      "volume": 108463000,
+      "avg_volume_20wk": 93992925,
+      "volume_ratio": 1.15,
+      "category": null
     },
     {
       "name": "UDR, Inc.",
       "ticker": "UDR",
       "week_of": "2026-09-07",
-      "close": 35.12,
-      "sma20": 37.92,
+      "close": 34.98,
+      "sma20": 37.77,
       "pct_above_ma": -7.39,
       "rsi14": 39.88,
-      "signal": false
+      "volume": 20425100,
+      "avg_volume_20wk": 19031065,
+      "volume_ratio": 1.07,
+      "category": null
     },
     {
       "name": "Ulta Beauty",
@@ -4550,7 +5912,10 @@
       "sma20": 503.76,
       "pct_above_ma": 8.54,
       "rsi14": 53.53,
-      "signal": false
+      "volume": 2164400,
+      "avg_volume_20wk": 3486750,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Union Pacific Corporation",
@@ -4560,7 +5925,10 @@
       "sma20": 280.9,
       "pct_above_ma": 1.24,
       "rsi14": 54.71,
-      "signal": false
+      "volume": 7794800,
+      "avg_volume_20wk": 13307555,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "United Airlines Holdings",
@@ -4570,7 +5938,10 @@
       "sma20": 114.48,
       "pct_above_ma": -4.07,
       "rsi14": 48.33,
-      "signal": false
+      "volume": 15052600,
+      "avg_volume_20wk": 22762410,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "United Parcel Service",
@@ -4580,7 +5951,10 @@
       "sma20": 104.57,
       "pct_above_ma": -4.11,
       "rsi14": 46.14,
-      "signal": false
+      "volume": 13570200,
+      "avg_volume_20wk": 25607245,
+      "volume_ratio": 0.53,
+      "category": null
     },
     {
       "name": "United Rentals",
@@ -4590,7 +5964,10 @@
       "sma20": 1049.79,
       "pct_above_ma": -5.78,
       "rsi14": 48.35,
-      "signal": false
+      "volume": 1859400,
+      "avg_volume_20wk": 2349160,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "UnitedHealth Group",
@@ -4600,7 +5977,10 @@
       "sma20": 398.15,
       "pct_above_ma": -5.37,
       "rsi14": 49.46,
-      "signal": false
+      "volume": 26602900,
+      "avg_volume_20wk": 28499315,
+      "volume_ratio": 0.93,
+      "category": null
     },
     {
       "name": "Universal Health Services",
@@ -4610,7 +5990,10 @@
       "sma20": 160.47,
       "pct_above_ma": 8.95,
       "rsi14": 52.46,
-      "signal": false
+      "volume": 2883400,
+      "avg_volume_20wk": 4632490,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Valero Energy",
@@ -4620,7 +6003,10 @@
       "sma20": 289.99,
       "pct_above_ma": 34.63,
       "rsi14": 80.81,
-      "signal": true
+      "volume": 12158800,
+      "avg_volume_20wk": 13875580,
+      "volume_ratio": 0.88,
+      "category": "Buy"
     },
     {
       "name": "Veeva Systems",
@@ -4630,7 +6016,10 @@
       "sma20": 199.63,
       "pct_above_ma": 31.44,
       "rsi14": 66.41,
-      "signal": true
+      "volume": 4261600,
+      "avg_volume_20wk": 12585610,
+      "volume_ratio": 0.34,
+      "category": "Buy"
     },
     {
       "name": "Ventas",
@@ -4640,7 +6029,10 @@
       "sma20": 89.57,
       "pct_above_ma": 0.47,
       "rsi14": 53.31,
-      "signal": false
+      "volume": 13945100,
+      "avg_volume_20wk": 18988845,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Veralto",
@@ -4650,7 +6042,10 @@
       "sma20": 90.97,
       "pct_above_ma": 3.44,
       "rsi14": 51.45,
-      "signal": false
+      "volume": 5308600,
+      "avg_volume_20wk": 9828500,
+      "volume_ratio": 0.54,
+      "category": null
     },
     {
       "name": "Verisign",
@@ -4660,17 +6055,23 @@
       "sma20": 282.24,
       "pct_above_ma": 3.71,
       "rsi14": 59.19,
-      "signal": false
+      "volume": 2994800,
+      "avg_volume_20wk": 3824905,
+      "volume_ratio": 0.78,
+      "category": null
     },
     {
       "name": "Verisk Analytics",
       "ticker": "VRSK",
       "week_of": "2026-09-07",
-      "close": 176.2,
-      "sma20": 183.26,
+      "close": 175.73,
+      "sma20": 182.77,
       "pct_above_ma": -3.85,
       "rsi14": 42.39,
-      "signal": false
+      "volume": 4483700,
+      "avg_volume_20wk": 9652575,
+      "volume_ratio": 0.46,
+      "category": null
     },
     {
       "name": "Verizon",
@@ -4680,7 +6081,10 @@
       "sma20": 46.64,
       "pct_above_ma": 8.52,
       "rsi14": 63.86,
-      "signal": true
+      "volume": 73543100,
+      "avg_volume_20wk": 118841925,
+      "volume_ratio": 0.62,
+      "category": "Strong Buy"
     },
     {
       "name": "Vertex Pharmaceuticals",
@@ -4690,7 +6094,10 @@
       "sma20": 480.71,
       "pct_above_ma": 7.23,
       "rsi14": 57.86,
-      "signal": false
+      "volume": 3769900,
+      "avg_volume_20wk": 6707335,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "Vertiv",
@@ -4700,7 +6107,10 @@
       "sma20": 299.23,
       "pct_above_ma": -14.11,
       "rsi14": 46.72,
-      "signal": false
+      "volume": 29372600,
+      "avg_volume_20wk": 28221895,
+      "volume_ratio": 1.04,
+      "category": null
     },
     {
       "name": "Viatris",
@@ -4710,7 +6120,10 @@
       "sma20": 16.36,
       "pct_above_ma": 0.94,
       "rsi14": 57.2,
-      "signal": false
+      "volume": 32093900,
+      "avg_volume_20wk": 49778840,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "Vici Properties",
@@ -4720,7 +6133,10 @@
       "sma20": 26.88,
       "pct_above_ma": -7.61,
       "rsi14": 35.88,
-      "signal": false
+      "volume": 42703600,
+      "avg_volume_20wk": 45440055,
+      "volume_ratio": 0.94,
+      "category": null
     },
     {
       "name": "Visa Inc.",
@@ -4730,7 +6146,10 @@
       "sma20": 347.14,
       "pct_above_ma": 6.71,
       "rsi14": 62.05,
-      "signal": true
+      "volume": 16701700,
+      "avg_volume_20wk": 37056340,
+      "volume_ratio": 0.45,
+      "category": "Strong Buy"
     },
     {
       "name": "Vistra Corp.",
@@ -4740,7 +6159,10 @@
       "sma20": 150.91,
       "pct_above_ma": -1.67,
       "rsi14": 47.76,
-      "signal": false
+      "volume": 18610600,
+      "avg_volume_20wk": 22576920,
+      "volume_ratio": 0.82,
+      "category": null
     },
     {
       "name": "Vivmark Residential",
@@ -4750,7 +6172,10 @@
       "sma20": 66.31,
       "pct_above_ma": -1.16,
       "rsi14": 51.4,
-      "signal": false
+      "volume": 28650800,
+      "avg_volume_20wk": 18259235,
+      "volume_ratio": 1.57,
+      "category": null
     },
     {
       "name": "Vulcan Materials Company",
@@ -4760,7 +6185,10 @@
       "sma20": 281.62,
       "pct_above_ma": -10.26,
       "rsi14": 37.54,
-      "signal": false
+      "volume": 4021700,
+      "avg_volume_20wk": 5347650,
+      "volume_ratio": 0.75,
+      "category": null
     },
     {
       "name": "W. R. Berkley Corporation",
@@ -4770,7 +6198,10 @@
       "sma20": 69.11,
       "pct_above_ma": 1.14,
       "rsi14": 51.5,
-      "signal": false
+      "volume": 13830200,
+      "avg_volume_20wk": 9815375,
+      "volume_ratio": 1.41,
+      "category": null
     },
     {
       "name": "W. W. Grainger",
@@ -4780,7 +6211,10 @@
       "sma20": 1306.52,
       "pct_above_ma": -2.03,
       "rsi14": 52.5,
-      "signal": false
+      "volume": 1060400,
+      "avg_volume_20wk": 1380215,
+      "volume_ratio": 0.77,
+      "category": null
     },
     {
       "name": "Wabtec",
@@ -4790,7 +6224,10 @@
       "sma20": 275.06,
       "pct_above_ma": 2.97,
       "rsi14": 58.13,
-      "signal": false
+      "volume": 2642100,
+      "avg_volume_20wk": 4378355,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Walmart",
@@ -4800,7 +6237,10 @@
       "sma20": 115.32,
       "pct_above_ma": -7.08,
       "rsi14": 41.85,
-      "signal": false
+      "volume": 72369100,
+      "avg_volume_20wk": 112548800,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "Walt Disney Company (The)",
@@ -4810,7 +6250,10 @@
       "sma20": 101.87,
       "pct_above_ma": 4.59,
       "rsi14": 55.24,
-      "signal": false
+      "volume": 29296300,
+      "avg_volume_20wk": 47117340,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Warner Bros. Discovery",
@@ -4820,7 +6263,10 @@
       "sma20": 27.08,
       "pct_above_ma": 3.54,
       "rsi14": 58.81,
-      "signal": false
+      "volume": 69207600,
+      "avg_volume_20wk": 98128715,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Waste Management",
@@ -4830,7 +6276,10 @@
       "sma20": 222.33,
       "pct_above_ma": -3.99,
       "rsi14": 41.82,
-      "signal": false
+      "volume": 8661000,
+      "avg_volume_20wk": 10288010,
+      "volume_ratio": 0.84,
+      "category": null
     },
     {
       "name": "Waters Corporation",
@@ -4840,7 +6289,10 @@
       "sma20": 375.35,
       "pct_above_ma": 8.79,
       "rsi14": 62.28,
-      "signal": true
+      "volume": 2234600,
+      "avg_volume_20wk": 4450620,
+      "volume_ratio": 0.5,
+      "category": "Strong Buy"
     },
     {
       "name": "WEC Energy Group",
@@ -4850,7 +6302,10 @@
       "sma20": 110.88,
       "pct_above_ma": -5.0,
       "rsi14": 42.19,
-      "signal": false
+      "volume": 9981000,
+      "avg_volume_20wk": 10501760,
+      "volume_ratio": 0.95,
+      "category": null
     },
     {
       "name": "Wells Fargo",
@@ -4860,7 +6315,10 @@
       "sma20": 83.42,
       "pct_above_ma": 8.24,
       "rsi14": 59.93,
-      "signal": false
+      "volume": 50352600,
+      "avg_volume_20wk": 73153845,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "Welltower",
@@ -4870,7 +6328,10 @@
       "sma20": 226.34,
       "pct_above_ma": 4.1,
       "rsi14": 59.81,
-      "signal": false
+      "volume": 9073200,
+      "avg_volume_20wk": 15623990,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "West Pharmaceutical Services",
@@ -4880,7 +6341,10 @@
       "sma20": 335.76,
       "pct_above_ma": 3.12,
       "rsi14": 58.7,
-      "signal": false
+      "volume": 2249100,
+      "avg_volume_20wk": 3466010,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Western Digital",
@@ -4890,7 +6354,10 @@
       "sma20": 512.63,
       "pct_above_ma": -12.77,
       "rsi14": 50.14,
-      "signal": false
+      "volume": 20075300,
+      "avg_volume_20wk": 38575385,
+      "volume_ratio": 0.52,
+      "category": null
     },
     {
       "name": "Weyerhaeuser",
@@ -4900,7 +6367,10 @@
       "sma20": 23.82,
       "pct_above_ma": -7.38,
       "rsi14": 40.21,
-      "signal": false
+      "volume": 21801400,
+      "avg_volume_20wk": 25924860,
+      "volume_ratio": 0.84,
+      "category": null
     },
     {
       "name": "Williams-Sonoma, Inc.",
@@ -4910,7 +6380,10 @@
       "sma20": 218.33,
       "pct_above_ma": 3.62,
       "rsi14": 54.73,
-      "signal": false
+      "volume": 4386900,
+      "avg_volume_20wk": 5436750,
+      "volume_ratio": 0.81,
+      "category": null
     },
     {
       "name": "Williams Companies",
@@ -4920,7 +6393,10 @@
       "sma20": 73.04,
       "pct_above_ma": -0.25,
       "rsi14": 52.64,
-      "signal": false
+      "volume": 28281700,
+      "avg_volume_20wk": 33816640,
+      "volume_ratio": 0.84,
+      "category": null
     },
     {
       "name": "Willis Towers Watson",
@@ -4930,7 +6406,10 @@
       "sma20": 290.97,
       "pct_above_ma": 8.47,
       "rsi14": 53.97,
-      "signal": false
+      "volume": 1582200,
+      "avg_volume_20wk": 3215010,
+      "volume_ratio": 0.49,
+      "category": null
     },
     {
       "name": "Workday, Inc.",
@@ -4940,7 +6419,10 @@
       "sma20": 152.48,
       "pct_above_ma": 21.78,
       "rsi14": 58.25,
-      "signal": false
+      "volume": 9430000,
+      "avg_volume_20wk": 23367860,
+      "volume_ratio": 0.4,
+      "category": null
     },
     {
       "name": "Wynn Resorts",
@@ -4950,17 +6432,23 @@
       "sma20": 99.2,
       "pct_above_ma": -11.59,
       "rsi14": 34.98,
-      "signal": false
+      "volume": 7949500,
+      "avg_volume_20wk": 7387075,
+      "volume_ratio": 1.08,
+      "category": null
     },
     {
       "name": "Xcel Energy",
       "ticker": "XEL",
       "week_of": "2026-09-07",
-      "close": 75.5,
-      "sma20": 78.8,
+      "close": 74.9,
+      "sma20": 78.17,
       "pct_above_ma": -4.19,
       "rsi14": 43.56,
-      "signal": false
+      "volume": 25814400,
+      "avg_volume_20wk": 26177135,
+      "volume_ratio": 0.99,
+      "category": null
     },
     {
       "name": "Xylem Inc.",
@@ -4970,7 +6458,10 @@
       "sma20": 113.6,
       "pct_above_ma": -5.84,
       "rsi14": 36.7,
-      "signal": false
+      "volume": 15712800,
+      "avg_volume_20wk": 9758275,
+      "volume_ratio": 1.61,
+      "category": null
     },
     {
       "name": "Yum! Brands",
@@ -4980,7 +6471,10 @@
       "sma20": 151.75,
       "pct_above_ma": -7.17,
       "rsi14": 40.21,
-      "signal": false
+      "volume": 9562300,
+      "avg_volume_20wk": 11395525,
+      "volume_ratio": 0.84,
+      "category": null
     },
     {
       "name": "Zebra Technologies",
@@ -4990,7 +6484,10 @@
       "sma20": 285.56,
       "pct_above_ma": 22.7,
       "rsi14": 66.22,
-      "signal": true
+      "volume": 2073400,
+      "avg_volume_20wk": 4227680,
+      "volume_ratio": 0.49,
+      "category": "Buy"
     },
     {
       "name": "Zimmer Biomet",
@@ -5000,7 +6497,10 @@
       "sma20": 90.89,
       "pct_above_ma": 2.86,
       "rsi14": 50.58,
-      "signal": false
+      "volume": 8441300,
+      "avg_volume_20wk": 11214340,
+      "volume_ratio": 0.75,
+      "category": null
     },
     {
       "name": "Zoetis",
@@ -5010,7 +6510,10 @@
       "sma20": 78.36,
       "pct_above_ma": -6.88,
       "rsi14": 31.23,
-      "signal": false
+      "volume": 21751000,
+      "avg_volume_20wk": 33104710,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Alnylam Pharmaceuticals",
@@ -5020,7 +6523,10 @@
       "sma20": 271.26,
       "pct_above_ma": -8.32,
       "rsi14": 41.2,
-      "signal": false
+      "volume": 6238000,
+      "avg_volume_20wk": 7578750,
+      "volume_ratio": 0.82,
+      "category": null
     },
     {
       "name": "Arm Holdings",
@@ -5030,7 +6536,10 @@
       "sma20": 287.89,
       "pct_above_ma": -8.02,
       "rsi14": 52.48,
-      "signal": false
+      "volume": 16412400,
+      "avg_volume_20wk": 40219650,
+      "volume_ratio": 0.41,
+      "category": null
     },
     {
       "name": "ASML Holding",
@@ -5040,7 +6549,10 @@
       "sma20": 1706.3,
       "pct_above_ma": -0.47,
       "rsi14": 54.89,
-      "signal": false
+      "volume": 4372100,
+      "avg_volume_20wk": 8246220,
+      "volume_ratio": 0.53,
+      "category": null
     },
     {
       "name": "Astera Labs",
@@ -5050,7 +6562,10 @@
       "sma20": 316.78,
       "pct_above_ma": -8.07,
       "rsi14": 51.73,
-      "signal": false
+      "volume": 14401600,
+      "avg_volume_20wk": 25028405,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "Coca-Cola Europacific Partners",
@@ -5060,7 +6575,10 @@
       "sma20": 101.36,
       "pct_above_ma": 1.39,
       "rsi14": 52.4,
-      "signal": false
+      "volume": 6109000,
+      "avg_volume_20wk": 8873090,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "CoreWeave",
@@ -5070,7 +6588,10 @@
       "sma20": 95.24,
       "pct_above_ma": -6.56,
       "rsi14": 48.81,
-      "signal": false
+      "volume": 118779500,
+      "avg_volume_20wk": 136477360,
+      "volume_ratio": 0.87,
+      "category": null
     },
     {
       "name": "Ferrovial",
@@ -5080,7 +6601,10 @@
       "sma20": 65.12,
       "pct_above_ma": -13.78,
       "rsi14": 32.41,
-      "signal": false
+      "volume": 6281400,
+      "avg_volume_20wk": 7252190,
+      "volume_ratio": 0.87,
+      "category": null
     },
     {
       "name": "Mercado Libre",
@@ -5090,7 +6614,10 @@
       "sma20": 1771.8,
       "pct_above_ma": 7.09,
       "rsi14": 53.51,
-      "signal": false
+      "volume": 1638400,
+      "avg_volume_20wk": 2419925,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "MicroStrategy",
@@ -5100,7 +6627,10 @@
       "sma20": 124.45,
       "pct_above_ma": 5.24,
       "rsi14": 49.54,
-      "signal": false
+      "volume": 71266200,
+      "avg_volume_20wk": 101942780,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Nebius Group",
@@ -5110,7 +6640,10 @@
       "sma20": 216.03,
       "pct_above_ma": 3.94,
       "rsi14": 55.95,
-      "signal": false
+      "volume": 62424000,
+      "avg_volume_20wk": 95078215,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "PDD Holdings",
@@ -5120,7 +6653,10 @@
       "sma20": 86.48,
       "pct_above_ma": -10.02,
       "rsi14": 36.93,
-      "signal": false
+      "volume": 31652200,
+      "avg_volume_20wk": 38460020,
+      "volume_ratio": 0.82,
+      "category": null
     },
     {
       "name": "Rocket Lab",
@@ -5130,7 +6666,10 @@
       "sma20": 89.89,
       "pct_above_ma": -29.97,
       "rsi14": 42.85,
-      "signal": false
+      "volume": 85204500,
+      "avg_volume_20wk": 112708695,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "Shopify",
@@ -5140,7 +6679,10 @@
       "sma20": 124.1,
       "pct_above_ma": 3.78,
       "rsi14": 49.47,
-      "signal": false
+      "volume": 51254000,
+      "avg_volume_20wk": 48593380,
+      "volume_ratio": 1.05,
+      "category": null
     },
     {
       "name": "Thomson Reuters",
@@ -5150,7 +6692,10 @@
       "sma20": 92.16,
       "pct_above_ma": 5.64,
       "rsi14": 49.08,
-      "signal": false
+      "volume": 5805500,
+      "avg_volume_20wk": 9677335,
+      "volume_ratio": 0.6,
+      "category": null
     }
   ],
   "failed": [
