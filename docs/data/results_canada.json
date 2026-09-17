@@ -1,6 +1,6 @@
 {
   "run_type": "canada_index",
-  "generated_at": "2026-09-15T22:06:11.090797+00:00",
+  "generated_at": "2026-09-17T00:35:42.417517+00:00",
   "results": [
     {
       "name": "5N Plus Inc.",
@@ -10,7 +10,10 @@
       "sma20": 35.54,
       "pct_above_ma": -24.6,
       "rsi14": 41.25,
-      "signal": false
+      "volume": 3874000,
+      "avg_volume_20wk": 3155085,
+      "volume_ratio": 1.23,
+      "category": null
     },
     {
       "name": "AbraSilver Resource Corp.",
@@ -20,7 +23,10 @@
       "sma20": 15.56,
       "pct_above_ma": -8.8,
       "rsi14": 48.67,
-      "signal": false
+      "volume": 3079400,
+      "avg_volume_20wk": 2971525,
+      "volume_ratio": 1.04,
+      "category": null
     },
     {
       "name": "Advantage Energy Ltd.",
@@ -30,7 +36,10 @@
       "sma20": 10.48,
       "pct_above_ma": 0.84,
       "rsi14": 48.28,
-      "signal": false
+      "volume": 2851200,
+      "avg_volume_20wk": 4297910,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Aecon Group Inc.",
@@ -40,7 +49,10 @@
       "sma20": 47.01,
       "pct_above_ma": -5.1,
       "rsi14": 50.84,
-      "signal": false
+      "volume": 1792100,
+      "avg_volume_20wk": 2296485,
+      "volume_ratio": 0.78,
+      "category": null
     },
     {
       "name": "Agnico Eagle Mines Limited",
@@ -50,7 +62,10 @@
       "sma20": 242.09,
       "pct_above_ma": 14.87,
       "rsi14": 57.22,
-      "signal": false
+      "volume": 2452900,
+      "avg_volume_20wk": 5052145,
+      "volume_ratio": 0.49,
+      "category": null
     },
     {
       "name": "Air Canada",
@@ -60,7 +75,10 @@
       "sma20": 24.01,
       "pct_above_ma": 14.68,
       "rsi14": 63.09,
-      "signal": true
+      "volume": 9087600,
+      "avg_volume_20wk": 13065225,
+      "volume_ratio": 0.7,
+      "category": "Buy"
     },
     {
       "name": "Alamos Gold Inc.",
@@ -70,7 +88,10 @@
       "sma20": 48.32,
       "pct_above_ma": 3.05,
       "rsi14": 50.0,
-      "signal": false
+      "volume": 2992200,
+      "avg_volume_20wk": 6264485,
+      "volume_ratio": 0.48,
+      "category": null
     },
     {
       "name": "Algonquin Power & Utilities Corp.",
@@ -80,7 +101,10 @@
       "sma20": 8.1,
       "pct_above_ma": -9.28,
       "rsi14": 37.55,
-      "signal": false
+      "volume": 10363100,
+      "avg_volume_20wk": 12236355,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Alimentation Couche-Tard Inc.",
@@ -90,7 +114,10 @@
       "sma20": 85.09,
       "pct_above_ma": -5.4,
       "rsi14": 44.84,
-      "signal": false
+      "volume": 6186100,
+      "avg_volume_20wk": 7134510,
+      "volume_ratio": 0.87,
+      "category": null
     },
     {
       "name": "Allied Gold Corporation",
@@ -100,7 +127,10 @@
       "sma20": 33.74,
       "pct_above_ma": -6.05,
       "rsi14": 45.02,
-      "signal": false
+      "volume": 2069000,
+      "avg_volume_20wk": 6151455,
+      "volume_ratio": 0.34,
+      "category": null
     },
     {
       "name": "Allied Properties Real Estate Investment Trust",
@@ -110,7 +140,10 @@
       "sma20": 9.59,
       "pct_above_ma": -15.71,
       "rsi14": 28.0,
-      "signal": false
+      "volume": 2558700,
+      "avg_volume_20wk": 2860395,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "AltaGas Ltd.",
@@ -120,7 +153,10 @@
       "sma20": 53.59,
       "pct_above_ma": -3.14,
       "rsi14": 51.57,
-      "signal": false
+      "volume": 2901800,
+      "avg_volume_20wk": 4473110,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Altus Group Limited",
@@ -130,7 +166,10 @@
       "sma20": 45.92,
       "pct_above_ma": -0.54,
       "rsi14": 47.08,
-      "signal": false
+      "volume": 587400,
+      "avg_volume_20wk": 772680,
+      "volume_ratio": 0.76,
+      "category": null
     },
     {
       "name": "Americas Gold And Silver Corporation",
@@ -140,7 +179,10 @@
       "sma20": 7.22,
       "pct_above_ma": -3.3,
       "rsi14": 48.17,
-      "signal": false
+      "volume": 3668100,
+      "avg_volume_20wk": 6453510,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "ARC Resources Ltd.",
@@ -150,7 +192,10 @@
       "sma20": 29.64,
       "pct_above_ma": 14.42,
       "rsi14": 67.52,
-      "signal": true
+      "volume": 0,
+      "avg_volume_20wk": 23193748,
+      "volume_ratio": 0.0,
+      "category": "Buy"
     },
     {
       "name": "Aris Mining Corporation",
@@ -160,7 +205,10 @@
       "sma20": 23.83,
       "pct_above_ma": 13.64,
       "rsi14": 56.82,
-      "signal": false
+      "volume": 1974000,
+      "avg_volume_20wk": 3265055,
+      "volume_ratio": 0.6,
+      "category": null
     },
     {
       "name": "Aritzia Inc.",
@@ -170,7 +218,10 @@
       "sma20": 145.36,
       "pct_above_ma": -15.51,
       "rsi14": 41.7,
-      "signal": false
+      "volume": 2146600,
+      "avg_volume_20wk": 3422455,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "ATCO Ltd.",
@@ -180,7 +231,10 @@
       "sma20": 72.74,
       "pct_above_ma": -1.52,
       "rsi14": 52.51,
-      "signal": false
+      "volume": 1121100,
+      "avg_volume_20wk": 1403990,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "Athabasca Oil Corporation",
@@ -190,7 +244,10 @@
       "sma20": 10.95,
       "pct_above_ma": -0.74,
       "rsi14": 55.44,
-      "signal": false
+      "volume": 5983300,
+      "avg_volume_20wk": 9444770,
+      "volume_ratio": 0.63,
+      "category": null
     },
     {
       "name": "AtkinsR\u00e9alis Group Inc.",
@@ -200,7 +257,10 @@
       "sma20": 86.87,
       "pct_above_ma": -1.87,
       "rsi14": 44.89,
-      "signal": false
+      "volume": 1898900,
+      "avg_volume_20wk": 2792225,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "ATS Corporation",
@@ -210,7 +270,10 @@
       "sma20": 37.01,
       "pct_above_ma": -28.27,
       "rsi14": 30.31,
-      "signal": false
+      "volume": 1523900,
+      "avg_volume_20wk": 1760590,
+      "volume_ratio": 0.87,
+      "category": null
     },
     {
       "name": "Avino Silver & Gold Mines Ltd.",
@@ -220,7 +283,10 @@
       "sma20": 9.13,
       "pct_above_ma": -1.47,
       "rsi14": 48.95,
-      "signal": false
+      "volume": 2981900,
+      "avg_volume_20wk": 3731150,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "Aya Gold & Silver Inc.",
@@ -230,7 +296,10 @@
       "sma20": 30.25,
       "pct_above_ma": 28.12,
       "rsi14": 66.51,
-      "signal": true
+      "volume": 4163600,
+      "avg_volume_20wk": 6038385,
+      "volume_ratio": 0.69,
+      "category": "Buy"
     },
     {
       "name": "B2Gold Corp.",
@@ -240,7 +309,10 @@
       "sma20": 6.38,
       "pct_above_ma": 16.88,
       "rsi14": 58.35,
-      "signal": false
+      "volume": 9522600,
+      "avg_volume_20wk": 23287190,
+      "volume_ratio": 0.41,
+      "category": null
     },
     {
       "name": "Badger Infrastructure Solutions Ltd.",
@@ -250,7 +322,10 @@
       "sma20": 88.13,
       "pct_above_ma": -4.39,
       "rsi14": 51.97,
-      "signal": false
+      "volume": 415300,
+      "avg_volume_20wk": 702885,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "Bank of Montreal",
@@ -260,7 +335,10 @@
       "sma20": 237.06,
       "pct_above_ma": 2.28,
       "rsi14": 62.94,
-      "signal": true
+      "volume": 5375200,
+      "avg_volume_20wk": 11187315,
+      "volume_ratio": 0.48,
+      "category": "Strong Buy"
     },
     {
       "name": "Bank of Nova Scotia",
@@ -270,7 +348,10 @@
       "sma20": 119.06,
       "pct_above_ma": 8.88,
       "rsi14": 71.9,
-      "signal": true
+      "volume": 15390900,
+      "avg_volume_20wk": 18498415,
+      "volume_ratio": 0.83,
+      "category": "Strong Buy"
     },
     {
       "name": "Barrick Gold Corporation",
@@ -280,7 +361,10 @@
       "sma20": 56.43,
       "pct_above_ma": 7.24,
       "rsi14": 54.36,
-      "signal": false
+      "volume": 14781300,
+      "avg_volume_20wk": 22730320,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Bausch Health Companies Inc.",
@@ -290,37 +374,49 @@
       "sma20": 7.74,
       "pct_above_ma": 4.66,
       "rsi14": 50.58,
-      "signal": false
+      "volume": 2002700,
+      "avg_volume_20wk": 2949830,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Baytex Energy Corp.",
       "ticker": "BTE.TO",
       "week_of": "2026-09-07",
-      "close": 6.96,
-      "sma20": 6.36,
+      "close": 6.94,
+      "sma20": 6.33,
       "pct_above_ma": 9.51,
       "rsi14": 64.93,
-      "signal": true
+      "volume": 21499400,
+      "avg_volume_20wk": 23266340,
+      "volume_ratio": 0.92,
+      "category": "Strong Buy"
     },
     {
       "name": "BCE Inc.",
       "ticker": "BCE.TO",
       "week_of": "2026-09-07",
-      "close": 32.39,
-      "sma20": 32.2,
+      "close": 31.95,
+      "sma20": 31.77,
       "pct_above_ma": 0.57,
       "rsi14": 51.02,
-      "signal": false
+      "volume": 17068900,
+      "avg_volume_20wk": 21052230,
+      "volume_ratio": 0.81,
+      "category": null
     },
     {
       "name": "Birchcliff Energy Ltd.",
       "ticker": "BIR.TO",
       "week_of": "2026-09-07",
-      "close": 6.32,
-      "sma20": 6.41,
+      "close": 6.29,
+      "sma20": 6.38,
       "pct_above_ma": -1.42,
       "rsi14": 46.36,
-      "signal": false
+      "volume": 5160800,
+      "avg_volume_20wk": 5979090,
+      "volume_ratio": 0.86,
+      "category": null
     },
     {
       "name": "Bird Construction Inc.",
@@ -330,7 +426,10 @@
       "sma20": 64.26,
       "pct_above_ma": 11.98,
       "rsi14": 66.88,
-      "signal": true
+      "volume": 1083700,
+      "avg_volume_20wk": 1454715,
+      "volume_ratio": 0.74,
+      "category": "Buy"
     },
     {
       "name": "BlackBerry Limited",
@@ -340,7 +439,10 @@
       "sma20": 11.95,
       "pct_above_ma": -11.24,
       "rsi14": 50.48,
-      "signal": false
+      "volume": 7994800,
+      "avg_volume_20wk": 23823940,
+      "volume_ratio": 0.34,
+      "category": null
     },
     {
       "name": "Boardwalk Real Estate Investment Trust",
@@ -350,7 +452,10 @@
       "sma20": 64.64,
       "pct_above_ma": -3.7,
       "rsi14": 41.3,
-      "signal": false
+      "volume": 346336,
+      "avg_volume_20wk": 610636,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Bombardier Inc.",
@@ -360,7 +465,10 @@
       "sma20": 318.81,
       "pct_above_ma": -5.64,
       "rsi14": 49.31,
-      "signal": false
+      "volume": 1432154,
+      "avg_volume_20wk": 1628721,
+      "volume_ratio": 0.88,
+      "category": null
     },
     {
       "name": "Boyd Group Services Inc.",
@@ -370,7 +478,10 @@
       "sma20": 139.32,
       "pct_above_ma": -10.28,
       "rsi14": 32.77,
-      "signal": false
+      "volume": 673700,
+      "avg_volume_20wk": 523265,
+      "volume_ratio": 1.29,
+      "category": null
     },
     {
       "name": "Brookfield Asset Management Ltd.",
@@ -380,7 +491,10 @@
       "sma20": 66.95,
       "pct_above_ma": -2.2,
       "rsi14": 46.51,
-      "signal": false
+      "volume": 5896000,
+      "avg_volume_20wk": 8687335,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Brookfield Business Corporation",
@@ -390,7 +504,10 @@
       "sma20": 42.86,
       "pct_above_ma": -14.61,
       "rsi14": 31.53,
-      "signal": false
+      "volume": 187100,
+      "avg_volume_20wk": 606495,
+      "volume_ratio": 0.31,
+      "category": null
     },
     {
       "name": "Brookfield Corporation",
@@ -400,7 +517,10 @@
       "sma20": 60.46,
       "pct_above_ma": -12.61,
       "rsi14": 33.27,
-      "signal": false
+      "volume": 11648500,
+      "avg_volume_20wk": 13137590,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "Brookfield Infrastructure Partners L.P.",
@@ -410,7 +530,10 @@
       "sma20": 52.92,
       "pct_above_ma": -3.47,
       "rsi14": 46.95,
-      "signal": false
+      "volume": 1887869,
+      "avg_volume_20wk": 2197978,
+      "volume_ratio": 0.86,
+      "category": null
     },
     {
       "name": "Brookfield Renewable Partners L.P.",
@@ -420,7 +543,10 @@
       "sma20": 46.42,
       "pct_above_ma": -9.24,
       "rsi14": 42.51,
-      "signal": false
+      "volume": 1795021,
+      "avg_volume_20wk": 1658784,
+      "volume_ratio": 1.08,
+      "category": null
     },
     {
       "name": "BRP Inc.",
@@ -430,7 +556,10 @@
       "sma20": 84.41,
       "pct_above_ma": 0.17,
       "rsi14": 47.37,
-      "signal": false
+      "volume": 1329600,
+      "avg_volume_20wk": 1412125,
+      "volume_ratio": 0.94,
+      "category": null
     },
     {
       "name": "CAE Inc.",
@@ -440,7 +569,10 @@
       "sma20": 35.28,
       "pct_above_ma": -5.88,
       "rsi14": 39.87,
-      "signal": false
+      "volume": 3246100,
+      "avg_volume_20wk": 4605675,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Cameco Corporation",
@@ -450,7 +582,10 @@
       "sma20": 141.04,
       "pct_above_ma": -4.99,
       "rsi14": 46.24,
-      "signal": false
+      "volume": 2953700,
+      "avg_volume_20wk": 4636805,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "Canadian Apartment Properties Real Estate Investment Trust",
@@ -460,7 +595,10 @@
       "sma20": 34.3,
       "pct_above_ma": -6.31,
       "rsi14": 34.5,
-      "signal": false
+      "volume": 1945742,
+      "avg_volume_20wk": 2092973,
+      "volume_ratio": 0.93,
+      "category": null
     },
     {
       "name": "Canadian Imperial Bank of Commerce",
@@ -470,7 +608,10 @@
       "sma20": 159.91,
       "pct_above_ma": -0.63,
       "rsi14": 55.6,
-      "signal": false
+      "volume": 8885800,
+      "avg_volume_20wk": 11224575,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "Canadian National Railway Company",
@@ -480,7 +621,10 @@
       "sma20": 167.98,
       "pct_above_ma": 0.96,
       "rsi14": 56.77,
-      "signal": false
+      "volume": 7259600,
+      "avg_volume_20wk": 7588715,
+      "volume_ratio": 0.96,
+      "category": null
     },
     {
       "name": "Canadian Natural Resources Limited",
@@ -490,7 +634,10 @@
       "sma20": 63.2,
       "pct_above_ma": 9.69,
       "rsi14": 62.15,
-      "signal": true
+      "volume": 98774200,
+      "avg_volume_20wk": 65248965,
+      "volume_ratio": 1.51,
+      "category": "Strongest Buy"
     },
     {
       "name": "Canadian Pacific Kansas City Limited",
@@ -500,7 +647,10 @@
       "sma20": 124.95,
       "pct_above_ma": -0.89,
       "rsi14": 52.36,
-      "signal": false
+      "volume": 4957300,
+      "avg_volume_20wk": 6004085,
+      "volume_ratio": 0.83,
+      "category": null
     },
     {
       "name": "Canadian Tire Corporation Limited",
@@ -510,7 +660,10 @@
       "sma20": 189.81,
       "pct_above_ma": -1.48,
       "rsi14": 48.75,
-      "signal": false
+      "volume": 593800,
+      "avg_volume_20wk": 1016325,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "Canadian Utilities Limited",
@@ -520,7 +673,10 @@
       "sma20": 51.41,
       "pct_above_ma": -2.7,
       "rsi14": 49.71,
-      "signal": false
+      "volume": 1777500,
+      "avg_volume_20wk": 2935445,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "Capital Power Corporation",
@@ -530,7 +686,10 @@
       "sma20": 67.87,
       "pct_above_ma": -10.39,
       "rsi14": 39.66,
-      "signal": false
+      "volume": 2847700,
+      "avg_volume_20wk": 2937870,
+      "volume_ratio": 0.97,
+      "category": null
     },
     {
       "name": "Capstone Copper Corp.",
@@ -540,7 +699,10 @@
       "sma20": 13.84,
       "pct_above_ma": 3.83,
       "rsi14": 53.05,
-      "signal": false
+      "volume": 15027000,
+      "avg_volume_20wk": 17904520,
+      "volume_ratio": 0.84,
+      "category": null
     },
     {
       "name": "Cargojet Inc.",
@@ -550,17 +712,23 @@
       "sma20": 83.76,
       "pct_above_ma": -4.23,
       "rsi14": 43.31,
-      "signal": false
+      "volume": 631200,
+      "avg_volume_20wk": 538760,
+      "volume_ratio": 1.17,
+      "category": null
     },
     {
       "name": "CCL Industries Inc.",
       "ticker": "CCL-B.TO",
       "week_of": "2026-09-07",
-      "close": 93.83,
-      "sma20": 90.16,
+      "close": 93.47,
+      "sma20": 89.82,
       "pct_above_ma": 4.07,
       "rsi14": 56.96,
-      "signal": false
+      "volume": 2053700,
+      "avg_volume_20wk": 2054480,
+      "volume_ratio": 1.0,
+      "category": null
     },
     {
       "name": "Celestica Inc.",
@@ -570,17 +738,23 @@
       "sma20": 482.35,
       "pct_above_ma": -0.44,
       "rsi14": 53.4,
-      "signal": false
+      "volume": 1681700,
+      "avg_volume_20wk": 2049750,
+      "volume_ratio": 0.82,
+      "category": null
     },
     {
       "name": "Cenovus Energy Inc.",
       "ticker": "CVE.TO",
       "week_of": "2026-09-07",
-      "close": 45.89,
-      "sma20": 40.33,
+      "close": 45.67,
+      "sma20": 40.14,
       "pct_above_ma": 13.78,
       "rsi14": 66.92,
-      "signal": true
+      "volume": 23259200,
+      "avg_volume_20wk": 27141200,
+      "volume_ratio": 0.86,
+      "category": "Buy"
     },
     {
       "name": "Centerra Gold Inc.",
@@ -590,7 +764,10 @@
       "sma20": 25.57,
       "pct_above_ma": 22.75,
       "rsi14": 64.95,
-      "signal": true
+      "volume": 2011500,
+      "avg_volume_20wk": 3653515,
+      "volume_ratio": 0.55,
+      "category": "Buy"
     },
     {
       "name": "CES Energy Solutions Corp.",
@@ -600,7 +777,10 @@
       "sma20": 17.7,
       "pct_above_ma": 13.52,
       "rsi14": 64.93,
-      "signal": true
+      "volume": 2479000,
+      "avg_volume_20wk": 2665235,
+      "volume_ratio": 0.93,
+      "category": "Buy"
     },
     {
       "name": "CGI Inc.",
@@ -610,7 +790,10 @@
       "sma20": 95.87,
       "pct_above_ma": 1.54,
       "rsi14": 45.68,
-      "signal": false
+      "volume": 2308800,
+      "avg_volume_20wk": 3161055,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Chartwell Retirement Residences",
@@ -620,7 +803,10 @@
       "sma20": 21.42,
       "pct_above_ma": -6.04,
       "rsi14": 42.84,
-      "signal": false
+      "volume": 1626917,
+      "avg_volume_20wk": 2383616,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Choice Properties Real Estate Investment Trust",
@@ -630,7 +816,10 @@
       "sma20": 15.67,
       "pct_above_ma": -3.78,
       "rsi14": 43.03,
-      "signal": false
+      "volume": 2735100,
+      "avg_volume_20wk": 3958430,
+      "volume_ratio": 0.69,
+      "category": null
     },
     {
       "name": "Cogeco Communications Inc.",
@@ -640,7 +829,10 @@
       "sma20": 62.01,
       "pct_above_ma": -7.82,
       "rsi14": 36.98,
-      "signal": false
+      "volume": 378500,
+      "avg_volume_20wk": 739055,
+      "volume_ratio": 0.51,
+      "category": null
     },
     {
       "name": "Colliers International Group Inc.",
@@ -650,7 +842,10 @@
       "sma20": 136.93,
       "pct_above_ma": -5.51,
       "rsi14": 37.75,
-      "signal": false
+      "volume": 527500,
+      "avg_volume_20wk": 493235,
+      "volume_ratio": 1.07,
+      "category": null
     },
     {
       "name": "Constellation Software Inc.",
@@ -660,7 +855,10 @@
       "sma20": 2854.56,
       "pct_above_ma": -0.93,
       "rsi14": 47.34,
-      "signal": false
+      "volume": 236600,
+      "avg_volume_20wk": 294890,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "Crombie Real Estate Investment Trust",
@@ -670,7 +868,10 @@
       "sma20": 16.86,
       "pct_above_ma": -7.9,
       "rsi14": 35.44,
-      "signal": false
+      "volume": 648000,
+      "avg_volume_20wk": 821205,
+      "volume_ratio": 0.79,
+      "category": null
     },
     {
       "name": "CT Real Estate Investment Trust",
@@ -680,7 +881,10 @@
       "sma20": 17.77,
       "pct_above_ma": -5.53,
       "rsi14": 41.05,
-      "signal": false
+      "volume": 871900,
+      "avg_volume_20wk": 1111395,
+      "volume_ratio": 0.78,
+      "category": null
     },
     {
       "name": "Curaleaf Holdings, Inc.",
@@ -690,7 +894,10 @@
       "sma20": 13.87,
       "pct_above_ma": -4.19,
       "rsi14": 52.41,
-      "signal": false
+      "volume": 942100,
+      "avg_volume_20wk": 985766,
+      "volume_ratio": 0.96,
+      "category": null
     },
     {
       "name": "Definity Financial Corporation",
@@ -700,7 +907,10 @@
       "sma20": 72.95,
       "pct_above_ma": -3.56,
       "rsi14": 44.79,
-      "signal": false
+      "volume": 830900,
+      "avg_volume_20wk": 843125,
+      "volume_ratio": 0.99,
+      "category": null
     },
     {
       "name": "Denison Mines Corp.",
@@ -710,7 +920,10 @@
       "sma20": 4.51,
       "pct_above_ma": -7.07,
       "rsi14": 45.42,
-      "signal": false
+      "volume": 11026100,
+      "avg_volume_20wk": 15582995,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Descartes Systems Group Inc.",
@@ -720,7 +933,10 @@
       "sma20": 103.12,
       "pct_above_ma": 2.14,
       "rsi14": 49.79,
-      "signal": false
+      "volume": 1663200,
+      "avg_volume_20wk": 1953585,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Discovery Silver Corp.",
@@ -730,7 +946,10 @@
       "sma20": 9.65,
       "pct_above_ma": 28.58,
       "rsi14": 62.45,
-      "signal": true
+      "volume": 7993500,
+      "avg_volume_20wk": 12299055,
+      "volume_ratio": 0.65,
+      "category": "Buy"
     },
     {
       "name": "Dollarama Inc.",
@@ -740,7 +959,10 @@
       "sma20": 182.77,
       "pct_above_ma": -8.57,
       "rsi14": 38.09,
-      "signal": false
+      "volume": 3016600,
+      "avg_volume_20wk": 3269035,
+      "volume_ratio": 0.92,
+      "category": null
     },
     {
       "name": "Dream Industrial Real Estate Investment Trust",
@@ -750,7 +972,10 @@
       "sma20": 13.91,
       "pct_above_ma": -5.83,
       "rsi14": 42.89,
-      "signal": false
+      "volume": 2472108,
+      "avg_volume_20wk": 2463837,
+      "volume_ratio": 1.0,
+      "category": null
     },
     {
       "name": "Dundee Precious Metals Inc.",
@@ -760,7 +985,10 @@
       "sma20": 51.91,
       "pct_above_ma": 16.29,
       "rsi14": 58.9,
-      "signal": false
+      "volume": 3507400,
+      "avg_volume_20wk": 3882400,
+      "volume_ratio": 0.9,
+      "category": null
     },
     {
       "name": "Eldorado Gold Corporation",
@@ -770,7 +998,10 @@
       "sma20": 48.22,
       "pct_above_ma": 25.72,
       "rsi14": 60.86,
-      "signal": true
+      "volume": 1901400,
+      "avg_volume_20wk": 3748215,
+      "volume_ratio": 0.51,
+      "category": "Buy"
     },
     {
       "name": "Element Fleet Management Corp.",
@@ -780,7 +1011,10 @@
       "sma20": 28.44,
       "pct_above_ma": -12.68,
       "rsi14": 29.98,
-      "signal": false
+      "volume": 3899500,
+      "avg_volume_20wk": 5460160,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "Emera Incorporated",
@@ -790,7 +1024,10 @@
       "sma20": 72.29,
       "pct_above_ma": -5.68,
       "rsi14": 41.12,
-      "signal": false
+      "volume": 3175300,
+      "avg_volume_20wk": 5591050,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Empire Company Limited",
@@ -800,7 +1037,10 @@
       "sma20": 48.51,
       "pct_above_ma": -5.99,
       "rsi14": 39.04,
-      "signal": false
+      "volume": 2135400,
+      "avg_volume_20wk": 2290085,
+      "volume_ratio": 0.93,
+      "category": null
     },
     {
       "name": "Enbridge Inc.",
@@ -810,7 +1050,10 @@
       "sma20": 74.2,
       "pct_above_ma": -10.75,
       "rsi14": 37.86,
-      "signal": false
+      "volume": 55580400,
+      "avg_volume_20wk": 43950745,
+      "volume_ratio": 1.26,
+      "category": null
     },
     {
       "name": "Endeavour Silver Corp.",
@@ -820,7 +1063,10 @@
       "sma20": 12.81,
       "pct_above_ma": 10.1,
       "rsi14": 53.8,
-      "signal": false
+      "volume": 2726600,
+      "avg_volume_20wk": 4641870,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "Energy Fuels Inc.",
@@ -830,17 +1076,23 @@
       "sma20": 21.35,
       "pct_above_ma": -15.79,
       "rsi14": 40.89,
-      "signal": false
+      "volume": 3218400,
+      "avg_volume_20wk": 3797885,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "EQB Inc.",
       "ticker": "EQB.TO",
       "week_of": "2026-09-07",
-      "close": 129.6,
-      "sma20": 129.41,
+      "close": 128.97,
+      "sma20": 128.78,
       "pct_above_ma": 0.14,
       "rsi14": 53.26,
-      "signal": false
+      "volume": 436700,
+      "avg_volume_20wk": 498485,
+      "volume_ratio": 0.88,
+      "category": null
     },
     {
       "name": "Equifax Inc.",
@@ -850,7 +1102,10 @@
       "sma20": 33.08,
       "pct_above_ma": -3.95,
       "rsi14": 53.4,
-      "signal": false
+      "volume": 3232000,
+      "avg_volume_20wk": 3482630,
+      "volume_ratio": 0.93,
+      "category": null
     },
     {
       "name": "Equinox Gold Corp.",
@@ -860,7 +1115,10 @@
       "sma20": 16.02,
       "pct_above_ma": 7.15,
       "rsi14": 51.6,
-      "signal": false
+      "volume": 8778800,
+      "avg_volume_20wk": 22505045,
+      "volume_ratio": 0.39,
+      "category": null
     },
     {
       "name": "Ero Copper Corp.",
@@ -870,7 +1128,10 @@
       "sma20": 41.49,
       "pct_above_ma": 18.52,
       "rsi14": 59.06,
-      "signal": false
+      "volume": 1972000,
+      "avg_volume_20wk": 2212270,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "Exchange Income Corporation",
@@ -880,7 +1141,10 @@
       "sma20": 121.75,
       "pct_above_ma": -4.03,
       "rsi14": 50.73,
-      "signal": false
+      "volume": 389200,
+      "avg_volume_20wk": 775460,
+      "volume_ratio": 0.5,
+      "category": null
     },
     {
       "name": "Fairfax Financial Holdings Limited",
@@ -890,7 +1154,10 @@
       "sma20": 2275.16,
       "pct_above_ma": -1.19,
       "rsi14": 46.12,
-      "signal": false
+      "volume": 175000,
+      "avg_volume_20wk": 298450,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "Finning International Inc.",
@@ -900,7 +1167,10 @@
       "sma20": 97.95,
       "pct_above_ma": -4.25,
       "rsi14": 50.58,
-      "signal": false
+      "volume": 1768100,
+      "avg_volume_20wk": 2203575,
+      "volume_ratio": 0.8,
+      "category": null
     },
     {
       "name": "First Capital Real Estate Investment Trust",
@@ -910,7 +1180,10 @@
       "sma20": 22.95,
       "pct_above_ma": -1.43,
       "rsi14": 58.24,
-      "signal": false
+      "volume": 1796800,
+      "avg_volume_20wk": 3157705,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "First Majestic Silver Corp.",
@@ -920,7 +1193,10 @@
       "sma20": 26.03,
       "pct_above_ma": 4.16,
       "rsi14": 51.77,
-      "signal": false
+      "volume": 6347000,
+      "avg_volume_20wk": 7751955,
+      "volume_ratio": 0.82,
+      "category": null
     },
     {
       "name": "First Quantum Minerals Ltd.",
@@ -930,7 +1206,10 @@
       "sma20": 40.47,
       "pct_above_ma": 8.57,
       "rsi14": 57.07,
-      "signal": false
+      "volume": 9788100,
+      "avg_volume_20wk": 14532710,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "FirstService Corporation",
@@ -940,7 +1219,10 @@
       "sma20": 194.35,
       "pct_above_ma": -1.72,
       "rsi14": 44.39,
-      "signal": false
+      "volume": 655900,
+      "avg_volume_20wk": 893820,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Fortis Inc.",
@@ -950,7 +1232,10 @@
       "sma20": 78.01,
       "pct_above_ma": -3.4,
       "rsi14": 45.49,
-      "signal": false
+      "volume": 4533800,
+      "avg_volume_20wk": 7474230,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "Fortuna Mining Corp.",
@@ -960,7 +1245,10 @@
       "sma20": 13.69,
       "pct_above_ma": 21.19,
       "rsi14": 61.07,
-      "signal": true
+      "volume": 2028700,
+      "avg_volume_20wk": 3905210,
+      "volume_ratio": 0.52,
+      "category": "Buy"
     },
     {
       "name": "Franco-Nevada Corporation",
@@ -970,7 +1258,10 @@
       "sma20": 318.89,
       "pct_above_ma": 15.72,
       "rsi14": 62.75,
-      "signal": true
+      "volume": 787900,
+      "avg_volume_20wk": 1781465,
+      "volume_ratio": 0.44,
+      "category": "Buy"
     },
     {
       "name": "Freehold Royalties Ltd.",
@@ -980,7 +1271,10 @@
       "sma20": 16.91,
       "pct_above_ma": 3.48,
       "rsi14": 61.36,
-      "signal": true
+      "volume": 1429300,
+      "avg_volume_20wk": 2758950,
+      "volume_ratio": 0.52,
+      "category": "Strong Buy"
     },
     {
       "name": "G Mining Ventures Corp.",
@@ -990,17 +1284,23 @@
       "sma20": 45.37,
       "pct_above_ma": 14.63,
       "rsi14": 57.45,
-      "signal": false
+      "volume": 2088200,
+      "avg_volume_20wk": 4251365,
+      "volume_ratio": 0.49,
+      "category": null
     },
     {
       "name": "George Weston Limited",
       "ticker": "WN.TO",
       "week_of": "2026-09-07",
-      "close": 98.82,
-      "sma20": 100.1,
+      "close": 98.51,
+      "sma20": 99.79,
       "pct_above_ma": -1.28,
       "rsi14": 49.4,
-      "signal": false
+      "volume": 1074900,
+      "avg_volume_20wk": 1502330,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "GFL Environmental Inc.",
@@ -1010,7 +1310,10 @@
       "sma20": 54.26,
       "pct_above_ma": 9.32,
       "rsi14": 56.02,
-      "signal": false
+      "volume": 4133000,
+      "avg_volume_20wk": 3757860,
+      "volume_ratio": 1.1,
+      "category": null
     },
     {
       "name": "Gibson Energy Inc.",
@@ -1020,7 +1323,10 @@
       "sma20": 29.99,
       "pct_above_ma": 2.31,
       "rsi14": 56.87,
-      "signal": false
+      "volume": 1847900,
+      "avg_volume_20wk": 3345130,
+      "volume_ratio": 0.55,
+      "category": null
     },
     {
       "name": "Gildan Activewear Inc.",
@@ -1030,7 +1336,10 @@
       "sma20": 76.78,
       "pct_above_ma": -12.54,
       "rsi14": 38.44,
-      "signal": false
+      "volume": 2926000,
+      "avg_volume_20wk": 3289785,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "goeasy Ltd.",
@@ -1040,7 +1349,10 @@
       "sma20": 42.1,
       "pct_above_ma": 0.37,
       "rsi14": 35.89,
-      "signal": false
+      "volume": 245400,
+      "avg_volume_20wk": 700655,
+      "volume_ratio": 0.35,
+      "category": null
     },
     {
       "name": "Granite Real Estate Investment Trust",
@@ -1050,7 +1362,10 @@
       "sma20": 93.05,
       "pct_above_ma": -8.46,
       "rsi14": 40.02,
-      "signal": false
+      "volume": 434400,
+      "avg_volume_20wk": 411445,
+      "volume_ratio": 1.06,
+      "category": null
     },
     {
       "name": "Great-West Lifeco Inc.",
@@ -1060,7 +1375,10 @@
       "sma20": 86.21,
       "pct_above_ma": 7.46,
       "rsi14": 75.19,
-      "signal": true
+      "volume": 5530300,
+      "avg_volume_20wk": 7064255,
+      "volume_ratio": 0.78,
+      "category": "Strong Buy"
     },
     {
       "name": "H&R Real Estate Investment Trust",
@@ -1070,7 +1388,10 @@
       "sma20": 10.55,
       "pct_above_ma": -8.19,
       "rsi14": 35.18,
-      "signal": false
+      "volume": 2619100,
+      "avg_volume_20wk": 3641985,
+      "volume_ratio": 0.72,
+      "category": null
     },
     {
       "name": "Headwater Exploration Inc.",
@@ -1080,7 +1401,10 @@
       "sma20": 12.99,
       "pct_above_ma": 3.97,
       "rsi14": 58.32,
-      "signal": false
+      "volume": 9413600,
+      "avg_volume_20wk": 3356540,
+      "volume_ratio": 2.8,
+      "category": null
     },
     {
       "name": "Hudbay Minerals Inc.",
@@ -1090,7 +1414,10 @@
       "sma20": 35.39,
       "pct_above_ma": 3.79,
       "rsi14": 53.91,
-      "signal": false
+      "volume": 5960200,
+      "avg_volume_20wk": 10515675,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Hydro One Limited",
@@ -1100,7 +1427,10 @@
       "sma20": 56.48,
       "pct_above_ma": -9.75,
       "rsi14": 33.06,
-      "signal": false
+      "volume": 8244300,
+      "avg_volume_20wk": 6737400,
+      "volume_ratio": 1.22,
+      "category": null
     },
     {
       "name": "I-80 Gold Corp.",
@@ -1110,7 +1440,10 @@
       "sma20": 2.16,
       "pct_above_ma": 12.14,
       "rsi14": 56.63,
-      "signal": false
+      "volume": 2342500,
+      "avg_volume_20wk": 6039195,
+      "volume_ratio": 0.39,
+      "category": null
     },
     {
       "name": "iA Financial Corporation Inc.",
@@ -1120,7 +1453,10 @@
       "sma20": 191.74,
       "pct_above_ma": 7.27,
       "rsi14": 64.89,
-      "signal": true
+      "volume": 1439500,
+      "avg_volume_20wk": 1569665,
+      "volume_ratio": 0.92,
+      "category": "Strong Buy"
     },
     {
       "name": "Iamgold Corporation",
@@ -1130,7 +1466,10 @@
       "sma20": 24.08,
       "pct_above_ma": 16.72,
       "rsi14": 58.05,
-      "signal": false
+      "volume": 3998600,
+      "avg_volume_20wk": 7823045,
+      "volume_ratio": 0.51,
+      "category": null
     },
     {
       "name": "IGM Financial Inc.",
@@ -1140,7 +1479,10 @@
       "sma20": 82.51,
       "pct_above_ma": 8.71,
       "rsi14": 72.57,
-      "signal": true
+      "volume": 1704700,
+      "avg_volume_20wk": 2054820,
+      "volume_ratio": 0.83,
+      "category": "Strong Buy"
     },
     {
       "name": "Imperial Oil Limited",
@@ -1150,17 +1492,23 @@
       "sma20": 173.91,
       "pct_above_ma": 3.71,
       "rsi14": 57.53,
-      "signal": false
+      "volume": 3130600,
+      "avg_volume_20wk": 3484265,
+      "volume_ratio": 0.9,
+      "category": null
     },
     {
       "name": "Intact Financial Corporation",
       "ticker": "IFC.TO",
       "week_of": "2026-09-07",
-      "close": 257.52,
-      "sma20": 274.93,
+      "close": 256.06,
+      "sma20": 273.37,
       "pct_above_ma": -6.33,
       "rsi14": 41.07,
-      "signal": false
+      "volume": 1885400,
+      "avg_volume_20wk": 2160240,
+      "volume_ratio": 0.87,
+      "category": null
     },
     {
       "name": "International Petroleum Corporation",
@@ -1170,7 +1518,10 @@
       "sma20": 33.86,
       "pct_above_ma": 5.9,
       "rsi14": 60.04,
-      "signal": true
+      "volume": 700200,
+      "avg_volume_20wk": 676515,
+      "volume_ratio": 1.04,
+      "category": "Strong Buy"
     },
     {
       "name": "Ivanhoe Mines Ltd.",
@@ -1180,7 +1531,10 @@
       "sma20": 11.38,
       "pct_above_ma": 12.47,
       "rsi14": 55.08,
-      "signal": false
+      "volume": 28661300,
+      "avg_volume_20wk": 20198455,
+      "volume_ratio": 1.42,
+      "category": null
     },
     {
       "name": "Jamieson Wellness Inc.",
@@ -1190,7 +1544,10 @@
       "sma20": 39.97,
       "pct_above_ma": 13.83,
       "rsi14": 76.65,
-      "signal": true
+      "volume": 1614400,
+      "avg_volume_20wk": 793335,
+      "volume_ratio": 2.03,
+      "category": "Buy"
     },
     {
       "name": "K92 Mining Inc.",
@@ -1200,7 +1557,10 @@
       "sma20": 25.28,
       "pct_above_ma": 15.94,
       "rsi14": 59.75,
-      "signal": false
+      "volume": 1869900,
+      "avg_volume_20wk": 3273890,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Kelt Exploration Ltd.",
@@ -1210,17 +1570,23 @@
       "sma20": 9.73,
       "pct_above_ma": 9.91,
       "rsi14": 61.87,
-      "signal": true
+      "volume": 3466100,
+      "avg_volume_20wk": 3162270,
+      "volume_ratio": 1.1,
+      "category": "Strong Buy"
     },
     {
       "name": "Keyera Corp.",
       "ticker": "KEY.TO",
       "week_of": "2026-09-07",
-      "close": 54.54,
-      "sma20": 57.24,
+      "close": 53.98,
+      "sma20": 56.65,
       "pct_above_ma": -4.71,
       "rsi14": 48.14,
-      "signal": false
+      "volume": 5924500,
+      "avg_volume_20wk": 7114170,
+      "volume_ratio": 0.83,
+      "category": null
     },
     {
       "name": "Killam Apartment Real Estate Investment Trust",
@@ -1230,7 +1596,10 @@
       "sma20": 18.29,
       "pct_above_ma": -4.97,
       "rsi14": 42.49,
-      "signal": false
+      "volume": 1159589,
+      "avg_volume_20wk": 1557448,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Kinaxis Inc.",
@@ -1240,7 +1609,10 @@
       "sma20": 160.6,
       "pct_above_ma": 6.88,
       "rsi14": 56.24,
-      "signal": false
+      "volume": 531800,
+      "avg_volume_20wk": 517270,
+      "volume_ratio": 1.03,
+      "category": null
     },
     {
       "name": "Kinross Gold Corporation",
@@ -1250,7 +1622,10 @@
       "sma20": 38.09,
       "pct_above_ma": 6.04,
       "rsi14": 52.11,
-      "signal": false
+      "volume": 11663600,
+      "avg_volume_20wk": 16578620,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "Labrador Iron Ore Royalty Corporation",
@@ -1260,7 +1635,10 @@
       "sma20": 27.23,
       "pct_above_ma": -5.51,
       "rsi14": 38.33,
-      "signal": false
+      "volume": 892400,
+      "avg_volume_20wk": 957970,
+      "volume_ratio": 0.93,
+      "category": null
     },
     {
       "name": "Laurentian Bank of Canada",
@@ -1270,7 +1648,10 @@
       "sma20": 40.12,
       "pct_above_ma": 1.29,
       "rsi14": 82.74,
-      "signal": false
+      "volume": 633400,
+      "avg_volume_20wk": 745370,
+      "volume_ratio": 0.85,
+      "category": "Strong Buy"
     },
     {
       "name": "Lightspeed Commerce Inc.",
@@ -1280,7 +1661,10 @@
       "sma20": 13.84,
       "pct_above_ma": -0.31,
       "rsi14": 47.85,
-      "signal": false
+      "volume": 2063500,
+      "avg_volume_20wk": 3316600,
+      "volume_ratio": 0.62,
+      "category": null
     },
     {
       "name": "Linamar Corporation",
@@ -1290,7 +1674,10 @@
       "sma20": 100.63,
       "pct_above_ma": -0.67,
       "rsi14": 53.48,
-      "signal": false
+      "volume": 506000,
+      "avg_volume_20wk": 655630,
+      "volume_ratio": 0.77,
+      "category": null
     },
     {
       "name": "Lithium Americas Corp.",
@@ -1300,17 +1687,23 @@
       "sma20": 5.43,
       "pct_above_ma": -25.67,
       "rsi14": 37.06,
-      "signal": false
+      "volume": 6241300,
+      "avg_volume_20wk": 6528500,
+      "volume_ratio": 0.96,
+      "category": null
     },
     {
       "name": "Loblaw Companies Limited",
       "ticker": "L.TO",
       "week_of": "2026-09-07",
-      "close": 61.28,
-      "sma20": 62.97,
+      "close": 61.13,
+      "sma20": 62.82,
       "pct_above_ma": -2.69,
       "rsi14": 46.82,
-      "signal": false
+      "volume": 4670300,
+      "avg_volume_20wk": 6307865,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Lundin Gold Inc.",
@@ -1320,7 +1713,10 @@
       "sma20": 83.69,
       "pct_above_ma": 11.12,
       "rsi14": 53.82,
-      "signal": false
+      "volume": 2374800,
+      "avg_volume_20wk": 3088781,
+      "volume_ratio": 0.77,
+      "category": null
     },
     {
       "name": "Lundin Mining Corporation",
@@ -1330,7 +1726,10 @@
       "sma20": 36.37,
       "pct_above_ma": -8.04,
       "rsi14": 47.01,
-      "signal": false
+      "volume": 10493900,
+      "avg_volume_20wk": 12312565,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Magna International Inc.",
@@ -1340,7 +1739,10 @@
       "sma20": 91.31,
       "pct_above_ma": 0.36,
       "rsi14": 54.23,
-      "signal": false
+      "volume": 4475700,
+      "avg_volume_20wk": 6108275,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Manulife Financial Corporation",
@@ -1350,7 +1752,10 @@
       "sma20": 57.29,
       "pct_above_ma": 5.21,
       "rsi14": 64.48,
-      "signal": true
+      "volume": 22262800,
+      "avg_volume_20wk": 29674565,
+      "volume_ratio": 0.75,
+      "category": "Strong Buy"
     },
     {
       "name": "Maple Leaf Foods Inc.",
@@ -1360,7 +1765,10 @@
       "sma20": 28.59,
       "pct_above_ma": -8.0,
       "rsi14": 40.05,
-      "signal": false
+      "volume": 1312600,
+      "avg_volume_20wk": 1173145,
+      "volume_ratio": 1.12,
+      "category": null
     },
     {
       "name": "MDA Space Ltd.",
@@ -1370,7 +1778,10 @@
       "sma20": 48.62,
       "pct_above_ma": -17.49,
       "rsi14": 45.47,
-      "signal": false
+      "volume": 8317200,
+      "avg_volume_20wk": 6061240,
+      "volume_ratio": 1.37,
+      "category": null
     },
     {
       "name": "Methanex Corporation",
@@ -1380,7 +1791,10 @@
       "sma20": 78.89,
       "pct_above_ma": 10.6,
       "rsi14": 61.01,
-      "signal": true
+      "volume": 1606600,
+      "avg_volume_20wk": 1220230,
+      "volume_ratio": 1.32,
+      "category": "Buy"
     },
     {
       "name": "Metro Inc.",
@@ -1390,7 +1804,10 @@
       "sma20": 90.35,
       "pct_above_ma": -2.42,
       "rsi14": 42.97,
-      "signal": false
+      "volume": 3938100,
+      "avg_volume_20wk": 2690730,
+      "volume_ratio": 1.46,
+      "category": null
     },
     {
       "name": "Montage Gold Corp.",
@@ -1400,7 +1817,10 @@
       "sma20": 16.73,
       "pct_above_ma": 14.44,
       "rsi14": 60.89,
-      "signal": true
+      "volume": 1882100,
+      "avg_volume_20wk": 4671925,
+      "volume_ratio": 0.4,
+      "category": "Buy"
     },
     {
       "name": "Mullen Group Ltd.",
@@ -1410,7 +1830,10 @@
       "sma20": 23.74,
       "pct_above_ma": 7.87,
       "rsi14": 65.56,
-      "signal": true
+      "volume": 633400,
+      "avg_volume_20wk": 1299965,
+      "volume_ratio": 0.49,
+      "category": "Strong Buy"
     },
     {
       "name": "NexGen Energy Ltd.",
@@ -1420,7 +1843,10 @@
       "sma20": 14.44,
       "pct_above_ma": -5.63,
       "rsi14": 46.15,
-      "signal": false
+      "volume": 4554300,
+      "avg_volume_20wk": 7852240,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "NFI Group Inc.",
@@ -1430,7 +1856,10 @@
       "sma20": 23.4,
       "pct_above_ma": 0.49,
       "rsi14": 56.5,
-      "signal": false
+      "volume": 808400,
+      "avg_volume_20wk": 1389680,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "NGEx Minerals Ltd.",
@@ -1440,7 +1869,10 @@
       "sma20": 26.27,
       "pct_above_ma": -2.3,
       "rsi14": 48.58,
-      "signal": false
+      "volume": 856200,
+      "avg_volume_20wk": 1249950,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "North West Company Inc.",
@@ -1450,7 +1882,10 @@
       "sma20": 50.25,
       "pct_above_ma": 2.82,
       "rsi14": 55.28,
-      "signal": false
+      "volume": 963300,
+      "avg_volume_20wk": 629140,
+      "volume_ratio": 1.53,
+      "category": null
     },
     {
       "name": "Northland Power Inc.",
@@ -1460,7 +1895,10 @@
       "sma20": 22.01,
       "pct_above_ma": -5.51,
       "rsi14": 43.22,
-      "signal": false
+      "volume": 4068500,
+      "avg_volume_20wk": 4319615,
+      "volume_ratio": 0.94,
+      "category": null
     },
     {
       "name": "NovaGold Resources Inc.",
@@ -1470,7 +1908,10 @@
       "sma20": 10.32,
       "pct_above_ma": 0.63,
       "rsi14": 48.18,
-      "signal": false
+      "volume": 2500500,
+      "avg_volume_20wk": 2945700,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Nutrien Ltd.",
@@ -1480,7 +1921,10 @@
       "sma20": 96.11,
       "pct_above_ma": 13.2,
       "rsi14": 62.88,
-      "signal": true
+      "volume": 6646500,
+      "avg_volume_20wk": 7343075,
+      "volume_ratio": 0.91,
+      "category": "Buy"
     },
     {
       "name": "OceanaGold Corporation",
@@ -1490,7 +1934,10 @@
       "sma20": 38.53,
       "pct_above_ma": 8.67,
       "rsi14": 54.47,
-      "signal": false
+      "volume": 3061300,
+      "avg_volume_20wk": 4152280,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Onex Corporation",
@@ -1500,7 +1947,10 @@
       "sma20": 110.27,
       "pct_above_ma": 0.21,
       "rsi14": 50.51,
-      "signal": false
+      "volume": 492700,
+      "avg_volume_20wk": 545860,
+      "volume_ratio": 0.9,
+      "category": null
     },
     {
       "name": "Open Text Corporation",
@@ -1510,7 +1960,10 @@
       "sma20": 32.25,
       "pct_above_ma": -0.77,
       "rsi14": 45.82,
-      "signal": false
+      "volume": 7534200,
+      "avg_volume_20wk": 8843115,
+      "volume_ratio": 0.85,
+      "category": null
     },
     {
       "name": "Osisko Gold Royalties Ltd.",
@@ -1520,7 +1973,10 @@
       "sma20": 47.22,
       "pct_above_ma": 5.7,
       "rsi14": 52.6,
-      "signal": false
+      "volume": 1302700,
+      "avg_volume_20wk": 1989525,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Pan American Silver Corp.",
@@ -1530,17 +1986,23 @@
       "sma20": 68.99,
       "pct_above_ma": 1.08,
       "rsi14": 50.7,
-      "signal": false
+      "volume": 4272300,
+      "avg_volume_20wk": 4632710,
+      "volume_ratio": 0.92,
+      "category": null
     },
     {
       "name": "Paramount Resources Ltd.",
       "ticker": "POU.TO",
       "week_of": "2026-09-07",
-      "close": 31.96,
-      "sma20": 29.87,
+      "close": 31.91,
+      "sma20": 29.82,
       "pct_above_ma": 7.0,
       "rsi14": 61.48,
-      "signal": true
+      "volume": 1252400,
+      "avg_volume_20wk": 1218381,
+      "volume_ratio": 1.03,
+      "category": "Strong Buy"
     },
     {
       "name": "Parex Resources Inc.",
@@ -1550,17 +2012,23 @@
       "sma20": 25.2,
       "pct_above_ma": 14.79,
       "rsi14": 67.12,
-      "signal": true
+      "volume": 3846100,
+      "avg_volume_20wk": 4526740,
+      "volume_ratio": 0.85,
+      "category": "Buy"
     },
     {
       "name": "Pembina Pipeline Corporation",
       "ticker": "PPL.TO",
       "week_of": "2026-09-07",
-      "close": 66.26,
-      "sma20": 66.88,
+      "close": 65.52,
+      "sma20": 66.14,
       "pct_above_ma": -0.93,
       "rsi14": 53.69,
-      "signal": false
+      "volume": 15088200,
+      "avg_volume_20wk": 11570755,
+      "volume_ratio": 1.3,
+      "category": null
     },
     {
       "name": "Perpetua Resources Corp.",
@@ -1570,7 +2038,10 @@
       "sma20": 32.96,
       "pct_above_ma": -0.53,
       "rsi14": 48.53,
-      "signal": false
+      "volume": 290700,
+      "avg_volume_20wk": 579695,
+      "volume_ratio": 0.5,
+      "category": null
     },
     {
       "name": "Pet Valu Holdings Ltd.",
@@ -1580,7 +2051,10 @@
       "sma20": 18.74,
       "pct_above_ma": -4.46,
       "rsi14": 36.54,
-      "signal": false
+      "volume": 577000,
+      "avg_volume_20wk": 1136125,
+      "volume_ratio": 0.51,
+      "category": null
     },
     {
       "name": "Peyto Exploration & Development Corp.",
@@ -1590,7 +2064,10 @@
       "sma20": 24.84,
       "pct_above_ma": -2.11,
       "rsi14": 49.11,
-      "signal": false
+      "volume": 2139600,
+      "avg_volume_20wk": 3254060,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Power Corporation of Canada",
@@ -1600,7 +2077,10 @@
       "sma20": 88.18,
       "pct_above_ma": 7.02,
       "rsi14": 69.3,
-      "signal": true
+      "volume": 9205900,
+      "avg_volume_20wk": 9401190,
+      "volume_ratio": 0.98,
+      "category": "Strong Buy"
     },
     {
       "name": "PrairieSky Royalty Ltd.",
@@ -1610,7 +2090,10 @@
       "sma20": 34.08,
       "pct_above_ma": 4.94,
       "rsi14": 62.4,
-      "signal": true
+      "volume": 1199400,
+      "avg_volume_20wk": 2155835,
+      "volume_ratio": 0.56,
+      "category": "Strong Buy"
     },
     {
       "name": "Premium Brands Holdings Corporation",
@@ -1620,7 +2103,10 @@
       "sma20": 85.37,
       "pct_above_ma": -10.24,
       "rsi14": 36.19,
-      "signal": false
+      "volume": 933100,
+      "avg_volume_20wk": 989885,
+      "volume_ratio": 0.94,
+      "category": null
     },
     {
       "name": "Primaris Real Estate Investment Trust",
@@ -1630,7 +2116,10 @@
       "sma20": 20.93,
       "pct_above_ma": -0.16,
       "rsi14": 57.09,
-      "signal": false
+      "volume": 741500,
+      "avg_volume_20wk": 1278850,
+      "volume_ratio": 0.58,
+      "category": null
     },
     {
       "name": "Quebecor Inc.",
@@ -1640,7 +2129,10 @@
       "sma20": 64.63,
       "pct_above_ma": -2.8,
       "rsi14": 52.35,
-      "signal": false
+      "volume": 3643800,
+      "avg_volume_20wk": 4891775,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "RB Global, Inc.",
@@ -1650,7 +2142,10 @@
       "sma20": 141.24,
       "pct_above_ma": -17.94,
       "rsi14": 32.5,
-      "signal": false
+      "volume": 1790600,
+      "avg_volume_20wk": 1486045,
+      "volume_ratio": 1.2,
+      "category": null
     },
     {
       "name": "Restaurant Brands International Inc.",
@@ -1660,7 +2155,10 @@
       "sma20": 105.55,
       "pct_above_ma": 1.14,
       "rsi14": 54.46,
-      "signal": false
+      "volume": 2784100,
+      "avg_volume_20wk": 4546755,
+      "volume_ratio": 0.61,
+      "category": null
     },
     {
       "name": "Richelieu Hardware Ltd.",
@@ -1670,7 +2168,10 @@
       "sma20": 37.46,
       "pct_above_ma": -6.12,
       "rsi14": 40.4,
-      "signal": false
+      "volume": 382400,
+      "avg_volume_20wk": 567305,
+      "volume_ratio": 0.67,
+      "category": null
     },
     {
       "name": "RioCan Real Estate Investment Trust",
@@ -1680,7 +2181,10 @@
       "sma20": 21.81,
       "pct_above_ma": -5.4,
       "rsi14": 45.55,
-      "signal": false
+      "volume": 4289130,
+      "avg_volume_20wk": 3297654,
+      "volume_ratio": 1.3,
+      "category": null
     },
     {
       "name": "Rogers Communications Inc.",
@@ -1690,7 +2194,10 @@
       "sma20": 49.22,
       "pct_above_ma": 1.96,
       "rsi14": 52.62,
-      "signal": false
+      "volume": 7229700,
+      "avg_volume_20wk": 9657280,
+      "volume_ratio": 0.75,
+      "category": null
     },
     {
       "name": "Royal Bank of Canada",
@@ -1700,7 +2207,10 @@
       "sma20": 279.52,
       "pct_above_ma": 2.03,
       "rsi14": 61.02,
-      "signal": true
+      "volume": 7939400,
+      "avg_volume_20wk": 15611765,
+      "volume_ratio": 0.51,
+      "category": "Strong Buy"
     },
     {
       "name": "Russel Metals Inc.",
@@ -1710,17 +2220,23 @@
       "sma20": 66.21,
       "pct_above_ma": 14.55,
       "rsi14": 68.08,
-      "signal": true
+      "volume": 699700,
+      "avg_volume_20wk": 1142185,
+      "volume_ratio": 0.61,
+      "category": "Buy"
     },
     {
       "name": "Saputo Inc.",
       "ticker": "SAP.TO",
       "week_of": "2026-09-07",
-      "close": 39.39,
-      "sma20": 41.11,
+      "close": 39.18,
+      "sma20": 40.89,
       "pct_above_ma": -4.18,
       "rsi14": 45.48,
-      "signal": false
+      "volume": 2384700,
+      "avg_volume_20wk": 4061615,
+      "volume_ratio": 0.59,
+      "category": null
     },
     {
       "name": "Seabridge Gold Inc.",
@@ -1730,7 +2246,10 @@
       "sma20": 40.15,
       "pct_above_ma": 7.0,
       "rsi14": 53.77,
-      "signal": false
+      "volume": 204100,
+      "avg_volume_20wk": 555686,
+      "volume_ratio": 0.37,
+      "category": null
     },
     {
       "name": "Shopify Inc.",
@@ -1740,7 +2259,10 @@
       "sma20": 172.81,
       "pct_above_ma": 3.24,
       "rsi14": 49.27,
-      "signal": false
+      "volume": 7529400,
+      "avg_volume_20wk": 10204005,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "Sienna Senior Living Inc.",
@@ -1750,7 +2272,10 @@
       "sma20": 21.84,
       "pct_above_ma": -9.3,
       "rsi14": 36.56,
-      "signal": false
+      "volume": 1800200,
+      "avg_volume_20wk": 1792635,
+      "volume_ratio": 1.0,
+      "category": null
     },
     {
       "name": "Silvercorp Metals Inc.",
@@ -1760,7 +2285,10 @@
       "sma20": 15.91,
       "pct_above_ma": 3.76,
       "rsi14": 54.31,
-      "signal": false
+      "volume": 1886500,
+      "avg_volume_20wk": 4254995,
+      "volume_ratio": 0.44,
+      "category": null
     },
     {
       "name": "Skeena Resources Limited",
@@ -1770,7 +2298,10 @@
       "sma20": 41.33,
       "pct_above_ma": 6.23,
       "rsi14": 54.21,
-      "signal": false
+      "volume": 530300,
+      "avg_volume_20wk": 1690915,
+      "volume_ratio": 0.31,
+      "category": null
     },
     {
       "name": "SmartCentres Real Estate Investment Trust",
@@ -1780,7 +2311,10 @@
       "sma20": 28.69,
       "pct_above_ma": -6.7,
       "rsi14": 38.21,
-      "signal": false
+      "volume": 1014600,
+      "avg_volume_20wk": 1454005,
+      "volume_ratio": 0.7,
+      "category": null
     },
     {
       "name": "South Bow Corporation",
@@ -1790,7 +2324,10 @@
       "sma20": 50.72,
       "pct_above_ma": -1.55,
       "rsi14": 53.68,
-      "signal": false
+      "volume": 2455000,
+      "avg_volume_20wk": 3776150,
+      "volume_ratio": 0.65,
+      "category": null
     },
     {
       "name": "Sprott Inc.",
@@ -1800,7 +2337,10 @@
       "sma20": 168.32,
       "pct_above_ma": 9.83,
       "rsi14": 58.18,
-      "signal": false
+      "volume": 307800,
+      "avg_volume_20wk": 345765,
+      "volume_ratio": 0.89,
+      "category": null
     },
     {
       "name": "SSR Mining Inc.",
@@ -1810,7 +2350,10 @@
       "sma20": 43.15,
       "pct_above_ma": 16.49,
       "rsi14": 60.05,
-      "signal": true
+      "volume": 1376600,
+      "avg_volume_20wk": 2216975,
+      "volume_ratio": 0.62,
+      "category": "Buy"
     },
     {
       "name": "Stantec Inc.",
@@ -1820,7 +2363,10 @@
       "sma20": 102.72,
       "pct_above_ma": -5.92,
       "rsi14": 34.91,
-      "signal": false
+      "volume": 1889600,
+      "avg_volume_20wk": 2466420,
+      "volume_ratio": 0.77,
+      "category": null
     },
     {
       "name": "Stella-Jones Inc.",
@@ -1830,7 +2376,10 @@
       "sma20": 75.67,
       "pct_above_ma": -11.45,
       "rsi14": 29.44,
-      "signal": false
+      "volume": 954700,
+      "avg_volume_20wk": 860540,
+      "volume_ratio": 1.11,
+      "category": null
     },
     {
       "name": "Strathcona Resources Ltd.",
@@ -1840,7 +2389,10 @@
       "sma20": 42.34,
       "pct_above_ma": 4.44,
       "rsi14": 57.95,
-      "signal": false
+      "volume": 2288300,
+      "avg_volume_20wk": 1945685,
+      "volume_ratio": 1.18,
+      "category": null
     },
     {
       "name": "Sun Life Financial Inc.",
@@ -1850,7 +2402,10 @@
       "sma20": 107.24,
       "pct_above_ma": 3.09,
       "rsi14": 63.41,
-      "signal": true
+      "volume": 7107000,
+      "avg_volume_20wk": 9559535,
+      "volume_ratio": 0.74,
+      "category": "Strong Buy"
     },
     {
       "name": "Suncor Energy Inc.",
@@ -1860,7 +2415,10 @@
       "sma20": 87.63,
       "pct_above_ma": 8.75,
       "rsi14": 60.84,
-      "signal": true
+      "volume": 35317500,
+      "avg_volume_20wk": 28540870,
+      "volume_ratio": 1.24,
+      "category": "Strong Buy"
     },
     {
       "name": "Superior Plus Corp.",
@@ -1870,17 +2428,23 @@
       "sma20": 7.77,
       "pct_above_ma": -11.66,
       "rsi14": 39.13,
-      "signal": false
+      "volume": 2227900,
+      "avg_volume_20wk": 3498020,
+      "volume_ratio": 0.64,
+      "category": null
     },
     {
       "name": "Tamarack Valley Energy Ltd.",
       "ticker": "TVE.TO",
       "week_of": "2026-09-07",
-      "close": 13.29,
-      "sma20": 13.0,
+      "close": 13.24,
+      "sma20": 12.95,
       "pct_above_ma": 2.22,
       "rsi14": 61.13,
-      "signal": true
+      "volume": 14935900,
+      "avg_volume_20wk": 9032990,
+      "volume_ratio": 1.65,
+      "category": "Strongest Buy"
     },
     {
       "name": "Taseko Mines Limited",
@@ -1890,7 +2454,10 @@
       "sma20": 10.42,
       "pct_above_ma": 7.59,
       "rsi14": 55.1,
-      "signal": false
+      "volume": 5075500,
+      "avg_volume_20wk": 5646315,
+      "volume_ratio": 0.9,
+      "category": null
     },
     {
       "name": "TC Energy Corporation",
@@ -1900,7 +2467,10 @@
       "sma20": 92.23,
       "pct_above_ma": -8.58,
       "rsi14": 43.31,
-      "signal": false
+      "volume": 24080100,
+      "avg_volume_20wk": 18696335,
+      "volume_ratio": 1.29,
+      "category": null
     },
     {
       "name": "Teck Resources Limited",
@@ -1910,7 +2480,10 @@
       "sma20": 87.63,
       "pct_above_ma": 4.97,
       "rsi14": 57.36,
-      "signal": false
+      "volume": 5357644,
+      "avg_volume_20wk": 5191233,
+      "volume_ratio": 1.03,
+      "category": null
     },
     {
       "name": "Telus Corporation",
@@ -1920,7 +2493,10 @@
       "sma20": 14.84,
       "pct_above_ma": -15.11,
       "rsi14": 21.98,
-      "signal": false
+      "volume": 29945200,
+      "avg_volume_20wk": 40538590,
+      "volume_ratio": 0.74,
+      "category": null
     },
     {
       "name": "TerraVest Industries Inc.",
@@ -1930,7 +2506,10 @@
       "sma20": 123.63,
       "pct_above_ma": -4.22,
       "rsi14": 45.81,
-      "signal": false
+      "volume": 219400,
+      "avg_volume_20wk": 492245,
+      "volume_ratio": 0.45,
+      "category": null
     },
     {
       "name": "TFI International Inc.",
@@ -1940,7 +2519,10 @@
       "sma20": 201.27,
       "pct_above_ma": -9.69,
       "rsi14": 46.93,
-      "signal": false
+      "volume": 892100,
+      "avg_volume_20wk": 1216510,
+      "volume_ratio": 0.73,
+      "category": null
     },
     {
       "name": "Thomson Reuters Corporation",
@@ -1950,7 +2532,10 @@
       "sma20": 128.36,
       "pct_above_ma": 5.12,
       "rsi14": 48.77,
-      "signal": false
+      "volume": 2465200,
+      "avg_volume_20wk": 3485465,
+      "volume_ratio": 0.71,
+      "category": null
     },
     {
       "name": "TMX Group Limited",
@@ -1960,17 +2545,23 @@
       "sma20": 51.26,
       "pct_above_ma": 3.64,
       "rsi14": 56.39,
-      "signal": false
+      "volume": 2304700,
+      "avg_volume_20wk": 4106260,
+      "volume_ratio": 0.56,
+      "category": null
     },
     {
       "name": "Topaz Energy Corp.",
       "ticker": "TPZ.TO",
       "week_of": "2026-09-07",
-      "close": 30.79,
-      "sma20": 31.41,
+      "close": 30.44,
+      "sma20": 31.05,
       "pct_above_ma": -1.97,
       "rsi14": 50.55,
-      "signal": false
+      "volume": 1911700,
+      "avg_volume_20wk": 2469765,
+      "volume_ratio": 0.77,
+      "category": null
     },
     {
       "name": "Torex Gold Resources Inc.",
@@ -1980,7 +2571,10 @@
       "sma20": 60.66,
       "pct_above_ma": 15.05,
       "rsi14": 57.77,
-      "signal": false
+      "volume": 1791100,
+      "avg_volume_20wk": 2633825,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Toromont Industries Ltd.",
@@ -1990,7 +2584,10 @@
       "sma20": 218.38,
       "pct_above_ma": -6.84,
       "rsi14": 47.49,
-      "signal": false
+      "volume": 1293400,
+      "avg_volume_20wk": 1402535,
+      "volume_ratio": 0.92,
+      "category": null
     },
     {
       "name": "Toronto-Dominion Bank",
@@ -2000,17 +2597,23 @@
       "sma20": 163.16,
       "pct_above_ma": 2.8,
       "rsi14": 64.48,
-      "signal": true
+      "volume": 15902500,
+      "avg_volume_20wk": 22068445,
+      "volume_ratio": 0.72,
+      "category": "Strong Buy"
     },
     {
       "name": "Tourmaline Oil Corp.",
       "ticker": "TOU.TO",
       "week_of": "2026-09-07",
-      "close": 61.37,
-      "sma20": 62.49,
+      "close": 60.88,
+      "sma20": 61.99,
       "pct_above_ma": -1.79,
       "rsi14": 48.64,
-      "signal": false
+      "volume": 11779200,
+      "avg_volume_20wk": 12124340,
+      "volume_ratio": 0.97,
+      "category": null
     },
     {
       "name": "TransAlta Corporation",
@@ -2020,7 +2623,10 @@
       "sma20": 18.07,
       "pct_above_ma": -7.44,
       "rsi14": 43.46,
-      "signal": false
+      "volume": 8427700,
+      "avg_volume_20wk": 9595975,
+      "volume_ratio": 0.88,
+      "category": null
     },
     {
       "name": "Transcontinental Inc.",
@@ -2030,7 +2636,10 @@
       "sma20": 5.33,
       "pct_above_ma": -3.92,
       "rsi14": 52.3,
-      "signal": false
+      "volume": 2296100,
+      "avg_volume_20wk": 1908010,
+      "volume_ratio": 1.2,
+      "category": null
     },
     {
       "name": "Triple Flag Precious Metals Corp.",
@@ -2040,7 +2649,10 @@
       "sma20": 43.15,
       "pct_above_ma": 8.72,
       "rsi14": 54.93,
-      "signal": false
+      "volume": 835900,
+      "avg_volume_20wk": 1007280,
+      "volume_ratio": 0.83,
+      "category": null
     },
     {
       "name": "Trisura Group Ltd.",
@@ -2050,17 +2662,23 @@
       "sma20": 42.46,
       "pct_above_ma": 0.65,
       "rsi14": 50.4,
-      "signal": false
+      "volume": 322300,
+      "avg_volume_20wk": 474680,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Vermilion Energy Inc.",
       "ticker": "VET.TO",
       "week_of": "2026-09-07",
-      "close": 18.34,
-      "sma20": 15.8,
+      "close": 18.21,
+      "sma20": 15.68,
       "pct_above_ma": 16.11,
       "rsi14": 62.21,
-      "signal": true
+      "volume": 4338700,
+      "avg_volume_20wk": 5487030,
+      "volume_ratio": 0.79,
+      "category": "Buy"
     },
     {
       "name": "Vital Infrastructure Property Trust.",
@@ -2070,7 +2688,10 @@
       "sma20": 5.4,
       "pct_above_ma": -3.67,
       "rsi14": 44.85,
-      "signal": false
+      "volume": 2740000,
+      "avg_volume_20wk": 4008010,
+      "volume_ratio": 0.68,
+      "category": null
     },
     {
       "name": "Vizsla Silver Corp.",
@@ -2080,7 +2701,10 @@
       "sma20": 4.94,
       "pct_above_ma": 10.62,
       "rsi14": 54.07,
-      "signal": false
+      "volume": 3748300,
+      "avg_volume_20wk": 5637470,
+      "volume_ratio": 0.66,
+      "category": null
     },
     {
       "name": "Waste Connections Inc.",
@@ -2090,17 +2714,23 @@
       "sma20": 225.96,
       "pct_above_ma": -1.95,
       "rsi14": 43.98,
-      "signal": false
+      "volume": 1611500,
+      "avg_volume_20wk": 1793785,
+      "volume_ratio": 0.9,
+      "category": null
     },
     {
       "name": "Wesdome Gold Mines Ltd.",
       "ticker": "WDO.TO",
       "week_of": "2026-09-07",
-      "close": 35.06,
-      "sma20": 28.46,
+      "close": 35.03,
+      "sma20": 28.44,
       "pct_above_ma": 23.19,
       "rsi14": 64.5,
-      "signal": true
+      "volume": 1499800,
+      "avg_volume_20wk": 3194925,
+      "volume_ratio": 0.47,
+      "category": "Buy"
     },
     {
       "name": "West Fraser Timber Co. Ltd.",
@@ -2110,7 +2740,10 @@
       "sma20": 93.47,
       "pct_above_ma": 2.45,
       "rsi14": 52.67,
-      "signal": false
+      "volume": 454500,
+      "avg_volume_20wk": 795795,
+      "volume_ratio": 0.57,
+      "category": null
     },
     {
       "name": "Wheaton Precious Metals Corp.",
@@ -2120,7 +2753,10 @@
       "sma20": 177.86,
       "pct_above_ma": 20.18,
       "rsi14": 61.73,
-      "signal": true
+      "volume": 2167400,
+      "avg_volume_20wk": 3778540,
+      "volume_ratio": 0.57,
+      "category": "Buy"
     },
     {
       "name": "Whitecap Resources Inc.",
@@ -2130,7 +2766,10 @@
       "sma20": 16.31,
       "pct_above_ma": 13.64,
       "rsi14": 71.45,
-      "signal": true
+      "volume": 24014600,
+      "avg_volume_20wk": 27331090,
+      "volume_ratio": 0.88,
+      "category": "Buy"
     },
     {
       "name": "Winpak Ltd.",
@@ -2140,7 +2779,10 @@
       "sma20": 42.72,
       "pct_above_ma": 1.03,
       "rsi14": 47.9,
-      "signal": false
+      "volume": 160000,
+      "avg_volume_20wk": 394795,
+      "volume_ratio": 0.41,
+      "category": null
     },
     {
       "name": "WSP Global Inc.",
@@ -2150,14 +2792,17 @@
       "sma20": 187.18,
       "pct_above_ma": -3.74,
       "rsi14": 40.36,
-      "signal": false
+      "volume": 1942100,
+      "avg_volume_20wk": 2838910,
+      "volume_ratio": 0.68,
+      "category": null
     }
   ],
   "failed": [
     {
       "ticker": "BLX.TO",
       "name": "Boralex Inc.",
-      "error": "not enough weekly history for BLX.TO (6 weeks, need at least 21)"
+      "error": "not enough weekly history for BLX.TO (5 weeks, need at least 21)"
     },
     {
       "ticker": "IIP-UN.TO",
