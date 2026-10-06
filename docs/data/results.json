@@ -1,6 +1,6 @@
 {
-  "run_type": "scheduled",
-  "generated_at": "2026-10-03T00:03:35.335298+00:00",
+  "run_type": "manual",
+  "generated_at": "2026-10-06T06:42:58.535756+00:00",
   "results": [
     {
       "name": "Apple",
@@ -10,8 +10,8 @@
       "sma20": 315.45,
       "pct_above_ma": 5.78,
       "rsi14": 62.5,
-      "volume": 189472133,
-      "avg_volume_20wk": 244409871,
+      "volume": 190872300,
+      "avg_volume_20wk": 244479880,
       "volume_ratio": 0.78,
       "category": "Strong Buy"
     },
@@ -22,9 +22,9 @@
       "close": 517.53,
       "sma20": 447.46,
       "pct_above_ma": 15.66,
-      "rsi14": 64.91,
-      "volume": 105103396,
-      "avg_volume_20wk": 162428554,
+      "rsi14": 64.92,
+      "volume": 105746200,
+      "avg_volume_20wk": 162460695,
       "volume_ratio": 0.65,
       "category": "Buy"
     },
@@ -35,10 +35,10 @@
       "close": 343.5,
       "sma20": 351.91,
       "pct_above_ma": -2.39,
-      "rsi14": 50.87,
-      "volume": 133762269,
-      "avg_volume_20wk": 144940513,
-      "volume_ratio": 0.92,
+      "rsi14": 50.88,
+      "volume": 134800300,
+      "avg_volume_20wk": 144992415,
+      "volume_ratio": 0.93,
       "category": null
     },
     {
@@ -48,9 +48,9 @@
       "close": 251.52,
       "sma20": 253.5,
       "pct_above_ma": -0.78,
-      "rsi14": 50.95,
-      "volume": 174531305,
-      "avg_volume_20wk": 213510620,
+      "rsi14": 50.97,
+      "volume": 174917500,
+      "avg_volume_20wk": 213529930,
       "volume_ratio": 0.82,
       "category": null
     },
@@ -61,10 +61,10 @@
       "close": 370.59,
       "sma20": 372.73,
       "pct_above_ma": -0.58,
-      "rsi14": 49.28,
-      "volume": 196409398,
-      "avg_volume_20wk": 197911904,
-      "volume_ratio": 0.99,
+      "rsi14": 49.04,
+      "volume": 197592000,
+      "avg_volume_20wk": 197971035,
+      "volume_ratio": 1.0,
       "category": null
     },
     {
@@ -74,9 +74,9 @@
       "close": 202.73,
       "sma20": 228.67,
       "pct_above_ma": -11.34,
-      "rsi14": 39.09,
-      "volume": 10697600,
-      "avg_volume_20wk": 12501005,
+      "rsi14": 38.99,
+      "volume": 10730600,
+      "avg_volume_20wk": 12502655,
       "volume_ratio": 0.86,
       "category": null
     }

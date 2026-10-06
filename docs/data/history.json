@@ -103,5 +103,20 @@
     "no_category_count": 4,
     "failed": [],
     "unresolved": []
+  },
+  {
+    "run_type": "manual",
+    "generated_at": "2026-10-06T06:42:58.535756+00:00",
+    "total": 6,
+    "strongest_buy": [],
+    "strong_buy": [
+      "AAPL"
+    ],
+    "buy": [
+      "MSFT"
+    ],
+    "no_category_count": 4,
+    "failed": [],
+    "unresolved": []
   }
 ]
