@@ -171,5 +171,57 @@
       "OLA.TO",
       "SES.TO"
     ]
+  },
+  {
+    "run_type": "canada_index",
+    "generated_at": "2026-10-06T06:47:04.276833+00:00",
+    "total": 219,
+    "strongest_buy": [
+      "JWEL.TO"
+    ],
+    "strong_buy": [
+      "BNS.TO",
+      "BB.TO",
+      "CNQ.TO",
+      "EFX.TO",
+      "GWO.TO",
+      "IAG.TO",
+      "LB.TO",
+      "MFC.TO",
+      "NFI.TO",
+      "NWC.TO",
+      "PMZ-UN.TO",
+      "SLF.TO",
+      "TVE.TO",
+      "TECK-B.TO",
+      "TIH.TO",
+      "WCP.TO"
+    ],
+    "buy": [
+      "ARE.TO",
+      "ARX.TO",
+      "AYA.TO",
+      "BDGI.TO",
+      "BDT.TO",
+      "CLS.TO",
+      "CVE.TO",
+      "CG.TO",
+      "DSV.TO",
+      "ERO.TO",
+      "FTT.TO",
+      "MTL.TO",
+      "RUS.TO",
+      "SHOP.TO",
+      "SU.TO",
+      "TKO.TO",
+      "WDO.TO"
+    ],
+    "no_category_count": 181,
+    "failed": [
+      "BLX.TO",
+      "IIP-UN.TO",
+      "OLA.TO",
+      "SES.TO"
+    ]
   }
 ]

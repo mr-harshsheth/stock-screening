@@ -525,6 +525,11 @@
     "market": "US"
   },
   {
+    "name": "Bloom Energy",
+    "ticker": "BE",
+    "market": "US"
+  },
+  {
     "name": "BNY Mellon",
     "ticker": "BNY",
     "market": "US"
@@ -618,11 +623,6 @@
     "name": "BRP Inc.",
     "ticker": "DOO.TO",
     "market": "Canada"
-  },
-  {
-    "name": "Builders FirstSource",
-    "ticker": "BLDR",
-    "market": "US"
   },
   {
     "name": "Bunge Global",
@@ -1365,6 +1365,11 @@
     "market": "US"
   },
   {
+    "name": "Everpure",
+    "ticker": "P",
+    "market": "US"
+  },
+  {
     "name": "Eversource Energy",
     "ticker": "ES",
     "market": "US"
@@ -1842,6 +1847,11 @@
   {
     "name": "Illinois Tool Works",
     "ticker": "ITW",
+    "market": "US"
+  },
+  {
+    "name": "Illumina, Inc.",
+    "ticker": "ILMN",
     "market": "US"
   },
   {
@@ -2337,11 +2347,6 @@
   {
     "name": "Moderna",
     "ticker": "MRNA",
-    "market": "US"
-  },
-  {
-    "name": "Molson Coors Beverage Company",
-    "ticker": "TAP",
     "market": "US"
   },
   {
@@ -3322,11 +3327,6 @@
   {
     "name": "Tractor Supply",
     "ticker": "TSCO",
-    "market": "US"
-  },
-  {
-    "name": "Trade Desk (The)",
-    "ticker": "TTD",
     "market": "US"
   },
   {
